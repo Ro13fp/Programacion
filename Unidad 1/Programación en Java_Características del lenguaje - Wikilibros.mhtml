@@ -1,0 +1,3714 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_Java/Caracter%C3%ADsticas_del_lenguaje
+Subject: =?utf-8?Q?Programaci=C3=B3n=20en=20Java/Caracter=C3=ADsticas=20del=20leng?=
+ =?utf-8?Q?uaje=20-=20Wikilibros?=
+Date: Sun, 26 Jun 2022 15:25:07 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----"
+
+
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/html
+Content-ID: <frame-748E8F61BC27B12106C29BD245175CB6@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_Java/Caracter%C3%ADsticas_del_lenguaje
+
+<!DOCTYPE html><html class=3D"client-js ve-not-available" lang=3D"es" dir=
+=3D"ltr" data-darkreader-mode=3D"dynamic" data-darkreader-scheme=3D"dark"><=
+head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-=
+8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-80b52edf-5fd6=
+-44cd-b061-0d27593f54b1@mhtml.blink" /><link rel=3D"stylesheet" type=3D"tex=
+t/css" href=3D"cid:css-3c827dc2-fad5-4e1c-b3f0-15d790f95293@mhtml.blink" />=
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-79dfed84-3359-46=
+3e-9f6a-7f7275478a84@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/c=
+ss" href=3D"cid:css-dc319c4f-05d8-439d-b80e-438aed133bab@mhtml.blink" /><li=
+nk rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-c2408201-4b52-4180-=
+a1f8-1ffda9aa73c0@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css"=
+ href=3D"cid:css-5a0fa077-008d-4a2b-aee3-6ecb382adbe1@mhtml.blink" /><link =
+rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-9d15a553-c624-4f27-8bb=
+8-45a1ce64ea5c@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" hr=
+ef=3D"cid:css-6f82eb97-d6aa-413a-98dd-e3cbb521144d@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-35ad4005-f90e-49c7-afb7-a=
+880bc4d5f99@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-ff5fa780-2ee6-4666-b227-9a2454068e58@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-23e682ff-4b4a-4233-b913-8=
+3000f9fd302@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-ad11424e-959f-4f67-b2bb-aee7d37f7217@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-6619c228-8e61-420f-a054-4=
+503df1da4df@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-4b3f3235-4699-49af-9b14-250c4f84449c@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-aff54c69-7700-4671-a362-7=
+c742f40e643@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-34801e19-489c-4d2d-8e97-c9d0c1ef45fb@mhtml.blink" />
+
+<title>Programaci=C3=B3n en Java/Caracter=C3=ADsticas del lenguaje - Wikili=
+bros</title>
+
+
+<link rel=3D"stylesheet" href=3D"https://es.wikibooks.org/w/load.php?lang=
+=3Des&amp;modules=3Dext.uls.interlanguage%7Cext.visualEditor.desktopArticle=
+Target.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikiba=
+se.client.init&amp;only=3Dstyles&amp;skin=3Dvector">
+
+<meta name=3D"ResourceLoaderDynamicStyles" content=3D"">
+<link rel=3D"stylesheet" href=3D"https://es.wikibooks.org/w/load.php?lang=
+=3Des&amp;modules=3Dsite.styles&amp;only=3Dstyles&amp;skin=3Dvector">
+<meta name=3D"generator" content=3D"MediaWiki 1.39.0-wmf.17">
+<meta name=3D"referrer" content=3D"origin">
+<meta name=3D"referrer" content=3D"origin-when-crossorigin">
+<meta name=3D"referrer" content=3D"origin-when-cross-origin">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<meta name=3D"viewport" content=3D"width=3D1000px">
+<meta property=3D"og:title" content=3D"Programaci=C3=B3n en Java/Caracter=
+=C3=ADsticas del lenguaje - Wikilibros">
+<meta property=3D"og:type" content=3D"website">
+<link rel=3D"alternate" media=3D"only screen and (max-width: 720px)" href=
+=3D"https://es.m.wikibooks.org/wiki/Programaci%C3%B3n_en_Java/Caracter%C3%A=
+Dsticas_del_lenguaje">
+<link rel=3D"alternate" type=3D"application/x-wiki" title=3D"Editar" href=
+=3D"https://es.wikibooks.org/w/index.php?title=3DProgramaci%C3%B3n_en_Java/=
+Caracter%C3%ADsticas_del_lenguaje&amp;action=3Dedit">
+<link rel=3D"shortcut icon" href=3D"https://es.wikibooks.org/static/favicon=
+/wikibooks.ico">
+<link rel=3D"search" type=3D"application/opensearchdescription+xml" href=3D=
+"https://es.wikibooks.org/w/opensearch_desc.php" title=3D"Wikilibros (es)">
+<link rel=3D"EditURI" type=3D"application/rsd+xml" href=3D"https://es.wikib=
+ooks.org/w/api.php?action=3Drsd">
+<link rel=3D"license" href=3D"https://creativecommons.org/licenses/by-sa/3.=
+0/">
+<link rel=3D"canonical" href=3D"https://es.wikibooks.org/wiki/Programaci%C3=
+%B3n_en_Java/Caracter%C3%ADsticas_del_lenguaje">
+<link rel=3D"dns-prefetch" href=3D"https://meta.wikimedia.org/">
+<link rel=3D"dns-prefetch" href=3D"https://login.wikimedia.org/">
+<meta name=3D"darkreader" content=3D"8c5ce0103a534dc5bc82de4a92b93f41"></he=
+ad>
+<body class=3D"mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject =
+mw-editable page-Programaci=C3=B3n_en_Java_Caracter=C3=ADsticas_del_lenguaj=
+e rootpage-Programaci=C3=B3n_en_Java skin-vector action-view skin-vector-le=
+gacy"><div id=3D"mw-page-base" class=3D"noprint"></div>
+<div id=3D"mw-head-base" class=3D"noprint"></div>
+<div id=3D"content" class=3D"mw-body" role=3D"main">
+	<a id=3D"top"></a>
+	<div id=3D"siteNotice"><div id=3D"centralNotice"></div><!-- CentralNotice =
+--></div>
+	<div class=3D"mw-indicators">
+	</div>
+	<h1 id=3D"firstHeading" class=3D"firstHeading mw-first-heading">Programaci=
+=C3=B3n en Java/Caracter=C3=ADsticas del lenguaje</h1><div class=3D"title-s=
+hortlink-container"><a class=3D"title-shortlink" href=3D"https://es.wikiboo=
+ks.org/s/3al">https://es.wikibooks.org/s/3al</a></div>
+	<div id=3D"bodyContent" class=3D"vector-body">
+		<div id=3D"siteSub" class=3D"noprint">De Wikilibros, la colecci=C3=B3n de=
+ libros de texto de contenido libre.</div>
+		<div id=3D"contentSub"><span class=3D"subpages">&lt; <a href=3D"https://e=
+s.wikibooks.org/wiki/Programaci%C3%B3n_en_Java" title=3D"Programaci=C3=B3n =
+en Java">Programaci=C3=B3n en Java</a></span></div>
+		<div id=3D"contentSub2"></div>
+	=09
+		<div id=3D"jump-to-nav"></div>
+		<a class=3D"mw-jump-link" href=3D"https://es.wikibooks.org/wiki/Programac=
+i%C3%B3n_en_Java/Caracter%C3%ADsticas_del_lenguaje#mw-head">Ir a la navegac=
+i=C3=B3n</a>
+		<a class=3D"mw-jump-link" href=3D"https://es.wikibooks.org/wiki/Programac=
+i%C3%B3n_en_Java/Caracter%C3%ADsticas_del_lenguaje#searchInput">Ir a la b=
+=C3=BAsqueda</a>
+		<div id=3D"mw-content-text" class=3D"mw-body-content mw-content-ltr" lang=
+=3D"es" dir=3D"ltr"><div class=3D"mw-parser-output"><p>Es un lenguaje <b>se=
+ncillo de aprender</b>. Su sintaxis es la de C++ =E2=80=9Csimplificada=E2=
+=80=9D. Los creadores de
+Java partieron de la sintaxis de C++ y trataron de eliminar de este todo lo=
+ que resultase complicado o fuente de errores en este lenguaje.
+</p><p>Java es un <u>lenguaje orientado a objetos</u>, aunque no de los den=
+ominados puros; en Java todos los tipos, a excepci=C3=B3n de los tipos fund=
+amentales de variables (int, char, long...) son clases. Sin embargo, en los=
+ lenguajes orientados a objetos <i>puros</i> incluso estos tipos fundamenta=
+les son clases, por ejemplo en Smalltalk.
+</p><p>El <b>c=C3=B3digo generado por el compilador Java es independiente d=
+e la arquitectura</b>: podr=C3=ADa
+ejecutarse en un entorno UNIX, Mac o Windows. El motivo de esto es que el q=
+ue realmente
+ejecuta el c=C3=B3digo generado por el compilador no es el procesador del o=
+rdenador directamente,
+sino que este se ejecuta mediante una m=C3=A1quina virtual. Esto permite qu=
+e los Applets de una
+web pueda ejecutarlos cualquier m=C3=A1quina que se conecte a ella independ=
+ientemente de qu=C3=A9
+sistema operativo emplee (siempre y cuando el ordenador en cuesti=C3=B3n te=
+nga instalada una
+m=C3=A1quina virtual de Java).
+</p>
+<div style=3D"margin:.5em;float:right;max-width:30%;min-width:10%;" class=
+=3D"noprint">
+<div style=3D"background: rgb(217, 231, 255); border: 1px solid rgb(121, 14=
+9, 233); margin: 1.5em; padding: 0px; --darkreader-inline-bgimage: initial;=
+ --darkreader-inline-bgcolor:#232627; --darkreader-inline-border-top:#15308=
+0; --darkreader-inline-border-right:#153080; --darkreader-inline-border-bot=
+tom:#153080; --darkreader-inline-border-left:#153080;" data-darkreader-inli=
+ne-bgimage=3D"" data-darkreader-inline-bgcolor=3D"" data-darkreader-inline-=
+border-top=3D"" data-darkreader-inline-border-right=3D"" data-darkreader-in=
+line-border-bottom=3D"" data-darkreader-inline-border-left=3D"">
+<div style=3D"background-color: rgb(121, 149, 233); border-bottom: 2px soli=
+d rgb(72, 128, 196); text-transform: uppercase; text-align: center; height:=
+ auto; font-size: 75%; color: rgb(255, 255, 255); padding: 0.5em; margin: 0=
+px; --darkreader-inline-bgcolor:#142e7c; --darkreader-inline-border-bottom:=
+#2b5384; --darkreader-inline-color:#e8e6e3;" data-darkreader-inline-bgcolor=
+=3D"" data-darkreader-inline-border-bottom=3D"" data-darkreader-inline-colo=
+r=3D"">
+Conceptos clave</div>
+<div style=3D"padding:.5em;font-size:80%;">
+<dl><dt><a href=3D"https://es.wikipedia.org/wiki/bytecode" class=3D"extiw" =
+title=3D"w:bytecode">bytecodes</a></dt>
+<dd>una especie de c=C3=B3digo m=C3=A1quina.</dd>
+<dt><a href=3D"https://es.wikipedia.org/wiki/applet" class=3D"extiw" title=
+=3D"w:applet">applets</a></dt>
+<dd>programas embebidos en p=C3=A1ginas Web.</dd>
+<dt><a href=3D"https://es.wikipedia.org/wiki/Maquina_virtual" class=3D"exti=
+w" title=3D"w:Maquina virtual">M=C3=A1quina Virtual</a></dt>
+<dd>software que emula a un ordenador.</dd></dl>
+</div>
+</div>
+</div>
+<p><br>
+</p>
+<h2><span id=3D"Caracter.C3.ADsticas"></span><span class=3D"mw-headline" id=
+=3D"Caracter=C3=ADsticas">Caracter=C3=ADsticas</span><span class=3D"mw-edit=
+section"><span class=3D"mw-editsection-bracket">[</span><a href=3D"https://=
+es.wikibooks.org/w/index.php?title=3DProgramaci%C3%B3n_en_Java/Caracter%C3%=
+ADsticas_del_lenguaje&amp;action=3Dedit&amp;section=3D1" title=3D"Editar se=
+cci=C3=B3n: Caracter=C3=ADsticas">editar</a><span class=3D"mw-editsection-b=
+racket">]</span></span></h2>
+<ul><li><b>Lenguaje totalmente orientado a Objetos.</b> Todos los conceptos=
+ en los que se apoya esta t=C3=A9cnica, encapsulaci=C3=B3n, herencia, polim=
+orfismo, etc., est=C3=A1n presentes en Java.</li>
+<li><b>Disponibilidad de un amplio conjunto de bibliotecas.</b> Como ya se =
+mencion=C3=B3 anteriormente, Java es algo m=C3=A1s que un lenguaje. La prog=
+ramaci=C3=B3n de aplicaciones con Java se basa no solo en el empleo del jue=
+go de instrucciones que componen el lenguaje, sino, fundamentalmente, en la=
+ posibilidad de utilizar el ampl=C3=ADsimo conjunto de clases que Sun pone =
+a disposici=C3=B3n del programador y con las cuales es posible realizar pr=
+=C3=A1cticamente cualquier tipo de aplicaci=C3=B3n.</li>
+<li><b>Lenguaje simple.</b> Java posee una curva de aprendizaje muy r=C3=A1=
+pida. Resulta relativamente sencillo escribir applets interesantes desde el=
+ principio. Todos aquellos familiarizados con C++ encontrar=C3=A1n que Java=
+ es m=C3=A1s sencillo, ya que se han eliminado ciertas caracter=C3=ADsticas=
+, como los punteros. Debido a su semejanza con C y C++, y dado que la mayor=
+=C3=ADa de la gente los conoce aunque sea de forma elemental, resulta muy f=
+=C3=A1cil aprender Java. Los programadores experimentados en C++ pueden mig=
+rar muy r=C3=A1pidamente a Java y ser productivos en poco tiempo.</li>
+<li><b>Distribuido.</b> Java proporciona una colecci=C3=B3n de clases para =
+su uso en aplicaciones de red, que permiten abrir sockets y establecer y ac=
+eptar conexiones con servidores o clientes remotos, facilitando as=C3=AD la=
+ creaci=C3=B3n de aplicaciones distribuidas.</li>
+<li><b>Interpretado y compilado a la vez.</b> Java es compilado, en la medi=
+da en que su c=C3=B3digo fuente se transforma en una especie de c=C3=B3digo=
+ m=C3=A1quina, los <a href=3D"https://es.wikipedia.org/wiki/bytecode" class=
+=3D"extiw" title=3D"w:bytecode">bytecodes</a>, semejantes a las instruccion=
+es de ensamblador. Por otra parte, es interpretado, ya que los bytecodes se=
+ pueden ejecutar directamente sobre cualquier m=C3=A1quina a la cual se hay=
+an portado el int=C3=A9rprete y el sistema de ejecuci=C3=B3n en tiempo real=
+ (run-time).</li>
+<li><b>Robusto.</b> Java fue dise=C3=B1ado para crear software altamente fi=
+able. Para ello proporciona numerosas comprobaciones en compilaci=C3=B3n y =
+en tiempo de ejecuci=C3=B3n. Sus caracter=C3=ADsticas de memoria liberan a =
+los programadores de una familia entera de errores (la aritm=C3=A9tica de p=
+unteros), ya que se ha prescindido por completo de los punteros, y la recol=
+ecci=C3=B3n de basura elimina la necesidad de liberaci=C3=B3n expl=C3=ADcit=
+a de memoria.</li>
+<li><b>Seguro (?).</b> Dada la naturaleza distribuida de Java, donde las ap=
+plets se bajan desde cualquier punto de la Red, la seguridad se impuso como=
+ una necesidad de vital importancia. A nadie le gustar=C3=ADa ejecutar en s=
+u ordenador programas con acceso total a su sistema, procedentes de fuentes=
+ desconocidas. As=C3=AD que se implementaron barreras de seguridad en el le=
+nguaje y en el sistema de ejecuci=C3=B3n en tiempo real.</li>
+<li><b>Indiferente a la arquitectura.</b> Java est=C3=A1 dise=C3=B1ado para=
+ soportar aplicaciones que ser=C3=A1n ejecutadas en los m=C3=A1s variados e=
+ntornos de red, desde Unix a Windows Nt, pasando por Mac y estaciones de tr=
+abajo, sobre arquitecturas distintas y con sistemas operativos diversos. Pa=
+ra acomodar requisitos de ejecuci=C3=B3n tan diversos o <a href=3D"https://=
+es.wiktionary.org/wiki/variopinto" class=3D"extiw" title=3D"wikt:variopinto=
+">variopintos</a>, el compilador de Java genera bytecodes: un formato inter=
+medio indiferente a la arquitectura dise=C3=B1ado para transportar el c=C3=
+=B3digo eficientemente a m=C3=BAltiples plataformas hardware y software. El=
+ resto de problemas los soluciona el int=C3=A9rprete de Java.</li>
+<li><b>Portable.</b> La indiferencia a la arquitectura representa s=C3=B3lo=
+ una parte de su portabilidad. Adem=C3=A1s, Java especifica los tama=C3=B1o=
+s de sus tipos de datos b=C3=A1sicos y el comportamiento de sus operadores =
+aritm=C3=A9ticos, de manera que los programas son iguales en todas las plat=
+aformas. Estas dos =C3=BAltimas caracter=C3=ADsticas se conocen como la M=
+=C3=A1quina Virtual Java (JVM).</li>
+<li><b>Alto rendimiento.</b></li>
+<li><b>Multihebra.</b> Hoy en d=C3=ADa ya se ven como terriblemente limitad=
+as las aplicaciones que s=C3=B3lo pueden ejecutar una acci=C3=B3n a la vez.=
+ Java soporta sincronizaci=C3=B3n de m=C3=BAltiples hilos de ejecuci=C3=B3n=
+ (multithreading) a nivel de lenguaje, especialmente =C3=BAtiles en la crea=
+ci=C3=B3n de aplicaciones de red distribuidas. As=C3=AD, mientras un hilo s=
+e encarga de la comunicaci=C3=B3n, otro puede interactuar con el usuario mi=
+entras otro presenta una animaci=C3=B3n en pantalla y otro realiza c=C3=A1l=
+culos.</li>
+<li><b>Din=C3=A1mico.</b> El lenguaje Java y su sistema de ejecuci=C3=B3n e=
+n tiempo real son din=C3=A1micos en la fase de enlazado. Las clases s=C3=B3=
+lo se enlazan a medida que son necesitadas. Se pueden enlazar nuevos m=C3=
+=B3dulos de c=C3=B3digo bajo demanda, procedente de fuentes muy variadas, i=
+ncluso desde la Red.</li>
+<li><b>Produce applets.</b> Java puede ser usado para crear dos tipos de pr=
+ogramas: aplicaciones independientes y applets. Las aplicaciones independie=
+ntes se comportan como cualquier otro programa escrito en cualquier lenguaj=
+e, como por ejemplo el navegador de Web HotJava, escrito =C3=ADntegramente =
+en Java. Por su parte, las applets son peque=C3=B1os programas que aparecen=
+ embebidos en las p=C3=A1ginas Web, como aparecen los gr=C3=A1ficos o el te=
+xto, pero con la capacidad de ejecutar acciones muy complejas, como animar =
+im=C3=A1genes, establecer conexiones de red, presentar men=C3=BAs y cuadros=
+ de di=C3=A1logo para luego emprender acciones, etc.</li></ul>
+<p><br>
+</p>
+<table style=3D"width: 100%; border: 1px solid rgb(240, 230, 140); backgrou=
+nd: rgb(255, 255, 224); padding: 0px; --darkreader-inline-border-top:#7d721=
+0; --darkreader-inline-border-right:#7d7210; --darkreader-inline-border-bot=
+tom:#7d7210; --darkreader-inline-border-left:#7d7210; --darkreader-inline-b=
+gimage: initial; --darkreader-inline-bgcolor:#343400;" class=3D"noprint" da=
+ta-darkreader-inline-border-top=3D"" data-darkreader-inline-border-right=3D=
+"" data-darkreader-inline-border-bottom=3D"" data-darkreader-inline-border-=
+left=3D"" data-darkreader-inline-bgimage=3D"" data-darkreader-inline-bgcolo=
+r=3D"">
+<tbody><tr>
+<td style=3D"text-align: left; width: 33%; background: transparent; --darkr=
+eader-inline-bgimage: initial; --darkreader-inline-bgcolor:transparent;" da=
+ta-darkreader-inline-bgimage=3D"" data-darkreader-inline-bgcolor=3D"">
+<p><a href=3D"https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_Java/Insta=
+laci%C3%B3n_JDK" title=3D"Programaci=C3=B3n en Java/Instalaci=C3=B3n JDK"> =
+Instalaci=C3=B3n JDK<br>=E2=86=90 <span style=3D"font-size:60%; text-transf=
+orm:uppercase;">Tema anterior</span></a>
+</p>
+</td>
+<td style=3D"text-align: center; width: 33%; background: transparent; --dar=
+kreader-inline-bgimage: initial; --darkreader-inline-bgcolor:transparent;" =
+data-darkreader-inline-bgimage=3D"" data-darkreader-inline-bgcolor=3D""><b>=
+Caracter=C3=ADsticas del lenguaje</b><br><span style=3D"text-transform:uppe=
+rcase; font-size:70%;"><a href=3D"https://es.wikibooks.org/wiki/Programaci%=
+C3%B3n_en_Java/%C3%8Dndice" title=3D"Programaci=C3=B3n en Java/=C3=8Dndice"=
+>=C3=8Dndice</a></span>
+</td>
+<td style=3D"text-align: right; width: 33%; background: transparent; --dark=
+reader-inline-bgimage: initial; --darkreader-inline-bgcolor:transparent;" d=
+ata-darkreader-inline-bgimage=3D"" data-darkreader-inline-bgcolor=3D"">
+<p><a href=3D"https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_Java/Prime=
+r_programa" title=3D"Programaci=C3=B3n en Java/Primer programa">Primer prog=
+rama <br><span style=3D"font-size:60%; text-transform:uppercase;">Siguiente=
+ tema</span> =E2=86=92</a>
+</p>
+</td></tr></tbody></table>
+
+<!--=20
+NewPP limit report
+Parsed by mw1415
+Cached time: 20220615174908
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.022 seconds
+Real time usage: 0.056 seconds
+Preprocessor visited node count: 86/1000000
+Post=E2=80=90expand include size: 2532/2097152 bytes
+Template argument size: 409/2097152 bytes
+Highest expansion depth: 7/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post=E2=80=90expand size: 0/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   40.756      1 -total
+ 75.38%   30.720      1 Plantilla:Programaci=C3=B3n/Conceptos_clave
+ 24.30%    9.905      1 Plantilla:Navegar_=C3=ADndice
+ 10.48%    4.270      1 Plantilla:Existlist
+  7.18%    2.926      1 Plantilla:AutoCategor=C3=ADa
+-->
+
+<!-- Saved in parser cache with key eswikibooks:pcache:idhash:8899-0!canoni=
+cal and timestamp 20220615174908 and revision id 388972. Serialized with JS=
+ON.
+ -->
+</div>
+<div class=3D"printfooter">Obtenido de =C2=AB<a dir=3D"ltr" href=3D"https:/=
+/es.wikibooks.org/w/index.php?title=3DProgramaci%C3%B3n_en_Java/Caracter%C3=
+%ADsticas_del_lenguaje&amp;oldid=3D388972">https://es.wikibooks.org/w/index=
+.php?title=3DProgramaci=C3=B3n_en_Java/Caracter=C3=ADsticas_del_lenguaje&am=
+p;oldid=3D388972</a>=C2=BB</div></div>
+		<div id=3D"catlinks" class=3D"catlinks" data-mw=3D"interface"><div id=3D"=
+mw-normal-catlinks" class=3D"mw-normal-catlinks"><a href=3D"https://es.wiki=
+books.org/wiki/Especial:Categor%C3%ADas" title=3D"Especial:Categor=C3=ADas"=
+>Categor=C3=ADa</a>: <ul><li><a href=3D"https://es.wikibooks.org/wiki/Categ=
+or%C3%ADa:Programaci%C3%B3n_en_Java" title=3D"Categor=C3=ADa:Programaci=C3=
+=B3n en Java">Programaci=C3=B3n en Java</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id=3D"mw-navigation">
+	<h2>Men=C3=BA de navegaci=C3=B3n</h2>
+	<div id=3D"mw-head">
+	=09
+
+<nav id=3D"p-personal" class=3D"mw-portlet mw-portlet-personal vector-user-=
+menu-legacy vector-menu" aria-labelledby=3D"p-personal-label" role=3D"navig=
+ation">
+	<h3 id=3D"p-personal-label" class=3D"vector-menu-heading ">
+		<span class=3D"vector-menu-heading-label">Herramientas personales</span>
+	</h3>
+	<div class=3D"vector-menu-content">
+	=09
+		<ul class=3D"vector-menu-content-list"><li id=3D"pt-anonuserpage" class=
+=3D"mw-list-item"><span title=3D"La p=C3=A1gina de usuario de la IP desde l=
+a que editas">No has accedido</span></li><li id=3D"pt-anontalk" class=3D"mw=
+-list-item"><a href=3D"https://es.wikibooks.org/wiki/Especial:MiDiscusi%C3%=
+B3n" title=3D"Discusi=C3=B3n sobre ediciones hechas desde esta direcci=C3=
+=B3n IP [alt-shift-n]" accesskey=3D"n"><span>Discusi=C3=B3n</span></a></li>=
+<li id=3D"pt-anoncontribs" class=3D"mw-list-item"><a href=3D"https://es.wik=
+ibooks.org/wiki/Especial:MisContribuciones" title=3D"Una lista de modificac=
+iones hechas desde esta direcci=C3=B3n IP [alt-shift-y]" accesskey=3D"y"><s=
+pan>Contribuciones</span></a></li><li id=3D"pt-createaccount" class=3D"mw-l=
+ist-item"><a href=3D"https://es.wikibooks.org/w/index.php?title=3DEspecial:=
+Crear_una_cuenta&amp;returnto=3DProgramaci%C3%B3n+en+Java%2FCaracter%C3%ADs=
+ticas+del+lenguaje" title=3D"Te recomendamos crear una cuenta e iniciar ses=
+i=C3=B3n; sin embargo, no es obligatorio"><span>Crear una cuenta</span></a>=
+</li><li id=3D"pt-login" class=3D"mw-list-item"><a href=3D"https://es.wikib=
+ooks.org/w/index.php?title=3DEspecial:Entrar&amp;returnto=3DProgramaci%C3%B=
+3n+en+Java%2FCaracter%C3%ADsticas+del+lenguaje" title=3D"Te recomendamos in=
+iciar sesi=C3=B3n, aunque no es obligatorio [alt-shift-o]" accesskey=3D"o">=
+<span>Acceder</span></a></li></ul>
+	=09
+	</div>
+</nav>
+
+		<div id=3D"left-navigation">
+		=09
+
+<nav id=3D"p-namespaces" class=3D"mw-portlet mw-portlet-namespaces vector-m=
+enu vector-menu-tabs" aria-labelledby=3D"p-namespaces-label" role=3D"naviga=
+tion">
+	<h3 id=3D"p-namespaces-label" class=3D"vector-menu-heading ">
+		<span class=3D"vector-menu-heading-label">Espacios de nombres</span>
+	</h3>
+	<div class=3D"vector-menu-content">
+	=09
+		<ul class=3D"vector-menu-content-list"><li id=3D"ca-nstab-main" class=3D"=
+selected mw-list-item"><a href=3D"https://es.wikibooks.org/wiki/Programaci%=
+C3%B3n_en_Java/Caracter%C3%ADsticas_del_lenguaje" title=3D"Ver la p=C3=A1gi=
+na de contenido [alt-shift-c]" accesskey=3D"c"><span>P=C3=A1gina</span></a>=
+</li><li id=3D"ca-talk" class=3D"new mw-list-item"><a href=3D"https://es.wi=
+kibooks.org/w/index.php?title=3DDiscusi%C3%B3n:Programaci%C3%B3n_en_Java/Ca=
+racter%C3%ADsticas_del_lenguaje&amp;action=3Dedit&amp;redlink=3D1" rel=3D"d=
+iscussion" title=3D"Discusi=C3=B3n acerca de la p=C3=A1gina (la p=C3=A1gina=
+ no existe) [alt-shift-t]" accesskey=3D"t"><span>Discusi=C3=B3n</span></a><=
+/li></ul>
+	=09
+	</div>
+</nav>
+
+		=09
+
+<nav id=3D"p-variants" class=3D"mw-portlet mw-portlet-variants emptyPortlet=
+ vector-menu-dropdown-noicon vector-menu vector-menu-dropdown" aria-labelle=
+dby=3D"p-variants-label" role=3D"navigation">
+	<input type=3D"checkbox" id=3D"p-variants-checkbox" role=3D"button" aria-h=
+aspopup=3D"true" data-event-name=3D"ui.dropdown-p-variants" class=3D"vector=
+-menu-checkbox" aria-labelledby=3D"p-variants-label">
+	<label id=3D"p-variants-label" aria-label=3D"Cambiar variante de idioma" c=
+lass=3D"vector-menu-heading ">
+		<span class=3D"vector-menu-heading-label">espa=C3=B1ol</span>
+	</label>
+	<div class=3D"vector-menu-content">
+	=09
+		<ul class=3D"vector-menu-content-list"></ul>
+	=09
+	</div>
+</nav>
+
+		</div>
+		<div id=3D"right-navigation">
+		=09
+
+<nav id=3D"p-views" class=3D"mw-portlet mw-portlet-views vector-menu vector=
+-menu-tabs" aria-labelledby=3D"p-views-label" role=3D"navigation">
+	<h3 id=3D"p-views-label" class=3D"vector-menu-heading ">
+		<span class=3D"vector-menu-heading-label">Vistas</span>
+	</h3>
+	<div class=3D"vector-menu-content">
+	=09
+		<ul class=3D"vector-menu-content-list"><li id=3D"ca-view" class=3D"select=
+ed mw-list-item collapsible"><a href=3D"https://es.wikibooks.org/wiki/Progr=
+amaci%C3%B3n_en_Java/Caracter%C3%ADsticas_del_lenguaje"><span>Leer</span></=
+a></li><li id=3D"ca-edit" class=3D"mw-list-item collapsible"><a href=3D"htt=
+ps://es.wikibooks.org/w/index.php?title=3DProgramaci%C3%B3n_en_Java/Caracte=
+r%C3%ADsticas_del_lenguaje&amp;action=3Dedit" title=3D"Editar esta p=C3=A1g=
+ina [alt-shift-e]" accesskey=3D"e"><span>Editar</span></a></li><li id=3D"ca=
+-history" class=3D"mw-list-item collapsible"><a href=3D"https://es.wikibook=
+s.org/w/index.php?title=3DProgramaci%C3%B3n_en_Java/Caracter%C3%ADsticas_de=
+l_lenguaje&amp;action=3Dhistory" title=3D"Versiones anteriores de esta p=C3=
+=A1gina [alt-shift-h]" accesskey=3D"h"><span>Ver historial</span></a></li><=
+/ul>
+	=09
+	</div>
+</nav>
+
+		=09
+
+<nav id=3D"p-cactions" class=3D"mw-portlet mw-portlet-cactions emptyPortlet=
+ vector-menu-dropdown-noicon vector-menu vector-menu-dropdown" aria-labelle=
+dby=3D"p-cactions-label" role=3D"navigation" title=3D"M=C3=A1s opciones">
+	<input type=3D"checkbox" id=3D"p-cactions-checkbox" role=3D"button" aria-h=
+aspopup=3D"true" data-event-name=3D"ui.dropdown-p-cactions" class=3D"vector=
+-menu-checkbox" aria-labelledby=3D"p-cactions-label">
+	<label id=3D"p-cactions-label" class=3D"vector-menu-heading ">
+		<span class=3D"vector-menu-heading-label">M=C3=A1s</span>
+	</label>
+	<div class=3D"vector-menu-content">
+	=09
+		<ul class=3D"vector-menu-content-list"></ul>
+	=09
+	</div>
+</nav>
+
+		=09
+<div id=3D"p-search" role=3D"search" class=3D"vector-search-box-vue  vector=
+-search-box-show-thumbnail vector-search-box-auto-expand-width vector-searc=
+h-box">
+	<div>
+			<h3>
+				<label for=3D"searchInput">Buscar</label>
+			</h3>
+		<form action=3D"https://es.wikibooks.org/w/index.php" id=3D"searchform" c=
+lass=3D"vector-search-box-form">
+			<div id=3D"simpleSearch" class=3D"vector-search-box-inner" data-search-l=
+oc=3D"header-navigation">
+				<input class=3D"vector-search-box-input" type=3D"search" name=3D"search=
+" placeholder=3D"Buscar en Wikilibros" aria-label=3D"Buscar en Wikilibros" =
+autocapitalize=3D"sentences" title=3D"Buscar en este wiki [alt-shift-f]" ac=
+cesskey=3D"f" id=3D"searchInput">
+			=09
+				<input id=3D"mw-searchButton" class=3D"searchButton mw-fallbackSearchBu=
+tton" type=3D"submit" name=3D"fulltext" title=3D"Buscar este texto en las p=
+=C3=A1ginas" value=3D"Buscar">
+				<input id=3D"searchButton" class=3D"searchButton" type=3D"submit" name=
+=3D"go" title=3D"Ir a la p=C3=A1gina con este nombre exacto si existe" valu=
+e=3D"Ir">
+			</div>
+		</form>
+	</div>
+</div>
+
+		</div>
+	</div>
+=09
+
+<div id=3D"mw-panel">
+	<div id=3D"p-logo" role=3D"banner">
+		<a class=3D"mw-wiki-logo" href=3D"https://es.wikibooks.org/wiki/Portada" =
+title=3D"Visitar la p=C3=A1gina principal"></a>
+	</div>
+=09
+
+<nav id=3D"p-navigation" class=3D"mw-portlet mw-portlet-navigation vector-m=
+enu vector-menu-portal portal" aria-labelledby=3D"p-navigation-label" role=
+=3D"navigation">
+	<h3 id=3D"p-navigation-label" class=3D"vector-menu-heading ">
+		<span class=3D"vector-menu-heading-label">Navegaci=C3=B3n</span>
+	</h3>
+	<div class=3D"vector-menu-content">
+	=09
+		<ul class=3D"vector-menu-content-list"><li id=3D"n-mainpage" class=3D"mw-=
+list-item"><a href=3D"https://es.wikibooks.org/wiki/Portada" title=3D"Visit=
+ar la p=C3=A1gina principal [alt-shift-z]" accesskey=3D"z"><span>Portada</s=
+pan></a></li><li id=3D"n-currentevents" class=3D"mw-list-item"><a href=3D"h=
+ttps://es.wikibooks.org/wiki/Categor%C3%ADa:Libros" title=3D"Encuentra info=
+rmaci=C3=B3n de contexto sobre acontecimientos actuales"><span>Categor=C3=
+=ADas de libros</span></a></li><li id=3D"n-recentchanges" class=3D"mw-list-=
+item"><a href=3D"https://es.wikibooks.org/wiki/Especial:CambiosRecientes" i=
+con=3D"recentChanges" title=3D"Lista de cambios recientes en la wiki [alt-s=
+hift-r]" accesskey=3D"r"><span>Cambios recientes</span></a></li><li id=3D"n=
+-newpages" class=3D"mw-list-item"><a href=3D"https://es.wikibooks.org/wiki/=
+Especial:P%C3%A1ginasNuevas"><span>P=C3=A1ginas nuevas</span></a></li><li i=
+d=3D"n-randompage" class=3D"mw-list-item"><a href=3D"https://es.wikibooks.o=
+rg/wiki/Especial:Aleatoria" icon=3D"die" title=3D"Cargar un libro seleccion=
+ado al azar [alt-shift-x]" accesskey=3D"x"><span>Libro aleatorio</span></a>=
+</li><li id=3D"n-help" class=3D"mw-list-item"><a href=3D"https://www.mediaw=
+iki.org/wiki/Special:MyLanguage/Help:Contents" icon=3D"help" title=3D"El lu=
+gar para aprender"><span>Ayuda</span></a></li><li id=3D"n-sitesupport" clas=
+s=3D"mw-list-item"><a href=3D"https://donate.wikimedia.org/wiki/Special:Fun=
+draiserRedirector?utm_source=3Ddonate&amp;utm_medium=3Dsidebar&amp;utm_camp=
+aign=3DC13_es.wikibooks.org&amp;uselang=3Des" title=3D"Ap=C3=B3yanos"><span=
+>Donaciones</span></a></li></ul>
+	=09
+	</div>
+</nav>
+
+=09
+
+<nav id=3D"p-Comunidad" class=3D"mw-portlet mw-portlet-Comunidad vector-men=
+u vector-menu-portal portal" aria-labelledby=3D"p-Comunidad-label" role=3D"=
+navigation">
+	<h3 id=3D"p-Comunidad-label" class=3D"vector-menu-heading ">
+		<span class=3D"vector-menu-heading-label">Comunidad</span>
+	</h3>
+	<div class=3D"vector-menu-content">
+	=09
+		<ul class=3D"vector-menu-content-list"><li id=3D"n-Caf=C3=A9" class=3D"mw=
+-list-item"><a href=3D"https://es.wikibooks.org/wiki/Wikilibros:Caf%C3%A9">=
+<span>Caf=C3=A9</span></a></li><li id=3D"n-portal" class=3D"mw-list-item"><=
+a href=3D"https://es.wikibooks.org/wiki/Wikilibros:Portal_de_la_comunidad" =
+title=3D"Acerca del proyecto, lo que puedes hacer, d=C3=B3nde encontrar inf=
+ormaci=C3=B3n"><span>Portal de la comunidad</span></a></li></ul>
+	=09
+	</div>
+</nav>
+
+
+<nav id=3D"p-Subproyectos" class=3D"mw-portlet mw-portlet-Subproyectos vect=
+or-menu vector-menu-portal portal" aria-labelledby=3D"p-Subproyectos-label"=
+ role=3D"navigation">
+	<h3 id=3D"p-Subproyectos-label" class=3D"vector-menu-heading ">
+		<span class=3D"vector-menu-heading-label">Subproyectos</span>
+	</h3>
+	<div class=3D"vector-menu-content">
+	=09
+		<ul class=3D"vector-menu-content-list"><li id=3D"n-Recetario" class=3D"mw=
+-list-item"><a href=3D"https://es.wikibooks.org/wiki/Artes_culinarias"><spa=
+n>Recetario</span></a></li><li id=3D"n-Wikichicos" class=3D"mw-list-item"><=
+a href=3D"https://es.wikibooks.org/wiki/Wikichicos"><span>Wikichicos</span>=
+</a></li></ul>
+	=09
+	</div>
+</nav>
+
+
+<nav id=3D"p-tb" class=3D"mw-portlet mw-portlet-tb vector-menu vector-menu-=
+portal portal" aria-labelledby=3D"p-tb-label" role=3D"navigation">
+	<h3 id=3D"p-tb-label" class=3D"vector-menu-heading ">
+		<span class=3D"vector-menu-heading-label">Herramientas</span>
+	</h3>
+	<div class=3D"vector-menu-content">
+	=09
+		<ul class=3D"vector-menu-content-list"><li id=3D"t-whatlinkshere" class=
+=3D"mw-list-item"><a href=3D"https://es.wikibooks.org/wiki/Especial:LoQueEn=
+lazaAqu%C3%AD/Programaci%C3%B3n_en_Java/Caracter%C3%ADsticas_del_lenguaje" =
+title=3D"Lista de todas las p=C3=A1ginas de la wiki que enlazan aqu=C3=AD [=
+alt-shift-j]" accesskey=3D"j"><span>Lo que enlaza aqu=C3=AD</span></a></li>=
+<li id=3D"t-recentchangeslinked" class=3D"mw-list-item"><a href=3D"https://=
+es.wikibooks.org/wiki/Especial:CambiosEnEnlazadas/Programaci%C3%B3n_en_Java=
+/Caracter%C3%ADsticas_del_lenguaje" rel=3D"nofollow" title=3D"Cambios recie=
+ntes en las p=C3=A1ginas que enlazan con esta [alt-shift-k]" accesskey=3D"k=
+"><span>Cambios relacionados</span></a></li><li id=3D"t-upload" class=3D"mw=
+-list-item"><a href=3D"https://commons.wikimedia.org/wiki/Special:UploadWiz=
+ard?uselang=3Des" title=3D"Subir archivos [alt-shift-u]" accesskey=3D"u"><s=
+pan>Subir archivo</span></a></li><li id=3D"t-specialpages" class=3D"mw-list=
+-item"><a href=3D"https://es.wikibooks.org/wiki/Especial:P%C3%A1ginasEspeci=
+ales" title=3D"Lista de todas las p=C3=A1ginas especiales [alt-shift-q]" ac=
+cesskey=3D"q"><span>P=C3=A1ginas especiales</span></a></li><li id=3D"t-perm=
+alink" class=3D"mw-list-item"><a href=3D"https://es.wikibooks.org/w/index.p=
+hp?title=3DProgramaci%C3%B3n_en_Java/Caracter%C3%ADsticas_del_lenguaje&amp;=
+oldid=3D388972" title=3D"Enlace permanente a esta versi=C3=B3n de la p=C3=
+=A1gina"><span>Enlace permanente</span></a></li><li id=3D"t-info" class=3D"=
+mw-list-item"><a href=3D"https://es.wikibooks.org/w/index.php?title=3DProgr=
+amaci%C3%B3n_en_Java/Caracter%C3%ADsticas_del_lenguaje&amp;action=3Dinfo" t=
+itle=3D"M=C3=A1s informaci=C3=B3n sobre esta p=C3=A1gina"><span>Informaci=
+=C3=B3n de la p=C3=A1gina</span></a></li><li id=3D"t-shorturl" class=3D"mw-=
+list-item"><a href=3D"https://es.wikibooks.org/s/3al" title=3D"Copie este e=
+nlace corto para compartirlo"><span>Enlace corto</span></a></li><li id=3D"t=
+-cite" class=3D"mw-list-item"><a href=3D"https://es.wikibooks.org/w/index.p=
+hp?title=3DEspecial:Citar&amp;page=3DProgramaci%C3%B3n_en_Java%2FCaracter%C=
+3%ADsticas_del_lenguaje&amp;id=3D388972&amp;wpFormIdentifier=3Dtitleform" t=
+itle=3D"Informaci=C3=B3n sobre c=C3=B3mo citar esta p=C3=A1gina"><span>Cita=
+r esta p=C3=A1gina</span></a></li></ul>
+	=09
+	</div>
+</nav>
+
+
+<nav id=3D"p-coll-print_export" class=3D"mw-portlet mw-portlet-coll-print_e=
+xport vector-menu vector-menu-portal portal" aria-labelledby=3D"p-coll-prin=
+t_export-label" role=3D"navigation">
+	<h3 id=3D"p-coll-print_export-label" class=3D"vector-menu-heading ">
+		<span class=3D"vector-menu-heading-label">Imprimir/exportar</span>
+	</h3>
+	<div class=3D"vector-menu-content">
+	=09
+		<ul class=3D"vector-menu-content-list"><li id=3D"coll-create_a_book" clas=
+s=3D"mw-list-item"><a href=3D"https://es.wikibooks.org/w/index.php?title=3D=
+Especial:Libro&amp;bookcmd=3Dbook_creator&amp;referer=3DProgramaci%C3%B3n+e=
+n+Java%2FCaracter%C3%ADsticas+del+lenguaje"><span>Crear una colecci=C3=B3n<=
+/span></a></li><li id=3D"coll-download-as-rl" class=3D"mw-list-item"><a hre=
+f=3D"https://es.wikibooks.org/w/index.php?title=3DEspecial:DownloadAsPdf&am=
+p;page=3DProgramaci%C3%B3n_en_Java%2FCaracter%C3%ADsticas_del_lenguaje&amp;=
+action=3Dshow-download-screen"><span>Descargar como PDF</span></a></li><li =
+id=3D"t-print" class=3D"mw-list-item"><a href=3D"https://es.wikibooks.org/w=
+/index.php?title=3DProgramaci%C3%B3n_en_Java/Caracter%C3%ADsticas_del_lengu=
+aje&amp;printable=3Dyes" title=3D"Versi=C3=B3n imprimible de esta p=C3=A1gi=
+na [alt-shift-p]" accesskey=3D"p"><span>Versi=C3=B3n para imprimir</span></=
+a></li></ul>
+	=09
+	</div>
+</nav>
+
+=09
+
+<nav id=3D"p-lang" class=3D"mw-portlet mw-portlet-lang vector-menu vector-m=
+enu-portal portal" aria-labelledby=3D"p-lang-label" role=3D"navigation"><bu=
+tton class=3D"uls-settings-trigger" title=3D"Opciones de idioma"></button>
+	<h3 id=3D"p-lang-label" class=3D"vector-menu-heading ">Idiomas</h3>
+	<div class=3D"vector-menu-content">
+	=09
+		<ul class=3D"vector-menu-content-list"></ul>
+		<div class=3D"after-portlet after-portlet-lang"><span class=3D"uls-after-=
+portlet-link"></span><span class=3D"wb-langlinks-add wb-langlinks-link"><a =
+href=3D"https://www.wikidata.org/wiki/Special:NewItem?site=3Deswikibooks&am=
+p;page=3DProgramaci%C3%B3n+en+Java%2FCaracter%C3%ADsticas+del+lenguaje" tit=
+le=3D"Agregar enlaces interling=C3=BC=C3=ADsticos" class=3D"wbc-editpage">A=
+=C3=B1adir enlaces</a></span></div>
+	</div>
+</nav>
+
+</div>
+
+</div>
+
+<footer id=3D"footer" class=3D"mw-footer" role=3D"contentinfo">
+	<ul id=3D"footer-info">
+	<li id=3D"footer-info-lastmod"> Esta p=C3=A1gina se edit=C3=B3 por =C3=BAl=
+tima vez el 21 sep 2020 a las 21:03.</li>
+	<li id=3D"footer-info-copyright">El texto est=C3=A1 disponible bajo la <a =
+href=3D"https://creativecommons.org/licenses/by-sa/3.0/deed.es">Licencia Cr=
+eative Commons Atribuci=C3=B3n-CompartirIgual 3.0</a>;
+pueden aplicarse t=C3=A9rminos adicionales.
+V=C3=A9ase <a href=3D"https://foundation.wikimedia.org/wiki/Terms_of_Use/es=
+">T=C3=A9rminos de uso</a> para m=C3=A1s detalles.</li>
+</ul>
+
+	<ul id=3D"footer-places">
+	<li id=3D"footer-places-privacy"><a href=3D"https://meta.wikimedia.org/wik=
+i/Privacy_policy/es" class=3D"extiw" title=3D"m:Privacy policy/es">Pol=C3=
+=ADtica de protecci=C3=B3n de datos</a></li>
+	<li id=3D"footer-places-about"><a href=3D"https://es.wikibooks.org/wiki/Wi=
+kilibros:Acerca_de" title=3D"Wikilibros:Acerca de">Acerca de Wikilibros</a>=
+</li>
+	<li id=3D"footer-places-disclaimer"><a href=3D"https://es.wikibooks.org/wi=
+ki/Wikilibros:Descargo_general" class=3D"mw-redirect" title=3D"Wikilibros:D=
+escargo general">Descargos</a></li>
+	<li id=3D"footer-places-mobileview"><a href=3D"https://es.m.wikibooks.org/=
+w/index.php?title=3DProgramaci%C3%B3n_en_Java/Caracter%C3%ADsticas_del_leng=
+uaje&amp;mobileaction=3Dtoggle_view_mobile" class=3D"noprint stopMobileRedi=
+rectToggle">Versi=C3=B3n para m=C3=B3viles</a></li>
+	<li id=3D"footer-places-developers"><a href=3D"https://developer.wikimedia=
+.org/">Desarrolladores</a></li>
+	<li id=3D"footer-places-statslink"><a href=3D"https://stats.wikimedia.org/=
+#/es.wikibooks.org">Estad=C3=ADsticas</a></li>
+	<li id=3D"footer-places-cookiestatement"><a href=3D"https://foundation.wik=
+imedia.org/wiki/Cookie_statement/es">Declaraci=C3=B3n de cookies</a></li>
+</ul>
+
+	<ul id=3D"footer-icons" class=3D"noprint">
+	<li id=3D"footer-copyrightico"><a href=3D"https://wikimediafoundation.org/=
+"><img src=3D"https://es.wikibooks.org/static/images/footer/wikimedia-butto=
+n.png" width=3D"88" height=3D"31" alt=3D"Wikimedia Foundation" loading=3D"l=
+azy"></a></li>
+	<li id=3D"footer-poweredbyico"><a href=3D"https://www.mediawiki.org/"><img=
+ src=3D"https://es.wikibooks.org/static/images/footer/poweredby_mediawiki_8=
+8x31.png" alt=3D"Powered by MediaWiki" width=3D"88" height=3D"31" loading=
+=3D"lazy"></a></li>
+</ul>
+
+</footer>
+
+
+
+</body></html>
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-80b52edf-5fd6-44cd-b061-0d27593f54b1@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3c827dc2-fad5-4e1c-b3f0-15d790f95293@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-79dfed84-3359-463e-9f6a-7f7275478a84@mhtml.blink
+
+@charset "utf-8";
+
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_=
+text > img[src^=3D"https://www.gstatic.com/images/branding/googlelogo"], sp=
+an[data-href^=3D"https://www.hcaptcha.com/"] > #icon, #bit-notification-bar=
+-iframe, ::-webkit-calendar-picker-indicator, .bookend, .mwe-math-fallback-=
+image-inline, .mwe-math-fallback-image-display, img[alt=3D"audio speaker ic=
+on"] { filter: invert(100%) hue-rotate(180deg) contrast(90%) !important; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-dc319c4f-05d8-439d-b80e-438aed133bab@mhtml.blink
+
+@charset "utf-8";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+
+[data-darkreader-inline-stopcolor] { stop-color: var(--darkreader-inline-st=
+opcolor)  !important; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c2408201-4b52-4180-a1f8-1ffda9aa73c0@mhtml.blink
+
+@charset "utf-8";
+
+:root { --darkreader-neutral-background: #131516; --darkreader-neutral-text=
+: #d8d4cf; --darkreader-selection-background: #004daa; --darkreader-selecti=
+on-text: #e8e6e3; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-5a0fa077-008d-4a2b-aee3-6ecb382adbe1@mhtml.blink
+
+@charset "utf-8";
+
+:root { }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9d15a553-c624-4f27-8bb8-45a1ce64ea5c@mhtml.blink
+
+@charset "utf-8";
+
+html { background-color: rgb(24, 26, 27) !important; }
+
+html { color-scheme: dark !important; }
+
+html, body { background-color: rgb(24, 26, 27); }
+
+html, body { border-color: rgb(115, 107, 94); color: rgb(232, 230, 227); }
+
+a { color: rgb(51, 145, 255); }
+
+table { border-color: rgb(84, 91, 94); }
+
+::placeholder { color: rgb(178, 171, 161); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(64, 68, 0) !important; color: rgb(232, 230, 227) !i=
+mportant; }
+
+::-webkit-scrollbar { background-color: rgb(32, 35, 36); color: rgb(171, 16=
+4, 153); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(69, 74, 77); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(87, 94, 98); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(72, 78, 81); }
+
+::-webkit-scrollbar-corner { background-color: rgb(24, 26, 27); }
+
+::selection { background-color: rgb(0, 77, 170) !important; color: rgb(232,=
+ 230, 227) !important; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-6f82eb97-d6aa-413a-98dd-e3cbb521144d@mhtml.blink
+
+@charset "utf-8";
+
+#p-lang .uls-settings-trigger { background-image: url("https://es.wikibooks=
+.org/w/extensions/UniversalLanguageSelector/resources/images/cog-sprite.svg=
+?cca73"); background-color: transparent; border-color: initial; }
+
+#p-lang .uls-settings-trigger:focus { outline-color: rgb(36, 71, 143); }
+
+.client-js .mw-content-ltr .mw-editsection-bracket:first-of-type, .client-j=
+s .mw-content-rtl .mw-editsection-bracket:not(:first-of-type) { color: rgb(=
+176, 169, 159); }
+
+.client-js .mw-content-rtl .mw-editsection-bracket:first-of-type, .client-j=
+s .mw-content-ltr .mw-editsection-bracket:not(:first-of-type) { color: rgb(=
+176, 169, 159); }
+
+.badge-goodarticle, .badge-goodlist, .badge-recommendedarticle { list-style=
+-image: url("https://es.wikibooks.org/w/extensions/WikimediaBadges/resource=
+s/images/badge-silver-star.png?70a8c"); }
+
+.badge-featuredarticle, .badge-featuredportal, .badge-featuredlist { list-s=
+tyle-image: url("https://es.wikibooks.org/w/extensions/WikimediaBadges/reso=
+urces/images/badge-golden-star.png?ed948"); }
+
+.badge-problematic { list-style-image: url("https://es.wikibooks.org/w/exte=
+nsions/WikimediaBadges/resources/images/badge-problematic.png?f3177"); }
+
+.badge-proofread { list-style-image: url("https://es.wikibooks.org/w/extens=
+ions/WikimediaBadges/resources/images/badge-proofread.png?e81f9"); }
+
+.badge-validated { list-style-image: url("https://es.wikibooks.org/w/extens=
+ions/WikimediaBadges/resources/images/badge-validated.png?6232c"); }
+
+.badge-digitaldocument { list-style-image: url("https://es.wikibooks.org/w/=
+extensions/WikimediaBadges/resources/images/badge-digitaldocument.png?d1c50=
+"); }
+
+abbr[title] { border-bottom-color: initial; }
+
+abbr[title] { border-bottom-color: initial; text-decoration-color: initial;=
+ }
+
+img { border-color: initial; }
+
+legend { color: inherit; }
+
+div.thumb { background-color: transparent; }
+
+.mw-message-box { color: rgb(232, 230, 227); background-color: rgb(34, 37, =
+38); border-color: rgb(72, 78, 81); }
+
+.mw-message-box h2 { color: inherit; border-color: initial; }
+
+.mw-message-box-error { background-color: rgb(64, 5, 3); border-color: rgb(=
+149, 25, 25); }
+
+.mw-message-box-warning { background-color: rgb(63, 42, 3); border-color: r=
+gb(163, 122, 0); }
+
+.mw-message-box-success { background-color: rgb(4, 74, 62); border-color: r=
+gb(27, 182, 148); }
+
+@media screen {
+  :focus { outline-color: rgb(36, 71, 143); }
+  ul { list-style-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR=
+0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy=
+8xOTk5L3hsaW5rIiB3aWR0aD0iNSIgaGVpZ2h0PSIxMyI+PGRlZnM+PGZpbHRlciBpZD0iZGFya=
+3JlYWRlci1pbWFnZS1maWx0ZXIiPjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVz=
+PSIwLjI0OSAtMC42MTQgLTAuNjcyIDAuMDAwIDEuMDM1IC0wLjY0NiAwLjI4OCAtMC42NjQgMC4=
+wMDAgMS4wMjAgLTAuNjM2IC0wLjYwOSAwLjI1MCAwLjAwMCAwLjk5NCAwLjAwMCAwLjAwMCAwLj=
+AwMCAxLjAwMCAwLjAwMCIgLz48L2ZpbHRlcj48L2RlZnM+PGltYWdlIHdpZHRoPSI1IiBoZWlna=
+HQ9IjEzIiBmaWx0ZXI9InVybCgjZGFya3JlYWRlci1pbWFnZS1maWx0ZXIpIiB4bGluazpocmVm=
+PSJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBEOTRiV3dnZG1WeWMybHZiajBpTVM0d0lpQmx=
+ibU52WkdsdVp6MGlWVlJHTFRnaVB6NEtQSE4yWnlCNGJXeHVjejBpYUhSMGNEb3ZMM2QzZHk1M0=
+15NXZjbWN2TWpBd01DOXpkbWNpSUhkcFpIUm9QU0kxSWlCb1pXbG5hSFE5SWpFeklqNEtDVHhqY=
+VhKamJHVWdZM2c5SWpJdU5TSWdZM2s5SWpraUlISTlJakl1TlNJZ1ptbHNiRDBpSXpJd01qRXlN=
+aUl2UGdvOEwzTjJaejRLIiAvPjwvc3ZnPg=3D=3D"); }
+  .mw-jump-link:not(:focus) { border-color: initial; }
+  .vector-body blockquote { border-left-color: rgb(53, 58, 60); }
+  .mw-parser-output a.external { background-image: url("https://es.wikibook=
+s.org/w/skins/Vector/resources/common/images/external-link-ltr-icon.svg?48e=
+54"); }
+  .mw-portlet ul { list-style-image: none; }
+  .vector-menu-tabs #ca-unwatch.icon a::before { background-image: linear-g=
+radient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://es.wikibooks.org/=
+w/skins/Vector/resources/common/images/unwatch-icon.svg?4152f"); }
+  .vector-menu-tabs #ca-unwatch.mw-watchlink-temp.icon a::before { backgrou=
+nd-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https:/=
+/es.wikibooks.org/w/skins/Vector/resources/common/images/unwatch-temp-icon.=
+svg?195f5"); }
+  .vector-menu-tabs #ca-watch.icon a::before { background-image: linear-gra=
+dient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://es.wikibooks.org/w/=
+skins/Vector/resources/common/images/watch-icon.svg?6ab6f"); }
+  .vector-menu-tabs #ca-unwatch.icon a:hover::before, .vector-menu-tabs #ca=
+-unwatch.icon a:focus::before { background-image: linear-gradient(rgba(0, 0=
+, 0, 0), rgba(0, 0, 0, 0)), url("https://es.wikibooks.org/w/skins/Vector/re=
+sources/common/images/unwatch-icon-hl.svg?a4731"); }
+  .vector-menu-tabs #ca-unwatch.mw-watchlink-temp.icon a:hover::before, .ve=
+ctor-menu-tabs #ca-unwatch.mw-watchlink-temp.icon a:focus::before { backgro=
+und-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https:=
+//es.wikibooks.org/w/skins/Vector/resources/common/images/unwatch-temp-icon=
+-hl.svg?f3db6"); }
+  .vector-menu-tabs #ca-watch.icon a:hover::before, .vector-menu-tabs #ca-w=
+atch.icon a:focus::before { background-image: linear-gradient(rgba(0, 0, 0,=
+ 0), rgba(0, 0, 0, 0)), url("https://es.wikibooks.org/w/skins/Vector/resour=
+ces/common/images/watch-icon-hl.svg?9bf90"); }
+  .vector-menu-tabs #ca-unwatch.icon .loading::before, .vector-menu-tabs #c=
+a-watch.icon .loading::before { outline-color: initial; }
+  .vector-menu-dropdown .vector-menu-heading { color: rgb(176, 169, 159); }
+  .vector-menu-dropdown .vector-menu-heading::after { background-image: url=
+("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9=
+zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMT=
+IiIGhlaWdodD0iMTIiPjxkZWZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyI=
+j48ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4yNDkgLTAuNjE0IC0wLjY3=
+MiAwLjAwMCAxLjAzNSAtMC42NDYgMC4yODggLTAuNjY0IDAuMDAwIDEuMDIwIC0wLjYzNiAtMC4=
+2MDkgMC4yNTAgMC4wMDAgMC45OTQgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC=
+9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIGZpbHRlcj0idXJsK=
+CNkYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3ht=
+bDtiYXNlNjQsUEQ5NGJXd2dkbVZ5YzJsdmJqMGlNUzR3SWlCbGJtTnZaR2x1WnowaVZWUkdMVGd=
+pUHo0S1BITjJaeUI0Yld4dWN6MGlhSFIwY0RvdkwzZDNkeTUzTXk1dmNtY3ZNakF3TUM5emRtY2=
+lJSGRwWkhSb1BTSXhNaUlnYUdWcFoyaDBQU0l4TWlJZ2RtbGxkMEp2ZUQwaU1DQXdJREV5SURFe=
+UlqNEtDVHh3WVhSb0lHWnBiR3c5SWlNeU1ESXhNaklpSUdROUltMHhNUzR3TlNBekxqazVOaTB1=
+T1RZMUxURXVNRFV6TFRRdU1ETTFJRE11T0RZdE15NDVORGN0TXk0NE5rd3hMakExSURNdU9UazJ=
+iRFVnTlNBMUxUVWlMejRLUEM5emRtYytDZz09IiAvPjwvc3ZnPg=3D=3D"); }
+  .vector-menu-dropdown .vector-menu-heading:hover, .vector-menu-dropdown .=
+vector-menu-heading:focus { color: rgb(211, 207, 202); }
+  .vector-menu-dropdown .vector-menu-content { background-color: rgb(24, 26=
+, 27); list-style-image: none; border-color: rgb(72, 78, 81); box-shadow: r=
+gba(0, 0, 0, 0.1) 0px 1px 1px 0px; }
+  .vector-menu-dropdown ul { list-style-image: initial; }
+  .vector-menu-dropdown li a { color: rgb(102, 177, 250); }
+  .vector-menu-dropdown .selected a, .vector-menu-dropdown .selected a:visi=
+ted { color: rgb(211, 207, 202); text-decoration-color: initial; }
+  .vector-menu-dropdown-noicon .vector-menu-checkbox:focus + .vector-menu-h=
+eading { outline-color: rgb(186, 123, 0); }
+  .vector-menu-portal .vector-menu-heading { background-image: linear-gradi=
+ent(to right, rgba(53, 57, 59, 0) 0px, rgb(53, 57, 59) 33%, rgb(53, 57, 59)=
+ 66%, rgba(53, 57, 59, 0) 100%); color: rgb(176, 169, 159); border-color: i=
+nitial; }
+  .vector-menu-portal .vector-menu-content ul { list-style-image: none; }
+  .vector-menu-portal .vector-menu-content li a { color: rgb(102, 177, 250)=
+; }
+  .vector-menu-portal .vector-menu-content li a:visited { color: rgb(126, 1=
+14, 255); }
+  .vector-search-box-input { background-color: rgba(24, 26, 27, 0.5); color=
+: rgb(232, 230, 227); border-color: rgb(72, 78, 81); box-shadow: rgba(0, 0,=
+ 0, 0) 0px 0px 0px 1px inset; }
+  .vector-search-box-inner:hover .vector-search-box-input { border-color: r=
+gb(101, 93, 83); }
+  .vector-search-box-input:focus, .vector-search-box-inner:hover .vector-se=
+arch-box-input:focus { outline-color: initial; border-color: rgb(36, 71, 14=
+3); box-shadow: rgb(41, 82, 163) 0px 0px 0px 1px inset; }
+  .vector-search-box-input::-webkit-input-placeholder { color: rgb(157, 148=
+, 135); }
+  .vector-search-box-input::placeholder { color: rgb(157, 148, 135); }
+  .searchButton { background-color: transparent; border-color: initial; }
+  .searchButton[name=3D"go"] { background-image: url("data:image/svg+xml;ba=
+se64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPS=
+JodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxkZ=
+WZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyIj48ZmVDb2xvck1hdHJpeCB0=
+eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4yNDkgLTAuNjE0IC0wLjY3MiAwLjAwMCAxLjAzNSAtMC4=
+2NDYgMC4yODggLTAuNjY0IDAuMDAwIDEuMDIwIC0wLjYzNiAtMC42MDkgMC4yNTAgMC4wMDAgMC=
+45OTQgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC9maWx0ZXI+PC9kZWZzPjxpb=
+WFnZSB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIGZpbHRlcj0idXJsKCNkYXJrcmVhZGVyLWltYWdl=
+LWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEQ5NGJXd2d=
+kbVZ5YzJsdmJqMGlNUzR3SWlCbGJtTnZaR2x1WnowaVZWUkdMVGdpUHo0S1BITjJaeUI0Yld4dW=
+N6MGlhSFIwY0RvdkwzZDNkeTUzTXk1dmNtY3ZNakF3TUM5emRtY2lJSGRwWkhSb1BTSXlNQ0lnY=
+UdWcFoyaDBQU0l5TUNJZ2RtbGxkMEp2ZUQwaU1DQXdJREl3SURJd0lqNEtDVHgwYVhSc1pUNEtD=
+UWx6WldGeVkyZ0tDVHd2ZEdsMGJHVStDZ2s4Y0dGMGFDQm1hV3hzTFhKMWJHVTlJbVYyWlc1dlp=
+HUWlJR1E5SWsweE1pNHlJREV6TGpaaE55QTNJREFnTVNBeElERXVOQzB4TGpSc05TNDBJRFV1Tk=
+MweExqUWdNUzQwTFRVdU5DMDFMalI2VFRFeklEaEJOU0ExSURBZ01TQXhJRE1nT0dFMUlEVWdNQ=
+0F3SURFZ01UQWdNSG9pTHo0S1BDOXpkbWMrQ2c9PSIgLz48L3N2Zz4=3D"); background-col=
+or: initial; }
+  #p-logo a { text-decoration-color: initial; }
+  .mw-footer ul { list-style-image: none; }
+  .mw-footer li { color: rgb(211, 207, 202); }
+}
+
+@media screen {
+  body { background-color: rgb(29, 32, 33); }
+  .mw-body, .parsoid-body { background-color: rgb(24, 26, 27); color: rgb(2=
+11, 207, 202); }
+  .mw-body { border-color: rgb(8, 75, 122); }
+  #mw-page-base { background-color: rgb(26, 28, 30); background-image: line=
+ar-gradient(rgb(24, 26, 27) 50%, rgb(29, 32, 33) 100%); }
+  .vector-menu-dropdown .vector-menu-heading { background-image: linear-gra=
+dient(rgba(51, 55, 57, 0) 0px, rgb(51, 55, 57) 100%); }
+  .vector-menu-tabs ul { list-style-image: none; }
+  .vector-menu-tabs li { background-image: linear-gradient(to top, rgb(9, 7=
+9, 129) 0px, rgb(32, 35, 37) 1px, rgb(24, 26, 27) 100%); }
+  .vector-menu-tabs li a { color: rgb(102, 177, 250); }
+  .vector-menu-tabs .new a, .vector-menu-tabs .new a:visited { color: rgb(2=
+24, 68, 68); }
+  .vector-menu-tabs .selected { background-image: initial; background-color=
+: rgb(24, 26, 27); }
+  .vector-menu-tabs .selected a, .vector-menu-tabs .selected a:visited { co=
+lor: rgb(211, 207, 202); text-decoration-color: initial; }
+  .vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown .v=
+ector-menu-heading { background-image: linear-gradient(rgba(51, 55, 57, 0) =
+0px, rgb(51, 55, 57) 100%); }
+  .vector-search-box h3 { border-color: initial; }
+  #mw-panel nav:first-child { background-image: none; }
+  .vector-user-menu-legacy #pt-anonuserpage, .vector-user-menu-legacy #pt-t=
+mpuserpage, .vector-user-menu-legacy #pt-userpage a { background-image: url=
+("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9=
+zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMj=
+AiIGhlaWdodD0iMjAiPjxkZWZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyI=
+j48ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4yNDkgLTAuNjE0IC0wLjY3=
+MiAwLjAwMCAxLjAzNSAtMC42NDYgMC4yODggLTAuNjY0IDAuMDAwIDEuMDIwIC0wLjYzNiAtMC4=
+2MDkgMC4yNTAgMC4wMDAgMC45OTQgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC=
+9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIGZpbHRlcj0idXJsK=
+CNkYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3ht=
+bDtiYXNlNjQsUEQ5NGJXd2dkbVZ5YzJsdmJqMGlNUzR3SWlCbGJtTnZaR2x1WnowaVZWUkdMVGd=
+pUHo0S1BITjJaeUI0Yld4dWN6MGlhSFIwY0RvdkwzZDNkeTUzTXk1dmNtY3ZNakF3TUM5emRtY2=
+lJSGRwWkhSb1BTSXlNQ0lnYUdWcFoyaDBQU0l5TUNJZ2RtbGxkMEp2ZUQwaU1DQXdJREl3SURJd=
+0lqNEtDVHhuSUdacGJHdzlJaU0xTkRVNU5XUWlQZ29KQ1R4d1lYUm9JR1E5SWsweE1DQXhNV010=
+TlM0NU1pQXdMVGdnTXkwNElEVjJNMmd4Tm5ZdE0yTXdMVEl0TWk0d09DMDFMVGd0TlhvaUx6NEt=
+DUWs4WTJseVkyeGxJR040UFNJeE1DSWdZM2s5SWpVdU5TSWdjajBpTkM0MUlpOCtDZ2s4TDJjK0=
+Nqd3ZjM1puUGdvPSIgLz48L3N2Zz4=3D"); }
+  .vector-user-menu-legacy #pt-anonuserpage, .vector-user-menu-legacy #pt-t=
+mpuserpage { color: rgb(176, 169, 159); }
+  .skin-vector-legacy a.new { color: rgb(255, 74, 74); }
+  .skin-vector-legacy a.new:visited, .skin-vector-legacy .vector-menu-tabs =
+.new a, .skin-vector-legacy .vector-menu-tabs .new a:visited { color: rgb(1=
+76, 106, 106); }
+}
+
+.mw-wiki-logo { background-image: url("https://es.wikibooks.org/static/imag=
+es/project-logos/eswikibooks.png"); }
+
+@media screen {
+  div.thumbinner { border-color: rgb(62, 67, 70); background-color: rgb(27,=
+ 30, 31); }
+  .thumbimage { background-color: rgb(24, 26, 27); border-color: rgb(62, 67=
+, 70); }
+  .thumbcaption { border-color: initial; }
+  .thumbborder { border-color: rgb(53, 58, 60); }
+  .magnify a { background-image: url("https://es.wikibooks.org/w/resources/=
+src/mediawiki.skinning/images/magnify-clip-ltr.svg?8330e"); }
+  .mw-content-ltr .magnify a { background-image: url("https://es.wikibooks.=
+org/w/resources/src/mediawiki.skinning/images/magnify-clip-ltr.svg?8330e");=
+ }
+  .mw-content-rtl .magnify a { background-image: url("https://es.wikibooks.=
+org/w/resources/src/mediawiki.skinning/images/magnify-clip-rtl.svg?38fd5");=
+ }
+  a.new { color: rgb(224, 68, 68); }
+  a.mw-selflink { color: inherit; text-decoration-color: inherit; }
+  a.mw-selflink:hover { text-decoration-color: inherit; }
+  a.mw-selflink:active, a.mw-selflink:visited { color: inherit; }
+  a.new:visited { color: rgb(176, 106, 106); }
+  .mw-parser-output a.extiw, .mw-parser-output a.external { color: rgb(103,=
+ 159, 213); }
+  .mw-parser-output a.extiw:visited, .mw-parser-output a.external:visited {=
+ color: rgb(202, 150, 202); }
+  .mw-parser-output a.extiw:active, .mw-parser-output a.external:active { c=
+olor: rgb(208, 131, 84); }
+  .mw-underline-always a { text-decoration-color: initial; }
+  .mw-underline-never a { text-decoration-color: initial; }
+  .plainlinks a.external { background-image: none !important; background-co=
+lor: initial !important; }
+  .mw-body-content .error { color: rgb(224, 68, 68); }
+  .wikitable { background-color: rgb(27, 30, 31); color: rgb(211, 207, 202)=
+; border-color: rgb(72, 78, 81); }
+  .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wi=
+kitable > * > tr > td { border-color: rgb(72, 78, 81); }
+  .wikitable > tr > th, .wikitable > * > tr > th { background-color: rgb(34=
+, 37, 38); }
+  .usermessage { background-color: rgb(63, 42, 3); border-color: rgb(163, 1=
+22, 0); color: rgb(232, 230, 227); }
+  #contentSub, #contentSub2 { color: rgb(176, 169, 159); }
+  .catlinks { border-color: rgb(72, 78, 81); background-color: rgb(27, 30, =
+31); }
+  .catlinks ul { list-style-image: initial; }
+  .catlinks li { border-left-color: rgb(72, 78, 81); }
+  .catlinks li:first-child { border-left-color: initial; }
+  a { text-decoration-color: initial; color: rgb(102, 177, 250); background=
+-image: none; background-color: initial; }
+  a:visited { color: rgb(126, 114, 255); }
+  a:active { color: rgb(255, 180, 29); }
+  a:hover, a:focus { text-decoration-color: initial; }
+  a:lang(ar), a:lang(kk-arab), a:lang(mzn), a:lang(ps), a:lang(ur) { text-d=
+ecoration-color: initial; }
+  img { border-color: initial; }
+  hr { background-color: rgb(72, 78, 81); border-color: initial; }
+  h1, h2, h3, h4, h5, h6 { color: rgb(232, 230, 227); }
+  h1, h2 { border-bottom-color: rgb(72, 78, 81); }
+  ol { list-style-image: none; }
+  pre, code, .mw-code { background-color: rgb(27, 30, 31); color: rgb(232, =
+230, 227); border-color: rgb(53, 58, 60); }
+  fieldset { border-color: rgb(46, 82, 154); }
+  form { border-color: initial; }
+  textarea { border-color: rgb(62, 67, 70); }
+  .toc, .toccolours { border-color: rgb(72, 78, 81); background-color: rgb(=
+27, 30, 31); }
+  .toc h2 { border-color: initial; }
+  .toc ul { list-style-image: initial; }
+  .tocnumber, .toctext { text-decoration-color: inherit; }
+  .tocnumber { color: rgb(211, 207, 202); }
+  .toctogglelabel { color: rgb(102, 177, 250); }
+  .toctogglelabel:hover { text-decoration-color: initial; }
+  .toctogglecheckbox:focus + .toctitle .toctogglelabel { text-decoration-co=
+lor: initial; outline-color: rgb(186, 123, 0); }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (m=
+in-resolution: 144dpi) {
+  .mw-wiki-logo { background-image: url("https://es.wikibooks.org/static/im=
+ages/project-logos/eswikibooks-1.5x.png"); }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-r=
+esolution: 192dpi) {
+  .mw-wiki-logo { background-image: url("https://es.wikibooks.org/static/im=
+ages/project-logos/eswikibooks-2x.png"); }
+}
+
+.wb-langlinks-link { list-style-image: initial; }
+
+.wb-langlinks-link > a::before { background-image: url("data:image/svg+xml;=
+base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5r=
+PSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTIiIGhlaWdodD0iMTIiPjx=
+kZWZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyIj48ZmVDb2xvck1hdHJpeC=
+B0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4yNDkgLTAuNjE0IC0wLjY3MiAwLjAwMCAxLjAzNSAtM=
+C42NDYgMC4yODggLTAuNjY0IDAuMDAwIDEuMDIwIC0wLjYzNiAtMC42MDkgMC4yNTAgMC4wMDAg=
+MC45OTQgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC9maWx0ZXI+PC9kZWZzPjx=
+pbWFnZSB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIGZpbHRlcj0idXJsKCNkYXJrcmVhZGVyLWltYW=
+dlLWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEQ5NGJXd=
+2dkbVZ5YzJsdmJqMGlNUzR3SWlCbGJtTnZaR2x1WnowaVZWUkdMVGdpUHo0S1BITjJaeUI0Yld4=
+dWN6MGlhSFIwY0RvdkwzZDNkeTUzTXk1dmNtY3ZNakF3TUM5emRtY2lJSGRwWkhSb1BTSXhNaUl=
+nYUdWcFoyaDBQU0l4TWlJZ2RtbGxkMEp2ZUQwaU1DQXdJREV5SURFeUlqNEtDVHh3WVhSb0lHWn=
+BiR3c5SWlNd05qUTFZV1FpSUdROUlrMHhNQzQxSURRdU4yd3hMak10TVM0ell5NHpMUzR6TGpNd=
+ExqY2dNQzB1T1V3NUxqWXVNbU10TGpNdExqTXRMamN0TGpNdExqa2dNRXczTGpNZ01TNDFiRE11=
+TWlBekxqSjZUVFl1TmlBeUxqSk1NQ0E0TGpoV01USm9NeTR5YkRZdU5pMDJMall0TXk0eUxUTXV=
+Nbm9pTHo0S1BDOXpkbWMrQ2c9PSIgLz48L3N2Zz4=3D"); }
+
+.wb-langlinks-link > a:link, .wb-langlinks-link > a:visited { color: rgb(17=
+6, 169, 159) !important; }
+
+.wb-langlinks-link > a:hover { color: rgb(102, 177, 250) !important; }
+
+.skin-vector:not(.skin-vector-legacy) .wb-langlinks-link a { color: rgb(102=
+, 177, 250) !important; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://es.wikibooks.org/w/extensions/UniversalLanguageSelector/resources/images/cog-sprite.svg?cca73
+
+<?xml version=3D"1.0" encoding=3D"UTF-8"?>
+<svg xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/=
+1999/xlink" width=3D"14" height=3D"32">
+	<defs>
+		<path id=3D"a" d=3D"M14 9.3V6.73l-1.575-.264a4.947 4.947 0 0 0-.496-1.2l.=
+93-1.285-1.81-1.84-1.31.908c-.38-.205-.79-.38-1.196-.497L8.284 1H5.716l-.26=
+3 1.578a5.489 5.489 0 0 0-1.196.497L2.975 2.17 1.137 3.98l.934 1.287c-.2.38=
+-.376.79-.493 1.228L0 6.73V9.3l1.575.264c.117.438.292.818.496 1.198l-.93 1.=
+315L2.95 13.89l1.312-.938c.38.205.787.38 1.224.497L5.746 15h2.566l.263-1.57=
+8a6.13 6.13 0 0 0 1.196-.497l1.315.935 1.81-1.812-.935-1.315c.203-.38.38-.7=
+6.495-1.2L14 9.303zm-7 1.404c-1.488 0-2.683-1.2-2.683-2.69S5.542 5.327 7 5.=
+327a2.698 2.698 0 0 1 2.683 2.69A2.678 2.678 0 0 1 7 10.705z"/>
+	</defs>
+	<use xlink:href=3D"#a" fill=3D"#72777d"/>
+	<use xlink:href=3D"#a" fill=3D"#54595d" transform=3D"translate(0 16)"/>
+</svg>=0A
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://es.wikibooks.org/static/images/project-logos/eswikibooks.png
+
+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
+hCv4FUcAAAAASUVORK5CYII=
+
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-35ad4005-f90e-49c7-afb7-a880bc4d5f99@mhtml.blink
+
+@charset "utf-8";
+
+.mw-editfont-monospace { font-family: monospace, monospace; }
+
+.mw-editfont-sans-serif { font-family: sans-serif; }
+
+.mw-editfont-serif { font-family: serif; }
+
+.mw-editfont-monospace, .mw-editfont-sans-serif, .mw-editfont-serif { font-=
+size: 13px; tab-size: 4; }
+
+.mw-editfont-monospace.oo-ui-textInputWidget, .mw-editfont-sans-serif.oo-ui=
+-textInputWidget, .mw-editfont-serif.oo-ui-textInputWidget { font-size: inh=
+erit; }
+
+.mw-editfont-monospace.oo-ui-textInputWidget > .oo-ui-inputWidget-input, .m=
+w-editfont-sans-serif.oo-ui-textInputWidget > .oo-ui-inputWidget-input, .mw=
+-editfont-serif.oo-ui-textInputWidget > .oo-ui-inputWidget-input { font-siz=
+e: 13px; }
+
+.mw-editfont-monospace.oo-ui-textInputWidget > input.oo-ui-inputWidget-inpu=
+t, .mw-editfont-sans-serif.oo-ui-textInputWidget > input.oo-ui-inputWidget-=
+input, .mw-editfont-serif.oo-ui-textInputWidget > input.oo-ui-inputWidget-i=
+nput { min-height: 32px; }
+
+.mw-ui-button { background-color: rgb(248, 249, 250); color: rgb(32, 33, 34=
+); display: inline-block; box-sizing: border-box; margin: 0px; border: 1px =
+solid rgb(162, 169, 177); border-radius: 2px; cursor: pointer; vertical-ali=
+gn: middle; font-family: inherit; font-size: 1em; font-weight: bold; line-h=
+eight: 1.28571em; text-align: center; appearance: none; }
+
+.mw-ui-button:not(.mw-ui-icon-element) { min-height: 32px; min-width: 4em; =
+max-width: 28.75em; padding: 5px 12px; }
+
+.mw-ui-button:not(:disabled) { transition: background-color 100ms ease 0s, =
+color 100ms ease 0s, border-color 100ms ease 0s, box-shadow 100ms ease 0s; =
+}
+
+.mw-ui-button:not(:disabled):visited { color: rgb(32, 33, 34); }
+
+.mw-ui-button:not(:disabled):hover { background-color: rgb(255, 255, 255); =
+color: rgb(64, 66, 68); border-color: rgb(162, 169, 177); }
+
+.mw-ui-button:not(:disabled):focus { color: rgb(32, 33, 34); border-color: =
+rgb(51, 102, 204); box-shadow: rgb(51, 102, 204) 0px 0px 0px 1px inset, rgb=
+(255, 255, 255) 0px 0px 0px 2px inset; outline-width: 0px; }
+
+.mw-ui-button:not(:disabled):active, .mw-ui-button:not(:disabled).is-on { b=
+ackground-color: rgb(200, 204, 209); color: rgb(0, 0, 0); border-color: rgb=
+(114, 119, 125); box-shadow: none; }
+
+.mw-ui-button:disabled { background-color: rgb(200, 204, 209); color: rgb(2=
+55, 255, 255); border-color: rgb(200, 204, 209); cursor: default; }
+
+.mw-ui-button.mw-ui-icon-element:not(.mw-ui-icon-with-label-desktop) { colo=
+r: transparent !important; }
+
+.mw-ui-button.mw-ui-icon-element:not(.mw-ui-icon-with-label-desktop) span {=
+ display: block; clip: rect(1px, 1px, 1px, 1px); width: 1px; height: 1px; m=
+argin: -1px; border: 0px; padding: 0px; overflow: hidden; position: absolut=
+e !important; }
+
+@media (max-width: 1000px) {
+  .mw-ui-button.mw-ui-icon-element.mw-ui-icon-with-label-desktop { color: t=
+ransparent !important; }
+  .mw-ui-button.mw-ui-icon-element span { display: block; clip: rect(1px, 1=
+px, 1px, 1px); width: 1px; height: 1px; margin: -1px; border: 0px; padding:=
+ 0px; overflow: hidden; position: absolute !important; }
+}
+
+.mw-ui-button.mw-ui-quiet, .mw-ui-button.mw-ui-quiet.mw-ui-progressive, .mw=
+-ui-button.mw-ui-quiet.mw-ui-destructive { background-color: transparent; c=
+olor: rgb(32, 33, 34); border-color: transparent; font-weight: bold; }
+
+.mw-ui-button.mw-ui-quiet:not(.mw-ui-icon-element), .mw-ui-button.mw-ui-qui=
+et.mw-ui-progressive:not(.mw-ui-icon-element), .mw-ui-button.mw-ui-quiet.mw=
+-ui-destructive:not(.mw-ui-icon-element) { min-height: 32px; }
+
+input[type=3D"checkbox"]:hover + .mw-ui-button.mw-ui-quiet, input[type=3D"c=
+heckbox"]:hover + .mw-ui-button.mw-ui-quiet.mw-ui-progressive, input[type=
+=3D"checkbox"]:hover + .mw-ui-button.mw-ui-quiet.mw-ui-destructive, .mw-ui-=
+button.mw-ui-quiet:hover, .mw-ui-button.mw-ui-quiet.mw-ui-progressive:hover=
+, .mw-ui-button.mw-ui-quiet.mw-ui-destructive:hover { background-color: rgb=
+a(0, 24, 73, 0.027); color: rgb(32, 33, 34); border-color: transparent; }
+
+input[type=3D"checkbox"]:focus + .mw-ui-button.mw-ui-quiet, input[type=3D"c=
+heckbox"]:focus + .mw-ui-button.mw-ui-quiet.mw-ui-progressive, input[type=
+=3D"checkbox"]:focus + .mw-ui-button.mw-ui-quiet.mw-ui-destructive, .mw-ui-=
+button.mw-ui-quiet:focus, .mw-ui-button.mw-ui-quiet.mw-ui-progressive:focus=
+, .mw-ui-button.mw-ui-quiet.mw-ui-destructive:focus { color: rgb(32, 33, 34=
+); border-color: rgb(51, 102, 204); box-shadow: rgb(51, 102, 204) 0px 0px 0=
+px 1px inset, rgb(255, 255, 255) 0px 0px 0px 2px inset; }
+
+input[type=3D"checkbox"]:active + .mw-ui-button.mw-ui-quiet, input[type=3D"=
+checkbox"]:active + .mw-ui-button.mw-ui-quiet.mw-ui-progressive, input[type=
+=3D"checkbox"]:active + .mw-ui-button.mw-ui-quiet.mw-ui-destructive, .mw-ui=
+-button.mw-ui-quiet:active, .mw-ui-button.mw-ui-quiet.mw-ui-progressive:act=
+ive, .mw-ui-button.mw-ui-quiet.mw-ui-destructive:active { background-color:=
+ rgba(0, 36, 73, 0.082); color: rgb(0, 0, 0); border-color: rgb(114, 119, 1=
+25); box-shadow: none; }
+
+.mw-ui-button.mw-ui-quiet:disabled, .mw-ui-button.mw-ui-quiet.mw-ui-progres=
+sive:disabled, .mw-ui-button.mw-ui-quiet.mw-ui-destructive:disabled, .mw-ui=
+-button.mw-ui-quiet:disabled:hover, .mw-ui-button.mw-ui-quiet.mw-ui-progres=
+sive:disabled:hover, .mw-ui-button.mw-ui-quiet.mw-ui-destructive:disabled:h=
+over, .mw-ui-button.mw-ui-quiet:disabled:active, .mw-ui-button.mw-ui-quiet.=
+mw-ui-progressive:disabled:active, .mw-ui-button.mw-ui-quiet.mw-ui-destruct=
+ive:disabled:active { background-color: transparent; color: rgb(114, 119, 1=
+25); border-color: transparent; }
+
+.mw-ui-button.mw-ui-progressive:not(:disabled) { background-color: rgb(51, =
+102, 204); color: rgb(255, 255, 255); border-color: rgb(51, 102, 204); }
+
+.mw-ui-button.mw-ui-progressive:not(:disabled):hover { background-color: rg=
+b(68, 127, 245); border-color: rgb(68, 127, 245); }
+
+.mw-ui-button.mw-ui-progressive:not(:disabled):focus { box-shadow: rgb(51, =
+102, 204) 0px 0px 0px 1px inset, rgb(255, 255, 255) 0px 0px 0px 2px inset; =
+}
+
+.mw-ui-button.mw-ui-progressive:not(:disabled):active, .mw-ui-button.mw-ui-=
+progressive:not(:disabled).is-on { background-color: rgb(42, 75, 141); bord=
+er-color: rgb(42, 75, 141); box-shadow: none; }
+
+.mw-ui-button.mw-ui-progressive:disabled { background-color: rgb(200, 204, =
+209); color: rgb(255, 255, 255); border-color: rgb(200, 204, 209); }
+
+.mw-ui-button.mw-ui-progressive.mw-ui-quiet { color: rgb(51, 102, 204); bac=
+kground-color: transparent; border-color: transparent; }
+
+input[type=3D"checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quie=
+t, .mw-ui-button.mw-ui-progressive.mw-ui-quiet:hover { background-color: rg=
+ba(52, 123, 255, 0.2); border-color: transparent; color: rgb(68, 127, 245);=
+ }
+
+input[type=3D"checkbox"]:focus + .mw-ui-button.mw-ui-progressive.mw-ui-quie=
+t, .mw-ui-button.mw-ui-progressive.mw-ui-quiet:focus { color: rgb(51, 102, =
+204); border-color: rgb(51, 102, 204); }
+
+input[type=3D"checkbox"]:active + .mw-ui-button.mw-ui-progressive.mw-ui-qui=
+et, .mw-ui-button.mw-ui-progressive.mw-ui-quiet:active { color: rgb(255, 25=
+5, 255); background-color: rgb(42, 75, 141); border-color: rgb(42, 75, 141)=
+; }
+
+.mw-ui-button.mw-ui-destructive:not(:disabled) { background-color: rgb(221,=
+ 51, 51); color: rgb(255, 255, 255); border-color: rgb(221, 51, 51); }
+
+.mw-ui-button.mw-ui-destructive:not(:disabled):hover { background-color: rg=
+b(255, 66, 66); border-color: rgb(255, 66, 66); }
+
+.mw-ui-button.mw-ui-destructive:not(:disabled):focus { box-shadow: rgb(221,=
+ 51, 51) 0px 0px 0px 1px inset, rgb(255, 255, 255) 0px 0px 0px 2px inset; }
+
+.mw-ui-button.mw-ui-destructive:not(:disabled):active, .mw-ui-button.mw-ui-=
+destructive:not(:disabled).is-on { background-color: rgb(179, 36, 36); bord=
+er-color: rgb(179, 36, 36); box-shadow: none; }
+
+.mw-ui-button.mw-ui-destructive:disabled { background-color: rgb(200, 204, =
+209); color: rgb(255, 255, 255); border-color: rgb(200, 204, 209); }
+
+.mw-ui-button.mw-ui-destructive.mw-ui-quiet { color: rgb(221, 51, 51); back=
+ground-color: transparent; border-color: transparent; }
+
+input[type=3D"checkbox"]:hover + .mw-ui-button.mw-ui-destructive.mw-ui-quie=
+t, .mw-ui-button.mw-ui-destructive.mw-ui-quiet:hover { background-color: rg=
+ba(209, 29, 19, 0.2); border-color: transparent; color: rgb(255, 66, 66); }
+
+input[type=3D"checkbox"]:focus + .mw-ui-button.mw-ui-destructive.mw-ui-quie=
+t, .mw-ui-button.mw-ui-destructive.mw-ui-quiet:focus { color: rgb(221, 51, =
+51); border-color: rgb(221, 51, 51); }
+
+input[type=3D"checkbox"]:active + .mw-ui-button.mw-ui-destructive.mw-ui-qui=
+et, .mw-ui-button.mw-ui-destructive.mw-ui-quiet:active { color: rgb(255, 25=
+5, 255); background-color: rgb(179, 36, 36); border-color: rgb(179, 36, 36)=
+; }
+
+.mw-ui-button.mw-ui-big { font-size: 1.3em; }
+
+.mw-ui-button.mw-ui-block { display: block; width: 100%; margin-left: auto;=
+ margin-right: auto; }
+
+a.mw-ui-button { text-decoration: none; }
+
+a.mw-ui-button:hover, a.mw-ui-button:focus { text-decoration: none; }
+
+.mw-ui-button-group > * { min-width: 48px; border-radius: 0px; float: left;=
+ }
+
+.mw-ui-button-group > :first-child { border-top-left-radius: 2px; border-bo=
+ttom-left-radius: 2px; }
+
+.mw-ui-button-group > :not(:first-child) { border-left: 0px; }
+
+.mw-ui-button-group > :last-child { border-top-right-radius: 2px; border-bo=
+ttom-right-radius: 2px; }
+
+.mw-ui-button-group .is-on .button { cursor: default; }
+
+.ve-init-mw-progressBarWidget { height: 1em; overflow: hidden; margin: 0px =
+25%; }
+
+.ve-init-mw-progressBarWidget-bar { height: 1em; width: 0px; }
+
+.ve-init-mw-progressBarWidget { background-color: rgb(255, 255, 255); box-s=
+izing: border-box; height: 0.875em; border: 1px solid rgb(51, 102, 204); bo=
+rder-radius: 0.875em; box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 1px; }
+
+.ve-init-mw-progressBarWidget-bar { background-color: rgb(51, 102, 204); he=
+ight: 0.875em; }
+
+.title-shortlink { font-size: small; margin: 0px; }
+
+@-webkit-keyframes centralAuthPPersonalAnimation {=20
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+@keyframes centralAuthPPersonalAnimation {=20
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+.centralAuthPPersonalAnimation { animation-duration: 1s; animation-fill-mod=
+e: both; animation-name: centralAuthPPersonalAnimation; }
+
+.uls-menu { border-radius: 2px; font-size: medium; }
+
+.uls-search, .uls-language-settings-close-block { border-top-right-radius: =
+2px; border-top-left-radius: 2px; }
+
+.uls-language-list { border-bottom-right-radius: 2px; border-bottom-left-ra=
+dius: 2px; }
+
+.uls-menu.callout::before, .uls-menu.callout::after { border-top: 10px soli=
+d transparent; border-bottom: 10px solid transparent; display: inline-block=
+; top: 17px; position: absolute; content: ""; }
+
+.uls-menu.callout.selector-right::before { border-left: 10px solid rgb(200,=
+ 204, 209); right: -11px; }
+
+.uls-menu.callout.selector-right::after { border-left: 10px solid rgb(255, =
+255, 255); right: -10px; }
+
+.uls-menu.callout.selector-left::before { border-right: 10px solid rgb(200,=
+ 204, 209); left: -11px; }
+
+.uls-menu.callout.selector-left::after { border-right: 10px solid rgb(255, =
+255, 255); left: -10px; }
+
+.uls-ui-languages button { margin: 5px 15px 5px 0px; white-space: nowrap; o=
+verflow: hidden; }
+
+.uls-search-wrapper-wrapper { position: relative; padding-left: 40px; margi=
+n-top: 5px; margin-bottom: 5px; }
+
+.uls-icon-back { background: url("/w/extensions/UniversalLanguageSelector/r=
+esources/images/back-grey-ltr.svg?01868") center center / 28px no-repeat sc=
+roll transparent; height: 32px; width: 40px; display: block; position: abso=
+lute; left: 0px; border-right: 1px solid rgb(200, 204, 209); opacity: 0.8; =
+}
+
+.uls-icon-back:hover { opacity: 1; cursor: pointer; }
+
+.uls-menu .uls-no-results-view .uls-no-found-more { background-color: rgb(2=
+55, 255, 255); }
+
+.uls-menu .uls-no-results-view h3 { padding: 0px 28px; margin: 0px; color: =
+rgb(84, 89, 93); font-size: 1em; font-weight: normal; }
+
+.skin-vector .uls-menu { border-color: rgb(200, 204, 209); box-shadow: rgba=
+(0, 0, 0, 0.25) 0px 2px 2px 0px; font-size: 0.875em; z-index: 3; }
+
+.skin-vector .uls-search { border-bottom-color: rgb(200, 204, 209); }
+
+.skin-vector .uls-search-label { opacity: 0.51; transition: opacity 250ms e=
+ase 0s; }
+
+.skin-vector .uls-search-wrapper:hover .uls-search-label { opacity: 0.87; }
+
+.skin-vector .uls-filtersuggestion { color: rgb(114, 119, 125); }
+
+.skin-vector .uls-lcd-region-title { color: rgb(84, 89, 93); }
+
+#uls-settings-block { background-color: rgb(248, 249, 250); border-top: 1px=
+ solid rgb(200, 204, 209); padding-left: 10px; line-height: 1.2em; border-r=
+adius: 0px 0px 2px 2px; }
+
+#uls-settings-block > button { background: left top / 20px no-repeat transp=
+arent; color: rgb(84, 89, 93); display: inline-block; margin: 8px 15px; bor=
+der: 0px; padding: 0px 0px 0px 26px; font-size: medium; cursor: pointer; }
+
+#uls-settings-block > button:hover { color: rgb(32, 33, 34); }
+
+#uls-settings-block > button.display-settings-block { background-image: url=
+("/w/extensions/UniversalLanguageSelector/resources/images/display.svg?b78f=
+7"); }
+
+#uls-settings-block > button.input-settings-block { background-image: url("=
+/w/extensions/UniversalLanguageSelector/resources/images/input.svg?e7c85");=
+ }
+
+.mw-ui-button.uls-language-actions-button { position: absolute; bottom: 0px=
+; right: 16px; background: center center no-repeat transparent; min-width: =
+unset; }
+
+.mw-ui-button.uls-language-actions-button--single { background-image: url("=
+/w/extensions/UniversalLanguageSelector/resources/images/cog.svg?d6cee"); }
+
+.mw-ui-button.uls-language-actions-button--multiple { background-image: url=
+("/w/extensions/UniversalLanguageSelector/resources/images/ellipsis.svg?1a9=
+8c"); }
+
+.uls-tipsy.uls-tipsy { z-index: 1000; }
+
+.uls-menu.uls-language-actions-dialog { min-width: 248px; }
+
+.uls-menu.uls-language-actions-dialog .uls-language-actions-title { border-=
+bottom: 1px solid rgb(200, 204, 209); display: flex; align-items: center; h=
+eight: 32px; padding: 5px 0px; }
+
+.uls-menu.uls-language-actions-dialog .uls-language-actions-title .uls-lang=
+uage-actions-close { min-width: unset; width: 44px; background: url("/w/ext=
+ensions/UniversalLanguageSelector/resources/images/arrow-previous.svg?279af=
+") center center no-repeat transparent; }
+
+.uls-menu.uls-language-actions-dialog .uls-language-action-items .uls-langu=
+age-action { margin: 0px; padding: 12px 8px; display: block; }
+
+.mw-interlanguage-selector-disabled #p-lang-btn-sticky-header { display: no=
+ne; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ff5fa780-2ee6-4666-b227-9a2454068e58@mhtml.blink
+
+@charset "utf-8";
+
+.mw-ui-button { background-color: rgb(27, 30, 31); color: rgb(211, 207, 202=
+); border-color: rgb(72, 78, 81); }
+
+.mw-ui-button:not(:disabled):visited { color: rgb(211, 207, 202); }
+
+.mw-ui-button:not(:disabled):hover { background-color: rgb(24, 26, 27); col=
+or: rgb(190, 185, 176); border-color: rgb(72, 78, 81); }
+
+.mw-ui-button:not(:disabled):focus { color: rgb(211, 207, 202); border-colo=
+r: rgb(36, 71, 143); box-shadow: rgb(41, 82, 163) 0px 0px 0px 1px inset, rg=
+b(24, 26, 27) 0px 0px 0px 2px inset; }
+
+.mw-ui-button:not(:disabled):active, .mw-ui-button:not(:disabled).is-on { b=
+ackground-color: rgb(53, 57, 59); color: rgb(232, 230, 227); border-color: =
+rgb(101, 93, 83); box-shadow: none; }
+
+.mw-ui-button:disabled { background-color: rgb(53, 57, 59); color: rgb(232,=
+ 230, 227); border-color: rgb(62, 67, 70); }
+
+.mw-ui-button.mw-ui-icon-element:not(.mw-ui-icon-with-label-desktop) { colo=
+r: transparent !important; }
+
+.mw-ui-button.mw-ui-icon-element:not(.mw-ui-icon-with-label-desktop) span {=
+ border-color: initial; }
+
+@media (max-width: 1000px) {
+  .mw-ui-button.mw-ui-icon-element.mw-ui-icon-with-label-desktop { color: t=
+ransparent !important; }
+  .mw-ui-button.mw-ui-icon-element span { border-color: initial; }
+}
+
+.mw-ui-button.mw-ui-quiet, .mw-ui-button.mw-ui-quiet.mw-ui-progressive, .mw=
+-ui-button.mw-ui-quiet.mw-ui-destructive { background-color: transparent; c=
+olor: rgb(211, 207, 202); border-color: transparent; }
+
+input[type=3D"checkbox"]:hover + .mw-ui-button.mw-ui-quiet, input[type=3D"c=
+heckbox"]:hover + .mw-ui-button.mw-ui-quiet.mw-ui-progressive, input[type=
+=3D"checkbox"]:hover + .mw-ui-button.mw-ui-quiet.mw-ui-destructive, .mw-ui-=
+button.mw-ui-quiet:hover, .mw-ui-button.mw-ui-quiet.mw-ui-progressive:hover=
+, .mw-ui-button.mw-ui-quiet.mw-ui-destructive:hover { background-color: rgb=
+a(0, 19, 58, 0.03); color: rgb(211, 207, 202); border-color: transparent; }
+
+input[type=3D"checkbox"]:focus + .mw-ui-button.mw-ui-quiet, input[type=3D"c=
+heckbox"]:focus + .mw-ui-button.mw-ui-quiet.mw-ui-progressive, input[type=
+=3D"checkbox"]:focus + .mw-ui-button.mw-ui-quiet.mw-ui-destructive, .mw-ui-=
+button.mw-ui-quiet:focus, .mw-ui-button.mw-ui-quiet.mw-ui-progressive:focus=
+, .mw-ui-button.mw-ui-quiet.mw-ui-destructive:focus { color: rgb(211, 207, =
+202); border-color: rgb(36, 71, 143); box-shadow: rgb(41, 82, 163) 0px 0px =
+0px 1px inset, rgb(24, 26, 27) 0px 0px 0px 2px inset; }
+
+input[type=3D"checkbox"]:active + .mw-ui-button.mw-ui-quiet, input[type=3D"=
+checkbox"]:active + .mw-ui-button.mw-ui-quiet.mw-ui-progressive, input[type=
+=3D"checkbox"]:active + .mw-ui-button.mw-ui-quiet.mw-ui-destructive, .mw-ui=
+-button.mw-ui-quiet:active, .mw-ui-button.mw-ui-quiet.mw-ui-progressive:act=
+ive, .mw-ui-button.mw-ui-quiet.mw-ui-destructive:active { background-color:=
+ rgba(0, 29, 58, 0.08); color: rgb(232, 230, 227); border-color: rgb(101, 9=
+3, 83); box-shadow: none; }
+
+.mw-ui-button.mw-ui-quiet:disabled, .mw-ui-button.mw-ui-quiet.mw-ui-progres=
+sive:disabled, .mw-ui-button.mw-ui-quiet.mw-ui-destructive:disabled, .mw-ui=
+-button.mw-ui-quiet:disabled:hover, .mw-ui-button.mw-ui-quiet.mw-ui-progres=
+sive:disabled:hover, .mw-ui-button.mw-ui-quiet.mw-ui-destructive:disabled:h=
+over, .mw-ui-button.mw-ui-quiet:disabled:active, .mw-ui-button.mw-ui-quiet.=
+mw-ui-progressive:disabled:active, .mw-ui-button.mw-ui-quiet.mw-ui-destruct=
+ive:disabled:active { background-color: transparent; color: rgb(157, 148, 1=
+35); border-color: transparent; }
+
+.mw-ui-button.mw-ui-progressive:not(:disabled) { background-color: rgb(41, =
+82, 163); color: rgb(232, 230, 227); border-color: rgb(36, 71, 143); }
+
+.mw-ui-button.mw-ui-progressive:not(:disabled):hover { background-color: rg=
+b(9, 59, 161); border-color: rgb(8, 56, 153); }
+
+.mw-ui-button.mw-ui-progressive:not(:disabled):focus { box-shadow: rgb(41, =
+82, 163) 0px 0px 0px 1px inset, rgb(24, 26, 27) 0px 0px 0px 2px inset; }
+
+.mw-ui-button.mw-ui-progressive:not(:disabled):active, .mw-ui-button.mw-ui-=
+progressive:not(:disabled).is-on { background-color: rgb(34, 60, 113); bord=
+er-color: rgb(46, 82, 154); box-shadow: none; }
+
+.mw-ui-button.mw-ui-progressive:disabled { background-color: rgb(53, 57, 59=
+); color: rgb(232, 230, 227); border-color: rgb(62, 67, 70); }
+
+.mw-ui-button.mw-ui-progressive.mw-ui-quiet { color: rgb(92, 152, 214); bac=
+kground-color: transparent; border-color: transparent; }
+
+input[type=3D"checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quie=
+t, .mw-ui-button.mw-ui-progressive.mw-ui-quiet:hover { background-color: rg=
+ba(0, 60, 173, 0.2); border-color: transparent; color: rgb(76, 159, 245); }
+
+input[type=3D"checkbox"]:focus + .mw-ui-button.mw-ui-progressive.mw-ui-quie=
+t, .mw-ui-button.mw-ui-progressive.mw-ui-quiet:focus { color: rgb(92, 152, =
+214); border-color: rgb(36, 71, 143); }
+
+input[type=3D"checkbox"]:active + .mw-ui-button.mw-ui-progressive.mw-ui-qui=
+et, .mw-ui-button.mw-ui-progressive.mw-ui-quiet:active { color: rgb(232, 23=
+0, 227); background-color: rgb(34, 60, 113); border-color: rgb(46, 82, 154)=
+; }
+
+.mw-ui-button.mw-ui-destructive:not(:disabled) { background-color: rgb(166,=
+ 28, 28); color: rgb(232, 230, 227); border-color: rgb(149, 25, 25); }
+
+.mw-ui-button.mw-ui-destructive:not(:disabled):hover { background-color: rg=
+b(164, 0, 0); border-color: rgb(159, 0, 0); }
+
+.mw-ui-button.mw-ui-destructive:not(:disabled):focus { box-shadow: rgb(166,=
+ 28, 28) 0px 0px 0px 1px inset, rgb(24, 26, 27) 0px 0px 0px 2px inset; }
+
+.mw-ui-button.mw-ui-destructive:not(:disabled):active, .mw-ui-button.mw-ui-=
+destructive:not(:disabled).is-on { background-color: rgb(143, 29, 29); bord=
+er-color: rgb(159, 32, 32); box-shadow: none; }
+
+.mw-ui-button.mw-ui-destructive:disabled { background-color: rgb(53, 57, 59=
+); color: rgb(232, 230, 227); border-color: rgb(62, 67, 70); }
+
+.mw-ui-button.mw-ui-destructive.mw-ui-quiet { color: rgb(224, 68, 68); back=
+ground-color: transparent; border-color: transparent; }
+
+input[type=3D"checkbox"]:hover + .mw-ui-button.mw-ui-destructive.mw-ui-quie=
+t, .mw-ui-button.mw-ui-destructive.mw-ui-quiet:hover { background-color: rg=
+ba(167, 23, 15, 0.2); border-color: transparent; color: rgb(255, 72, 72); }
+
+input[type=3D"checkbox"]:focus + .mw-ui-button.mw-ui-destructive.mw-ui-quie=
+t, .mw-ui-button.mw-ui-destructive.mw-ui-quiet:focus { color: rgb(224, 68, =
+68); border-color: rgb(149, 25, 25); }
+
+input[type=3D"checkbox"]:active + .mw-ui-button.mw-ui-destructive.mw-ui-qui=
+et, .mw-ui-button.mw-ui-destructive.mw-ui-quiet:active { color: rgb(232, 23=
+0, 227); background-color: rgb(143, 29, 29); border-color: rgb(159, 32, 32)=
+; }
+
+a.mw-ui-button { text-decoration-color: initial; }
+
+a.mw-ui-button:hover, a.mw-ui-button:focus { text-decoration-color: initial=
+; }
+
+.mw-ui-button-group > :not(:first-child) { border-left-color: initial; }
+
+.ve-init-mw-progressBarWidget { background-color: rgb(24, 26, 27); border-c=
+olor: rgb(36, 71, 143); box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 1px; }
+
+.ve-init-mw-progressBarWidget-bar { background-color: rgb(41, 82, 163); }
+
+.uls-menu.callout::before, .uls-menu.callout::after { border-top-color: tra=
+nsparent; border-bottom-color: transparent; }
+
+.uls-menu.callout.selector-right::before { border-left-color: rgb(62, 67, 7=
+0); }
+
+.uls-menu.callout.selector-right::after { border-left-color: rgb(48, 52, 54=
+); }
+
+.uls-menu.callout.selector-left::before { border-right-color: rgb(62, 67, 7=
+0); }
+
+.uls-menu.callout.selector-left::after { border-right-color: rgb(48, 52, 54=
+); }
+
+.uls-icon-back { background-image: url("data:image/svg+xml;base64,PHN2ZyB4b=
+Wxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3=
+LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPjxkZWZzPjxmaWx0ZXI=
+gaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyIj48ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaX=
+giIHZhbHVlcz0iMC4yNDkgLTAuNjE0IC0wLjY3MiAwLjAwMCAxLjAzNSAtMC42NDYgMC4yODggL=
+TAuNjY0IDAuMDAwIDEuMDIwIC0wLjYzNiAtMC42MDkgMC4yNTAgMC4wMDAgMC45OTQgMC4wMDAg=
+MC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0=
+iMjQiIGhlaWdodD0iMjQiIGZpbHRlcj0idXJsKCNkYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIH=
+hsaW5rOmhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEQ5NGJXd2dkbVZ5YzJsdmJqM=
+GlNUzR3SWlCbGJtTnZaR2x1WnowaVZWUkdMVGdpUHo0S1BITjJaeUI0Yld4dWN6MGlhSFIwY0Rv=
+dkwzZDNkeTUzTXk1dmNtY3ZNakF3TUM5emRtY2lJSGRwWkhSb1BTSXlOQ0lnYUdWcFoyaDBQU0l=
+5TkNJZ2RtbGxkMEp2ZUQwaU1DQXdJREkwSURJMElqNEtDVHh3WVhSb0lHWnBiR3c5SWlNMU5EVT=
+VOV1FpSUdROUltMDNJREV6TGpFZ09DNDVJRGd1T1dNdU9DMHVPQzQ0TFRJZ01DMHlMamhzTFRZd=
+U1TMDJMakVnTmkwMkxqRmpMamd0TGpndU9DMHlJREF0TWk0NFREY2dNVE11TVhvaUx6NEtQQzl6=
+ZG1jK0NnPT0iIC8+PC9zdmc+"); background-color: transparent; border-right-col=
+or: rgb(62, 67, 70); }
+
+.uls-menu .uls-no-results-view .uls-no-found-more { background-color: rgb(2=
+4, 26, 27); }
+
+.uls-menu .uls-no-results-view h3 { color: rgb(176, 169, 159); }
+
+.skin-vector .uls-menu { border-color: rgb(62, 67, 70); box-shadow: rgba(0,=
+ 0, 0, 0.25) 0px 2px 2px 0px; }
+
+.skin-vector .uls-search { border-bottom-color: rgb(62, 67, 70); }
+
+.skin-vector .uls-filtersuggestion { color: rgb(157, 148, 135); }
+
+.skin-vector .uls-lcd-region-title { color: rgb(176, 169, 159); }
+
+#uls-settings-block { background-color: rgb(27, 30, 31); border-top-color: =
+rgb(62, 67, 70); }
+
+#uls-settings-block > button { background-image: initial; background-color:=
+ transparent; color: rgb(176, 169, 159); border-color: initial; }
+
+#uls-settings-block > button:hover { color: rgb(211, 207, 202); }
+
+#uls-settings-block > button.display-settings-block { background-image: url=
+("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9=
+zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMj=
+AiIGhlaWdodD0iMjAiPjxkZWZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyI=
+j48ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4yNDkgLTAuNjE0IC0wLjY3=
+MiAwLjAwMCAxLjAzNSAtMC42NDYgMC4yODggLTAuNjY0IDAuMDAwIDEuMDIwIC0wLjYzNiAtMC4=
+2MDkgMC4yNTAgMC4wMDAgMC45OTQgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC=
+9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIGZpbHRlcj0idXJsK=
+CNkYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3ht=
+bDtiYXNlNjQsUEQ5NGJXd2dkbVZ5YzJsdmJqMGlNUzR3SWlCbGJtTnZaR2x1WnowaVZWUkdMVGd=
+pUHo0S1BITjJaeUI0Yld4dWN6MGlhSFIwY0RvdkwzZDNkeTUzTXk1dmNtY3ZNakF3TUM5emRtY2=
+lJSGRwWkhSb1BTSXlNQ0lnYUdWcFoyaDBQU0l5TUNJZ2RtbGxkMEp2ZUQwaU1DQXdJREl3SURJd=
+0lqNEtDVHh3WVhSb0lHWnBiR3c5SWlNeU1ESXhNaklpSUdROUlrMHVNREF5SURJdU1qYzFWakUx=
+TGpJeWFEZ3VOREExWXk0MU16VWdNUzQyTWpRdExqazNOU0F4TGpjNE5pMHhMamt3TWlBeUxqVXd=
+OU0F3SURBZ01pNHlPVE10TGpBeU5DQXpMalF6T1MwdU1ESTBJREV1TVRRMElEQWdNeTQwTXpJdU=
+1ESTBJRE11TkRNeUxqQXlOQzB1T1RBMUxTNDJPRGd0TWk0ek5UVXRMamcyT0MweExqa3dNaTB5T=
+GpVd05XZzRMalV5TjFZeUxqSTNOV2d0TWpCNmJUWXVPREVnTVM0NE5HZ3VOemszYkRNdU16RXpJ=
+RGd1TkRZMlNEa3VPRGM1VERndU9ETTJJRGt1T1RRelNEVXVORFl5YkMweExqQTBNeUF5TGpZek9=
+HZ3RMams0TW5wdExqTTJPQ0F4TGpFd05HTXRMakE0TkM0ek5qa3RMakl4TVM0M09EVXRMak0yT0=
+NBeExqSXlOMHcxTGpneklEa3VNREl6YURJdU5qazViQzB1T1RneUxUSXVOVGMzWXkwdU1USTRMU=
+zR6TXkwdU1qTTBMUzQzTkRjdExqTTJPQzB4TGpJeU4zcHROeTR4TVRjdU9UZ3lZeTQzTlRNZ01D=
+QXhMakk1TlM0eE5UY2dNUzQyTlRZdU5Ea3hMak0yTlM0ek16UXVOVFV5TGpnMU9DNDFOVElnTVM=
+0MU9UVjJOQzR5T1RSb0xTNDJOelZzTFM0eE9EUXRMamcxT1dndExqQTJNbU10TGpNeE5TNHpPVF=
+l0TGpZd05TNDJOVFV0TGpreUxqYzVPQzB1TXpFeExqRXpPQzB1TnpVNExqRTROQzB4TGpJeU55N=
+HhPRFF0TGpZeU5pQXdMVEV1TVRFMUxTNHhOamd0TVM0ME56SXRMalE1TVMwdU16VXpMUzR6TWpN=
+dExqUTVNUzB1TnpVMExTNDBPVEV0TVM0ek5TQXdMVEV1TWpjMUlERXVNREk0TFRFdU9UWXpJRE1=
+1TURZNExUSXVNREkxYURFdU1EUXpkaTB1TkRJNVl6QXRMalE1TlMwdU1Ea3hMUzQ0TnkwdU16QT=
+NMVEV1TVRBMExTNHlNVEV0TGpJek9DMHVOVGMwTFM0ek1EY3RNUzR3TkRNdExqTXdOeTB1TlRJM=
+klEQXRNUzR4TVRVdU1UQTNMVEV1TnpjNUxqUXlPV3d0TGpNd055MHVOamMxWVRRdU56UTRJRFF1=
+TnpRNElEQWdNQ0F4SURFdU1EUXpMUzQwTWprZ05DNHpNelFnTkM0ek16UWdNQ0F3SURFZ01TNHh=
+NRFF0TGpFeU0zcHRMak13TnlBekxqTXhNMk10TGpjMk1TNHdNamN0TVM0ek1UZ3VNVFUzTFRFdU=
+5qVTJMak0yT0MwdU16TTBMakl3TnkwdU5Ea3hMalUwTFM0ME9URXVPVGd5SURBZ0xqTTBOaTR4T=
+GpZeE55NHpNRGN1TnprNExqSXhNUzR4T0RFdU5UUTBMakkwTlM0NU1pNHlORFV1TlRrMUlEQWdN=
+UzR3TVRJdExqRTJOQ0F4TGpNMUxTNDBPVEV1TXpReUxTNHpNall1TlRVeUxTNDNOakl1TlRVeUx=
+URXVNelYyTFM0MU5USjZJaTgrQ2p3dmMzWm5QZ289IiAvPjwvc3ZnPg=3D=3D"); }
+
+#uls-settings-block > button.input-settings-block { background-image: url("=
+data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd=
+mciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAi=
+IGhlaWdodD0iMjAiPjxkZWZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyIj4=
+8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4yNDkgLTAuNjE0IC0wLjY3Mi=
+AwLjAwMCAxLjAzNSAtMC42NDYgMC4yODggLTAuNjY0IDAuMDAwIDEuMDIwIC0wLjYzNiAtMC42M=
+DkgMC4yNTAgMC4wMDAgMC45OTQgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC9m=
+aWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIGZpbHRlcj0idXJsKCN=
+kYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbD=
+tiYXNlNjQsUEQ5NGJXd2dkbVZ5YzJsdmJqMGlNUzR3SWlCbGJtTnZaR2x1WnowaVZWUkdMVGdpU=
+Ho0S1BITjJaeUI0Yld4dWN6MGlhSFIwY0RvdkwzZDNkeTUzTXk1dmNtY3ZNakF3TUM5emRtY2lJ=
+SGRwWkhSb1BTSXlNQ0lnYUdWcFoyaDBQU0l5TUNJZ2RtbGxkMEp2ZUQwaU1DQXdJREl3SURJd0l=
+qNEtDVHh3WVhSb0lHWnBiR3c5SWlNeU1ESXhNaklpSUdROUlrMDVJREV1TWpneFl5MHVNVEkwTG=
+pJMU9TMHVNVGcxTGpVNU9TMHVOUzQyT0RndExqVTFMakE0TVMweExqRXpNeTR3TVRndE1TNDJPR=
+GdnTUMwdU9EWTJMUzR3TXpJdE1TNDNNek10TGpFME9DMHlMalU1TkNBd0xTNDFPRGd1TVRVM0xT=
+NDVOVE11TnpJM0xURXVNVGc0SURFdU1qVXRMakUzT0M0ME1UWXRMakkzTVM0NE16WXRMak0wTkN=
+BeExqSTRNVWd0TGpBd01sWXhObWd5TUZZMExqVklNeTQyTlRSakxqRXdPUzB1TlRJdU1qQXpMVE=
+V1TURVM0xqVTJNeTB4TGpRMk9TNHlNakl0TGpJek1TNDFPRGN0TGpFM0xqZzNOUzB1TVRnNElER=
+XVNakV5TGpBd015QXlMalF4TlM0eE56a2dNeTQyTWpVdU1EWXpMalEyTXkwdU1EVTRMamd4TWkw=
+dU5EVTFMamsyT1MwdU9EYzFiQzR4T0RndExqUXpPQzB1T0RjMUxTNHpNVE42VFRFdU9EYzFJRGN=
+1TVRJMWFERXVOVFl6WXk0d09UUWdNQ0F1TVRnNExqQTVNeTR4T0RndU1UZzRkakV1TlRNeFlTNH=
+lNREV1TWpBeElEQWdNQ0F4TFM0eE9EZ3VNVGc0U0RFdU9EYzFZeTB1TURrMElEQXRMakUxTmkwd=
+U1Ea3pMUzR4TlRZdExqRTRPRlkzTGpNeE0yTXdMUzR3T1RRdU1EWXlMUzR4T0RndU1UVTJMUzR4=
+T0RoNmJUSXVPRFEwSURCb01TNDFOak5qTGpBNU5DQXdJQzR4TlRZdU1Ea3pMakUxTmk0eE9EaDJ=
+NUzQxTXpGak1DQXVNRGswTFM0d05qSXVNVGc0TFM0eE5UWXVNVGc0U0RRdU56RTVZeTB1TURrME=
+lEQXRMakUxTmkwdU1Ea3pMUzR4TlRZdExqRTRPRlkzTGpNeE0yTXdMUzR3T1RRdU1EWXlMUzR4T=
+0RndU1UVTJMUzR4T0RoNmJUSXVPRFEwSURCb01TNDFOak5qTGpBNU5DQXdJQzR4TlRZdU1Ea3pM=
+akUxTmk0eE9EaDJNUzQxTXpGak1DQXVNRGswTFM0d05qSXVNVGc0TFM0eE5UWXVNVGc0U0RjdU5=
+UWXpZUzR5TURFdU1qQXhJREFnTUNBeExTNHhPRGd0TGpFNE9GWTNMak14TTJNd0xTNHdPVFF1TU=
+RrekxTNHhPRGd1TVRnNExTNHhPRGg2YlRJdU9ERXpJREJvTVM0MU5qTmpMakE1TkNBd0lDNHhPR=
+Gd1TURrekxqRTRPQzR4T0RoMk1TNDFNekZoTGpJd01TNHlNREVnTUNBd0lERXRMakU0T0M0eE9E=
+aG9MVEV1TlRZell5MHVNRGswSURBdExqRTFOaTB1TURrekxTNHhOVFl0TGpFNE9GWTNMak14TTJ=
+Nd0xTNHdPVFF1TURZeUxTNHhPRGd1TVRVMkxTNHhPRGg2YlRJdU9EUTBJREJvTVM0MU5qTmpMak=
+E1TkNBd0lDNHhOVFl1TURrekxqRTFOaTR4T0RoMk1TNDFNekZqTUNBdU1EazBMUzR3TmpJdU1UZ=
+zRMUzR4TlRZdU1UZzRTREV6TGpJeVl5MHVNRGswSURBdExqRTFOaTB1TURrekxTNHhOVFl0TGpF=
+NE9GWTNMak14TTJNd0xTNHdPVFF1TURZeUxTNHhPRGd1TVRVMkxTNHhPRGg2YlRJdU9EUTBJREJ=
+vTVM0MU16RmpMakE1TkNBd0lDNHhPRGd1TURrekxqRTRPQzR4T0RoMk1TNDFNekZoTGpJd01TNH=
+lNREVnTUNBd0lERXRMakU0T0M0eE9EaG9MVEV1TlRNeFlTNHlNREV1TWpBeElEQWdNQ0F4TFM0e=
+E9EZ3RMakU0T0ZZM0xqTXhNMk13TFM0d09UUXVNRGt6TFM0eE9EZ3VNVGc0TFM0eE9EaDZiUzB4=
+TWk0NE5EUWdNMmd4TGpVMk0yTXVNRGswSURBZ0xqRTFOaTR3T1RNdU1UVTJMakU0T0hZeExqVTJ=
+NMk13SUM0d09UUXRMakEyTWk0eE5UWXRMakUxTmk0eE5UWklNeTR5TW1NdExqQTVOQ0F3TFM0eE=
+5UWXRMakEyTWkwdU1UVTJMUzR4TlRaMkxURXVOVFl6WXpBdExqQTVOQzR3TmpJdExqRTRPQzR4T=
+lRZdExqRTRPSHB0TWk0NU1EWWdNR2d4TGpVMk0yTXVNRGswSURBZ0xqRTRPQzR3T1RNdU1UZzRM=
+akU0T0hZeExqVTJNMk13SUM0d09UUXRMakE1TXk0eE5UWXRMakU0T0M0eE5UWklOaTR4TWpaakx=
+TNHdPVFFnTUMwdU1UVTJMUzR3TmpJdExqRTFOaTB1TVRVMmRpMHhMalUyTTJNd0xTNHdPVFF1TU=
+RZeUxTNHhPRGd1TVRVMkxTNHhPRGg2YlRJdU9UTTRJREJvTVM0MU16RmpMakE1TkNBd0lDNHhPR=
+Gd1TURrekxqRTRPQzR4T0RoMk1TNDFOak5qTUNBdU1EazBMUzR3T1RNdU1UVTJMUzR4T0RndU1U=
+VTJTRGt1TURZMFl5MHVNRGswSURBdExqRTRPQzB1TURZeUxTNHhPRGd0TGpFMU5uWXRNUzQxTmp=
+Oak1DMHVNRGswTGpBNU15MHVNVGc0TGpFNE9DMHVNVGc0ZW0weUxqa3dOaUF3YURFdU5UWXpZeT=
+R3T1RRZ01DQXVNVFUyTGpBNU15NHhOVFl1TVRnNGRqRXVOVFl6WXpBZ0xqQTVOQzB1TURZeUxqR=
+TFOaTB1TVRVMkxqRTFOa2d4TVM0NU4yTXRMakE1TkNBd0xTNHhPRGd0TGpBMk1pMHVNVGc0TFM0=
+eE5UWjJMVEV1TlRZell6QXRMakE1TkM0d09UTXRMakU0T0M0eE9EZ3RMakU0T0hwdE1pNDVNRFl=
+nTUdneExqVTJNMk11TURrMElEQWdMakUxTmk0d09UTXVNVFUyTGpFNE9IWXhMalUyTTJNd0lDNH=
+dPVFF0TGpBMk1pNHhOVFl0TGpFMU5pNHhOVFpvTFRFdU5UWXpZeTB1TURrMElEQXRMakUxTmkwd=
+U1EWXlMUzR4TlRZdExqRTFObll0TVM0MU5qTmpNQzB1TURrMExqQTJNaTB1TVRnNExqRTFOaTB1=
+TVRnNGVrMDBMakF3TVNBeE15NDJPRGhvTVRKakxqQTRPQ0F3SUM0eE5UWXVNRFk0TGpFMU5pNHh=
+OVFoyTGpnME5HRXVNVFUwTGpFMU5DQXdJREFnTVMwdU1UVTJMakUxTm1ndE1USmhMakUxTkM0eE=
+5UUWdNQ0F3SURFdExqRTFOaTB1TVRVMmRpMHVPRFEwWXpBdExqQTRPQzR3TmpndExqRTFOaTR4T=
+lRZdExqRTFObm9pTHo0S1BDOXpkbWMrQ2c9PSIgLz48L3N2Zz4=3D"); }
+
+.mw-ui-button.uls-language-actions-button { background-image: initial; back=
+ground-color: transparent; }
+
+.mw-ui-button.uls-language-actions-button--single { background-image: url("=
+data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd=
+mciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAi=
+IGhlaWdodD0iMTQiPjxkZWZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyIj4=
+8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4yNDkgLTAuNjE0IC0wLjY3Mi=
+AwLjAwMCAxLjAzNSAtMC42NDYgMC4yODggLTAuNjY0IDAuMDAwIDEuMDIwIC0wLjYzNiAtMC42M=
+DkgMC4yNTAgMC4wMDAgMC45OTQgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC9m=
+aWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIGZpbHRlcj0idXJsKCN=
+kYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbD=
+tiYXNlNjQsUEQ5NGJXd2dkbVZ5YzJsdmJqMGlNUzR3SWlCbGJtTnZaR2x1WnowaVZWUkdMVGdpU=
+Ho0S1BITjJaeUI0Yld4dWN6MGlhSFIwY0RvdkwzZDNkeTUzTXk1dmNtY3ZNakF3TUM5emRtY2lJ=
+SGRwWkhSb1BTSXlNQ0lnYUdWcFoyaDBQU0l4TkNJZ2RtbGxkMEp2ZUQwaU1DQXdJREl3SURFMEl=
+qNEtDVHh3WVhSb0lHWnBiR3c5SWlNMU5EVTVOV1FpSUdROUlrMHhOeUE0TGpOV05TNDNNMnd0TV=
+M0MU56VXRMakkyTkdFMExqazBOeUEwTGprME55QXdJREFnTUMwdU5EazJMVEV1TW13dU9UTXpMV=
+EV1TWpnMUxURXVPREV0TVM0NE5DMHhMak14TGprd05tTXRMak00TFM0eU1EVXRMamM1TFM0ek9D=
+MHhMakU1TnkwdU5EazNUREV4TGpJNE15QXdTRGd1TnpFM2JDMHVNall6SURFdU5UYzRZVFV1TkR=
+ZNElEVXVORFk0SURBZ01DQXdMVEV1TVRrMkxqUTVOMHcxTGprM05TQXhMakUzSURRdU1UTTRJRE=
+l1T1Roc0xqa3pNeUF4TGpJNE4yTXRMakl3TXk0ek9DMHVNemM0TGpjNUxTNDBPVFVnTVM0eU1qa=
+E1NeUExTGpjelZqZ3VNMnd4TGpVM05TNHlOalJqTGpFeE55NDBNemd1TWpreUxqZ3hPQzQwT1RZ=
+Z01TNHhPVGhzTFM0NU16TWdNUzR6TVRVZ01TNDRNU0F4TGpneE1pQXhMak14TFM0NU16WmpMak0=
+0TGpJd05TNDNPUzR6T0NBeExqSXlOaTQwT1RkTU9DNDNORFlnTVRSb01pNDFOalpzTGpJMk15MH=
+hMalUzT0dFMkxqRXpJRFl1TVRNZ01DQXdJREFnTVM0eE9UWXRMalE1TjJ3eExqTXhNeTQ1TXpVZ=
+01TNDRNUzB4TGpneE1pMHVPVE0xTFRFdU16RTFZeTR5TURRdExqTTRMak00TFM0M05pNDBPVFl0=
+TVM0eVRERTNJRGd1TXpBeWVtMHROeUF4TGpRd05HTXRNUzQwT0RjZ01DMHlMalk0TXkweExqSXR=
+NaTQyT0RNdE1pNDJPVk00TGpVME1pQTBMak15TnlBeE1DQTBMak15TjJFeUxqWTVPQ0F5TGpZNU=
+9DQXdJREFnTVNBeUxqWTRNeUF5TGpZNVFUSXVOamM0SURJdU5qYzRJREFnTUNBeElERXdJRGt1T=
+npBMWVpSXZQZ284TDNOMlp6NEsiIC8+PC9zdmc+"); }
+
+.mw-ui-button.uls-language-actions-button--multiple { background-image: url=
+("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9=
+zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMj=
+AiIGhlaWdodD0iMjAiPjxkZWZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyI=
+j48ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4yNDkgLTAuNjE0IC0wLjY3=
+MiAwLjAwMCAxLjAzNSAtMC42NDYgMC4yODggLTAuNjY0IDAuMDAwIDEuMDIwIC0wLjYzNiAtMC4=
+2MDkgMC4yNTAgMC4wMDAgMC45OTQgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC=
+9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIGZpbHRlcj0idXJsK=
+CNkYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3ht=
+bDtiYXNlNjQsUEQ5NGJXd2dkbVZ5YzJsdmJqMGlNUzR3SWlCbGJtTnZaR2x1WnowaVZWUkdMVGd=
+pUHo0OGMzWm5JSGh0Ykc1elBTSm9kSFJ3T2k4dmQzZDNMbmN6TG05eVp5OHlNREF3TDNOMlp5SW=
+dkMmxrZEdnOUlqSXdJaUJvWldsbmFIUTlJakl3SWlCMmFXVjNRbTk0UFNJd0lEQWdNakFnTWpBa=
+VBqeDBhWFJzWlQ1bGJHeHBjSE5wY3p3dmRHbDBiR1UrUEdOcGNtTnNaU0JqZUQwaU1UQWlJR041=
+UFNJeE1DSWdjajBpTWlJdlBqeGphWEpqYkdVZ1kzZzlJak1pSUdONVBTSXhNQ0lnY2owaU1pSXZ=
+QanhqYVhKamJHVWdZM2c5SWpFM0lpQmplVDBpTVRBaUlISTlJaklpTHo0OEwzTjJaejQ9IiAvPj=
+wvc3ZnPg=3D=3D"); }
+
+.uls-menu.uls-language-actions-dialog .uls-language-actions-title { border-=
+bottom-color: rgb(62, 67, 70); }
+
+.uls-menu.uls-language-actions-dialog .uls-language-actions-title .uls-lang=
+uage-actions-close { background-image: url("data:image/svg+xml;base64,PHN2Z=
+yB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v=
+d3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxkZWZzPjxmaWx=
+0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyIj48ZmVDb2xvck1hdHJpeCB0eXBlPSJtYX=
+RyaXgiIHZhbHVlcz0iMC4yNDkgLTAuNjE0IC0wLjY3MiAwLjAwMCAxLjAzNSAtMC42NDYgMC4yO=
+DggLTAuNjY0IDAuMDAwIDEuMDIwIC0wLjYzNiAtMC42MDkgMC4yNTAgMC4wMDAgMC45OTQgMC4w=
+MDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR=
+0aD0iMjAiIGhlaWdodD0iMjAiIGZpbHRlcj0idXJsKCNkYXJrcmVhZGVyLWltYWdlLWZpbHRlci=
+kiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEQ5NGJXd2dkbVZ5YzJsd=
+mJqMGlNUzR3SWlCbGJtTnZaR2x1WnowaVZWUkdMVGdpUHo0S1BITjJaeUI0Yld4dWN6MGlhSFIw=
+Y0RvdkwzZDNkeTUzTXk1dmNtY3ZNakF3TUM5emRtY2lJSGRwWkhSb1BTSXlNQ0lnYUdWcFoyaDB=
+QU0l5TUNJZ2RtbGxkMEp2ZUQwaU1DQXdJREl3SURJd0lqNEtDVHh3WVhSb0lHUTlJbTAxTGpnek=
+lEa2dOUzQxT0MwMUxqVTRUREV3SURKc0xUZ2dPQ0E0SURnZ01TNDBNUzB4TGpReFREVXVPRE1nT=
+VRGSU1UaFdPWG9pTHo0S1BDOXpkbWMrQ2c9PSIgLz48L3N2Zz4=3D"); background-color: =
+transparent; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-23e682ff-4b4a-4233-b913-83000f9fd302@mhtml.blink
+
+@charset "utf-8";
+
+.ve-init-mw-tempWikitextEditorWidget { border: 0px; padding: 0px; color: in=
+herit; line-height: 1.5em; width: 100%; tab-size: 4; }
+
+.ve-init-mw-tempWikitextEditorWidget:focus { outline: 0px; padding: 0px; }
+
+.ve-init-mw-tempWikitextEditorWidget::selection { background: rgba(109, 169=
+, 247, 0.5); }
+
+#p-lang .body ul .uls-trigger, #p-lang .pBody ul .uls-trigger { background-=
+image: none; padding: 0px; }
+
+#p-lang .mw-interlanguage-selector, #p-lang .mw-interlanguage-selector:acti=
+ve { background-image: url("/w/extensions/UniversalLanguageSelector/resourc=
+es/images/language-base20.svg?b7954"); background-position: left 4px center=
+; background-repeat: no-repeat; background-size: 16px; margin: 4px 0px 8px;=
+ padding: 4px 8px 4px 26px; font-size: 13px; font-weight: normal; text-alig=
+n: left; cursor: pointer; }
+
+#p-lang .mw-interlanguage-selector.selector-open { background-color: rgb(20=
+0, 204, 209); }
+
+.interlanguage-uls-menu::before, .interlanguage-uls-menu::after { border-to=
+p: 10px solid transparent; border-bottom: 10px solid transparent; display: =
+inline-block; top: 17px; position: absolute; content: ""; }
+
+.interlanguage-uls-menu.selector-right::before { border-left: 10px solid rg=
+b(200, 204, 209); right: -11px; }
+
+.interlanguage-uls-menu.selector-right::after { border-left: 10px solid rgb=
+(255, 255, 255); right: -10px; }
+
+.interlanguage-uls-menu.selector-left::before { border-right: 10px solid rg=
+b(200, 204, 209); left: -11px; }
+
+.interlanguage-uls-menu.selector-left::after { border-right: 10px solid rgb=
+(255, 255, 255); left: -10px; }
+
+.uls-dialog-sticky .uls-menu { position: fixed; }
+
+.uls-dialog-sticky.uls-dialog-sticky-hide .uls-menu { display: none !import=
+ant; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ad11424e-959f-4f67-b2bb-aee7d37f7217@mhtml.blink
+
+@charset "utf-8";
+
+.ve-init-mw-tempWikitextEditorWidget { border-color: initial; color: inheri=
+t; }
+
+.ve-init-mw-tempWikitextEditorWidget:focus { outline-color: initial; }
+
+.ve-init-mw-tempWikitextEditorWidget::selection { background-image: initial=
+; background-color: rgba(7, 63, 136, 0.5); }
+
+#p-lang .body ul .uls-trigger, #p-lang .pBody ul .uls-trigger { background-=
+image: none; }
+
+#p-lang .mw-interlanguage-selector, #p-lang .mw-interlanguage-selector:acti=
+ve { background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0c=
+DovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8x=
+OTk5L3hsaW5rIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxkZWZzPjxmaWx0ZXIgaWQ9ImRhcmt=
+yZWFkZXItaW1hZ2UtZmlsdGVyIj48ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz=
+0iMC4yNDkgLTAuNjE0IC0wLjY3MiAwLjAwMCAxLjAzNSAtMC42NDYgMC4yODggLTAuNjY0IDAuM=
+DAwIDEuMDIwIC0wLjYzNiAtMC42MDkgMC4yNTAgMC4wMDAgMC45OTQgMC4wMDAgMC4wMDAgMC4w=
+MDAgMS4wMDAgMC4wMDAiIC8+PC9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0iMjAiIGhlaWd=
+odD0iMjAiIGZpbHRlcj0idXJsKCNkYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIHhsaW5rOmhyZW=
+Y9ImRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEQ5NGJXd2dkbVZ5YzJsdmJqMGlNUzR3SWlCb=
+GJtTnZaR2x1WnowaVZWUkdMVGdpUHo0S1BITjJaeUI0Yld4dWN6MGlhSFIwY0RvdkwzZDNkeTUz=
+TXk1dmNtY3ZNakF3TUM5emRtY2lJSGRwWkhSb1BTSXlNQ0lnYUdWcFoyaDBQU0l5TUNJZ2RtbGx=
+kMEp2ZUQwaU1DQXdJREl3SURJd0lqNEtDVHgwYVhSc1pUNEtDUWxzWVc1bmRXRm5aUW9KUEM5MG=
+FYUnNaVDRLQ1R4d1lYUm9JR1pwYkd3OUlpTTFORFU1TldRaUlHUTlJazB5TUNBeE9HZ3RNUzQwT=
+kdFdU5qRXVOakVnTUNBd0lERXRMalF0TGpFeUxqZ3hMamd4SURBZ01DQXhMUzR5TXkwdU16Rk1N=
+VGNnTVRWb0xUVnNMVEVnTWk0MU5HRXVOemN1TnpjZ01DQXdJREV0TGpJeUxqTXVOVGt1TlRrZ01=
+DQXdJREV0TGpRdU1UUklPV3cwTGpVMUxURXhMalEzYURFdU9EbDZiUzB6TGpVekxUUXVNekZNTV=
+RRdU9Ea2dPUzQxWVRFeExqWXlJREV4TGpZeUlEQWdNQ0F4TFM0ek9TMHhMakkwY1MwdU1Ea3VNe=
+mN0TGpFNUxqWTViQzB1TVRrdU5UWXRNUzQxT0NBMExqRTVlbTB0Tmk0ekxURXVOVGhoTVRNdU5E=
+TWdNVE11TkRNZ01DQXdJREV0TWk0NU1TMHhMalF4SURFeExqUTJJREV4TGpRMklEQWdNQ0F3SUR=
+JdU9ERXROUzR6TjBneE1sWTBTRGN1TXpGaE5DQTBJREFnTUNBd0xTNHlMUzQxTmtNMkxqZzNJRE=
+l1TnprZ05pNDJJRElnTmk0MklESnNMVEV1TkRjdU5YTXVOQzQ0T1M0MklERXVOVWd3ZGpFdU16T=
+m9NaTR4TlVFeE1TNHlNeUF4TVM0eU15QXdJREFnTUNBMUlERXdMamRoTVRjdU1Ua2dNVGN1TVRr=
+Z01DQXdJREV0TlNBeUxqRnhMalUyTGpneUxqZzNJREV1TXpoaE1qTXVNamdnTWpNdU1qZ2dNQ0F=
+3SURBZ05TNHlNaTB5TGpVeElERTFMalkwSURFMUxqWTBJREFnTUNBd0lETXVOVFlnTVM0M04zcE=
+5NeTQyTXlBMUxqTXphRFF1T1RGaE9DNHhNU0E0TGpFeElEQWdNQ0F4TFRJdU5EVWdOQzQwTlNBN=
+UxqRXhJRGt1TVRFZ01DQXdJREV0TWk0ME5pMDBMalExZWlJdlBnbzhMM04yWno0SyIgLz48L3N2=
+Zz4=3D"); }
+
+#p-lang .mw-interlanguage-selector.selector-open { background-color: rgb(53=
+, 57, 59); }
+
+.interlanguage-uls-menu::before, .interlanguage-uls-menu::after { border-to=
+p-color: transparent; border-bottom-color: transparent; }
+
+.interlanguage-uls-menu.selector-right::before { border-left-color: rgb(62,=
+ 67, 70); }
+
+.interlanguage-uls-menu.selector-right::after { border-left-color: rgb(48, =
+52, 54); }
+
+.interlanguage-uls-menu.selector-left::before { border-right-color: rgb(62,=
+ 67, 70); }
+
+.interlanguage-uls-menu.selector-left::after { border-right-color: rgb(48, =
+52, 54); }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-6619c228-8e61-420f-a054-4503df1da4df@mhtml.blink
+
+@charset "utf-8";
+
+.ve-active .ve-init-mw-desktopArticleTarget-editableContent #toc, .ve-activ=
+e #siteNotice, .ve-active .mw-indicators, .ve-active #t-print, .ve-active #=
+t-permalink, .ve-active #p-coll-print_export, .ve-active #t-cite, .ve-activ=
+e .ve-init-mw-desktopArticleTarget-editableContent, .ve-active .ve-init-mw-=
+tempWikitextEditorWidget { display: none; }
+
+.ve-deactivating .ve-ui-surface { display: none; }
+
+.ve-activating { }
+
+.ve-activating .ve-ui-surface { height: 0px; overflow: hidden; padding: 0px=
+ !important; }
+
+.ve-loading #content > :not(.ve-init-mw-desktopArticleTarget-toolbarPlaceho=
+lder):not(.ve-init-mw-desktopArticleTarget), .ve-loading .ve-init-mw-deskto=
+pArticleTarget-originalContent, .ve-activated:not(.ve-loading) .ve-init-mw-=
+desktopArticleTarget-uneditableContent { pointer-events: none; user-select:=
+ none; opacity: 0.5; }
+
+.ve-activated #firstHeading { user-select: text; pointer-events: auto; curs=
+or: text; }
+
+.ve-activated #firstHeading a { pointer-events: none; }
+
+.ve-activated #catlinks { cursor: pointer; }
+
+.ve-activated #catlinks:hover { background: rgb(233, 242, 253); }
+
+.ve-activated #catlinks a { opacity: 1; }
+
+.ve-activated #content { position: relative; }
+
+.ve-init-mw-desktopArticleTarget-loading-overlay { z-index: 2; position: ab=
+solute; width: 100%; top: 1em; }
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder { overflow: hidden; tra=
+nsition: height 250ms ease 0s; height: 0px; padding-bottom: 2px; }
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-bar { transform: transl=
+ateY(-100%); transition: transform 250ms ease 0s; }
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-open .ve-init-mw-deskto=
+pArticleTarget-toolbarPlaceholder-bar { transform: translateY(0px); }
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-floating { transition: =
+none 0s ease 0s; }
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-floating .ve-init-mw-de=
+sktopArticleTarget-toolbarPlaceholder-bar { position: fixed; top: 0px; z-in=
+dex: 1; background: rgb(255, 255, 255); }
+
+.oo-ui-element-hidden { display: none !important; }
+
+.mw-editsection { unicode-bidi: isolate; }
+
+.mw-editsection::before { content: "=E2=80=8B"; }
+
+.mw-editsection a { white-space: nowrap; }
+
+.mw-editsection-divider { color: rgb(84, 89, 93); }
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-bar { height: 42px; bor=
+der-bottom: 1px solid rgb(200, 204, 209); box-shadow: rgba(0, 0, 0, 0.1) 0p=
+x 1px 1px 0px; }
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-floating, .ve-init-mw-d=
+esktopArticleTarget-toolbarPlaceholder-open { height: 42px; }
+
+.ve-init-mw-desktopArticleTarget-toolbar, .ve-init-mw-desktopArticleTarget-=
+toolbarPlaceholder { font-size: 0.875em; margin: -0.571429em -0.571429em 0.=
+571429em; }
+
+.skin-vector-legacy .ve-init-mw-desktopArticleTarget-toolbar, .skin-vector-=
+legacy .ve-init-mw-desktopArticleTarget-toolbarPlaceholder { margin: -1.14e=
+m -1.14em 1.14em; }
+
+@media screen and (min-width: 982px) {
+  .skin-vector-legacy .ve-init-mw-desktopArticleTarget-toolbar, .skin-vecto=
+r-legacy .ve-init-mw-desktopArticleTarget-toolbarPlaceholder { margin: -1.4=
+3em -1.71em 1.43em; }
+}
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-floating { margin-top: =
+0px; margin-bottom: 0px; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-4b3f3235-4699-49af-9b14-250c4f84449c@mhtml.blink
+
+@charset "utf-8";
+
+.ve-activated #catlinks:hover { background-image: initial; background-color=
+: rgb(31, 33, 35); }
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-floating .ve-init-mw-de=
+sktopArticleTarget-toolbarPlaceholder-bar { background-image: initial; back=
+ground-color: rgb(24, 26, 27); }
+
+.mw-editsection-divider { color: rgb(176, 169, 159); }
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-bar { border-bottom-col=
+or: rgb(62, 67, 70); box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-aff54c69-7700-4671-a362-7c742f40e643@mhtml.blink
+
+@charset "utf-8";
+
+table.ambox { background-color: rgb(26, 28, 30); border-bottom-color: rgb(7=
+2, 78, 81); border-left-color: rgb(62, 68, 70); border-right-color: rgb(62,=
+ 68, 70); }
+
+.ambox-notice { border-top-color: rgb(47, 82, 121); }
+
+.ambox-protection { border-top-color: rgb(70, 75, 78); }
+
+.ambox-delete, .ambox-serious { border-top-color: rgb(161, 31, 31); }
+
+.ambox-content { border-top-color: rgb(182, 100, 0); }
+
+.ambox-style { border-top-color: rgb(159, 122, 8); }
+
+.ambox-merge { border-top-color: rgb(166, 9, 194); }
+
+.ambox-growth { border-top-color: rgb(82, 187, 15); }
+
+.messagebox { border-color: rgb(72, 78, 81); background-color: rgb(27, 30, =
+31); }
+
+.messagebox.merge { border-color: rgb(65, 0, 131); background-color: rgb(44=
+, 24, 44); }
+
+.messagebox.cleanup { border-color: rgb(0, 0, 131); background-color: rgb(2=
+9, 31, 32); }
+
+.messagebox.standard-talk { border-color: rgb(98, 98, 56); background-color=
+: rgb(66, 52, 7); }
+
+.messagebox.warning { border-color: rgb(117, 0, 0); background-color: rgb(6=
+1, 0, 0); }
+
+table.fmbox { border-color: rgb(72, 78, 81); background-image: initial; bac=
+kground-color: rgb(27, 30, 31); }
+
+table.fmbox-system { background-image: initial; background-color: rgb(27, 3=
+0, 31); }
+
+table.fmbox-warning { border-color: rgb(112, 53, 53); background-image: ini=
+tial; background-color: rgb(73, 0, 0); }
+
+table.fmbox-editnotice { background-image: initial; background-color: trans=
+parent; }
+
+div.fmbox-system { border-color: rgb(72, 78, 81); background-image: initial=
+; background-color: rgb(27, 30, 31); }
+
+.interProject { border-top-color: rgb(72, 78, 81); }
+
+ol.references > li:target, sup.reference:target, cite:target { background-c=
+olor: rgb(34, 36, 38); }
+
+.hiddenStructure { color: rgb(255, 26, 26); background-color: rgb(51, 204, =
+0); }
+
+.headergris { background-image: url("https://upload.wikimedia.org/wikipedia=
+/commons/d/d7/Bookbar2.png"); background-color: rgb(32, 35, 37); border-col=
+or: rgb(70, 76, 79); color: rgb(232, 230, 227); }
+
+.headerbleu { background-image: url("https://upload.wikimedia.org/wikipedia=
+/commons/a/a2/Bookbar1.png"); background-color: rgb(32, 35, 37); border-col=
+or: rgb(70, 76, 79); color: rgb(232, 230, 227); }
+
+.ombreig img { box-shadow: rgba(0, 0, 0, 0.45) 0px 3px 4px; background-imag=
+e: initial; background-color: rgba(0, 0, 0, 0.02); }
+
+table.prettytable, table.bellataula { background-image: initial; background=
+-color: rgb(27, 30, 31); border-color: rgb(72, 78, 81); }
+
+table.prettytable th, table.prettytable td, table.bellataula th, table.bell=
+ataula td { border-color: rgb(72, 78, 81); }
+
+table.bellataula th, table.prettytable th { background-image: initial; back=
+ground-color: rgb(31, 34, 35); }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-34801e19-489c-4d2d-8e97-c9d0c1ef45fb@mhtml.blink
+
+@charset "utf-8";
+
+.vimvixen-hint { background-color: rgb(123, 83, 0) !important; border-color=
+: rgb(216, 176, 19) !important; color: rgb(243, 232, 200) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+
+#edge-translate-panel-body, .MuiTypography-body1 { color: var(--darkreader-=
+neutral-text)  !important; }
+
+gr-main-header { background-color: rgb(15, 58, 72) !important; }
+
+.tou-z65h9k, .tou-mignzq, .tou-1b6i2ox, .tou-lnqlqk { background-color: var=
+(--darkreader-neutral-background)  !important; }
+
+.tou-75mvi { background-color: rgb(3, 32, 41) !important; }
+
+.tou-ta9e87, .tou-1w3fhi0, .tou-1b8t2us, .tou-py7lfi, .tou-1lpmd9d, .tou-1f=
+rrtv8, .tou-17ezmgn { background-color: rgb(10, 10, 10) !important; }
+
+.tou-uknfeu { background-color: rgb(35, 22, 3) !important; }
+
+.tou-6i3zyv { background-color: rgb(25, 87, 108) !important; }
+
+embed[type=3D"application/pdf"][src=3D"about:blank"] { filter: invert(100%)=
+ contrast(90%); }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://es.wikibooks.org/w/load.php?lang=es&modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&only=styles&skin=vector
+
+@charset "utf-8";
+
+#p-lang .uls-settings-trigger { background: url("/w/extensions/UniversalLan=
+guageSelector/resources/images/cog-sprite.svg?cca73") center top no-repeat =
+transparent; border: 0px; min-height: 16px; min-width: 16px; float: right; =
+cursor: pointer; }
+
+#p-lang .uls-settings-trigger:focus { outline: rgb(51, 102, 204) solid 1px;=
+ }
+
+.skin-vector #p-lang .uls-settings-trigger { margin-top: 8px; }
+
+#p-lang .uls-settings-trigger:hover { background-position: center -16px; }
+
+.client-nojs #ca-ve-edit, .ve-not-available #ca-ve-edit, .client-nojs .mw-e=
+ditsection-divider, .ve-not-available .mw-editsection-divider, .client-nojs=
+ .mw-editsection-visualeditor, .ve-not-available .mw-editsection-visualedit=
+or { display: none; }
+
+.client-js .mw-content-ltr .mw-editsection-bracket:first-of-type, .client-j=
+s .mw-content-rtl .mw-editsection-bracket:not(:first-of-type) { margin-righ=
+t: 0.25em; color: rgb(84, 89, 93); }
+
+.client-js .mw-content-rtl .mw-editsection-bracket:first-of-type, .client-j=
+s .mw-content-ltr .mw-editsection-bracket:not(:first-of-type) { margin-left=
+: 0.25em; color: rgb(84, 89, 93); }
+
+.badge-goodarticle, .badge-goodlist, .badge-recommendedarticle { list-style=
+-image: url("/w/extensions/WikimediaBadges/resources/images/badge-silver-st=
+ar.png?70a8c"); }
+
+.badge-featuredarticle, .badge-featuredportal, .badge-featuredlist { list-s=
+tyle-image: url("/w/extensions/WikimediaBadges/resources/images/badge-golde=
+n-star.png?ed948"); }
+
+.badge-problematic { list-style-image: url("/w/extensions/WikimediaBadges/r=
+esources/images/badge-problematic.png?f3177"); }
+
+.badge-proofread { list-style-image: url("/w/extensions/WikimediaBadges/res=
+ources/images/badge-proofread.png?e81f9"); }
+
+.badge-validated { list-style-image: url("/w/extensions/WikimediaBadges/res=
+ources/images/badge-validated.png?6232c"); }
+
+.badge-digitaldocument { list-style-image: url("/w/extensions/WikimediaBadg=
+es/resources/images/badge-digitaldocument.png?d1c50"); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after { animation-delay: -0.01ms !important; animation-dur=
+ation: 0.01ms !important; animation-iteration-count: 1 !important; scroll-b=
+ehavior: auto !important; transition-duration: 0ms !important; }
+}
+
+body { margin: 0px; }
+
+main { display: block; }
+
+hr { box-sizing: content-box; height: 0px; overflow: visible; }
+
+abbr[title] { border-bottom: 1px dotted; cursor: help; }
+
+@supports (text-decoration:underline dotted) {
+  abbr[title] { border-bottom: 0px; text-decoration: underline dotted; }
+}
+
+pre, code, tt, kbd, samp { font-family: monospace, monospace; }
+
+sub, sup { line-height: 1; }
+
+img { border: 0px; }
+
+button, input, optgroup, select, textarea { margin: 0px; }
+
+legend { color: inherit; padding: 0px; }
+
+div.tright, div.floatright, table.floatright { clear: right; float: right; =
+}
+
+div.tleft, div.floatleft, table.floatleft { float: left; clear: left; }
+
+div.floatright, table.floatright { margin: 0px 0px 0.5em 0.5em; }
+
+div.floatleft, table.floatleft { margin: 0px 0.5em 0.5em 0px; }
+
+div.thumb { width: auto; background-color: transparent; margin-bottom: 0.5e=
+m; }
+
+div.tleft { margin: 0.5em 1.4em 1.3em 0px; }
+
+div.tright { margin: 0.5em 0px 1.3em 1.4em; }
+
+.thumbcaption { text-align: left; line-height: 1.4em; padding: 3px; }
+
+div.thumbinner { padding: 3px; text-align: center; overflow: hidden; }
+
+.mw-message-box { color: rgb(0, 0, 0); box-sizing: border-box; margin-botto=
+m: 16px; border: 1px solid rgb(162, 169, 177); padding: 12px 24px; overflow=
+-wrap: break-word; overflow: hidden; background-color: rgb(234, 236, 240); =
+}
+
+.mw-message-box :only-child { margin: 0px; }
+
+.mw-message-box h2 { color: inherit; display: block; border: 0px; font-size=
+: 1em; font-weight: bold; }
+
+.mw-message-box .mw-logevent-loglines li { font-size: 90%; }
+
+.mw-message-box-error { background-color: rgb(254, 231, 230); border-color:=
+ rgb(221, 51, 51); }
+
+.mw-message-box-warning { background-color: rgb(254, 246, 231); border-colo=
+r: rgb(255, 204, 51); }
+
+.mw-message-box-success { background-color: rgb(213, 253, 244); border-colo=
+r: rgb(20, 134, 109); }
+
+.toctogglecheckbox:checked ~ ul { display: none; }
+
+@media screen {
+  html, body { height: 100%; }
+  :focus { outline-color: rgb(51, 102, 204); }
+  html { font-size: 100%; }
+  html, body { font-family: sans-serif; }
+  ul { list-style-image: url("/w/skins/Vector/resources/common/images/bulle=
+t-icon.svg?d4515"); }
+  pre, .mw-code { line-height: 1.3; }
+  .mw-jump-link:not(:focus) { display: block; clip: rect(1px, 1px, 1px, 1px=
+); width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overfl=
+ow: hidden; position: absolute !important; }
+  .mw-editsection, .mw-editsection-like { font-family: sans-serif; }
+  .mw-body h1, .mw-body-content h1, .mw-body-content h2 { margin-bottom: 0.=
+25em; padding: 0px; font-family: "Linux Libertine", Georgia, Times, serif; =
+line-height: 1.3; }
+  .mw-body h1:lang(ja), .mw-body-content h1:lang(ja), .mw-body-content h2:l=
+ang(ja), .mw-body h1:lang(he), .mw-body-content h1:lang(he), .mw-body-conte=
+nt h2:lang(he), .mw-body h1:lang(ko), .mw-body-content h1:lang(ko), .mw-bod=
+y-content h2:lang(ko) { font-family: sans-serif; }
+  .mw-body h1:lang(my), .mw-body-content h1:lang(my), .mw-body-content h2:l=
+ang(my) { line-height: normal; }
+  .mw-body h1, .mw-body-content h1 { font-size: 1.8em; }
+  .vector-body { font-size: calc(0.875em); line-height: 1.6; }
+  .vector-body h1 { margin-top: 1em; }
+  .vector-body h2 { margin-top: 1em; font-size: 1.5em; }
+  .vector-body h3, .vector-body h4, .vector-body h5, .vector-body h6 { marg=
+in-top: 0.3em; margin-bottom: 0px; padding-bottom: 0px; line-height: 1.6; }
+  .vector-body h3 { font-size: 1.2em; }
+  .vector-body h3, .vector-body h4 { font-weight: bold; }
+  .vector-body h4, .vector-body h5, .vector-body h6 { font-size: 100%; }
+  .vector-body .toc h2 { font-family: sans-serif; font-size: 100%; }
+  .vector-body p { margin: 0.5em 0px; }
+  .vector-body blockquote { border-left: 4px solid rgb(234, 236, 240); padd=
+ing: 8px 32px; }
+  .vector-body blockquote > :first-child { margin-top: 0px; }
+  .vector-body blockquote > :last-child { margin-bottom: 0px; }
+  .mw-parser-output a.external { background-image: url("/w/skins/Vector/res=
+ources/common/images/external-link-ltr-icon.svg?48e54"); background-positio=
+n: right center; background-repeat: no-repeat; padding-right: 13px; }
+  .mw-indicators { font-size: 0.875em; line-height: 1.6; position: relative=
+; }
+  .mw-indicator { display: inline-block; }
+  #siteNotice { font-size: 0.8em; }
+  .mw-portlet .vector-menu-heading { display: none; }
+  .mw-portlet ul { list-style: none none; margin: 0px; }
+  @keyframes rotate {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+  .vector-menu-tabs .mw-watchlink.icon a { width: 2.15385em; height: 0px; p=
+adding: 3.07692em 0px 0px; overflow: hidden; }
+  .vector-menu-tabs .mw-watchlink.icon a::before { background-repeat: no-re=
+peat; background-position: 50% 50%; content: ""; display: block; position: =
+absolute; top: 1.07692em; left: 0.384615em; width: 1.23077em; height: 1.230=
+77em; }
+  .vector-menu-tabs #ca-unwatch.icon a::before { background-image: linear-g=
+radient(transparent, transparent), url("/w/skins/Vector/resources/common/im=
+ages/unwatch-icon.svg?4152f"); }
+  .vector-menu-tabs #ca-unwatch.mw-watchlink-temp.icon a::before { backgrou=
+nd-image: linear-gradient(transparent, transparent), url("/w/skins/Vector/r=
+esources/common/images/unwatch-temp-icon.svg?195f5"); }
+  .vector-menu-tabs #ca-watch.icon a::before { background-image: linear-gra=
+dient(transparent, transparent), url("/w/skins/Vector/resources/common/imag=
+es/watch-icon.svg?6ab6f"); }
+  .vector-menu-tabs #ca-unwatch.icon a:hover::before, .vector-menu-tabs #ca=
+-unwatch.icon a:focus::before { background-image: linear-gradient(transpare=
+nt, transparent), url("/w/skins/Vector/resources/common/images/unwatch-icon=
+-hl.svg?a4731"); }
+  .vector-menu-tabs #ca-unwatch.mw-watchlink-temp.icon a:hover::before, .ve=
+ctor-menu-tabs #ca-unwatch.mw-watchlink-temp.icon a:focus::before { backgro=
+und-image: linear-gradient(transparent, transparent), url("/w/skins/Vector/=
+resources/common/images/unwatch-temp-icon-hl.svg?f3db6"); }
+  .vector-menu-tabs #ca-watch.icon a:hover::before, .vector-menu-tabs #ca-w=
+atch.icon a:focus::before { background-image: linear-gradient(transparent, =
+transparent), url("/w/skins/Vector/resources/common/images/watch-icon-hl.sv=
+g?9bf90"); }
+  .vector-menu-tabs #ca-unwatch.icon .loading::before, .vector-menu-tabs #c=
+a-watch.icon .loading::before { animation: 700ms linear 0s infinite normal =
+none running rotate; outline: 0px; cursor: default; pointer-events: none; t=
+ransform-origin: 50% 50%; }
+  .vector-menu-dropdown { direction: ltr; float: left; cursor: pointer; pos=
+ition: relative; line-height: 1.125em; }
+  .vector-menu-dropdown .vector-menu-heading { color: rgb(84, 89, 93); posi=
+tion: relative; display: block; box-sizing: border-box; height: 100%; }
+  .vector-menu-dropdown .vector-menu-heading::after { content: ""; backgrou=
+nd-image: url("/w/skins/Vector/resources/common/images/arrow-down.svg?9426f=
+"); background-position: 100% 50%; background-repeat: no-repeat; position: =
+absolute; top: 0.769231em; right: 8px; bottom: 0px; width: 1.23077em; opaci=
+ty: 0.84; }
+  .vector-menu-dropdown .vector-menu-heading:hover, .vector-menu-dropdown .=
+vector-menu-heading:focus { color: rgb(32, 33, 34); }
+  .vector-menu-dropdown .vector-menu-heading:hover::after, .vector-menu-dro=
+pdown .vector-menu-heading:focus::after { opacity: 1; }
+  .vector-menu-dropdown .vector-menu-content { background-color: rgb(255, 2=
+55, 255); list-style: none none; min-width: 100%; position: absolute; top: =
+2.5em; left: -1px; margin: 0px; border: 1px solid rgb(162, 169, 177); paddi=
+ng: 0px; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px; text-align: left; =
+opacity: 0; visibility: hidden; transition-property: opacity; transition-du=
+ration: 100ms; z-index: 3; }
+  .vector-menu-dropdown .vector-menu-checkbox:checked ~ .vector-menu-conten=
+t { opacity: 1; visibility: visible; }
+  .vector-menu-dropdown ul { list-style: none; }
+  .vector-menu-dropdown li { padding: 0px; margin: 0px; text-align: left; l=
+ine-height: 1em; }
+  .vector-menu-dropdown li a { padding: 0.625em; color: rgb(6, 69, 173); di=
+splay: block; white-space: nowrap; cursor: pointer; }
+  .vector-menu-dropdown li a span { font-size: 0.8125em; }
+  .vector-menu-dropdown .selected a, .vector-menu-dropdown .selected a:visi=
+ted { color: rgb(32, 33, 34); text-decoration: none; }
+  #mw-head .vector-menu-dropdown .vector-menu-heading { background-position=
+: right bottom; float: left; height: 3.07692em; margin: 0px -1px 0px 0px; p=
+adding-right: 1.84615em; }
+  .vector-menu-checkbox { cursor: pointer; position: absolute; top: 0px; le=
+ft: 0px; z-index: 1; opacity: 0; width: 100%; height: 100%; margin: 0px; pa=
+dding: 0px; display: none; }
+  :not(:checked) > .vector-menu-checkbox { display: block; }
+  .vector-menu-dropdown-noicon .vector-menu-heading { padding-top: 1.25em; =
+padding-left: 8px; padding-right: 1.84615em; font-size: 0.8125em; font-weig=
+ht: normal; }
+  .vector-menu-dropdown-noicon .vector-menu-checkbox:focus + .vector-menu-h=
+eading { outline: -webkit-focus-ring-color auto; }
+  .vector-menu-portal { margin: 0px 0.6em 0px 0.7em; padding: 0.25em 0px; d=
+irection: ltr; }
+  .vector-menu-portal .vector-menu-heading { display: block; background-ima=
+ge: linear-gradient(to right, rgba(200, 204, 209, 0) 0px, rgb(200, 204, 209=
+) 33%, rgb(200, 204, 209) 66%, rgba(200, 204, 209, 0) 100%); background-pos=
+ition: center bottom; background-repeat: no-repeat; background-size: 100% 1=
+px; color: rgb(84, 89, 93); margin: 0.5em 0px 0px 0.666667em; border: 0px; =
+padding: 0.25em 0px; font-size: 0.75em; font-weight: normal; cursor: defaul=
+t; }
+  .vector-menu-portal .vector-menu-content { margin-left: 0.5em; padding-to=
+p: 0px; }
+  .vector-menu-portal .vector-menu-content ul { list-style: none none; marg=
+in: 0px; padding-top: 0.3em; }
+  .vector-menu-portal .vector-menu-content li { margin: 0px; padding: 0.25e=
+m 0px; font-size: 0.75em; line-height: 1.125em; overflow-wrap: break-word; =
+}
+  .vector-menu-portal .vector-menu-content li a { color: rgb(6, 69, 173); }
+  .vector-menu-portal .vector-menu-content li a:visited { color: rgb(11, 0,=
+ 128); }
+  .vector-search-box-inner { position: relative; height: 100%; }
+  .vector-search-box-input { background-color: rgba(255, 255, 255, 0.5); co=
+lor: rgb(0, 0, 0); width: 100%; height: 2.15385em; box-sizing: border-box; =
+border: 1px solid rgb(162, 169, 177); border-radius: 2px; padding: 5px 2.15=
+385em 5px 0.4em; box-shadow: transparent 0px 0px 0px 1px inset; font-family=
+: inherit; font-size: 0.8125em; direction: ltr; transition-property: border=
+-color, box-shadow; transition-duration: 250ms; appearance: none; }
+  .vector-search-box-inner:hover .vector-search-box-input { border-color: r=
+gb(114, 119, 125); }
+  .vector-search-box-input:focus, .vector-search-box-inner:hover .vector-se=
+arch-box-input:focus { outline: 0px; border-color: rgb(51, 102, 204); box-s=
+hadow: rgb(51, 102, 204) 0px 0px 0px 1px inset; }
+  .vector-search-box-input::-webkit-input-placeholder { color: rgb(114, 119=
+, 125); opacity: 1; }
+  .vector-search-box-input::placeholder { color: rgb(114, 119, 125); opacit=
+y: 1; }
+  .vector-search-box-input::-webkit-search-decoration, .vector-search-box-i=
+nput::-webkit-search-cancel-button, .vector-search-box-input::-webkit-searc=
+h-results-button, .vector-search-box-input::-webkit-search-results-decorati=
+on { display: none; }
+  .searchButton { background-color: transparent; position: absolute; top: 1=
+px; bottom: 1px; right: 1px; min-width: 28px; width: 2.15385em; border: 0px=
+; padding: 0px; cursor: pointer; font-size: 0.8125em; direction: ltr; text-=
+indent: -99999px; white-space: nowrap; overflow: hidden; z-index: 1; }
+  .searchButton[name=3D"go"] { background: url("/w/skins/Vector/resources/c=
+ommon/images/search.svg?bbf78") center center / 1.23077em no-repeat; opacit=
+y: 0.67; }
+  .search-toggle { display: block; float: right; }
+  .vector-search-box-collapses > div { display: none; }
+  #p-logo { width: 10em; height: 160px; margin-bottom: 1em; }
+  #p-logo a { background-position: center center; background-repeat: no-rep=
+eat; display: block; width: 10em; height: 160px; text-decoration: none; }
+  .mw-footer { direction: ltr; }
+  .mw-footer ul { list-style: none none; margin: 0px; padding: 0px; }
+  .mw-footer li { color: rgb(32, 33, 34); margin: 0px; padding: 0.5em 0px; =
+font-size: 0.75em; }
+  #footer-icons { float: right; }
+  #footer-icons li { float: left; margin-left: 0.5em; line-height: 2; text-=
+align: right; }
+  #footer-info li { line-height: 1.4; }
+  #footer-places li { float: left; margin-right: 1em; line-height: 2; }
+}
+
+@media screen and (min-width: 1000px) {
+  .search-toggle { display: none; }
+}
+
+@media screen and (min-width: 1000px) {
+  .vector-search-box-collapses > div { display: block; }
+}
+
+@media print {
+  .toc, body { padding: 10px; font-family: "Linux Libertine", Georgia, Time=
+s, serif; }
+  .printfooter, .mw-footer, .thumb, figure, table, ol, dl, ul, h3, h4, h5, =
+h6 { font-family: sans-serif; }
+  img { font-family: "Linux Libertine", Georgia, Times, serif; }
+  .mw-body a:not(.image) { border-bottom: 1px solid rgb(170, 170, 170); }
+  .firstHeading { font-size: 25pt; line-height: 28pt; margin-bottom: 20px; =
+padding-bottom: 5px; }
+  .firstHeading, h2 { overflow: hidden; border-bottom: 2px solid rgb(0, 0, =
+0); }
+  h3, h4, h5, h6 { margin: 30px 0px 0px; }
+  h2, h3, h4, h5, h6 { padding: 0px; position: relative; }
+  h2 { font-size: 18pt; line-height: 24pt; margin-bottom: 0.25em; }
+  h3 { font-size: 14pt; line-height: 20pt; }
+  h4, h5, h6 { font-size: 12pt; line-height: 16pt; }
+  p { font-size: 12pt; line-height: 16pt; margin-top: 5px; text-align: just=
+ify; }
+  p::before { content: ""; display: block; width: 120pt; overflow: hidden; =
+}
+  blockquote { border-left: 2px solid rgb(0, 0, 0); padding-left: 20px; }
+  ol, ul { margin: 10px 0px 0px 1.6em; padding: 0px; }
+  ol li, ul li { padding: 2px 0px; font-size: 12pt; }
+  table ol li, table ul li { font-size: inherit; }
+  .toc { break-before: avoid; break-after: avoid; background: none; border:=
+ 0px; display: table; }
+  .toc a { border: 0px; font-weight: normal; }
+  .toc > ul > li { margin-bottom: 4px; font-weight: bold; }
+  .toc ul { margin: 0px; list-style: none; }
+  .toc ul ul { padding-left: 30px; }
+  .toc li.toclevel-1 > a { font-size: 12pt; font-weight: bold; }
+  #mw-navigation, .noprint, .mw-jump-link, .mw-portlet-lang, .toc .tocnumbe=
+r { display: none; }
+  .printfooter { margin-top: 10px; border-top: 3px solid rgb(0, 0, 0); padd=
+ing-top: 10px; font-size: 10pt; clear: both; }
+  .mw-footer { margin-top: 12px; border-top: 1px solid rgb(238, 238, 238); =
+padding-top: 5px; }
+  #footer-info { margin: 0px; padding: 0px; }
+  #footer-info li { color: rgb(153, 153, 153); list-style: none; display: b=
+lock; padding-bottom: 10px; font-size: 10pt; }
+  #footer-info li a { color: rgb(153, 153, 153) !important; }
+  #footer-info-lastmod { color: rgb(0, 0, 0); font-size: 12pt; font-weight:=
+ bold; }
+}
+
+@media screen {
+  body { background-color: rgb(246, 246, 246); overflow-y: scroll; }
+  .mw-body, .parsoid-body { background-color: rgb(255, 255, 255); color: rg=
+b(32, 33, 34); direction: ltr; padding: 1em; }
+  #p-personal { position: absolute; top: 6px; right: 0.75em; z-index: 100; =
+}
+  #p-personal ul { padding-left: 10em; }
+  #p-personal li { float: left; margin-left: 0.75em; padding-top: 0.5em; li=
+ne-height: 1.16667; }
+  .mw-body, #mw-data-after-content { margin-left: 10em; }
+  .mw-body { margin-top: -1px; border-width: 1px 0px 1px 1px; border-style:=
+ solid; border-color: rgb(167, 215, 249); border-image: initial; }
+  .mw-body .firstHeading { overflow: visible; }
+  .mw-indicators { z-index: 1; }
+  .vector-body { position: relative; z-index: 0; }
+  #mw-page-base { background-color: rgb(251, 251, 251); background-image: l=
+inear-gradient(rgb(255, 255, 255) 50%, rgb(246, 246, 246) 100%); background=
+-position: left bottom; height: 5em; }
+  #mw-head-base { margin-top: -5em; margin-left: 10em; height: 5em; }
+  #mw-navigation h2 { position: absolute; top: -9999px; }
+  #mw-head { position: absolute; top: 0px; right: 0px; width: 100%; }
+  #left-navigation { float: left; margin-left: 10em; margin-top: 2.5em; mar=
+gin-bottom: -2.5em; }
+  #right-navigation { float: right; margin-top: 2.5em; }
+  .vector-search-box { float: left; margin-right: 0.5em; margin-left: 0.5em=
+; }
+  .vector-search-box form { margin: 0.5em 0px 0px; }
+  .vector-search-box-inner { min-width: 5em; width: 20vw; max-width: 20em; =
+}
+  #mw-panel { position: absolute; top: 0px; width: 10em; left: 0px; }
+  #p-logo + .mw-portlet .vector-menu-heading { display: none; }
+  .mw-footer { margin-left: 10em; margin-top: 0px; padding: 0.75em; }
+  .mw-content-ltr { direction: ltr; }
+  .mw-content-rtl { direction: rtl; }
+  .vector-menu-dropdown:not(.vector-user-menu):hover .vector-menu-content {=
+ opacity: 1; visibility: visible; }
+  .vector-menu-checkbox:checked + .vector-menu-heading::after { transform: =
+scaleY(-1); }
+  .vector-menu-dropdown li a { padding: 0.507812em; }
+  .vector-menu-dropdown .vector-menu-heading { background-image: linear-gra=
+dient(rgba(167, 215, 249, 0) 0px, rgb(167, 215, 249) 100%); background-repe=
+at: no-repeat; background-size: 1px 100%; background-position: right bottom=
+; height: 100%; }
+  .vector-menu-dropdown .vector-menu-content { border-top-width: 0px; }
+  .vector-menu-tabs { background-position: left bottom; float: left; height=
+: 2.5em; padding-left: 1px; }
+  .vector-menu-tabs .vector-menu-heading { display: none; }
+  .vector-menu-tabs ul { float: left; height: 100%; list-style: none none; =
+margin: 0px; padding: 0px; }
+  .vector-menu-tabs li { background-image: linear-gradient(to top, rgb(119,=
+ 193, 246) 0px, rgb(232, 242, 248) 1px, rgb(255, 255, 255) 100%); backgroun=
+d-position: left bottom; background-repeat: repeat-x; float: left; display:=
+ block; height: 100%; margin: 0px; padding: 0px; line-height: 1.125em; whit=
+e-space: nowrap; }
+  .vector-menu-tabs li a { background-position: right bottom; color: rgb(6,=
+ 69, 173); box-sizing: border-box; display: block; float: left; height: 3.0=
+7692em; position: relative; padding-top: 1.25em; padding-left: 8px; padding=
+-right: 8px; font-size: 0.8125em; cursor: pointer; }
+  .vector-menu-tabs .new a, .vector-menu-tabs .new a:visited { color: rgb(2=
+21, 51, 51); }
+  .vector-menu-tabs .selected { background: rgb(255, 255, 255); }
+  .vector-menu-tabs .selected a, .vector-menu-tabs .selected a:visited { co=
+lor: rgb(32, 33, 34); text-decoration: none; }
+  .vector-menu-tabs .icon a { background-position: right bottom; background=
+-repeat: no-repeat; }
+  .vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown .v=
+ector-menu-heading { background-image: linear-gradient(rgba(167, 215, 249, =
+0) 0px, rgb(167, 215, 249) 100%); background-repeat: no-repeat; background-=
+size: 1px 100%; }
+  .vector-search-box h3 { display: block; clip: rect(1px, 1px, 1px, 1px); w=
+idth: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: =
+hidden; position: absolute !important; }
+  #mw-panel { font-size: inherit; }
+  #mw-panel nav:first-child { background-image: none; }
+  #mw-panel nav:first-child .vector-menu-heading { display: none; }
+  #mw-panel nav:first-child .vector-menu-content { margin-left: 0.5em; }
+  .vector-user-menu-legacy { }
+  .vector-user-menu-legacy li { font-size: 0.75em; }
+  .vector-user-menu-legacy #pt-anonuserpage, .vector-user-menu-legacy #pt-t=
+mpuserpage, .vector-user-menu-legacy #pt-userpage a { background-position: =
+left 0.333333em; background-image: url("/w/skins/Vector/resources/skins.vec=
+tor.styles.legacy/images/user-avatar.svg?b7f58"); background-repeat: no-rep=
+eat; background-size: 1.16667em 1.16667em; padding-top: 0.5em; padding-left=
+: 1.5em; }
+  .vector-user-menu-legacy #pt-userpage { padding-top: 0px; }
+  .vector-user-menu-legacy #pt-userpage a { display: inline-block; }
+  .vector-user-menu-legacy #pt-anonuserpage, .vector-user-menu-legacy #pt-t=
+mpuserpage { color: rgb(84, 89, 93); }
+  .vector-user-menu-legacy .vector-menu-content-list { display: flex; flex-=
+wrap: wrap; flex-grow: 1; justify-content: flex-end; align-items: baseline;=
+ }
+  .skin-vector-legacy a.new { color: rgb(186, 0, 0); }
+  .skin-vector-legacy a.new:visited, .skin-vector-legacy .vector-menu-tabs =
+.new a, .skin-vector-legacy .vector-menu-tabs .new a:visited { color: rgb(1=
+65, 88, 88); }
+}
+
+@media screen and (min-width: 982px) {
+  .mw-body, #mw-head-base, #left-navigation, #mw-data-after-content, .mw-fo=
+oter { margin-left: 11em; }
+  .mw-body { padding: 1.25em 1.5em 1.5em; }
+  .mw-footer { padding: 1.25em; }
+  #mw-panel { padding-left: 0.5em; }
+  .vector-search-box { margin-right: 1em; }
+  #p-personal { right: 1em; }
+}
+
+@media print {
+  .noprint, .mw-cite-backlink, .mw-redirectedfrom, .patrollink, #column-one=
+, #footer-places, #mw-navigation, #f-poweredbyico, #f-copyrightico, li#abou=
+t, li#disclaimer, li#mobileview, li#privacy { display: none; }
+  #footer { background: rgb(255, 255, 255); color: rgb(0, 0, 0); margin-top=
+: 1em; border-top: 1pt solid rgb(170, 170, 170); padding-top: 5px; directio=
+n: ltr; }
+}
+
+.mw-wiki-logo { background-image: url("/static/images/project-logos/eswikib=
+ooks.png"); }
+
+@media print {
+  table.floatright, div.floatright { border: 0px; }
+  table.floatleft, div.floatleft { border: 0px; }
+  div.thumb { break-inside: avoid; }
+  div.thumb a { border-bottom: 0px; }
+  div.thumbinner { border: 1px; background-color: rgb(255, 255, 255); font-=
+size: 10pt; color: rgb(102, 102, 102); border-radius: 2px; min-width: 100px=
+; }
+  .thumbborder { border: 1pt solid rgb(221, 221, 221); }
+  .magnify { display: none; }
+  .mw-parser-output a.external { }
+  .mw-parser-output a.external.text::after, .mw-parser-output a.external.au=
+tonumber::after { content: " (" attr(href) ")"; word-break: break-all; over=
+flow-wrap: break-word; }
+  .mw-parser-output a.external.text[href^=3D"//"]::after, .mw-parser-output=
+ a.external.autonumber[href^=3D"//"]::after { content: " (https:" attr(href=
+) ")"; }
+  .wikitable { background: rgb(255, 255, 255); margin: 1em 0px; border: 1pt=
+ solid rgb(170, 170, 170); border-collapse: collapse; font-size: 10pt; brea=
+k-inside: avoid; }
+  .wikitable > caption { padding: 5px; font-size: 10pt; }
+  .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wi=
+kitable > * > tr > td { border: 1pt solid rgb(170, 170, 170); padding: 0.4e=
+m 0.6em; background: rgb(255, 255, 255) !important; color: rgb(0, 0, 0) !im=
+portant; }
+  .wikitable > tr > th, .wikitable > * > tr > th { text-align: center; }
+  table.listing, table.listing td { border: 1pt solid rgb(0, 0, 0); border-=
+collapse: collapse; }
+  .mw-editsection, .mw-editsection-like, .mw-indicators, #siteNotice, .user=
+message { display: none; }
+  .printfooter { padding: 1em 0px; }
+  .catlinks ul { display: inline; padding: 0px; list-style: none; }
+  .catlinks li { display: inline-block; line-height: 1.15; margin: 0.1em 0p=
+x; border-left: 1pt solid rgb(170, 170, 170); padding: 0px 0.4em; }
+  .catlinks li:first-child { border-left: 0px; padding-left: 0.2em; }
+  .mw-hidden-catlinks, .catlinks { display: none; }
+  .center { text-align: center; }
+  a { background: none !important; padding: 0px !important; }
+  a, a.external, a.new, a.stub { color: inherit !important; text-decoration=
+: inherit !important; }
+  dt { font-weight: bold; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; break-after: avoid; break-bef=
+ore: avoid; }
+  p { margin: 1em 0px; line-height: 1.2; orphans: 3; widows: 3; }
+  img, figure { break-inside: avoid; }
+  img { border: 0px; vertical-align: middle; }
+  pre, .mw-code { background: rgb(255, 255, 255); color: rgb(0, 0, 0); bord=
+er: 1pt dashed rgb(0, 0, 0); padding: 1em; font-size: 8pt; white-space: pre=
+-wrap; overflow-x: hidden; overflow-wrap: break-word; }
+  ul { list-style-type: square; }
+  .toctogglecheckbox:checked + .toctitle { display: none; }
+  .toc { background-color: rgb(249, 249, 249); border: 1pt solid rgb(170, 1=
+70, 170); padding: 5px; display: table; }
+  .tocnumber, .toctext { display: table-cell; }
+  .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-ltr .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-rtl .tocnumber { padding-left: 0.5em; padding-right: 0px; }
+}
+
+@media screen {
+  div.thumbinner { border: 1px solid rgb(200, 204, 209); background-color: =
+rgb(248, 249, 250); font-size: 94%; }
+  .thumbimage { background-color: rgb(255, 255, 255); border: 1px solid rgb=
+(200, 204, 209); }
+  .thumbcaption { border: 0px; font-size: 94%; }
+  .thumbborder { border: 1px solid rgb(234, 236, 240); }
+  .magnify { float: right; margin-left: 3px; }
+  .magnify a { display: block; text-indent: 15px; white-space: nowrap; over=
+flow: hidden; width: 15px; height: 11px; background-image: url("/w/resource=
+s/src/mediawiki.skinning/images/magnify-clip-ltr.svg?8330e"); user-select: =
+none; }
+  .mw-content-ltr .thumbcaption { text-align: left; }
+  .mw-content-rtl .thumbcaption { text-align: right; }
+  .mw-content-ltr .magnify { margin-left: 3px; margin-right: 0px; float: ri=
+ght; }
+  .mw-content-ltr .magnify a { background-image: url("/w/resources/src/medi=
+awiki.skinning/images/magnify-clip-ltr.svg?8330e"); }
+  .mw-content-rtl .magnify { margin-left: 0px; margin-right: 3px; float: le=
+ft; }
+  .mw-content-rtl .magnify a { background-image: url("/w/resources/src/medi=
+awiki.skinning/images/magnify-clip-rtl.svg?38fd5"); }
+  a.new { color: rgb(221, 51, 51); }
+  a.mw-selflink { color: inherit; font-weight: bold; text-decoration: inher=
+it; }
+  a.mw-selflink:hover { cursor: inherit; text-decoration: inherit; }
+  a.mw-selflink:active, a.mw-selflink:visited { color: inherit; }
+  a.new:visited { color: rgb(165, 88, 88); }
+  .mw-parser-output a.extiw, .mw-parser-output a.external { color: rgb(51, =
+102, 187); }
+  .mw-parser-output a.extiw:visited, .mw-parser-output a.external:visited {=
+ color: rgb(102, 51, 102); }
+  .mw-parser-output a.extiw:active, .mw-parser-output a.external:active { c=
+olor: rgb(187, 102, 51); }
+  .mw-underline-always a { text-decoration: underline; }
+  .mw-underline-never a { text-decoration: none; }
+  .plainlinks a.external { background: none !important; padding: 0px !impor=
+tant; }
+  .mw-body-content::after { clear: both; content: ""; display: block; }
+  .mw-body-content a.external.free { overflow-wrap: break-word; }
+  .mw-body-content .error { font-size: larger; color: rgb(221, 51, 51); }
+  .rtl .mw-parser-output a.external.free, .rtl .mw-parser-output a.external=
+.autonumber { direction: ltr; unicode-bidi: embed; }
+  .mw-hide-empty-elt .mw-parser-output:not(.mw-show-empty-elt) .mw-empty-el=
+t { display: none; }
+  .wikitable { background-color: rgb(248, 249, 250); color: rgb(32, 33, 34)=
+; margin: 1em 0px; border: 1px solid rgb(162, 169, 177); border-collapse: c=
+ollapse; }
+  .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wi=
+kitable > * > tr > td { border: 1px solid rgb(162, 169, 177); padding: 0.2e=
+m 0.4em; }
+  .wikitable > tr > th, .wikitable > * > tr > th { background-color: rgb(23=
+4, 236, 240); text-align: center; }
+  .wikitable > caption { font-weight: bold; }
+  .usermessage { background-color: rgb(254, 246, 231); border: 1px solid rg=
+b(255, 204, 51); color: rgb(0, 0, 0); font-weight: bold; margin: 2em 0px 1e=
+m; padding: 0.5em 1em; vertical-align: middle; }
+  #siteNotice { position: relative; text-align: center; margin: 0px; }
+  #localNotice { margin-bottom: 0.9em; }
+  #siteSub { display: none; }
+  #contentSub, #contentSub2 { font-size: 84%; line-height: 1.2em; margin: 0=
+px 0px 1.4em 1em; color: rgb(84, 89, 93); width: auto; }
+  span.subpages { display: block; }
+  .emptyPortlet { display: none; }
+  .printfooter, .client-nojs #t-print { display: none; }
+  .mw-indicators { float: right; }
+  .mw-editsection { user-select: none; }
+  .mw-editsection, .mw-editsection-like { font-size: small; font-weight: no=
+rmal; margin-left: 1em; vertical-align: baseline; line-height: 1em; }
+  .mw-content-ltr .mw-editsection, .mw-content-rtl .mw-content-ltr .mw-edit=
+section, .mw-content-ltr .mw-editsection-like, .mw-content-rtl .mw-content-=
+ltr .mw-editsection-like { margin-left: 1em; margin-right: 0px; }
+  .mw-content-rtl .mw-editsection, .mw-content-ltr .mw-content-rtl .mw-edit=
+section, .mw-content-rtl .mw-editsection-like, .mw-content-ltr .mw-content-=
+rtl .mw-editsection-like { margin-right: 1em; margin-left: 0px; }
+  #catlinks { text-align: left; }
+  .catlinks { border: 1px solid rgb(162, 169, 177); background-color: rgb(2=
+48, 249, 250); padding: 5px; margin-top: 1em; clear: both; }
+  .catlinks ul { display: inline; margin: 0px; padding: 0px; list-style: no=
+ne; }
+  .catlinks li { display: inline-block; line-height: 1.25em; border-left: 1=
+px solid rgb(162, 169, 177); margin: 0.125em 0px; padding: 0px 0.5em; }
+  .catlinks li:first-child { padding-left: 0.25em; border-left: 0px; }
+  .catlinks li a.mw-redirect { font-style: italic; }
+  .mw-hidden-cats-hidden, .catlinks-allhidden { display: none; }
+  a { text-decoration: none; color: rgb(6, 69, 173); background: none; }
+  a:not([href]) { cursor: pointer; }
+  a:visited { color: rgb(11, 0, 128); }
+  a:active { color: rgb(250, 167, 0); }
+  a:hover, a:focus { text-decoration: underline; }
+  a:lang(ar), a:lang(kk-arab), a:lang(mzn), a:lang(ps), a:lang(ur) { text-d=
+ecoration: none; }
+  img { border: 0px; vertical-align: middle; }
+  hr { height: 1px; background-color: rgb(162, 169, 177); border: 0px; marg=
+in: 0.2em 0px; }
+  h1, h2, h3, h4, h5, h6 { color: rgb(0, 0, 0); margin: 0px; padding-top: 0=
+.5em; padding-bottom: 0.17em; overflow: hidden; }
+  h1, h2 { margin-bottom: 0.6em; border-bottom: 1px solid rgb(162, 169, 177=
+); }
+  h3, h4, h5 { margin-bottom: 0.3em; }
+  h1 { font-size: 188%; font-weight: normal; }
+  h2 { font-size: 150%; font-weight: normal; }
+  h3 { font-size: 128%; }
+  h4 { font-size: 116%; }
+  h5 { font-size: 108%; }
+  h6 { font-size: 100%; }
+  p { margin: 0.4em 0px 0.5em; }
+  p img { margin: 0px; }
+  ul { margin: 0.3em 0px 0px 1.6em; padding: 0px; }
+  ol { margin: 0.3em 0px 0px 3.2em; padding: 0px; list-style-image: none; }
+  li { margin-bottom: 0.1em; }
+  dt { font-weight: bold; margin-bottom: 0.1em; }
+  dl { margin-top: 0.2em; margin-bottom: 0.5em; }
+  dd { margin-left: 1.6em; margin-bottom: 0.1em; }
+  pre, code, tt, kbd, samp, .mw-code { font-family: monospace, monospace; }
+  pre, code, .mw-code { background-color: rgb(248, 249, 250); color: rgb(0,=
+ 0, 0); border: 1px solid rgb(234, 236, 240); }
+  code { border-radius: 2px; padding: 1px 4px; }
+  pre, .mw-code { padding: 1em; white-space: pre-wrap; overflow-x: hidden; =
+overflow-wrap: break-word; }
+  table { font-size: 100%; }
+  fieldset { border: 1px solid rgb(42, 75, 141); margin: 1em 0px; padding: =
+0px 1em 1em; }
+  legend { padding: 0.5em; }
+  form { border: 0px; margin: 0px; }
+  textarea { display: block; box-sizing: border-box; width: 100%; border: 1=
+px solid rgb(200, 204, 209); padding: 0.1em; }
+  .center { width: 100%; text-align: center; }
+  .center * { margin-left: auto; margin-right: auto; }
+  .small { font-size: 94%; }
+  table.small { font-size: 100%; }
+  @counter-style meetei { system: numeric; symbols: "=EA=AF=B0" "=EA=AF=B1"=
+ "=EA=AF=B2" "=EA=AF=B3" "=EA=AF=B4" "=EA=AF=B5" "=EA=AF=B6" "=EA=AF=B7" "=
+=EA=AF=B8" "=EA=AF=B9"; suffix: ") "; }
+  @counter-style santali { system: numeric; symbols: "=E1=B1=90" "=E1=B1=91=
+" "=E1=B1=92" "=E1=B1=93" "=E1=B1=94" "=E1=B1=95" "=E1=B1=96" "=E1=B1=97" "=
+=E1=B1=98" "=E1=B1=99"; }
+  @counter-style myanmar_with_period { system: numeric; symbols: "=E1=81=80=
+" "=E1=81=81" "=E1=81=82" "=E1=81=83" "=E1=81=84" "=E1=81=85" "=E1=81=86" "=
+=E1=81=87" "=E1=81=88" "=E1=81=89"; suffix: "=E1=81=8B "; }
+  ol:lang(azb) li, ol:lang(bcc) li, ol:lang(bgn) li, ol:lang(bqi) li, ol:la=
+ng(fa) li, ol:lang(glk) li, ol:lang(kk-arab) li, ol:lang(lrc) li, ol:lang(l=
+uz) li, ol:lang(mzn) li { list-style-type: persian; }
+  ol:lang(ckb) li, ol:lang(sdh) li { list-style-type: arabic-indic; }
+  ol:lang(hi) li, ol:lang(mai) li, ol:lang(mr) li, ol:lang(ne) li { list-st=
+yle-type: devanagari; }
+  ol:lang(as) li, ol:lang(bn) li { list-style-type: bengali; }
+  ol:lang(mni) li { list-style-type: meetei; }
+  ol:lang(or) li { list-style-type: oriya; }
+  ol:lang(sat) li { list-style-type: santali; }
+  ol:lang(blk) li, ol:lang(kjp) li, ol:lang(ksw) li, ol:lang(mnw) li, ol:la=
+ng(my) li, ol:lang(shn) li { list-style-type: myanmar_with_period; }
+  .mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul { margin: 0.3em 0p=
+x 0px 1.6em; padding: 0px; }
+  .mw-content-rtl ul, .mw-content-ltr .mw-content-rtl ul { margin: 0.3em 1.=
+6em 0px 0px; padding: 0px; }
+  .mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol { margin: 0.3em 0p=
+x 0px 3.2em; padding: 0px; }
+  .mw-content-rtl ol, .mw-content-ltr .mw-content-rtl ol { margin: 0.3em 3.=
+2em 0px 0px; padding: 0px; }
+  .mw-content-ltr dd, .mw-content-rtl .mw-content-ltr dd { margin-left: 1.6=
+em; margin-right: 0px; }
+  .mw-content-rtl dd, .mw-content-ltr .mw-content-rtl dd { margin-right: 1.=
+6em; margin-left: 0px; }
+  h1:lang(anp), h1:lang(as), h1:lang(bh), h1:lang(bho), h1:lang(bn), h1:lan=
+g(gu), h1:lang(hi), h1:lang(kn), h1:lang(ks), h1:lang(ml), h1:lang(mr), h1:=
+lang(my), h1:lang(mai), h1:lang(ne), h1:lang(new), h1:lang(or), h1:lang(pa)=
+, h1:lang(pi), h1:lang(sa), h1:lang(ta), h1:lang(te) { line-height: 1.6em !=
+important; }
+  h2:lang(anp), h3:lang(anp), h4:lang(anp), h5:lang(anp), h6:lang(anp), h2:=
+lang(as), h3:lang(as), h4:lang(as), h5:lang(as), h6:lang(as), h2:lang(bho),=
+ h3:lang(bho), h4:lang(bho), h5:lang(bho), h6:lang(bho), h2:lang(bh), h3:la=
+ng(bh), h4:lang(bh), h5:lang(bh), h6:lang(bh), h2:lang(bn), h3:lang(bn), h4=
+:lang(bn), h5:lang(bn), h6:lang(bn), h2:lang(gu), h3:lang(gu), h4:lang(gu),=
+ h5:lang(gu), h6:lang(gu), h2:lang(hi), h3:lang(hi), h4:lang(hi), h5:lang(h=
+i), h6:lang(hi), h2:lang(kn), h3:lang(kn), h4:lang(kn), h5:lang(kn), h6:lan=
+g(kn), h2:lang(ks), h3:lang(ks), h4:lang(ks), h5:lang(ks), h6:lang(ks), h2:=
+lang(ml), h3:lang(ml), h4:lang(ml), h5:lang(ml), h6:lang(ml), h2:lang(mr), =
+h3:lang(mr), h4:lang(mr), h5:lang(mr), h6:lang(mr), h2:lang(my), h3:lang(my=
+), h4:lang(my), h5:lang(my), h6:lang(my), h2:lang(mai), h3:lang(mai), h4:la=
+ng(mai), h5:lang(mai), h6:lang(mai), h2:lang(ne), h3:lang(ne), h4:lang(ne),=
+ h5:lang(ne), h6:lang(ne), h2:lang(new), h3:lang(new), h4:lang(new), h5:lan=
+g(new), h6:lang(new), h2:lang(or), h3:lang(or), h4:lang(or), h5:lang(or), h=
+6:lang(or), h2:lang(pa), h3:lang(pa), h4:lang(pa), h5:lang(pa), h6:lang(pa)=
+, h2:lang(pi), h3:lang(pi), h4:lang(pi), h5:lang(pi), h6:lang(pi), h2:lang(=
+sa), h3:lang(sa), h4:lang(sa), h5:lang(sa), h6:lang(sa), h2:lang(ta), h3:la=
+ng(ta), h4:lang(ta), h5:lang(ta), h6:lang(ta), h2:lang(te), h3:lang(te), h4=
+:lang(te), h5:lang(te), h6:lang(te) { line-height: 1.4em; }
+  h2:lang(th) { line-height: 1.6; }
+  .toc, .toccolours { border: 1px solid rgb(162, 169, 177); background-colo=
+r: rgb(248, 249, 250); padding: 5px; font-size: 95%; }
+  .toc { display: table; padding: 7px; }
+  .toc h2 { display: inline; border: 0px; padding: 0px; font-size: 100%; fo=
+nt-weight: bold; }
+  .toc .toctitle { text-align: center; }
+  .toc ul { list-style: none; margin: 0.3em 0px; padding: 0px; text-align: =
+left; }
+  .toc ul ul { margin: 0px 0px 0px 2em; }
+  table.toc { border-collapse: collapse; }
+  table.toc td { padding: 0px; }
+  .tocnumber, .toctext { display: table-cell; text-decoration: inherit; }
+  .tocnumber { color: rgb(32, 33, 34); padding-left: 0px; padding-right: 0.=
+5em; }
+  .mw-content-ltr .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-rtl .tocnumber { padding-left: 0.5em; padding-right: 0px; }
+  .toctogglecheckbox { position: absolute; opacity: 0; z-index: -1; display=
+: inline !important; }
+  .toctogglespan { font-size: 94%; }
+  .toctogglespan::before { content: " ["; }
+  .toctogglespan::after { content: "]"; }
+  .toctogglelabel { cursor: pointer; color: rgb(6, 69, 173); }
+  .toctogglelabel:hover { text-decoration: underline; }
+  .toctogglecheckbox:focus + .toctitle .toctogglelabel { text-decoration: u=
+nderline; outline: -webkit-focus-ring-color auto; }
+  .toctogglecheckbox:checked + .toctitle .toctogglelabel::after { content: =
+"mostrar"; }
+  .toctogglecheckbox:not(:checked) + .toctitle .toctogglelabel::after { con=
+tent: "ocultar"; }
+  .toc .toctitle { direction: ltr; }
+  .mw-content-ltr .toc ul, .mw-content-rtl .mw-content-ltr .toc ul { text-a=
+lign: left; }
+  .mw-content-rtl .toc ul, .mw-content-ltr .mw-content-rtl .toc ul { text-a=
+lign: right; }
+  .mw-content-ltr .toc ul ul, .mw-content-rtl .mw-content-ltr .toc ul ul { =
+margin: 0px 0px 0px 2em; }
+  .mw-content-rtl .toc ul ul, .mw-content-ltr .mw-content-rtl .toc ul ul { =
+margin: 0px 2em 0px 0px; }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (m=
+in-resolution: 144dpi) {
+  .mw-wiki-logo { background-image: url("/static/images/project-logos/eswik=
+ibooks-1.5x.png"); background-size: 135px; }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-r=
+esolution: 192dpi) {
+  .mw-wiki-logo { background-image: url("/static/images/project-logos/eswik=
+ibooks-2x.png"); background-size: 135px; }
+}
+
+.wb-langlinks-link { line-height: 1.125em; font-size: 0.75em; float: right;=
+ }
+
+.wb-langlinks-link { list-style: none; text-align: right; padding-right: 0.=
+5em !important; }
+
+.wb-langlinks-link > a::before { content: ""; background-image: url("/w/ext=
+ensions/Wikibase/client/resources/images/edit.svg?34bc5"); background-posit=
+ion: left top; background-repeat: no-repeat; background-size: 10px 10px; di=
+splay: inline-block; width: 10px; height: 10px; margin-right: 2px; vertical=
+-align: top; }
+
+.wb-langlinks-link > a:link, .wb-langlinks-link > a:visited { color: rgb(84=
+, 89, 93) !important; }
+
+.wb-langlinks-link > a:link::before, .wb-langlinks-link > a:visited::before=
+ { filter: grayscale(1); opacity: 0.73; }
+
+.wb-langlinks-link > a:hover { color: rgb(6, 69, 173) !important; }
+
+.wb-langlinks-link > a:hover::before { filter: none; opacity: 1; }
+
+div.after-portlet-lang::after { content: ""; clear: both; display: block; }
+
+.skin-vector:not(.skin-vector-legacy) .wb-langlinks-link { text-align: left=
+; float: none; }
+
+.skin-vector:not(.skin-vector-legacy) .wb-langlinks-link a { color: rgb(6, =
+69, 173) !important; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://es.wikibooks.org/w/skins/Vector/resources/common/images/bullet-icon.svg?d4515
+
+<?xml version=3D"1.0" encoding=3D"UTF-8"?>
+<svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"5" height=3D"13">
+	<circle cx=3D"2.5" cy=3D"9" r=3D"2.5" fill=3D"#202122"/>
+</svg>=0A
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://es.wikibooks.org/w/skins/Vector/resources/common/images/search.svg?bbf78
+
+<?xml version=3D"1.0" encoding=3D"UTF-8"?>
+<svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"20" height=3D"20" viewBo=
+x=3D"0 0 20 20">
+	<title>
+		search
+	</title>
+	<path fill-rule=3D"evenodd" d=3D"M12.2 13.6a7 7 0 1 1 1.4-1.4l5.4 5.4-1.4 =
+1.4-5.4-5.4zM13 8A5 5 0 1 1 3 8a5 5 0 0 1 10 0z"/>
+</svg>=0A
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://es.wikibooks.org/w/skins/Vector/resources/skins.vector.styles.legacy/images/user-avatar.svg?b7f58
+
+<?xml version=3D"1.0" encoding=3D"UTF-8"?>
+<svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"20" height=3D"20" viewBo=
+x=3D"0 0 20 20">
+	<g fill=3D"#54595d">
+		<path d=3D"M10 11c-5.92 0-8 3-8 5v3h16v-3c0-2-2.08-5-8-5z"/>
+		<circle cx=3D"10" cy=3D"5.5" r=3D"4.5"/>
+	</g>
+</svg>=0A
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://es.wikibooks.org/w/extensions/Wikibase/client/resources/images/edit.svg?34bc5
+
+<?xml version=3D"1.0" encoding=3D"UTF-8"?>
+<svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"12" height=3D"12" viewBo=
+x=3D"0 0 12 12">
+	<path fill=3D"#0645ad" d=3D"M10.5 4.7l1.3-1.3c.3-.3.3-.7 0-.9L9.6.2c-.3-.3=
+-.7-.3-.9 0L7.3 1.5l3.2 3.2zM6.6 2.2L0 8.8V12h3.2l6.6-6.6-3.2-3.2z"/>
+</svg>=0A
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://es.wikibooks.org/w/load.php?lang=es&modules=site.styles&only=styles&skin=vector
+
+@charset "utf-8";
+
+@import url("/w/index.php?title=3DMediaWiki:Common.css/Metaplantilla%20de%2=
+0avisos.css&action=3Draw&ctype=3Dtext/css") screen;
+
+@import url("/w/index.php?title=3DMediaWiki:Common.css/Messageboxes.css&act=
+ion=3Draw&ctype=3Dtext/css") screen;
+
+@import url("/w/index.php?title=3DMediaWiki:Common.css/Fmbox.css&action=3Dr=
+aw&ctype=3Dtext/css") screen;
+
+@import url("/w/index.php?title=3DMediaWiki:Common.css/Plantilla_lista_desp=
+legable.css&action=3Draw&ctype=3Dtext/css") screen;
+
+h1.firstHeading span.subpagepart { display: block; }
+
+h1.firstHeading span.subpagepart a, h1.firstHeading span.subpagepart-first =
+a { font-size: smaller; }
+
+.interProject { display: none; clear: both; border-top: 2px dotted rgb(170,=
+ 170, 170); margin-top: 2em; }
+
+.mw-specialpages-table { text-align: left; }
+
+ol.references { font-size: 100%; }
+
+.references-small { font-size: 90%; }
+
+.references-2column { font-size: 90%; }
+
+ol.references > li:target, sup.reference:target, cite:target { background-c=
+olor: rgb(221, 238, 255); }
+
+.corchete-llamada { display: none; }
+
+@media print {
+  .listaref { }
+}
+
+.mw-tag-markers { font-family: sans-serif; font-style: italic; font-size: 9=
+0%; }
+
+body.page-Portada h1.firstHeading, body.page-Portada #catlinks { display: n=
+one; }
+
+.nobuttons input.searchboxSearchButton, .nobuttons input.mw-ui-button { dis=
+play: none; }
+
+#mw-hidden-catlinks { font-size: 87% !important; }
+
+.hiddenStructure { color: rgb(255, 0, 0); background-color: rgb(0, 255, 0);=
+ display: inline !important; }
+
+.headergris { background: url("//upload.wikimedia.org/wikipedia/commons/d/d=
+7/Bookbar2.png") right center no-repeat rgb(240, 240, 240); margin: 0px; fo=
+nt-size: 120%; font-weight: bold; border: 1px solid rgb(163, 176, 191); tex=
+t-align: left; color: rgb(0, 0, 0); padding: 0.2em 0.4em; }
+
+.headerbleu { background: url("//upload.wikimedia.org/wikipedia/commons/a/a=
+2/Bookbar1.png") right center no-repeat rgb(240, 240, 240); margin: 0px; fo=
+nt-size: 120%; font-weight: bold; border: 1px solid rgb(163, 176, 191); tex=
+t-align: left; color: rgb(0, 0, 0); padding: 0.2em 0.4em; }
+
+.headergris span.editsection, .headerbleu span.editsection, .headergris a.N=
+avToggle, .headerbleu a.NavToggle { margin-right: 100px; }
+
+.title-shortlink-container { display: none; }
+
+.ombreig img { box-shadow: rgba(0, 0, 0, 0.45) 0px 3px 4px; margin-bottom: =
+7px; background: rgba(0, 0, 0, 0.02); border-radius: 5px; }
+
+.ombreig p { margin: 0px; }
+
+table.prettytable, table.bellataula { margin: 1em 1em 1em 0px; background: =
+rgb(249, 249, 249); border: 1px solid rgb(170, 170, 170); border-collapse: =
+collapse; }
+
+table.prettytable th, table.prettytable td, table.bellataula th, table.bell=
+ataula td { border: 1px solid rgb(170, 170, 170); padding: 0.2em; }
+
+table.bellataula th, table.prettytable th { background: rgb(242, 242, 242);=
+ text-align: center; }
+
+table.bellataula caption, table.prettytable caption { margin-left: inherit;=
+ margin-right: inherit; }
+
+table.centre, table.center { margin: 1em auto; }
+
+table.wikitable[align=3D"center"] { margin: 1em auto; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://es.wikibooks.org/w/index.php?title=MediaWiki:Common.css/Metaplantilla%20de%20avisos.css&action=raw&ctype=text/css
+
+@charset "utf-8";
+
+table.ambox { margin: 0px 10%; border-collapse: collapse; background-color:=
+ rgb(251, 251, 251); border-bottom: 1px solid rgb(170, 170, 170); border-le=
+ft: 1px solid rgb(204, 204, 204); border-right: 1px solid rgb(204, 204, 204=
+); font-size: 95%; }
+
+table.ambox th.ambox-text, table.ambox td.ambox-text { padding: 0.25em 0.5e=
+m; width: 100%; }
+
+table.ambox .ambox-image { padding: 2px 0px 2px 0.5em; text-align: center; =
+}
+
+table.ambox .ambox-imageright { padding: 2px 0.5em 2px 0px; text-align: cen=
+ter; }
+
+.ambox-notice { border-top: 5px solid rgb(96, 142, 194); }
+
+.ambox-protection { border-top: 5px solid rgb(187, 187, 170); }
+
+.ambox-delete, .ambox-serious { border-top: 5px solid rgb(178, 34, 34); }
+
+.ambox-content { border-top: 5px solid rgb(242, 133, 0); }
+
+.ambox-style { border-top: 5px solid rgb(244, 196, 48); }
+
+.ambox-merge { border-top: 5px solid rgb(140, 8, 164); }
+
+.ambox-growth { border-top: 5px solid rgb(71, 163, 13); }
+
+.ambox.ambox-mini { float: right; clear: right; margin: 0px 0px 0px 1em; wi=
+dth: 25%; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://es.wikibooks.org/w/index.php?title=MediaWiki:Common.css/Messageboxes.css&action=raw&ctype=text/css
+
+@charset "utf-8";
+
+.messagebox { border: 1px solid rgb(170, 170, 170); background-color: rgb(2=
+49, 249, 249); margin: 0px auto 1em; padding: 0.2em; }
+
+.messagebox.merge { border: 1px solid rgb(207, 159, 255); background-color:=
+ rgb(245, 237, 245); text-align: center; }
+
+.messagebox.cleanup { border: 1px solid rgb(159, 159, 255); background-colo=
+r: rgb(239, 239, 255); text-align: center; }
+
+.messagebox.standard-talk { border: 1px solid rgb(192, 192, 144); backgroun=
+d-color: rgb(248, 234, 186); text-align: center; }
+
+.messagebox.warning { border: 1px solid rgb(255, 204, 204); background-colo=
+r: rgb(255, 238, 238); text-align: center; font-size: 100%; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://es.wikibooks.org/w/index.php?title=MediaWiki:Common.css/Fmbox.css&action=raw&ctype=text/css
+
+@charset "utf-8";
+
+table.fmbox { clear: both; margin: 0.2em 0px; width: 100%; border: 1px soli=
+d rgb(170, 170, 170); background: rgb(249, 249, 249); }
+
+table.fmbox-system { background: rgb(249, 249, 249); }
+
+table.fmbox-warning { border: 1px solid rgb(187, 112, 112); background: rgb=
+(255, 219, 219); }
+
+table.fmbox-editnotice { background: transparent; }
+
+div.fmbox-system { clear: both; margin: 0.2em 0px; border: 1px solid rgb(17=
+0, 170, 170); background: rgb(249, 249, 249); padding: 0.25em 0.9em; }
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://es.wikibooks.org/w/index.php?title=MediaWiki:Common.css/Plantilla_lista_desplegable.css&action=raw&ctype=text/css
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://es.wikibooks.org/static/images/footer/wikimedia-button.png
+
+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
+AAAASUVORK5CYII=
+
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://es.wikibooks.org/static/images/footer/poweredby_mediawiki_88x31.png
+
+iVBORw0KGgoAAAANSUhEUgAAAIQAAAAvCAMAAAAVQZK4AAADAFBMVEVHcEzCwsLKysq0tLTU1NS6
+urqtra3V1dWKioqMjIynp6ecnJzPz8/IyMiBgYGlpaWUlJR8fHyIiIi0tLSioqLGxsbIyMiGhoaK
+iorS0tKbm5uIiIjFxcWoqKjV1dXQ0NDJycnW1taJiYmWlpaLi4t+fn7t7e3u7u7s7Oz+/v79/f3v
+7+/8/Pz7+/v19fX29vb6+vr09PT39/fw8PD4+Pjx8fH5+fnz8/Py8vIAAADr6+v///8ICAggICAn
+Jyfd3d2KiorIyMjpVWOxsbFGRkYWFhY1NTW2trbPz88aGhqWlpbp6emEhITn5uZLS0swMDD+s1dT
+U1M8PDyRkZFPT08EBAR5eXnS0tL8hlZCQkLQVXX+W1f+u1f9mlZlZWXKU3dwcHD7W1T9p1ZjY2O4
+VIXFVHu7u7t0dHReXl6qqqrY2Nj7YlP+rVbgU2b9n1b8fFT7Vla8VILgVmvl4+QMDAxZWVkSEhKk
+VJL+pFn9olSZmZlRUVHZUWrUU3DAwMD9lVf9i1d9fX1oaGirVo+lpaWuVIuzVIi+U372ycfZV3D+
+glf/hiXvUlv+eVe+M2Df39+goKDh4eHFxcXaw9X639O4OGr9blXNRWj+klf9c1b9cEXq6ur91JD4
+vLPvrbH4fXv4KS38dlTUJUP8ilH+fjT+OSC/H0zLy8ucnJwsLCz86t766tTn1N3v7O34p6KwSH76
+sZv6y7bim6n71cLvm6HgkqP9WEX+bjP+eiL9TjazH1X+gEn58OX72qPVscj9/Pz89/P9uHfy6+rc
+do318vDCVX/71dHxj5bx5OioI2H+Ylf+Qyf4Rkr1HSTNL1L+iTr9j1b+bB7CZIv8r2rGeJz8xoWr
+Y53w2N3Cgan94bX7dWT6vKD2YWa+bJj39PT+jiv+mzz2NTrQX37dO1PBT3nZHTjfLkTvOUP9ikX9
+Zzn+XR7+VB/HmLvMrcr2lY/+znfKosL+j2f08fH9m2P6nHX6rY/+n0rqaXbkgZH+17LMkLHdo7j9
+umO3c6LntMHy8fEFGGgEAAAAJnRSTlMA5OTi4+Tl49/f4+Dl0vkJ4Cfb1+I6jbPS5uueGL7k6l/s
+aubkTXPQERgAAAkgSURBVHjaxZhndBNXFoAFbNiEwCHkJECSPdtXchBY8oymPHZGxWpWsYRly7ZM
+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
+
+------MultipartBoundary--vFHNNc88wMf0F8QTBvzWs3ExCD0pJvpAGeHxVHSeCM------
