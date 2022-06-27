@@ -1,0 +1,1591 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://www.unicode.org/versions/
+Subject: About Versions
+Date: Sun, 26 Jun 2022 15:32:11 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo----"
+
+
+------MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo----
+Content-Type: text/html
+Content-ID: <frame-16B00FA286329E78BFBA022CA00897E9@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.unicode.org/versions/
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html data-da=
+rkreader-mode=3D"dynamic" data-darkreader-scheme=3D"dark"><head><meta http-=
+equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D"=
+stylesheet" type=3D"text/css" href=3D"cid:css-3e7efba2-fd7c-4eed-bc18-43b04=
+e458492@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"c=
+id:css-508cf2bc-9b73-4181-a833-15ce9051f0c4@mhtml.blink" /><link rel=3D"sty=
+lesheet" type=3D"text/css" href=3D"cid:css-59a1231e-bb8d-4177-ac8a-f8cc59a8=
+dcfb@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:=
+css-da1faa89-6a8a-41c1-9d3a-9068bdbf4bdb@mhtml.blink" /><link rel=3D"styles=
+heet" type=3D"text/css" href=3D"cid:css-c8c3150c-34bf-4e15-9ebe-b863974d6ae=
+b@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css=
+-f1c6e8a1-eadc-46bb-bbba-ea703d2d3137@mhtml.blink" /><link rel=3D"styleshee=
+t" type=3D"text/css" href=3D"cid:css-2a5e6611-64fa-4257-805e-b3f516574194@m=
+html.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-cd=
+ad47da-87f6-44d6-ba4e-c2fd0987b01c@mhtml.blink" /><link rel=3D"stylesheet" =
+type=3D"text/css" href=3D"cid:css-6675c3c4-a4ce-4228-a0c7-36c619070060@mhtm=
+l.blink" />
+
+<meta http-equiv=3D"Content-Language" content=3D"en-us">
+<meta name=3D"keywords" content=3D"Unicode Standard, versions">
+<title>About Versions</title>
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.unicode.org/=
+webscripts/standard_styles.css">
+<meta name=3D"darkreader" content=3D"0b1453154d0ecc2421138381114d733a"></he=
+ad>
+
+<body>
+
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+<!-- BEGIN HEADER BAR -->
+    <tbody><tr>
+      <td colspan=3D"2">
+      <table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+">
+        <tbody><tr>
+         =20
+          <td class=3D"icon" style=3D"width:38px; height:35px">
+          <a href=3D"https://www.unicode.org/">
+          <img border=3D"0" src=3D"https://www.unicode.org/webscripts/logo6=
+0s2.gif" align=3D"middle" alt=3D"[Unicode]" width=3D"34" height=3D"33"></a>
+          </td>
+
+          <td class=3D"icon" style=3D"vertical-align:middle">
+          <a class=3D"bar"> </a>
+          <a class=3D"bar" href=3D"https://www.unicode.org/standard/standar=
+d.html"><font size=3D"3">The Unicode Standard</font></a>
+          </td>
+
+          <td class=3D"bar">
+          <a href=3D"https://www.unicode.org/main.html" class=3D"bar">Tech =
+Site</a>=20
+          | <a href=3D"https://www.unicode.org/sitemap/" class=3D"bar">Site=
+ Map</a> |
+          <a href=3D"https://www.unicode.org/search" class=3D"bar">Search <=
+/a>
+          </td>
+
+        </tr>
+      </tbody></table>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=3D"2" class=3D"gray">&nbsp;</td>
+    </tr>
+<!-- END HEADER BAR -->
+    <tr>
+      <td valign=3D"top" width=3D"25%" class=3D"navCol">
+      <table class=3D"navColTable" border=3D"0" width=3D"100%" cellspacing=
+=3D"4" cellpadding=3D"0">
+        <tbody><tr>
+          <td class=3D"navColTitle">Contents</td>
+        </tr>
+        <tr>
+          <td valign=3D"top" class=3D"navColCell"><a href=3D"http://www.uni=
+code.org/versions/#Version_Numbering">
+          Version Numbering</a><br>
+          &nbsp;=E2=80=A2 <a href=3D"http://www.unicode.org/versions/#major=
+_minor">Major and Minor Versions</a><br>
+                    &nbsp;=E2=80=A2 <a href=3D"http://www.unicode.org/versi=
+ons/#update">Update Version</a><br>
+                    &nbsp;=E2=80=A2 <a href=3D"http://www.unicode.org/versi=
+ons/#schedule">Schedule of Releases</a><br>
+&nbsp;=E2=80=A2 <a href=3D"http://www.unicode.org/versions/#numbering">Docu=
+ments and Version Numbering</a></td>
+         =20
+        </tr>
+        		<tr>
+          <td valign=3D"top" class=3D"navColCell">
+			<a href=3D"http://www.unicode.org/versions/#Contributory_Data_Files">Con=
+tributory Data Files</a></td>
+        </tr>
+        <tr>
+          <td valign=3D"top" class=3D"navColCell"><a href=3D"http://www.uni=
+code.org/versions/#Corrigenda">Errata and Corrigenda</a></td>
+        </tr>
+         <tr>
+          <td valign=3D"top" class=3D"navColCell"><a href=3D"http://www.uni=
+code.org/versions/#Online_Versus_Printed">
+          Online versus Printed Editions</a></td>
+        </tr>
+<tr>
+          <td valign=3D"top" class=3D"navColCell"><a href=3D"http://www.uni=
+code.org/versions/#Open_Repertoires">
+          Extensible Character Repertoire</a></td>
+        </tr>
+        <tr>
+          <td valign=3D"top" class=3D"navColCell"><a href=3D"http://www.uni=
+code.org/versions/#Citations">Citations</a></td>
+        </tr>
+        <tr>
+          <td valign=3D"top" class=3D"navColCell"><a href=3D"http://www.uni=
+code.org/versions/#References">Reference=20
+			Examples</a><br>
+          &nbsp;=E2=80=A2 <a href=3D"http://www.unicode.org/versions/#TUS_L=
+atest_Version">The Unicode Standard, Latest=20
+          Version</a><br>
+                    &nbsp;=E2=80=A2 <a href=3D"http://www.unicode.org/versi=
+ons/#TUS_Earlier_Versions">The Unicode=20
+          Standard, Earlier Versions</a><br>
+&nbsp;=E2=80=A2 <a href=3D"http://www.unicode.org/versions/#Unicode_Standar=
+d_Annexes">Unicode=20
+          Standard Annexes</a><br>
+          &nbsp;=E2=80=A2 <a href=3D"http://www.unicode.org/versions/#Unico=
+de_Technical_Standards">Unicode Technical=20
+          Standards</a><br>
+          &nbsp;=E2=80=A2 <a href=3D"http://www.unicode.org/versions/#Other=
+_Unicode_Technical_Reports">Other Unicode Technical=20
+          Reports</a></td>
+        </tr>
+              </tbody></table>
+      <table class=3D"navColTable" border=3D"0" width=3D"100%" cellspacing=
+=3D"4" cellpadding=3D"0">
+        <tbody><tr>
+          <td class=3D"navColTitle">Links to Specific Versions</td>
+        </tr>
+        <tr>
+          <td valign=3D"top" class=3D"navColCell">
+          <a href=3D"https://www.unicode.org/versions/latest/">Latest Versi=
+on</a></td>
+          </tr>
+                <tr>
+          <td valign=3D"top" class=3D"navColCell">
+          <a href=3D"http://www.unicode.org/versions/enumeratedversions.htm=
+l">Archive of Unicode Versions</a></td>
+        </tr>
+           </tbody></table>
+        <table class=3D"navColTable" border=3D"0" width=3D"100%" cellspacin=
+g=3D"4" cellpadding=3D"0">
+        <tbody><tr>
+          <td class=3D"navColTitle">Related Links</td>
+        </tr>
+        <tr>
+          <td valign=3D"top" class=3D"navColCell">
+          <a href=3D"https://www.unicode.org/standard/standard.html">The Un=
+icode=20
+          Standard</a></td>
+        </tr>
+        <tr>
+          <td valign=3D"top" class=3D"navColCell">
+          <a href=3D"https://www.unicode.org/ucd/">Unicode=20
+          Character Database</a></td>
+        </tr>
+        <tr>
+          <td valign=3D"top" class=3D"navColCell">
+          <a href=3D"https://www.unicode.org/reports/">Technical Reports</a=
+></td>
+        </tr>
+        <tr>
+          <td valign=3D"top" class=3D"navColCell">
+          <a href=3D"https://www.unicode.org/consortium/utc.html">Unicode T=
+echnical Committee</a></td>
+        </tr>
+        <tr>
+          <td valign=3D"top" class=3D"navColCell">
+          <a href=3D"https://www.unicode.org/history/publicationdates.html"=
+>History=20
+          of Release and Publication Dates</a></td>
+        </tr>
+       =20
+      </tbody></table>
+      </td>
+      <td>
+      <table>
+        <tbody><tr>
+          <td class=3D"contents" valign=3D"top">
+          <div class=3D"body">
+                      <h1>About Versions of the Unicode=C2=AE Standard</h1>
+            <p>This page describes: </p>
+            <ul>
+              <li>The <a href=3D"http://www.unicode.org/versions/#Version_N=
+umbering">
+          Version Numbering</a> used in the Unicode Standard</li>
+              <li>The
+			<a href=3D"http://www.unicode.org/versions/#Contributory_Data_Files">Con=
+tributory Data Files</a>=20
+              associated with a version of the standard and where to get a=
+=20
+              complete list of them</li>
+              <li>How <a href=3D"http://www.unicode.org/versions/#Corrigend=
+a">Errata and Corrigenda</a> are=20
+              handled </li>
+              <li>How versioning relates to an <a href=3D"http://www.unicod=
+e.org/versions/#Open_Repertoires">
+              Extensible Character Repertoire</a> in the Unicode Standard</=
+li>
+              <li>How to cite and <a href=3D"http://www.unicode.org/version=
+s/#TUS_Latest_Version">reference the=20
+              latest version</a> of the Unicode Standard</li>
+              <li><a href=3D"http://www.unicode.org/versions/#References">R=
+eference=20
+			Examples</a> for the Unicode Character Database
+    and other documents</li>
+            </ul>
+			<p>For specific details regarding individual numbered versions of=20
+			the Unicode Standard, see the <a href=3D"http://www.unicode.org/versions=
+/enumeratedversions.html">
+			Archive of Unicode Versions</a>. For details regarding dates of past rel=
+eases and publications, see
+          <a href=3D"https://www.unicode.org/history/publicationdates.html"=
+>History=20
+          of Release and Publication Dates</a>.</p>
+            <h2><a name=3D"Version_Numbering">Version Numbering</a></h2>
+            <p>Version numbers for the Unicode Standard consist of three fi=
+elds,=20
+			denoting the major version, the minor version, and the update=20
+			version, respectively. For example, =E2=80=9CUnicode 3.1.1=E2=80=9D indi=
+cates major=20
+			version 3 of the Unicode Standard, minor version 1 of Unicode 3, and=20
+			update version 1 of minor version Unicode 3.1.            </p>
+            <p>The differences between major, minor, and update versions ar=
+e as follows:
+</p>
+            <h3><a name=3D"major_minor"></a>Major and Minor Versions</h3>
+            <p>Major and minor versions have significant additions to the s=
+tandard, including, but not limited to, additions to the repertoire of enco=
+ded characters. Both are published as updated text of the standard, togethe=
+r with associated updates to Unicode Standard Annexes and the  <a href=3D"h=
+ttps://www.unicode.org/ucd/"> Unicode Character Database</a>. Such versions=
+ consolidate all errata and corrigenda and supersede any prior documentatio=
+n for major, minor, or update versions.</p>
+            <p>A major version typically is of more importance to implement=
+ations; however, even update versions may be important to particular compan=
+ies or other organizations. Major and minor versions are often synchronizat=
+ion points with related standards, such as with ISO/IEC=20
+            10646. </p>
+            <p>Prior to Version 5.2, minor versions of the standard were=20
+            published as online amendments expressed as textual changes to =
+the=20
+            previous version, rather than as fully consolidated new edition=
+s of=20
+            the text. </p>
+            <h3><a name=3D"update"></a>Update Version </h3>
+            <p>An update version represents relatively small changes to the=
+=20
+            standard, typically updates to the data files of the Unicode=20
+            Character Database. An update version never involves any additi=
+ons=20
+            to the character repertoire. These versions are published as=20
+            modifications to the data files, and, on occasion, include=20
+            documentation of small updates for selected errata or corrigend=
+a.=20
+            Formally, each new version of the Unicode Standard supersedes a=
+ll=20
+            earlier versions. However, because of the differences in the wa=
+y=20
+            versions are documented, update versions generally do not obsol=
+ete=20
+            the documentation of the immediately prior version of the stand=
+ard. </p>
+            <p>Starting with Unicode 3.0.1, update versions are published a=
+s=20
+            stable version pages online. Prior to that version, update vers=
+ions=20
+            were simply documented with the list of relevant data file chan=
+ges=20
+            to the Unicode Character Database. For historical reasons, upda=
+te version numbers were not always consecutive prior to Unicode 3.0. </p>
+            <h3><a name=3D"schedule"></a>Schedule of Releases</h3>
+<p>Starting with Unicode 7.0, the <a href=3D"https://www.unicode.org/consor=
+tium/utc.html">Unicode Technical Committee</a> has decided to follow a more=
+ predictable
+release schedule. A new major version of the standard will be released each=
+ year. Starting with Unicode 14.0, each of those releases is targeted for t=
+he third quarter of each year. Thus Unicode 14.0 was released in September =
+2021, Unicode 15.0 will be released in September 2022, and so on.  Minor an=
+d update versions
+will be avoided, unless necessary to address particular issues
+on a timely basis.</p>
+            <h3><a name=3D"numbering"></a>Documents and=20
+            Version Numbering</h3>
+			<p>The documents associated with the major, minor, and update versions a=
+re called the major reference, minor reference, and update reference, respe=
+ctively. For example, consider  Unicode Version=20
+            3.1.1. The major reference for that version is <em>The Unicode =
+Standard, Version 3.0</em> (ISBN 0-201-61633-5).
+The minor reference is <a href=3D"https://www.unicode.org/reports/tr27/">Un=
+icode Standard=20
+            Annex #27, The Unicode Standard, Version 3.1</a>. The update re=
+ference is
+            <a href=3D"https://www.unicode.org/versions/Unicode3.1.1.html">=
+Unicode Version=20
+            3.1.1</a>. The exact list of contributory files, UAXs and the=
+=20
+			Unicode Character Database, can be found on the page
+			<a href=3D"http://www.unicode.org/versions/components-3.1.1.html">Compon=
+ents for Version 3.1.1</a>.</p>
+            <h2><a name=3D"Contributory_Data_Files">Contributory Data Files=
+</a></h2>
+			<p>The Unicode Consortium archives each version of the standard.
+Each archived version consists of the set of versioned contributory data fi=
+les.
+
+For earlier versions of the=20
+standard, these include the material from the major reference, unless=20
+superseded by files in the update version. The Unicode Consortium=20
+maintains online access to archival copies of all contributory files=20
+available in electronic form. For the earliest versions, some material=20
+was only published in paper form. The Consortium maintains private=20
+archive records of these. In addition, they are available in many libraries=
+.
+</p>
+            <p>Certain files change with every version of the Unicode Stand=
+ard, and either have corresponding version numbers, such as UnicodeData-3.1=
+.0.txt, or, for more recent versions, are located in versioned directories,=
+ such as=20
+            10.0.0/ucd/UnicodeData.txt. Other files have independent versio=
+n=20
+            numbers, such as tr7-4.html for the fourth version of=20
+            Unicode Technical Report #7. The latest version of each file wi=
+ll=20
+            also be copied under the corresponding file name with no versio=
+n,=20
+            such as UnicodeData.txt or tr7.html.</p>
+            <p>The latest versions of all of the Unicode Character Database=
+=20
+            files are kept in <a href=3D"https://www.unicode.org/Public/UCD=
+/latest/">
+            https://www.unicode.org/Public/UCD/latest/</a>. These files hav=
+e no=20
+            version number suffix, so that a link to a file in that=20
+            directory will always point to the latest version.</p>
+            <p>The component specifications linked from the
+			<a href=3D"http://www.unicode.org/versions/enumeratedversions.html">Arch=
+ive of Unicode Versions</a> contain precise lists of the contents of
+			each version of the standard. Each specification for version 3.0
+			or later also includes the recommended citation format for
+			that version, such as:
+			</p>
+            <table class=3D"simple">
+              <tbody><tr>
+                <td width=3D"100%">The Unicode Consortium. <em>The Unicode =
+Standard, Version 14.0.0</em>, (Mountain View, CA: The Unicode Consortium, =
+                  2021. ISBN 978-1-936213-29-0)<br>
+                  <a href=3D"https://www.unicode.org/versions/Unicode14.0.0=
+/">https://www.unicode.org/versions/Unicode14.0.0/</a></td>
+              </tr>
+            </tbody></table>
+            <p>The file
+            <a href=3D"https://www.unicode.org/Public/UCD/latest/ucd/Derive=
+dAge.txt">DerivedAge.txt</a> contains a list showing when various code poin=
+ts=20
+            were designated in Unicode. This can be useful in determining t=
+he=20
+            version in which a character first appears.</p>
+            <p>For versions 5.2 and later, a summary of the modifications i=
+n the Unicode Character Database can be found in=20
+            <a href=3D"https://www.unicode.org/reports/tr44/">Unicode Stand=
+ard Annex #44, Unicode Character Database</a>. That annex also specifies wh=
+ich character properties in the UCD are normative, informative, or contribu=
+tory. For earlier versions, such information is found instead in the docume=
+ntation file, UCD.html.</p>
+			<p>The component specifications of the=20
+			<a href=3D"http://www.unicode.org/versions/enumeratedversions.html">Arch=
+ive of Unicode Versions</a> use the following table to indicate the
+			change status of data files between versions.</p>
+            <div align=3D"center">
+              <center>
+              <table class=3D"simple">
+                <caption><b><a name=3D"ChangeStatusKey">Key</a></b></captio=
+n>
+                <tbody><tr>
+                  <td><i>N</i></td>
+                  <td>New in this release</td>
+                </tr>
+                <tr>
+                  <td><i>D</i></td>
+                  <td>Data change (possibly also format/text change)</td>
+                </tr>
+                <tr>
+                  <td><i>F</i></td>
+                  <td>Data format change (possibly also text change)</td>
+                </tr>
+                <tr>
+                  <td><i>T</i></td>
+                  <td>Text annotation change</td>
+                </tr>
+                <tr>
+                  <td><i>-</i></td>
+                  <td>Unchanged</td>
+                </tr>
+              </tbody></table>
+              </center>
+            </div>
+            <p>Zipped data files are also available. Those zip files are co=
+mplete
+			for versions 4.1 and later. For versions earlier than 4.1, the zip files
+			only include files that were changed between versions.</p>
+            <h2><a name=3D"Corrigenda">Errata and Corrigenda</a></h2>
+            <p>From time to time it may be necessary to publish errata or=
+=20
+			corrigenda to the Unicode Standard. Such errata and corrigenda will=20
+			be published on the Unicode Web site. To report errors in the=20
+            standard, please use the=20
+                        <a href=3D"https://www.unicode.org/reporting.html">=
+contact form</a></p>
+			<p><i><b>Errata.</b></i> Errata correct errors in the text or other=20
+			informative material, such as the representative glyphs in the code=20
+			charts. See <a href=3D"https://www.unicode.org/errata/">
+            Updates and Errata</a> for the list of known
+current errata for the standard. Whenever a new major version of the=20
+			standard is published, all corrections for errata up to that point are i=
+ncorporated=20
+			into the text.</p>
+			<p><b><i>Corrigenda.</i></b> Occasionally errors may be important=20
+			enough that a corrigendum is issued prior to the next version of the=20
+			Unicode Standard. Such a corrigendum does not change the contents of=20
+			the previous version. Instead, it provides a mechanism for an=20
+			implementation, protocol, or other standard to cite the previous=20
+			version of the Unicode Standard with the corrigendum applied. If a=20
+			citation does not specifically mention the corrigendum, the=20
+			corrigendum does not apply. See=20
+            <a href=3D"https://www.unicode.org/versions/corrigenda.html">
+            Corrigenda</a> for more information about
+corrigenda to the standard.</p>
+            <h2><a name=3D"Online_Versus_Printed">Online versus Printed Edi=
+tions</a></h2>
+           =20
+            <p>Major versions of the Unicode Standard from Version 3.0 to V=
+ersion 5.0 were published both as printed books and as electronic editions =
+on this Web site. The electronic edition contains all of the chapters of th=
+e book (in pdf format). The content of both editions is intended to be iden=
+tical, but in case of any inadvertent errors in production of the electroni=
+c edition, the printed edition should be taken as authoritative for those v=
+ersions.
+</p>
+           =20
+            <h2><a name=3D"Open_Repertoires">Extensible Character Repertoir=
+e</a></h2>
+           =20
+<p>For most character encodings, the character repertoire is fixed (and oft=
+en small). Once the
+repertoire is decided upon, it is never changed. Addition of a new abstract=
+ character to a
+given repertoire creates a new repertoire, which will be treated either as =
+an update of the
+existing character encoding or as a completely new character encoding.</p>
+
+<p>For the Unicode Standard, by contrast, the repertoire is inherently open=
+. Because Unicode
+is a universal encoding, any abstract character that could ever be encoded =
+is a potential candidate
+to be encoded, regardless of whether the character is currently known.</p>
+
+<p>Each new version of the Unicode Standard supersedes the previous one, bu=
+t implementations=E2=80=94and, more significantly, data=E2=80=94are not upd=
+ated instantly. In general, major and
+minor version changes include new characters, which do not create particula=
+r problems
+with old data. The Unicode Technical Committee will neither remove nor move=
+ characters.
+Characters may be deprecated, but this does not remove them from the standa=
+rd or from
+existing data. The code point for a deprecated character will never be reas=
+signed to a different
+character, but the use of a deprecated character is strongly discouraged. G=
+enerally these
+rules make the encoded characters of a new version backward-compatible with=
+ previous
+versions.</p>
+
+<p>Implementations should be prepared to be forward-compatible with respect=
+ to Unicode
+versions. That is, they should accept text that may be expressed in future =
+versions of this
+standard, recognizing that new characters may be assigned in those versions=
+. Thus they
+should handle incoming unassigned code points as they do unsupported charac=
+ters. (See
+  <a href=3D"https://www.unicode.org/versions/latest/ch05.pdf#G7730">Sectio=
+n 5.3, Unknown and Missing Characters</a>.)</p>
+
+<p>A version change may also involve changes to the properties of existing =
+characters. When
+this situation occurs, modifications are made to the Unicode Character Data=
+base and a new
+update version is issued for the standard. Changes to the data files may al=
+ter program
+behavior that depends on them. However, such changes to properties and to d=
+ata files are
+never made lightly. They are made only after careful deliberation by the Un=
+icode Technical
+Committee has determined that there is an error, inconsistency, or other se=
+rious problem
+in the property assignments.</p>
+
+            <h2><a name=3D"Citations">Citations</a></h2>
+            <p>Since Unicode is an open standard, it is important not to=20
+            over-specify the version number. Wherever the precise behavior =
+of=20
+            all Unicode characters needs to be cited, the full three-field=
+=20
+            version number should be used, as below in example (1).</p>
+            <ol>
+              <li>The Unicode Standard, Version 3.1.1</li>
+              <li>The Unicode Standard, Version 3.1</li>
+              <li>The Unicode Standard, Version 3.0 or later</li>
+              <li>The Unicode Standard</li>
+            </ol>
+            <p>Where the precise character repertoire is significant, but t=
+he=20
+            precise character properties are not at issue, then the third f=
+ield=20
+            can be omitted, as in&nbsp; example (2). Where some basic level=
+ of=20
+            content is all that is important, phrasing such as in example (=
+3)=20
+            can be used. Where the important information is simply the over=
+all=20
+            architecture and semantics of the Unicode Standard, the version=
+ can=20
+            be omitted entirely, as in example (4).</p>
+            <p>Particular definitions or conformance clauses can also be ci=
+ted,=20
+            such as:</p>
+            <blockquote>
+              <p align=3D"left">Conformance clause C3 of The Unicode Standa=
+rd,=20
+              Version 3.1</p>
+            </blockquote>
+            <p>When citing the Unicode Character Database separately, use t=
+he=20
+            same format for version numbers.</p>
+            <blockquote>
+              <p>The Unicode Character Database, Version 3.1.1</p>
+            </blockquote>
+            <p>The versioning for Unicode Technical Reports and distinction=
+s=20
+            among the different categories of report are explained on
+            <a href=3D"https://www.unicode.org/reports/index.html">Technica=
+l=20
+            Reports</a>. The full form of a citation takes one of the follo=
+wing=20
+            forms:</p>
+            <ul>
+              <li>Unicode Standard Annex #9:&nbsp;The Bidirectional Algorit=
+hm,=20
+              Version 3.0.1</li>
+              <li>Unicode Technical Standard #6: A Standard Compression Sch=
+eme=20
+              for Unicode, Version 3.1</li>
+              <li>UTR #17:&nbsp;Character Encoding Model, Version 3.1</li>
+            </ul>
+            <p>As above, the revision number can be omitted where not neces=
+sary.=20
+            Citations can be abbreviated using the formats below, although =
+the=20
+            first citation should be spelled out for clarity. In particular=
+, the=20
+            acronyms UCD, UAX, UTS, and UTR should be spelled out the first=
+=20
+            time. The title of a UTR should be supplied with the first=20
+            reference.</p>
+            <ul>
+              <li>Unicode 3.1.1 (instead of The Unicode Standard, Version 3=
+.1.1)</li>
+              <li>Clause C3 of Unicode 3.1.1</li>
+              <li>UCD 3.1.1</li>
+              <li>UTS #10: Unicode Collation Algorithm</li>
+              <li>UTS #10</li>
+            </ul>
+            <p>When claiming conformance, the precise version should be use=
+d,=20
+            such as:</p>
+            <ul>
+              <li>"This product conforms to The Unicode Standard, Version=
+=20
+              9.0.0".</li>
+              <li>"This product conforms to UTS #10: Unicode Collation=20
+              Algorithm, Version 9.0.0".</li>
+            </ul>
+            <h2><a name=3D"References">Reference Examples</a></h2>
+
+            <p>The format for references to The Unicode Standard, Unicode=
+=20
+            Standard Annexes, and other Unicode Technical Reports is illust=
+rated=20
+            by the following examples. For the actual citations for referen=
+ces=20
+            to each version of the standard, see
+            the <a href=3D"http://www.unicode.org/versions/enumeratedversio=
+ns.html">Archive of Unicode Versions</a>.</p>
+            <h3><a name=3D"TUS_Latest_Version">The Unicode Standard, Latest=
+ Version</a></h3>
+
+            <h4>Versioned</h4>
+            <p>The Unicode Consortium. The Unicode Standard, Version 14.0.0=
+, (Mountain View, CA: The Unicode Consortium,                   2021. ISBN =
+978-1-936213-29-0)<br>
+              <a href=3D"https://www.unicode.org/versions/Unicode14.0.0/">h=
+ttps://www.unicode.org/versions/Unicode14.0.0/</a></p>
+            <h4>Versionless</h4>
+						<p>The Unicode Consortium. The Unicode Standard.<br>
+                        <a href=3D"https://www.unicode.org/versions/latest/=
+">
+                        https://www.unicode.org/versions/latest/</a></p>
+=20
+           <h3><a name=3D"TUS_Earlier_Versions">The Unicode Standard, Earli=
+er Versions</a></h3>
+           <h4><u>Version 13.0.0</u></h4>
+           <p>The Unicode Consortium. The Unicode Standard, Version=20
+                    13.0.0,&nbsp;(Mountain View, CA: The Unicode Consortium=
+, 2020. ISBN 978-1-936213-26-9)<br>
+              <a href=3D"https://www.unicode.org/versions/Unicode13.0.0/"> =
+https://www.unicode.org/versions/Unicode13.0.0/</a></p>
+           <h4><u>Version 12.1.0</u></h4>
+		   <p>The Unicode Consortium. The Unicode Standard, Version 12.1.0, (Moun=
+tain View, CA: The Unicode Consortium, 2019. ISBN 978-1-936213-25-2)<br>
+  			 <a href=3D"https://www.unicode.org/versions/Unicode12.1.0/">https://w=
+ww.unicode.org/versions/Unicode12.1.0/</a></p>
+           <h4><u>Version 12.0.0</u></h4>
+           <p>The Unicode Consortium. The Unicode Standard, Version 12.0.0,=
+&nbsp;(Mountain View, CA: The Unicode Consortium, 2019. ISBN 978-1-936213-2=
+2-1)<br>
+             <a href=3D"https://www.unicode.org/versions/Unicode12.0.0/">ht=
+tps://www.unicode.org/versions/Unicode12.0.0/</a></p>
+           <h4><u>Version 11.0.0</u></h4>
+           <p>The Unicode Consortium. The Unicode Standard, Version 11.0.0,=
+&nbsp;(Mountain View, CA: The Unicode Consortium, 2018. ISBN 978-1-936213-1=
+9-1)<br>
+              <a href=3D"https://www.unicode.org/versions/Unicode11.0.0/"> =
+https://www.unicode.org/versions/Unicode11.0.0/</a></p>
+           <h4><u>Version 10.0.0</u></h4>
+           <p>The Unicode Consortium. The Unicode Standard, Version 10.0.0,=
+&nbsp;(Mountain View, CA: The Unicode Consortium, 2017. ISBN 978-1-936213-1=
+6-0)<br>
+             <a href=3D"https://www.unicode.org/versions/Unicode10.0.0/">ht=
+tps://www.unicode.org/versions/Unicode10.0.0/</a></p>
+           <h4><u>Version 9.0.0</u></h4>
+           <p>The Unicode Consortium. The Unicode Standard, Version 9.0.0,&=
+nbsp;(Mountain View, CA: The Unicode Consortium,  2016. ISBN 978-1-936213-1=
+3-9)<br>
+              <a href=3D"https://www.unicode.org/versions/Unicode9.0.0/">ht=
+tps://www.unicode.org/versions/Unicode9.0.0/</a></p>
+           <h4><u>Version 8.0.0</u></h4>
+           <p>The Unicode Consortium. The Unicode Standard, Version 8.0.0,&=
+nbsp;(Mountain View, CA: The Unicode Consortium, 2015. ISBN 978-1-936213-10=
+-8)<br>
+             <a href=3D"https://www.unicode.org/versions/Unicode8.0.0/">htt=
+ps://www.unicode.org/versions/Unicode8.0.0/</a></p>
+            <h4><u>Version 7.0.0</u></h4>
+            <p>The Unicode Consortium. The Unicode Standard, Version 7.0.0,=
+&nbsp;(Mountain View, CA: The Unicode Consortium, 2014. ISBN 978-1-936213-0=
+9-2)<br>
+              <a href=3D"https://www.unicode.org/versions/Unicode7.0.0/">ht=
+tps://www.unicode.org/versions/Unicode7.0.0/</a></p>
+            <h4><u>Version 6.3.0</u></h4>
+            <p>The Unicode Consortium. The Unicode Standard, Version 6.3.0,=
+ (Mountain View, CA: The Unicode Consortium, 2013. ISBN 978-1-936213-08-5) =
+<br>
+              <a href=3D"https://www.unicode.org/versions/Unicode6.3.0/">ht=
+tps://www.unicode.org/versions/Unicode6.3.0/</a></p>
+            <h4><u>Version 6.2.0</u></h4>
+            <p>The Unicode Consortium. The Unicode Standard, Version 6.2.0,=
+ (Mountain View, CA: The Unicode Consortium, 2012. ISBN 978-1-936213-07-8) =
+<br>
+              <a href=3D"https://www.unicode.org/versions/Unicode6.2.0/">ht=
+tps://www.unicode.org/versions/Unicode6.2.0/</a></p>
+            <h4><u>Version 6.1.0</u></h4>
+            <p>The Unicode Consortium. The Unicode Standard, Version 6.1.0,=
+ (Mountain View, CA: The Unicode Consortium, 2012. ISBN 978-1-936213-02-3) =
+<br>
+              <a href=3D"https://www.unicode.org/versions/Unicode6.1.0/">ht=
+tps://www.unicode.org/versions/Unicode6.1.0/</a></p>
+            <h4><u>Version 6.0.0</u></h4>
+            <p>The Unicode Consortium. The Unicode Standard, Version 6.0.0,=
+ (Mountain View, CA: The Unicode Consortium, 2011. ISBN 978-1-936213-01-6) =
+<br>
+              <a href=3D"https://www.unicode.org/versions/Unicode6.0.0/">ht=
+tps://www.unicode.org/versions/Unicode6.0.0/</a></p>
+			<h4><u>Version 5.2.0</u></h4>
+			<p>The Unicode Consortium. The Unicode Standard, Version 5.2.0, (Mountai=
+n View, CA: The Unicode Consortium, 2009. ISBN 978-1-936213-00-9)<br>
+			<a href=3D"https://www.unicode.org/versions/Unicode5.2.0/">https://www.u=
+nicode.org/versions/Unicode5.2.0/</a></p>
+			<h4><u>Version 5.1.0</u></h4>
+			<p>The Unicode Consortium. The Unicode Standard, Version 5.1.0,=20
+			defined by: <i>The Unicode Standard, Version 5.0</i> (Boston, MA,=20
+			Addison-Wesley, 2007. ISBN 0-321-48091-0), as amended by Unicode=20
+			5.1.0<br>
+			<a href=3D"https://www.unicode.org/versions/Unicode5.1.0/">https://www.u=
+nicode.org/versions/Unicode5.1.0/</a></p>
+			<h4><u>Version 5.0.0</u></h4>
+			<p>The Unicode Consortium. The Unicode Standard, Version 5.0.0,=20
+			defined by: <i>The Unicode Standard, Version 5.0</i> (Boston, MA,=20
+			Addison-Wesley, 2007. ISBN 0-321-48091-0)  </p>
+            			<h4><u>Version 4.0.1</u></h4>
+						<p>The Unicode Consortium. The Unicode Standard, Version=20
+						4.0.1, defined by: <i>The Unicode Standard, Version 4.0</i>=20
+						(Boston, MA, Addison-Wesley, 2003. ISBN 0-321-18578-1),=20
+						as amended by Unicode 4.0.1<i><br>
+						</i>
+						<a href=3D"https://www.unicode.org/versions/Unicode4.0.1/">
+						https://www.unicode.org/versions/Unicode4.0.1/</a></p>
+			<h4><u>Version 4.0.0 with=20
+            Corrigendum</u></h4>
+			<p>The Unicode Consortium. The Unicode Standard, Version 4.0.0,=20
+			defined by: <i>The Unicode Standard, Version 4.0</i> (Boston, MA,=20
+			Addison-Wesley, 2003. ISBN 0-321-18578-1) and Corrigendum #5:=20
+			Normalization Idempotency<br>
+			<a href=3D"https://www.unicode.org/versions/corrigendum5.html">https://w=
+ww.unicode.org/versions/corrigendum5.html</a></p>
+            <h3><a name=3D"Unicode_Standard_Annexes">Unicode Standard Annex=
+es</a></h3>
+            			<h4>Versioned</h4>
+						<p>Unicode Standard Annex #15,=20
+						"Unicode Normalization=20
+				Forms," edited by Ken Whistler, an integral part of The=20
+				Unicode Standard. Version 14.0.0. 2021-08-27. (<a href=3D"https://www.u=
+nicode.org/reports/tr15/tr15-51.html">https://www.unicode.org/reports/tr15/=
+tr15-51.html</a>)<br>
+				Latest Version:=20
+						<a href=3D"https://www.unicode.org/reports/tr15/">
+						https://www.unicode.org/reports/tr15/</a></p>
+						<h4>Versionless</h4>
+						<p>Unicode Standard Annex #15, "Unicode Normalization=20
+                        Forms," edited by Ken Whistler, an integral part of=
+ The Unicode=20
+              Standard.<br>
+						(<a href=3D"https://www.unicode.org/reports/tr15/">https://www.unicod=
+e.org/reports/tr15/</a>)</p>
+            <h3><a name=3D"Unicode_Technical_Standards">Unicode Technical S=
+tandards</a></h3>
+            			<h4>Versioned</h4>
+						<p>Unicode=20
+						Technical Standard #10,"Unicode Collation Algorithm,"=20
+                        edited by Ken Whistler and Markus Scherer. Version&=
+nbsp;14.0.0. 2021-08-27. (<a href=3D"https://www.unicode.org/reports/tr10/t=
+r10-45.html">https://www.unicode.org/reports/tr10/tr10-45.html</a>)<br>
+						Latest Version:
+						<a href=3D"https://www.unicode.org/reports/tr10/">https://www.unicode=
+.org/reports/tr10/</a></p>
+   			  <h4>Versionless</h4>
+						<p>Unicode=20
+						Technical Standard #10,"Unicode Collation Algorithm,"=20
+                        edited by Ken Whistler and Markus Scherer. (<a href=
+=3D"https://www.unicode.org/reports/tr10/">https://www.unicode.org/reports/=
+tr10/</a>)</p>
+            <h3><a name=3D"Other_Unicode_Technical_Reports">Other Unicode T=
+echnical Reports</a></h3>
+            			<h4>Versioned</h4>
+						<p>Unicode Technical Report #25, "Unicode Support for Mathematics,"  =
+by Barbara Beeton, Asmus Freytag and Murray Sargent III.
+2017-05-30 (<a href=3D"https://www.unicode.org/reports/tr25/tr25-15.pdf">ht=
+tps://www.unicode.org/reports/tr25/tr25-15.pdf</a>)                       =
+=20
+						<br>
+						Latest Version: <a href=3D"https://www.unicode.org/reports/tr25/">htt=
+ps://www.unicode.org/reports/tr25/</a><a href=3D"https://www.unicode.org/re=
+ports/tr25/"></a></p>                                                      =
+                                         =20
+<h4>Versionless</h4>
+						<p>Unicode Technical Report #25, "Unicode Support for Mathematics,"  =
+by Barbara Beeton, Asmus Freytag and Murray Sargent III.<br>
+                        (<a href=3D"https://www.unicode.org/reports/tr25/">=
+https://www.unicode.org/reports/tr25/</a>)</p>        =20
+            </div>
+          </td>        =20
+        </tr>
+      </tbody></table>
+      <hr width=3D"50%">
+      <div align=3D"center">
+        <center>
+        <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+          <tbody><tr>
+            <td><a href=3D"https://www.unicode.org/copyright.html">
+            <img src=3D"https://www.unicode.org/img/hb_notice.gif" border=
+=3D"0" alt=3D"Access to Copyright and terms of use" width=3D"216" height=3D=
+"50"></a></td>
+          </tr>
+        </tbody></table>
+        </center>
+      </div>
+      </td>
+    </tr>
+  </tbody></table>
+
+
+
+
+</body></html>
+------MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3e7efba2-fd7c-4eed-bc18-43b04e458492@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-508cf2bc-9b73-4181-a833-15ce9051f0c4@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-59a1231e-bb8d-4177-ac8a-f8cc59a8dcfb@mhtml.blink
+
+@charset "utf-8";
+
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_=
+text > img[src^=3D"https://www.gstatic.com/images/branding/googlelogo"], sp=
+an[data-href^=3D"https://www.hcaptcha.com/"] > #icon, #bit-notification-bar=
+-iframe, ::-webkit-calendar-picker-indicator { filter: invert(100%) hue-rot=
+ate(180deg) contrast(90%) !important; }
+------MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-da1faa89-6a8a-41c1-9d3a-9068bdbf4bdb@mhtml.blink
+
+@charset "utf-8";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+
+[data-darkreader-inline-stopcolor] { stop-color: var(--darkreader-inline-st=
+opcolor)  !important; }
+------MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c8c3150c-34bf-4e15-9ebe-b863974d6aeb@mhtml.blink
+
+@charset "utf-8";
+
+:root { --darkreader-neutral-background: #131516; --darkreader-neutral-text=
+: #d8d4cf; --darkreader-selection-background: #004daa; --darkreader-selecti=
+on-text: #e8e6e3; }
+------MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f1c6e8a1-eadc-46bb-bbba-ea703d2d3137@mhtml.blink
+
+@charset "utf-8";
+
+:root { }
+------MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2a5e6611-64fa-4257-805e-b3f516574194@mhtml.blink
+
+@charset "utf-8";
+
+html { background-color: rgb(24, 26, 27) !important; }
+
+html { color-scheme: dark !important; }
+
+html, body { background-color: rgb(24, 26, 27); }
+
+html, body { border-color: rgb(115, 107, 94); color: rgb(232, 230, 227); }
+
+a { color: rgb(51, 145, 255); }
+
+table { border-color: rgb(84, 91, 94); }
+
+::placeholder { color: rgb(178, 171, 161); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(64, 68, 0) !important; color: rgb(232, 230, 227) !i=
+mportant; }
+
+::-webkit-scrollbar { background-color: rgb(32, 35, 36); color: rgb(171, 16=
+4, 153); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(69, 74, 77); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(87, 94, 98); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(72, 78, 81); }
+
+::-webkit-scrollbar-corner { background-color: rgb(24, 26, 27); }
+
+::selection { background-color: rgb(0, 77, 170) !important; color: rgb(232,=
+ 230, 227) !important; }
+------MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-cdad47da-87f6-44d6-ba4e-c2fd0987b01c@mhtml.blink
+
+@charset "utf-8";
+
+body { color: rgb(232, 230, 227); background-color: rgb(39, 39, 0); }
+
+p { color: rgb(232, 230, 227); background-color: rgb(39, 39, 0); }
+
+td { color: rgb(232, 230, 227); background-color: rgb(39, 39, 0); }
+
+li { color: rgb(232, 230, 227); background-color: rgb(39, 39, 0); }
+
+a:link { color: rgb(255, 61, 61); text-decoration-color: initial; }
+
+a:visited { color: rgb(255, 109, 109); text-decoration-color: initial; }
+
+a:active { color: rgb(114, 255, 114); }
+
+a:hover { text-decoration-color: initial; }
+
+td.bar { color: rgb(255, 255, 203); background-color: rgb(122, 0, 0); }
+
+p.bar { color: rgb(255, 255, 203); background-color: rgb(122, 0, 0); }
+
+td.icon { color: rgb(255, 255, 203); background-color: rgb(122, 0, 0); }
+
+td.gray { color: rgb(255, 255, 203); background-color: rgb(82, 88, 92); }
+
+a.bar:link { color: rgb(255, 255, 203); }
+
+a.bar:visited { color: rgb(255, 255, 203); }
+
+a.bar:active { color: rgb(255, 61, 61); }
+
+a.bar:hover { color: rgb(255, 61, 61); }
+
+td.navCol { color: rgb(216, 213, 207); background-color: rgb(79, 59, 19); }
+
+table.navColTable { color: rgb(216, 213, 207); background-color: rgb(79, 59=
+, 19); }
+
+td.navColTitle { color: rgb(255, 255, 203); background-color: rgb(122, 0, 0=
+); }
+
+td.navColCell { background-color: rgb(79, 59, 19); }
+
+td.currentPage { background-color: rgb(79, 59, 19); }
+
+table.sidebar { color: rgb(232, 230, 227); background-color: rgb(122, 0, 0)=
+; }
+
+td.sidebarTitle { color: rgb(255, 255, 203); background-color: rgb(122, 0, =
+0); }
+
+td.sidebar { color: rgb(232, 230, 227); background-color: rgb(79, 59, 19); =
+}
+
+unknown { color: rgb(255, 255, 192); }
+
+table.light { color: rgb(216, 213, 207); background-color: rgb(46, 46, 0); =
+}
+
+td.dark { color: rgb(255, 255, 192); background-color: rgb(136, 0, 0); }
+
+h4 { color: rgb(232, 230, 227); background-color: rgb(39, 39, 0); }
+
+td.head { color: rgb(255, 255, 203); background-color: rgb(82, 88, 92); }
+
+ul.one { text-decoration-color: initial; }
+
+ul.two { text-decoration-color: initial; }
+
+span.changedspan { background-color: rgb(153, 153, 0); }
+
+span.removedspan { text-decoration-color: initial; background-color: rgb(15=
+3, 153, 0); }
+
+table.simple { border-color: rgb(75, 81, 84); }
+
+table.simple th { border-color: rgb(75, 81, 84); }
+
+table.simple td { border-color: rgb(75, 81, 84); }
+
+table.subtle { border-color: rgb(75, 81, 84); }
+
+table.subtle th { border-color: rgb(75, 81, 84); }
+
+table.subtle td { border-color: rgb(75, 81, 84); }
+
+table.subtle-nb th { border-color: rgb(52, 56, 58); }
+
+table.subtle-nb table.subtle th { border-color: rgb(75, 81, 84); }
+
+table.subtle-nb table.subtle td { border-color: rgb(75, 81, 84); }
+
+table.subtle-nb table.simple th { color: rgb(232, 230, 227); background-col=
+or: rgb(24, 26, 27); border-color: rgb(75, 81, 84); }
+
+table.subtle-nb table.simple td { border-color: rgb(75, 81, 84); }
+
+table.subtle table.simple th { color: rgb(232, 230, 227); background-color:=
+ rgb(24, 26, 27); }
+
+table.subtle th { color: rgb(171, 164, 153); background-color: rgb(27, 29, =
+30); }
+
+table.subtle-nb th { color: rgb(152, 143, 129); background-color: rgb(28, 3=
+0, 31); }
+
+table.subtle th p { color: rgb(152, 143, 129); background-color: rgb(28, 30=
+, 31); }
+
+table.subtle-nb tr th p { color: rgb(152, 143, 129); background-color: rgb(=
+28, 30, 31); }
+
+.changed { background-color: rgb(153, 153, 0); }
+
+.removed { text-decoration-color: initial; background-color: rgb(153, 153, =
+0); }
+
+.reviewnote { background-color: rgb(95, 95, 0); color: rgb(255, 61, 61); }
+------MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-6675c3c4-a4ce-4228-a0c7-36c619070060@mhtml.blink
+
+@charset "utf-8";
+
+.vimvixen-hint { background-color: rgb(123, 83, 0) !important; border-color=
+: rgb(216, 176, 19) !important; color: rgb(243, 232, 200) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+
+#edge-translate-panel-body, .MuiTypography-body1 { color: var(--darkreader-=
+neutral-text)  !important; }
+
+gr-main-header { background-color: rgb(15, 58, 72) !important; }
+
+.tou-z65h9k, .tou-mignzq, .tou-1b6i2ox, .tou-lnqlqk { background-color: var=
+(--darkreader-neutral-background)  !important; }
+
+.tou-75mvi { background-color: rgb(3, 32, 41) !important; }
+
+.tou-ta9e87, .tou-1w3fhi0, .tou-1b8t2us, .tou-py7lfi, .tou-1lpmd9d, .tou-1f=
+rrtv8, .tou-17ezmgn { background-color: rgb(10, 10, 10) !important; }
+
+.tou-uknfeu { background-color: rgb(35, 22, 3) !important; }
+
+.tou-6i3zyv { background-color: rgb(25, 87, 108) !important; }
+
+embed[type=3D"application/pdf"][src=3D"about:blank"] { filter: invert(100%)=
+ contrast(90%); }
+------MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.unicode.org/webscripts/standard_styles.css
+
+@charset "utf-8";
+
+body { margin: 0px; color: rgb(0, 0, 0); font-family: Arial, Geneva, sans-s=
+erif; background-color: rgb(255, 255, 254); }
+
+div.body { margin: 1em; }
+
+p { color: rgb(0, 0, 0); font-family: Arial, Geneva, sans-serif; background=
+-color: rgb(255, 255, 254); }
+
+td { color: rgb(0, 0, 0); font-family: Arial, Geneva, sans-serif; backgroun=
+d-color: rgb(255, 255, 254); }
+
+li { color: rgb(0, 0, 0); font-family: Arial, Geneva, sans-serif; backgroun=
+d-color: rgb(255, 255, 254); margin-top: 0.25em; margin-bottom: 0.25em; }
+
+a:link { color: rgb(204, 0, 0); text-decoration: none; }
+
+a:visited { color: rgb(136, 0, 0); text-decoration: none; }
+
+a:active { color: green; }
+
+a:hover { text-decoration: underline; }
+
+h1 { font-weight: bold; }
+
+h2 { font-weight: bold; }
+
+h3 { font-weight: bold; }
+
+h4 { font-weight: bold; }
+
+h1 { margin-top: 12px; font-size: 180%; font-family: Arial, Geneva, sans-se=
+rif; text-align: center; }
+
+h2 { margin-top: 2em; font-size: 120%; line-height: 100%; font-family: Aria=
+l, Geneva, sans-serif; }
+
+h3 { margin-top: 2em; font-size: 105%; font-family: Arial, Geneva, sans-ser=
+if; }
+
+h4 { margin-top: 2em; font-size: 95%; font-family: Arial, Geneva, sans-seri=
+f; }
+
+td.bar { padding: 4px; font-weight: bold; font-size: 100%; color: rgb(255, =
+255, 254); font-family: Arial, Geneva, sans-serif; background-color: rgb(15=
+3, 0, 0); text-align: right; }
+
+p.bar { padding: 4px; font-weight: bold; font-size: 100%; color: rgb(255, 2=
+55, 254); font-family: Arial, Geneva, sans-serif; background-color: rgb(153=
+, 0, 0); text-align: right; }
+
+td.icon { padding: 2px; font-weight: bold; font-size: 100%; color: rgb(255,=
+ 255, 254); font-family: Arial, Geneva, sans-serif; background-color: rgb(1=
+53, 0, 0); text-align: left; }
+
+td.gray { padding: 0px; font-size: 50%; color: rgb(255, 255, 254); backgrou=
+nd-color: rgb(153, 153, 153); }
+
+a.bar { font-size: 100%; }
+
+a.bar:link { font-size: 90%; color: rgb(255, 255, 254); }
+
+a.bar:visited { font-size: 90%; color: rgb(255, 255, 254); }
+
+a.bar:active { font-size: 90%; color: rgb(255, 51, 51); }
+
+a.bar:hover { font-size: 90%; color: rgb(255, 51, 51); }
+
+td.navCol { padding: 4px; color: rgb(51, 0, 0); background-color: rgb(240, =
+224, 192); }
+
+table.navColTable { color: rgb(51, 0, 0); background-color: rgb(240, 224, 1=
+92); }
+
+td.navColTitle { padding: 4px; font-weight: bold; font-size: 95%; color: rg=
+b(255, 255, 254); font-family: Arial, Geneva, sans-serif; background-color:=
+ rgb(153, 0, 0); text-align: center; }
+
+td.navColCell { font-size: 90%; background-color: rgb(240, 224, 192); }
+
+td.currentPage { font-weight: bold; font-size: 90%; font-style: italic; bac=
+kground-color: rgb(240, 224, 192); }
+
+td.contents { }
+
+table.sidebar { padding: 0px; float: right; margin: 4px 4px 4px 1em; width:=
+ 40%; color: rgb(0, 0, 0); background-color: rgb(153, 0, 0); }
+
+td.sidebarTitle { padding: 0px; font-weight: bold; font-size: 95%; color: r=
+gb(255, 255, 254); font-family: Arial, Geneva, sans-serif; background-color=
+: rgb(153, 0, 0); }
+
+td.sidebar { padding: 2px; font-size: 90%; color: rgb(0, 0, 0); background-=
+color: rgb(240, 224, 192); }
+
+p.q { font-weight: bold; font-style: italic; font-family: "Century Schoolbo=
+ok", serif; }
+
+p.a { margin-left: 16px; margin-right: 16px; font-family: "Century Schoolbo=
+ok", serif; }
+
+p.source { font-size: 90%; margin-right: 16px; font-family: "Century School=
+book", serif; text-align: right; }
+
+unknown { color: rgb(255, 255, 238); }
+
+table.light { color: rgb(51, 0, 0); background-color: rgb(255, 255, 238); }
+
+td.dark { font-size: 200%; color: rgb(255, 255, 238); font-family: "Century=
+ Schoolbook", serif; background-color: rgb(170, 0, 0); }
+
+h1 { font-size: 150%; margin: 2px 0px; line-height: 100%; font-family: Aria=
+l, Geneva, sans-serif; text-align: center; }
+
+h4 { color: rgb(0, 0, 0); font-family: Arial, Geneva, sans-serif; font-weig=
+ht: bold; font-size: 95%; background-color: rgb(255, 255, 254); margin-bott=
+om: -15px; }
+
+td.head { padding: 0px; font-size: 100%; font-weight: bold; color: rgb(255,=
+ 255, 254); background-color: rgb(153, 153, 153); }
+
+ul.one { font-size: 90%; margin-left: 20px; text-decoration: none; list-sty=
+le-type: none; }
+
+ul.two { font-size: 85%; text-decoration: none; text-align: left; list-styl=
+e-type: none; margin-left: 20px; }
+
+span.changedspan { background-color: rgb(255, 255, 0); border-style: dotted=
+; border-width: 1px; }
+
+span.removedspan { text-decoration: line-through; background-color: rgb(255=
+, 255, 0); border-style: dotted; border-width: 1px; }
+
+table.simple { border-width: 1px; border-style: solid; border-color: rgb(16=
+0, 160, 160); border-collapse: collapse; padding: 0.2em; font-size: 1em; }
+
+table.simple th { border-width: 1px; border-style: solid; border-color: rgb=
+(160, 160, 160); font-weight: bold; padding: 5px; text-align: left; }
+
+table.simple td { border-width: 1px; border-style: solid; border-color: rgb=
+(160, 160, 160); padding: 5px; text-align: left; }
+
+table.subtle { border-width: 1px; border-style: solid; border-color: rgb(16=
+0, 160, 160); border-collapse: collapse; padding: 0.2em; font-size: 1em; }
+
+table.subtle th { border-width: 1px; border-style: solid; border-color: rgb=
+(160, 160, 160); font-weight: bold; padding: 5px; text-align: left; }
+
+table.subtle td { border-width: 1px; border-style: solid; border-color: rgb=
+(160, 160, 160); padding: 5px; text-align: left; }
+
+table.subtle-nb { border-style: none; border-width: 0px; border-collapse: c=
+ollapse; }
+
+table.subtle-nb th { border: 1px solid rgb(242, 242, 242); font-weight: bol=
+d; padding: 5px; text-align: left; }
+
+table.subtle-nb td { border-style: none; font-weight: normal; padding: 5px;=
+ text-align: left; }
+
+table.subtle-nb table.subtle th { border-width: 1px; border-style: solid; b=
+order-color: rgb(160, 160, 160); }
+
+table.subtle-nb table.subtle td { border-width: 1px; border-style: solid; b=
+order-color: rgb(160, 160, 160); }
+
+table.subtle-nb table.simple th { color: rgb(0, 0, 0); background-color: rg=
+b(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb=
+(160, 160, 160); }
+
+table.subtle-nb table.simple td { border-width: 1px; border-style: solid; b=
+order-color: rgb(160, 160, 160); }
+
+table.subtle table.simple th { color: rgb(0, 0, 0); background-color: rgb(2=
+55, 255, 255); }
+
+table.subtle th { color: rgb(96, 96, 96); background-color: rgb(250, 250, 2=
+50); }
+
+table.subtle-nb th { color: rgb(128, 128, 128); background-color: rgb(248, =
+248, 248); }
+
+table.subtle th p { color: rgb(128, 128, 128); background-color: rgb(248, 2=
+48, 248); }
+
+table.subtle-nb tr th p { color: rgb(128, 128, 128); background-color: rgb(=
+248, 248, 248); }
+
+table.simple th p { margin: 0px; }
+
+table.subtle th p { margin: 0px; }
+
+table.subtle-nb th p { margin: 0px; }
+
+table.simple td > p:first-child { margin: 0px; }
+
+table.simple td > p { margin-top: 1.5em; }
+
+table.subtle td > p:first-child { margin: 0px; }
+
+table.subtle td > p { margin-top: 1.5em; }
+
+table.subtle-nb td > p:first-child { margin: 0px; }
+
+table.subtle-nb td > p { margin-top: 1.5em; }
+
+table.simple td > ul:first-child { margin-top: 0px; margin-bottom: 0px; }
+
+table.simple td > ol:first-child { margin-top: 0px; margin-bottom: 0px; }
+
+table.simple td > ul { margin-top: 1.5em; margin-bottom: 0.5em; }
+
+table.simple td > ol { margin-top: 1.5em; margin-bottom: 0.5em; }
+
+table.subtle td > ul:first-child { margin-top: 0px; margin-bottom: 0px; }
+
+table.subtle td > ol:first-child { margin-top: 0px; margin-bottom: 0px; }
+
+table.subtle td > ul { margin-top: 1.5em; margin-bottom: 0.5em; }
+
+table.subtle td > ol { margin-top: 1.5em; margin-bottom: 0.5em; }
+
+table.subtle-nb td > ul:first-child { margin-top: 0px; margin-bottom: 0px; =
+}
+
+table.subtle-nb td > ol:first-child { margin-top: 0px; margin-bottom: 0px; =
+}
+
+table.subtle-nb td > ul { margin-top: 1.5em; margin-bottom: 0.5em; }
+
+table.subtle-nb td > ol { margin-top: 1.5em; margin-bottom: 0.5em; }
+
+td.navColCell:first-child { padding-left: 0.6em; text-indent: -0.6em; }
+
+.changed { background-color: rgb(255, 255, 0); border-style: dotted; border=
+-width: 1px; }
+
+.removed { text-decoration: line-through; background-color: rgb(255, 255, 0=
+); border-style: dotted; border-width: 1px; }
+
+.reviewnote { background-color: rgb(255, 255, 128); color: rgb(204, 0, 0); =
+border-style: dashed; border-width: 1px; }
+------MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.unicode.org/webscripts/logo60s2.gif
+
+R0lGODlhIgAhAPcAAN0eLf///9gAC9YAAdYAA9gACtcACtcACdcAB9YABdYGC9cLEfvj5Pvk5dgA
+D9gADdcADNkDENkFEtkJFtoLGNoOG9oPHdsRHtwYJdwcKN0gLd4nM94oNOAxPeA1QOJDTuNGUeVR
+W+VVXuZeZ+diafZwefhye/lzfPx2fvt1fu6Rl++YnfGkqfGmq/KprvS2uvS4vPbBxPbCxfbDxvnb
+3fvm59gAEdkDFNkDE9kFF9kFFdoGF9oHGNkHF9oJGtoLG9oNHdsPH9sQItsQINsSIdsSItsUJNwV
+JdwWJtwZKdwaKtwbKd0cK90dLN0fLt0fLd0gL94hMN0hMN4iMd8jNN4jMt4lNOAyQOA1Q+E2Q+E5
+R+E5ReE6R+I+SuNJVOROWuROWeVWYeZaZeJcaOJcZ+dfauZga+Vfa+dhbOhibO5ocu1ncfFrdehn
+cfZveehpcvpzffdxe+lrdP12gOlud+t6gux9heyCiu2Fje2Gju6Mk++Um++Wnu+WnfCYn++Yn/Gi
+qPKrsfOus/OxtvOzuPW7wPW8wfW/w/fIzPnU1/rh4/vk5vvn6fzp6/729/74+f75+pGRlri4u6mp
+rNvb3fT09fLy8+/v8Ozs7ejo6ebm5+Pj5N7e39zc3WdobXh5foSFioOEiX5/hJGSl4qLkImKj4iJ
+jpeYnYaHi4WGioKDh5manpiZnZWWmpOUmI+QlI2OkoyNkYuMkIqLj6OkqJ6fo52eopydoY6PkqSl
+qKOkp6GipZ2eoZKTlsXGyausr6eoq5+hpbq7vbW2uLKztd/g4srLzcLDxZKUl6yusb/BxIeKjpqd
+oYmNkmxxdn2BhYqOkomNkaGlqaOnq+nq697f4N3e39zd3tna29fY2dXW19PU1dHS04eMkIqOkby/
+wZ+kp5abntTX2L7b3NDp6c3k5OH4+N/29t/y8u77+/b9/fv///P09Orr6+Dh4dj08+P6+eX5+Ob3
+9vX//vX9/NMAANEAAP3w8P3z8/77+/////7+/v39/fr6+vb29v///yH5BAEAAP8ALAAAAAAiACEA
+AAj/AAEIHEiwoMGDCBMqNKiEyROETZgwaXJQokSKBKdQMFDgQhWDUyYcQFDh40AoACIUeICAwpSB
+TnpwQURoQxAnBJkAsXMoRpscBJEAWPHChYwQD6QINHIkUYAAg2woIajkhqGnfg5gBDDESY2nAWhY
+uAmASBMGTw/pSEIVR6Gnf7QO7PoVbJ0BUQTiaBPAkRcdBZW4hStXIF2wAe5p4OHESRQFEA4soBJ4
+cIC4Ww/nu/dUxQCcSLqACZHlSOW3lwtz9RpgXx9GTzvYAOAg0FM8CE4Tzsw6wAc9T1kkUFL7aZ7c
+bVFjntsbRAawHw7YsB0At+7UvOu+sdfi6YsDAqhb/0++m3ldOfU8gAVTT9Bt5AOrou6jmgiARU/f
+CCCw4qmMeoC8d90e8JXFRAP5CXADB488tUUdAlLlwCBPCVKgDxs48pQYD0AxAB5PuQBcdQUKdIAK
+Tz2SQQI4MVEPCWBtsYMTP2AAGz6KREiQA2CAFQMRBCQwABecBTBDD2xFMQAdiJFoUBI4wABWIyzs
+8QIkYIlgAEpOFEGBU2CNR5AUOjCRY5Ng3YHAVlEQMAJixx1URQQW8IFPk4mEgQASKA2EBA4yBJBP
+AHccgNAUFhCgxBdv0FGGFhIcwESfA0lBBBNaXIGFFVMh1JgQDhwA3g5JUFqQFEXk4MMOR+S10Kuw
+Cv8g66y01mrrrbamsAYZJbCxxglonGHCGr+egUYJc7hhRhpxJGsGGiakAIcaY6iBwgknnKNOAPGk
+Qw88T5lDjzrmPCXPOOc8hc448jwFTznkrBPAPO+UU84z1gTAzDebOFNMANBkg403ARizzDTB9ONL
+M8l0I04A0YAjTTgBaPOMMt+Y8i8tx1DzySyVBINNJ8FcEgo2T10jSiYBcFMKNaf8u8ow1oySiSWg
+bBKALspwMgkxrtjizjXAUGJKJU8Zkwo/AWBCSja1cBLAMLpwIsskvpQiTACgcHPNKQHs4kk7lKyy
+jymSBFBNJqgcE8AvrfTTizX8qMINNpE8tYkrqSQlE8A2vATgzyubVHNLAJpEEksuiCODyyrsBFAL
+K61s3QkstNASEAA7
+
+------MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.unicode.org/img/hb_notice.gif
+
+R0lGODlhsAFkAPcAAP///wAAAMkAAssBAskCA8cCBMkFBsoGCeWKjPC+v/LFxssAB8oABcsBCswD
+DMsDCswEC8wEDMwGDcsGDcwIEM0MFM4PF80QFc4SGs8UG9AVHc4XHc8ZH9AbItEdJdEfJtIhKNEh
+KNIiKdEiKdIjKtIkK9MmLdMpL9QrMtQuNNUwNtUzOdU3PdY9Q9dARtdFS9lLUdtSV9xbYN1gZN9k
+ad9obd9rb+Juc+BtcuFuc99vct9wc+Fyd+J2e+N7f+R9gOSDhuSFiOaMj+eQk+mXmuqeoOukpuyn
+qu2qre+ztfC0tu+0tvLBw/LCxPTHyfXLzPPLzPTNzvTT1Pji480FD9EXIe6usfC3uvTDxvbX2fzx
+8vzy8/zz9Pvy8/319vz09f7//v78+/77+v36+f339vv19Pv08/vw7/zy8fvx8Pfm5cgAAMcAAMUA
+AMMAAMAAAMsPDvLJyfPPz/TR0fPR0fXW1vbc3Pjo6Prr6/vu7vzw8P35+f78/P37+//+/v7+/vz8
+/Pr6+vn5+ff39/X19fLy8vDw8O/v7+3t7erq6unp6ebm5uTk5OLi4uHh4d/f393d3dra2tnZ2dfX
+19XV1dLS0tDQ0M7Ozs3NzcrKysjIyMbGxsXFxcLCwsDAwL+/v7y8vLu7u7m5uba2trS0tLKysrCw
+sK6urq2traurq6ioqKenp6SkpKKioqGhoZ6enpycnJqampmZmZaWlpWVlZKSkpCQkI+Pj42NjYuL
+i4mJiYaGhoWFhYKCgoCAgH5+fnx8fHt7e3h4eHd3d3V1dXJycnFxcW5ubm1tbWtra2hoaGZmZmVl
+ZWJiYmFhYV5eXl1dXVpaWlhYWFdXV1RUVFJSUlFRUU9PT0xMTEtLS0hISEZGRkREREJCQkBAQD4+
+Pjw8PDs7Ozk5OTc3NzU1NTMzMzExMS8vLywsLCoqKikpKSYmJiQkJCIiIiEhIR4eHh0dHRsbGxkZ
+GRYWFhUVFRISEhAQEA8PDw0NDQoKCgkJCQYGBgUFBQICAgEBAf///yH5BAUAAP8ALAAAAACwAWQA
+AAj/AAEIHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEN+DKTxTyFDhER2NIlSICFD
+hf5EHMSQZUqVOC0GMmSIZE6Rjwz9HGrxZcyBJ28qZAUv3CKMheDdc0bRqMyPgngSjDpVoLN78AoV
+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
+
+------MultipartBoundary--K7XLQoFG8dKK2TPdYZyV1D3HLJqXh4p9kuaGJrqhZo------

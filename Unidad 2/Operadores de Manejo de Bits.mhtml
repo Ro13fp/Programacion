@@ -1,0 +1,1682 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.zator.com/Cpp/E4_9_3.htm
+Subject: Operadores de Manejo de Bits
+Date: Sun, 26 Jun 2022 15:35:47 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----"
+
+
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: text/html
+Content-ID: <frame-A2B13633101FE46D955CB62994CFAF2C@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.zator.com/Cpp/E4_9_3.htm
+
+<!DOCTYPE html><html data-darkreader-mode=3D"dynamic" data-darkreader-schem=
+e=3D"dark"><head><meta http-equiv=3D"Content-Type" content=3D"text/html; ch=
+arset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-1=
+0b12c98-5b47-4d0d-a5f6-66fea7383780@mhtml.blink" /><link rel=3D"stylesheet"=
+ type=3D"text/css" href=3D"cid:css-dc512ee8-470a-459a-8788-79a6bb539b23@mht=
+ml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-5010=
+b7ec-e432-49d1-864f-96ce3932b6ce@mhtml.blink" /><link rel=3D"stylesheet" ty=
+pe=3D"text/css" href=3D"cid:css-d6270a55-a2fb-4d6e-8a69-420ab9fef8c4@mhtml.=
+blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-52c07b7=
+c-0e57-4663-8f83-405785df7789@mhtml.blink" /><link rel=3D"stylesheet" type=
+=3D"text/css" href=3D"cid:css-8c8b949b-59cb-4fb1-8c9f-9a61af65451d@mhtml.bl=
+ink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-96766677-=
+412d-4540-ba24-7f56984b101e@mhtml.blink" /><link rel=3D"stylesheet" type=3D=
+"text/css" href=3D"cid:css-0f0435ae-b114-4ef2-a60a-7eaa1a9c4f3d@mhtml.blink=
+" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-25392711-d88=
+8-47fc-9efc-c91d7bccaed4@mhtml.blink" /><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-17593be9-dfa5-4469-b775-b6f77db16f41@mhtml.blink" /=
+><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-91455356-f764-4=
+c93-b93e-5047c1ba0e1d@mhtml.blink" /><title>Operadores de Manejo de Bits</t=
+itle>
+
+<meta name=3D"description" content=3D"desplazamientos, bitand, bitor, xor, =
+compl">
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.zator.com/Cp=
+p/eztilosH.css">
+<link rel=3D"shortcut icon" href=3D"https://www.zator.com/Cpp/images/zicon.=
+ico">
+<meta name=3D"darkreader" content=3D"228bf796d8954dc48429a65a0a927fd8"></he=
+ad>
+<body>
+<div class=3D"top1">
+=EF=BB=BF
+<!-- mancheta estandar C++-->
+
+
+<table border=3D"0" bgcolor=3D"#FFFFFF" cellpadding=3D"2" cellspacing=3D"0"=
+ width=3D"100%" data-darkreader-inline-bgcolor=3D"" style=3D"--darkreader-i=
+nline-bgcolor:#181a1b;"><tbody><tr>
+  <td>
+  <div align=3D"left">
+    <!--p class=3D'flo'><font color=3D'#FF0000'><B>=C3=82=C2=A1Nuevo!</B></=
+font>&nbsp; por fin disponible la versi=C3=83=C2=B3n 5 de <b>OrganiZATOR</b=
+-->
+    <p class=3D"flo">Disponible la nueva versi=C3=B3n "<b>donationware</b>"=
+<b> 7.3</b> de <b>OrganiZATOR</b>
+    <br>Descubre un nuevo concepto en el manejo de la informaci=C3=B3n.
+    <br>La mejor ayuda para sobrevivir en la moderna jungla de datos la tie=
+nes <a href=3D"https://www.zator.com/zLvd.htm">aqu=C3=AD</a>.</p>
+  </div>
+  </td>
+  <td>
+
+  <p class=3D"n1"><font color=3D"#0000ff" face=3D"Arial Black" size=3D"5" d=
+ata-darkreader-inline-color=3D"" style=3D"--darkreader-inline-color:#337dff=
+;"><a name=3D"TOP">Curso C++</a></font></p>
+  <div align=3D"right">
+    <table border=3D"0" bgcolor=3D"#CCCCCC" cellpadding=3D"2" cellspacing=
+=3D"0" data-darkreader-inline-bgcolor=3D"" style=3D"--darkreader-inline-bgc=
+olor:#35393b;"><tbody><tr><td>
+    <p class=3D"n1" align=3D"right">[<a href=3D"https://www.zator.com/index=
+.htm">Home</a>]&nbsp; [<a href=3D"https://www.zator.com/Cpp/index.htm">Inic=
+io</a>]&nbsp; [<a href=3D"https://www.zator.com/Cpp/E_Ce.htm">=C3=8Dndice</=
+a>]</p></td>
+    </tr></tbody></table>
+  </div>
+</td></tr></tbody></table></div>
+<div class=3D"ext">
+<table border=3D"0" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0"><tbo=
+dy><tr><td valign=3D"top">
+<div class=3D"left">
+<div class=3D"lmenu">
+=EF=BB=BF
+<p class=3D"n2"><b>En esta p=C3=A1gina</b>:</p>
+  <p class=3D"ibm"><a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#Sinopsis=
+">1 Sinopsis</a></p>
+  <p class=3D"ibm"><a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#Compleme=
+nto">2 Complemento a uno <b>~</b></a></p>
+  <p class=3D"ibm"><a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#Desplaza=
+miento%20a%20izquierda">3 Desplazamiento izquierda <b>&lt;&lt;</b></a></p>
+  <p class=3D"ibm"><a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#Desplaza=
+miento%20a%20derecha">4 Desplazamiento derecha <b>&gt;&gt;</b></a></p>
+  <p class=3D"ibm"><a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#AND">5 A=
+ND l=C3=B3gico <b>&amp;</b></a></p>
+  <p class=3D"ibm"><a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#OR">6 OR=
+ exclusivo <b>^</b></a></p>
+  <p class=3D"ibm"><a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#OR">7 OR=
+ inclusivo <b>|</b></a></p>
+  <p class=3D"ibm"><a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#Asignaci=
+on-compuesta">8 Asignaciones compuestas</a></p>
+<p class=3D"n2"><b>En esta secci=C3=B3n</b>:</p>
+  <p class=3D"ibm"><a href=3D"https://www.zator.com/Cpp/E4_9_3a.htm">a Ejem=
+plos adicionales</a></p>
+ <p class=3D"ibm"><a href=3D"https://www.zator.com/Cpp/E4_9.htm"><img borde=
+r=3D"0" src=3D"https://www.zator.com/Cpp/images/aUp.gif" width=3D"16" heigh=
+t=3D"16"> Subir</a></p></div><br>
+
+
+</div>
+</td><td valign=3D"top" width=3D"100%">
+<div class=3D"top2" align=3D"RIGHT">
+
+
+</div>
+<div class=3D"main">
+
+<!--RM E4_9_3R-->
+
+ <h4>4.9.3&nbsp; Operadores de manejo de Bits</h4>
+
+ <h5>=C2=A71&nbsp; <a name=3D"Sinopsis">Sinopsis</a></h5>
+
+ <p>C++&nbsp; dispone de 6 <b>operadores para manejo de bits</b> que realiz=
+an dos tipos de operaciones.&nbsp; Son los siguientes:</p>
+
+<blockquote>
+ <p class=3D"n2"><span style=3D"background-color: rgb(255, 255, 0); --darkr=
+eader-inline-bgcolor:#999900;" data-darkreader-inline-bgcolor=3D""><strong>=
+~</strong></span> &nbsp;&nbsp;&nbsp;&nbsp; <b>Complemento a uno</b>&nbsp;
+ <a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#Complemento"><img border=
+=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hojaFdwn.gif" width=3D"1=
+6" height=3D"16"></a>*.
+
+ </p><p class=3D"n2"><span style=3D"background-color: rgb(255, 255, 0); --d=
+arkreader-inline-bgcolor:#999900;" data-darkreader-inline-bgcolor=3D""><str=
+ong>&lt;&lt;</strong></span> &nbsp;&nbsp; <b>Desplazamiento a izquierda</b>=
+&nbsp;
+ <a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#Desplazamiento%20a%20izqui=
+erda"><img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hojaFdw=
+n.gif" width=3D"16" height=3D"16"></a>.
+
+ </p><p class=3D"n2"><span style=3D"background-color: rgb(255, 255, 0); --d=
+arkreader-inline-bgcolor:#999900;" data-darkreader-inline-bgcolor=3D""><str=
+ong>&gt;&gt;</strong></span> &nbsp;&nbsp; <b>Desplazamiento a derecha</b>&n=
+bsp;
+ <a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#Desplazamiento%20a%20derec=
+ha"><img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hojaFdwn.=
+gif" width=3D"16" height=3D"16"></a>.
+
+ </p><p class=3D"n2"><span style=3D"background-color: rgb(255, 255, 0); --d=
+arkreader-inline-bgcolor:#999900;" data-darkreader-inline-bgcolor=3D""><str=
+ong>&amp;</strong></span>
+ &nbsp;&nbsp;&nbsp;<b>&nbsp; AND</b>; compara dos bits&nbsp;
+ <a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#AND"><img border=3D"0" src=
+=3D"https://www.zator.com/Cpp/images/Ico_hojaFdwn.gif" width=3D"16" height=
+=3D"16"></a>*.
+
+ </p><p class=3D"n2"><span style=3D"background-color: rgb(255, 255, 0); --d=
+arkreader-inline-bgcolor:#999900;" data-darkreader-inline-bgcolor=3D""><str=
+ong>^</strong></span>
+ &nbsp;&nbsp;&nbsp; &nbsp; <b>XOR</b> (OR exclusivo);&nbsp; compara dos bit=
+s&nbsp;
+ <a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#XOR"><img border=3D"0" src=
+=3D"https://www.zator.com/Cpp/images/Ico_hojaFdwn.gif" width=3D"16" height=
+=3D"16"></a>*.
+
+ </p><p class=3D"n2"><span style=3D"background-color: rgb(255, 255, 0); --d=
+arkreader-inline-bgcolor:#999900;" data-darkreader-inline-bgcolor=3D""><str=
+ong>|</strong></span>
+ &nbsp;&nbsp; &nbsp;&nbsp; <b>OR</b> inclusivo;&nbsp; compara dos bits&nbsp=
+;
+ <a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#OR"><img border=3D"0" src=
+=3D"https://www.zator.com/Cpp/images/Ico_hojaFdwn.gif" width=3D"16" height=
+=3D"16"></a>*.</p>
+</blockquote>
+
+ <p>El primero es un operador unario, los restantes son binarios. Los tres
+ primeros realizan manipulaciones en los bits del operando. Los restantes r=
+ealizan
+ comparaciones l=C3=B3gicas entre los bits de ambos operandos, similares a =
+las que realizan los <b>operadores l=C3=B3gicos</b> entre objetos
+ booleanos (<img src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" bord=
+er=3D"0" width=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/E=
+4_9_8.htm">4.9.8</a>).</p>
+
+ <p><img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Bombilla_.gif=
+" width=3D"16" height=3D"16">&nbsp; Recordar que:</p>
+
+<ul>
+ <li>
+ Algunos de estos operadores, se=C3=B1alados con asterisco (*), tienen una =
+doble posibilidad de representaci=C3=B3n en el C++ Est=C3=A1ndar
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/E4_9_8.htm#=
+Representaci%C3%B3n%20expl%C3%ADcita">4.9.8</a>).
+ Son los que cuentan con un s=C3=ADmbolo y una palabra clave.</li>
+
+ <li>A pesar de su nombre: "Operadores para manejo de bits", todos ellos ex=
+igen operandos de tipo entero <strong>int</strong>
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/E2_2_1.htm#=
+2.2.1a%20Enteros">2.2.1a</a>),
+ que puede ser de cualquiera de sus variantes (<strong>short</strong>, <str=
+ong>long</strong>, <strong>signed</strong> o <strong>unsigned</strong>) y e=
+numeraciones
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/E4_8.htm">4=
+.8</a>). Es decir, el material de
+ partida son bytes, uno o varios, dependiendo del tipo de entero utilizado.=
+</li>
+
+ <li>Si los operandos no son enteros el compilador realiza la conversi=C3=
+=B3n pertinente
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16">
+ <a href=3D"https://www.zator.com/Cpp/E2_2_5.htm#Conversiones%20aritm%C3%A9=
+ticas%20est%C3%A1ndar">2.2.5</a>).</li>
+
+ <li>El resultado es siempre un entero del <b>mismo tipo</b> que los operan=
+dos.</li>
+
+ <li>La Librer=C3=ADa Est=C3=A1ndar de plantillas (STL) dispone de una clas=
+e espec=C3=ADfica <strong>bitset</strong>
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/E5_1_1e1.ht=
+m">5.1.1e1</a>) para realizar operaciones
+ de manejo de bits con entidades que no est=C3=A1n restringidas a las longi=
+tudes de los tipos enteros.</li>
+
+ <li>El primero (complemento <span style=3D"background-color: rgb(255, 255,=
+ 0); --darkreader-inline-bgcolor:#999900;" data-darkreader-inline-bgcolor=
+=3D""><strong>~</strong></span>) es el =C3=BAnico operador <b>unario</b> (l=
+os
+ dem=C3=A1s son <b>binarios</b>). Este s=C3=ADmbolo es utilizado tambi=C3=
+=A9n como identificador de los destructores
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/E4_11_2d2.h=
+tm">4.11.2d2</a>)</li>
+
+ <li>No confundir los <b>operadores de bits</b>,&nbsp; <span style=3D"backg=
+round-color: rgb(255, 255, 0); --darkreader-inline-bgcolor:#999900;" data-d=
+arkreader-inline-bgcolor=3D""><strong>&amp;</strong></span> y
+ <span style=3D"background-color: rgb(255, 255, 0); --darkreader-inline-bgc=
+olor:#999900;" data-darkreader-inline-bgcolor=3D""><strong>|</strong></span=
+>, con los <b>operadores l=C3=B3gicos</b>
+ <span style=3D"background-color: rgb(255, 255, 0); --darkreader-inline-bgc=
+olor:#999900;" data-darkreader-inline-bgcolor=3D""><strong>&amp;&amp;</stro=
+ng></span> y <span style=3D"background-color: rgb(255, 255, 0); --darkreade=
+r-inline-bgcolor:#999900;" data-darkreader-inline-bgcolor=3D""><strong>||</=
+strong></span>
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/E4_9_8.htm"=
+>4.9.8</a>)</li>
+
+ <li>En lo relativo al tratamiento del signo, &nbsp;<span style=3D"backgrou=
+nd-color: rgb(255, 255, 0); --darkreader-inline-bgcolor:#999900;" data-dark=
+reader-inline-bgcolor=3D""><strong>&amp;</strong></span>,&nbsp;
+ <span style=3D"background-color: rgb(255, 255, 0); --darkreader-inline-bgc=
+olor:#999900;" data-darkreader-inline-bgcolor=3D""></span><span style=3D"ba=
+ckground-color: rgb(255, 255, 0); --darkreader-inline-bgcolor:#999900;" dat=
+a-darkreader-inline-bgcolor=3D""><strong>&gt;&gt;</strong></span>,&nbsp;
+ <span style=3D"background-color: rgb(255, 255, 0); --darkreader-inline-bgc=
+olor:#999900;" data-darkreader-inline-bgcolor=3D""></span><span style=3D"ba=
+ckground-color: rgb(255, 255, 0); --darkreader-inline-bgcolor:#999900;" dat=
+a-darkreader-inline-bgcolor=3D""><strong>&lt;&lt;</strong></span>&nbsp;
+ son sensibles al contexto.</li>
+
+ <li><span background-color:=3D"" #ffff00"=3D""><strong>&amp;</strong></spa=
+n> puede ser tambi=C3=A9n el operador de referencia de punteros
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16">
+ <a href=3D"https://www.zator.com/Cpp/E4_9_11.htm#4.9.11b%20Operador%20de%2=
+0referencia">4.9.11b</a>), y declarador de referencia
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/E4_2_3.htm#=
+4.2.3%20Referencias">4.2.3</a>)</li>
+
+ <li>La librer=C3=ADa Est=C3=A1ndar C++ ha sobrecargado los operadores <spa=
+n style=3D"background-color: rgb(255, 255, 0); --darkreader-inline-bgcolor:=
+#999900;" data-darkreader-inline-bgcolor=3D""><strong>&lt;&lt;</strong></sp=
+an>
+ y <span style=3D"background-color: rgb(255, 255, 0); --darkreader-inline-b=
+gcolor:#999900;" data-darkreader-inline-bgcolor=3D""><strong>&gt;&gt;</stro=
+ng></span> para los tipos b=C3=A1sicos, de forma que pueden ser utilizados =
+como
+ operadores de salida y entrada (<img border=3D"0" src=3D"https://www.zator=
+.com/Cpp/images/Ico_hoja.gif" width=3D"16" height=3D"16">
+ <a href=3D"https://www.zator.com/Cpp/E5_3_1.htm">5.3.1</a>)</li>
+
+ <li>El resultado de los operadores AND, XOR y OR es independiente del orde=
+n de colocaci=C3=B3n de sus operandos. Los operadores que
+ gozan de esta propiedad se denominan <b>asociativos</b>. Viene a ser equiv=
+alente a la propiedad conmutativa de ciertos
+ operadores aritm=C3=A9ticos.</li>
+</ul>
+
+ <p><b><br>=C2=A72&nbsp;</b> &nbsp;<span style=3D"background-color: rgb(255=
+, 255, 0); --darkreader-inline-bgcolor:#999900;" data-darkreader-inline-bgc=
+olor=3D""><strong>~</strong></span>&nbsp;&nbsp;&nbsp;
+ <b><a name=3D"Complemento">Complemento</a> a uno</b>&nbsp; (palabra clave&=
+nbsp; <strong>compl</strong>)</p>
+
+ <p>Este operador unitario invierte cada bit del operando;&nbsp; 0 es conve=
+rtido en 1 y viceversa.</p>
+
+ <h6>Sintaxis</h6>
+
+ <p class=3D"code">~cast-expresion</p>
+
+ <p>Ejemplo</p>
+
+ <p class=3D"code">signed int s1 =3D ~2;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp; // equivale a:</p>
+
+ <p class=3D"code">signed int s1 =3D compl 2;<br>
+ signed int s2 =3D ~s1 + 2;</p>
+
+ <p><br>En la primera l=C3=ADnea, el complemento a uno de 2 es asignado al =
+entero con signo <big>s1</big>. Tenga en cuenta que el resultado
+ de este operador cambia el signo del operando, de ah=C3=AD el "signed".</p=
+>
+
+ <p>La representaci=C3=B3n binaria de los los complementos a uno de los dec=
+imales&nbsp; 0, 1 y 2 son los que se expresan (para
+ simplificar los representamos como un octeto):</p>
+
+<blockquote>
+ <p class=3D"n2">0&nbsp;&nbsp; =3D=3D&nbsp; 0000 0000&nbsp;&nbsp; <img bord=
+er=3D"0" src=3D"https://www.zator.com/Cpp/images/FlechaDrcha_.gif" width=3D=
+"16" height=3D"16">&nbsp; ~ 0&nbsp; =3D=3D&nbsp; 1111 1111</p>
+
+ <p class=3D"n2">1&nbsp;&nbsp; =3D=3D&nbsp; 0000 0001&nbsp;&nbsp;
+ <img src=3D"https://www.zator.com/Cpp/images/FlechaDrcha_.gif" border=3D"0=
+" width=3D"16" height=3D"16">&nbsp; ~ 1&nbsp; =3D=3D&nbsp; 1111 1110</p>
+
+ <p class=3D"n2">2&nbsp;&nbsp; =3D=3D&nbsp; 0000 0010&nbsp;&nbsp;
+ <img src=3D"https://www.zator.com/Cpp/images/FlechaDrcha_.gif" border=3D"0=
+" width=3D"16" height=3D"16">&nbsp; ~ 2&nbsp; =3D=3D&nbsp; 1111 1101</p>
+</blockquote>
+
+ <p><br>En el ep=C3=ADgrafe dedicado a las Formas de Representaci=C3=B3n bi=
+naria
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/E2_2_4a.htm=
+#complemento%20a%20dos:">2.2.4a</a>) se indic=C3=B3
+ que en C++Builder, los tipos enteros negativos se representan internamente=
+ como complemento a dos, de forma que la representaci=C3=B3n
+ interna de -1, -2 y -3 es:</p>
+
+<blockquote>
+ <p class=3D"n2">-1&nbsp;&nbsp; =3D=3D&nbsp; 1111 1110 +&nbsp; 0000 0001&nb=
+sp; =3D=3D&nbsp; 1111 1111</p>
+ <p class=3D"n2">-2&nbsp;&nbsp; =3D=3D&nbsp; 1111 1101 +&nbsp; 0000 0001&nb=
+sp; =3D=3D&nbsp; 1111 1110</p>
+ <p class=3D"n2">-3&nbsp;&nbsp; =3D=3D&nbsp; 1111 1100 + 0000 0001&nbsp;&nb=
+sp; =3D=3D&nbsp; 1111 1101</p>
+</blockquote>
+
+ <p>Se comprueba as=C3=AD, que:</p>
+
+<blockquote>
+ <p>&nbsp;~ 0 =3D=3D&nbsp; -1<br>
+ &nbsp;~ 1 =3D=3D&nbsp; -2<br>
+ &nbsp;~ 2 =3D=3D&nbsp; -3</p>
+</blockquote>
+
+ <p>Para verificarlo, escribimos un peque=C3=B1o programa:</p>
+
+ <p class=3D"code">#include &lt;iostream.h&gt;<br>
+ <br>
+ &nbsp; short signed cero =3D 0, uno =3D 1, dos =3D 2;<br>
+ <br>
+ int main (void) {<br>
+ &nbsp; cout &lt;&lt; "~0 =3D=3D " &lt;&lt; ~cero &lt;&lt; endl;<br>
+ &nbsp; cout &lt;&lt; "~1 =3D=3D " &lt;&lt; ~uno &lt;&lt; endl;<br>
+ &nbsp; cout &lt;&lt; "~2 =3D=3D " &lt;&lt; ~dos &lt;&lt; endl;<br>
+ }</p>
+
+ <p>Salida:</p>
+
+ <p class=3D"code">~0 =3D=3D -1<br>
+ ~1 =3D=3D -2<br>
+ ~2 =3D=3D -3</p>
+
+ <p><br><br><b>=C2=A73</b>&nbsp; <span style=3D"background-color: rgb(255, =
+255, 0); --darkreader-inline-bgcolor:#999900;" data-darkreader-inline-bgcol=
+or=3D""><strong>&nbsp;&lt;&lt;</strong></span> &nbsp;
+ <a name=3D"Desplazamiento a izquierda"><b>Desplazamiento a izquierda</b></=
+a></p>
+
+ <p>Este operador binario realiza un desplazamiento de bits a la izquierda.=
+ El bit m=C3=A1s significativo (m=C3=A1s a la izquierda) se
+ pierde, y se le asigna un 0 al menos significativo (el de la derecha). El =
+operando derecho indica el n=C3=BAmero de desplazamientos
+ que se realizar=C3=A1n.</p>
+
+ <p>Recu=C3=A9rdese que los desplazamientos <b>no</b> son rotaciones; los b=
+its que salen por la izquierda se pierden, los que entran
+ por la derecha se rellenan con ceros. Este tipo de desplazamientos se deno=
+minan l=C3=B3gicos en contraposici=C3=B3n a los c=C3=ADclicos o
+ rotacionales.</p>
+
+ <h6>Sintaxis</h6>
+
+ <p class=3D"code">expr-desplazada &lt;&lt; expr-desplazamiento</p>
+
+<p>Comentario</p>
+
+ <p>El patr=C3=B3n de bits de <big>expr-desplazada</big> sufre un desplazam=
+iento izquierda del valor indicado por la
+ <big>expr-desplazamiento</big>. Ambos operandos deben ser n=C3=BAmeros ent=
+eros o enumeraciones
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/E4_8.htm">4=
+.8</a>). En caso contrario, el compilador
+ realiza una conversi=C3=B3n autom=C3=A1tica de tipo. El resultado es del t=
+ipo del primer operando.</p>
+
+ <p><big>expr-desplazamiento</big>, una vez promovido a entero, debe ser un=
+ entero positivo y menor que la longitud del primer
+ operando. En caso contrario el resultado es indefinido (depende de la impl=
+ementaci=C3=B3n).</p>
+
+<p>Ejemplo</p>
+
+ <p class=3D"code">unsigned long x =3D 10;<br>
+ int y =3D 2;<br>
+ unsigned long z =3D x &lt;&lt; y;</p>
+
+ <p>El resultado del desplazamiento de 2 bits sobre el <strong>unsigned lon=
+g</strong> <big>x</big> es asignado al <strong>unsigned long</strong> <big>=
+y</big>
+ sin que sea necesario ning=C3=BAn "casting" para el tipo resultante.</p>
+
+ <p>Seg=C3=BAn las premisas anteriores, los desplazamientos izquierda de va=
+lor unitario aplicados sobre los n=C3=BAmeros 0, 1, 2 y -3,
+ producen los siguientes resultados:</p>
+
+<blockquote>
+ <p class=3D"n2">0&nbsp;&nbsp; =3D=3D&nbsp; 0000 0000&nbsp;&nbsp; <img src=
+=3D"https://www.zator.com/Cpp/images/FlechaDrcha_.gif" border=3D"0" width=
+=3D"16" height=3D"16">&nbsp;
+ 0 &lt;&lt; 1&nbsp;&nbsp; =3D=3D&nbsp; 0000 0000&nbsp; =3D=3D&nbsp; 0</p>
+
+ <p class=3D"n2">1&nbsp;&nbsp; =3D=3D&nbsp; 0000 0001&nbsp;&nbsp; <img src=
+=3D"https://www.zator.com/Cpp/images/FlechaDrcha_.gif" border=3D"0" width=
+=3D"16" height=3D"16">&nbsp;
+ 1 &lt;&lt; 1&nbsp;&nbsp; =3D=3D&nbsp; 0000 0010&nbsp; =3D=3D&nbsp; 2</p>
+
+ <p class=3D"n2">2&nbsp;&nbsp; =3D=3D&nbsp; 0000 0010&nbsp;&nbsp; <img src=
+=3D"https://www.zator.com/Cpp/images/FlechaDrcha_.gif" border=3D"0" width=
+=3D"16" height=3D"16">&nbsp;
+ 2 &lt;&lt; 1&nbsp;&nbsp; =3D=3D&nbsp; 0000 0100&nbsp; =3D=3D&nbsp; 4</p>
+
+ <p class=3D"n2">-3&nbsp; =3D=3D&nbsp; 1111 1101&nbsp;&nbsp; <img src=3D"ht=
+tps://www.zator.com/Cpp/images/FlechaDrcha_.gif" border=3D"0" width=3D"16" =
+height=3D"16">&nbsp;
+ -3 &lt;&lt; 1&nbsp;&nbsp;=3D=3D&nbsp; 1111 1010&nbsp; =3D=3D&nbsp;- 6</p>
+</blockquote>
+
+ <p>Para comprobarlo, utilizamos una versi=C3=B3n del programa anterior:</p=
+>
+
+ <p class=3D"code">#include &lt;iostream.h&gt;<br>
+ <br>
+ &nbsp; short signed cero =3D 0, uno =3D 1, dos =3D 2;<br>
+ <br>
+ int main (void) {<br>
+ &nbsp; cout &lt;&lt; "0 &lt;&lt; 1 =3D=3D " &lt;&lt; (cero &lt;&lt; 1) &lt=
+;&lt; endl;<br>
+ &nbsp; cout &lt;&lt; "1 &lt;&lt; 1 =3D=3D " &lt;&lt; (uno &lt;&lt; 1) &lt;=
+&lt; endl;<br>
+ &nbsp; cout &lt;&lt; "2 &lt;&lt; 1 =3D=3D " &lt;&lt; (dos &lt;&lt; 1) &lt;=
+&lt; endl;<br>
+ }</p>
+
+ <p>Salida:</p>
+
+ <p class=3D"code">0 &lt;&lt; 1 =3D=3D 0<br>
+ 1 &lt;&lt; 1 =3D=3D 2<br>
+ 2 &lt;&lt; 1 =3D=3D 4</p>
+
+ <p><img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Bombilla_.gif=
+" width=3D"16" height=3D"16">&nbsp; Como puede comprobar el lector con cual=
+quier otro
+ ejemplo, el resultado del desplazamiento izquierda equivale a <span style=
+=3D"background-color: rgb(255, 255, 153); --darkreader-inline-bgcolor:#5454=
+00;" data-darkreader-inline-bgcolor=3D"">multiplicar por 2</span>
+ el valor de la <big>expr-desplazada</big>.</p>
+
+ <p><br><br><b>=C2=A74</b>&nbsp; &nbsp;<span style=3D"background-color: rgb=
+(255, 255, 0); --darkreader-inline-bgcolor:#999900;" data-darkreader-inline=
+-bgcolor=3D""><strong>&gt;&gt;</strong></span>
+ &nbsp;<a name=3D"Desplazamiento a derecha"><b>Desplazamiento a derecha</b>=
+</a></p>
+
+ <h6>Sintaxis</h6>
+
+ <p class=3D"code">expr-desplazada &gt;&gt; expr-desplazamiento</p>
+
+ <p>Ejemplo:</p>
+
+ <p class=3D"code">unsigned long x =3D 10;<br>
+ unsigned long z =3D x &gt;&gt; 2;</p>
+
+ <p>Comentario:</p>
+
+ <p>El patr=C3=B3n de bits de <big>expr-desplazada</big> sufre un desplazam=
+iento derecho del valor indicado por la
+ <big>expr-desplazamiento</big>. Como en el caso anterior, ambos operandos =
+deben ser n=C3=BAmeros enteros o enumeraciones. En caso
+ contrario, el compilador realiza una conversi=C3=B3n autom=C3=A1tica de ti=
+po. El resultado es del tipo del primer operando.</p>
+
+ <p>Una vez promovida a entero, <big>expr-desplazamiento</big> debe ser un =
+entero positivo y menor que la longitud del primer operando.
+ En caso contrario, el resultado es indefinido (depende de la implementaci=
+=C3=B3n).</p>
+
+ <p>El bit menos significativo (a la derecha) se pierde, pero hay que adver=
+tir que si <big>expr-desplazada</big> es un entero con
+ signo y es negativo, el resultado depende de la implementaci=C3=B3n.</p>
+
+ <p class=3D"notN"><b>Nota</b>: en C++Builder y GNU-C++, el signo se mantie=
+ne, lo que significa que el desplazamiento se realiza
+ contando con el signo, el nuevo bit m=C3=A1s significativo ser=C3=A1 0 si =
+se trata de un n=C3=BAmero positivo y 1 si el n=C3=BAmero es negativo
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/E2_2_4a.htm=
+#binario%20con%20signo:">2.2.4a</a>).</p>
+
+ <p>Por lo dem=C3=A1s, el comportamiento de este operador es an=C3=A1logo a=
+l anterior (desplazamiento izquierda). Por ejemplo:</p>
+
+<blockquote>
+ <p class=3D"n2">0&nbsp;&nbsp; =3D=3D&nbsp; 0000 0000&nbsp;&nbsp; <img src=
+=3D"https://www.zator.com/Cpp/images/FlechaDrcha_.gif" border=3D"0" width=
+=3D"16" height=3D"16">&nbsp;
+ 0 &gt;&gt; 1&nbsp;&nbsp; =3D=3D&nbsp; 0000 0000&nbsp; =3D=3D&nbsp; 0</p>
+
+ <p class=3D"n2">2&nbsp;&nbsp; =3D=3D&nbsp; 0000 0010&nbsp;&nbsp; <img src=
+=3D"https://www.zator.com/Cpp/images/FlechaDrcha_.gif" border=3D"0" width=
+=3D"16" height=3D"16">&nbsp;
+ 2 &gt;&gt; 1&nbsp;&nbsp; =3D=3D&nbsp; 0000 0001&nbsp; =3D=3D&nbsp; 1</p>
+
+ <p class=3D"n2">-2&nbsp; =3D=3D&nbsp; 1111 1110&nbsp;&nbsp; <img src=3D"ht=
+tps://www.zator.com/Cpp/images/FlechaDrcha_.gif" border=3D"0" width=3D"16" =
+height=3D"16">&nbsp;
+ -2 &gt;&gt; 1&nbsp; =3D=3D&nbsp; 1111 1111&nbsp; =3D=3D&nbsp; -1&nbsp;&nbs=
+p;&nbsp; (C++Builder &amp; GNU-C++)</p>
+
+ <p class=3D"n2">-16 =3D=3D 1111 0000&nbsp;&nbsp; <img src=3D"https://www.z=
+ator.com/Cpp/images/FlechaDrcha_.gif" border=3D"0" width=3D"16" height=3D"1=
+6">&nbsp;
+ -16 &gt;&gt; 2&nbsp; =3D=3D&nbsp; 1111 1100&nbsp; =3D=3D&nbsp; -4&nbsp;&nb=
+sp;&nbsp; (C++Builder &amp; GNU-C++)</p>
+</blockquote>
+
+ <p>Para comprobar las relaciones anteriores, utilizamos una versi=C3=B3n m=
+odificada del programa anterior:</p>
+
+ <p class=3D"code">#include &lt;iostream.h&gt;<br>
+ <br>
+ &nbsp; short signed cero =3D 0, dos =3D 2, mdos =3D -2;<br>
+ <br>
+ int main (void) {<br>
+ &nbsp; cout &lt;&lt; "0 &gt;&gt; 1 =3D=3D " &lt;&lt; (cero &gt;&gt; 1) &lt=
+;&lt; endl;<br>
+ &nbsp; cout &lt;&lt; "2 &gt;&gt; 1 =3D=3D " &lt;&lt; (dos&nbsp; &gt;&gt; 1=
+) &lt;&lt; endl;<br>
+ &nbsp; cout &lt;&lt; "-2 &gt;&gt; 1 =3D=3D " &lt;&lt; (mdos &gt;&gt; 1) &l=
+t;&lt; endl;<br>
+ }</p>
+
+ <p>Salida:</p>
+
+ <p class=3D"code">0
+ &gt;&gt; 1 =3D=3D 0<br>
+ 2 &gt;&gt; 1 =3D=3D 1<br>
+ -2 &gt;&gt; 1 =3D=3D -1</p>
+
+ <p><img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Bombilla_.gif=
+" width=3D"16" height=3D"16">&nbsp; Puede comprobarse que el resultado del =
+desplazamiento
+ derecha equivale a <span style=3D"background-color: rgb(255, 255, 153); --=
+darkreader-inline-bgcolor:#545400;" data-darkreader-inline-bgcolor=3D"">div=
+idir por 2</span> el valor de la <big>expr-desplazada</big>.</p>
+
+ <p><img border=3D"0" src=3D"https://www.zator.com/Cpp/images/marca_.gif" w=
+idth=3D"18" height=3D"16">&nbsp; Ejemplos complementarios en la Librer=C3=
+=ADa de Ejemplos:
+ "Manejo de bits" (<img border=3D"0" src=3D"https://www.zator.com/Cpp/image=
+s/Ico_hoja.gif" width=3D"16" height=3D"16"> <a href=3D"https://www.zator.co=
+m/Cpp/E9_4.htm">9.4</a>) y
+ "Orden de Almacenamiento" (<img border=3D"0" src=3D"https://www.zator.com/=
+Cpp/images/Ico_hoja.gif" width=3D"16" height=3D"16">
+ <a href=3D"https://www.zator.com/Cpp/E2_2_6a.htm">2.2.6a</a>).</p>
+
+ <p>&nbsp;</p>
+
+<p class=3D"notN"><b>Nota</b>: el compilador GNU gcc dispone de la opci=C3=
+=B3n de
+compilaci=C3=B3n <strong>-fno-operator-names</strong>, que permite que las =
+palabras-clave <strong>bitand</strong>,
+<strong>xor</strong> y <strong>bitor</strong>, que se muestran a continuaci=
+=C3=B3n, <b>no</b> sean
+tratadas como sin=C3=B3nimos de los operadores correspondientes.</p>
+
+<p><b>=C2=A75&nbsp;&nbsp;</b> <span style=3D"background-color: rgb(255, 255=
+, 0); --darkreader-inline-bgcolor:#999900;" data-darkreader-inline-bgcolor=
+=3D""><strong>&amp;</strong></span>
+ &nbsp;&nbsp;<b><a name=3D"AND">AND</a></b> l=C3=B3gico (palabra clave <str=
+ong>bitand</strong>)</p>
+
+<p>Este operador binario compara ambos operandos bit a bit, y como resultad=
+o devuelve un valor construido de tal forma, que cada
+ bits es 1 si los bits correspondientes de los operandos est=C3=A1n a 1. En=
+ caso contrario,
+el bit es 0 (ver ejemplo).</p>
+
+ <h6>Sintaxis</h6>
+
+ <p class=3D"code">AND-expresion &amp; equality-expresion</p>
+
+ <p>Ejemplo:</p>
+
+ <p class=3D"code">int x =3D 10, y =3D 20;<br>
+ int z =3D x &amp; y;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+ // equivale a: int z =3D x bitand y;</p>
+
+ <p>En este caso el resultado del AND l=C3=B3gico entre los enteros 10 y 20=
+ se aplicar=C3=ADa al entero <big>z</big>.</p>
+
+ <p>Seg=C3=BAn las reglas del enunciado, el operador <strong>&amp;</strong>=
+ aplicado entre los valores 2 y -2 resultar=C3=ADa:</p>
+
+<blockquote>
+ <p class=3D"n2">&nbsp;2&nbsp;&nbsp; =3D=3D&nbsp; 0000 0010</p>
+ <p class=3D"n2">-2&nbsp;&nbsp; =3D=3D&nbsp; 1111 1110</p>
+ <p class=3D"n2"><img border=3D"0" src=3D"https://www.zator.com/Cpp/images/=
+FlechaAbajo-.gif" width=3D"16" height=3D"16">&nbsp;&nbsp;&nbsp;&nbsp; -----=
+-------------</p>
+ <p class=3D"n2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp; 0000 0010&nbsp;&nbsp; =3D=3D&nbsp; 2</p>
+</blockquote>
+
+ <p>Comprobaci=C3=B3n:</p>
+
+ <p class=3D"code">#include &lt;iostream.h&gt;<br>
+ int main (void) {<br>
+ &nbsp;&nbsp; cout &lt;&lt; "2 &amp; -2 =3D=3D " &lt;&lt; (2 &amp; -2) &lt;=
+&lt; endl;<br>
+ }</p>
+
+ <p>Salida:</p>
+
+ <p class=3D"code">2 &amp; -2 =3D=3D 2</p>
+
+ <p><br><img border=3D"0" src=3D"https://www.zator.com/Cpp/images/marca_.gi=
+f" width=3D"18" height=3D"16">&nbsp; Este operador se utiliza para verifica=
+r el estado
+ de los bits individuales de un n=C3=BAmero, al que llamaremos incognita, m=
+ediante comparaci=C3=B3n con un patr=C3=B3n cuya disposici=C3=B3n de bits
+ es conocida. La expresi=C3=B3n puede ser:</p>
+
+ <p class=3D"code">if (incognita &amp; patron) { /* concordancia con el pat=
+r=C3=B3n */ }<br>
+ else { /* desacuerdo con el patr=C3=B3n */ }</p>
+
+ <h6><a name=3D"Ejemplo-2">Ejemplo</a>:</h6>
+
+ <p>Supongamos que una tarjeta de adquisici=C3=B3n proporciona una se=C3=B1=
+al en una posici=C3=B3n de memoria de valor conocido. El valor
+ depositado es un <strong>unsigned short</strong> que, en sus bits m=C3=A1s=
+ bajos, contiene el estado de 8 sensores de tipo
+ ON/OFF (0 =3D=3D OFF, 1 =3D=3D ON). Nos interesa disparar un proceso si lo=
+s sensores 2 y 5 se activan simult=C3=A1neamente.</p>
+
+ <p>Sabemos (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_=
+hoja.gif" width=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/=
+E2_2_4a.htm#complemento%20a%20dos:">2.2.4a</a>)
+ que el <strong>unsigned short</strong> tiene un patr=C3=B3n de bits:&nbsp;=
+ <b>0XXX XXXX XXXX XXXX</b>. En este caso nos interesa detectar cuando
+ adopta el siguiente aspecto: <b>0XXX XXXX XXX1 XX1X</b>. Sabemos tambi=C3=
+=A9n que <b>0000 0000 0000 0010</b> y <b>0000 0000 0001 0000</b>
+ son los patrones de bits de los <strong>unsigned short</strong> 2 y 16. Co=
+n estos datos podemos construir en nuestro c=C3=B3digo el siguiente
+ bucle:</p>
+
+ <p class=3D"code">volatile unsigned short* muestra =3D valor;</p>
+ <p class=3D"code">*muestra =3D 0;</p>
+ <p class=3D"code">const unsigned short bit2 =3D 2, bit5 =3D 16;</p>
+ <p class=3D"code"><br>
+ while( 1 ) {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp; // bucle continuo</p>
+ <p class=3D"code">&nbsp; if ( (*muestra &amp; bit2) &amp;&amp; (*muestra &=
+amp; bit5) ) { proceso() }</p>
+ <p class=3D"code">}</p>
+
+ <p>Observe el uso de <strong>volatile</strong> (<img src=3D"https://www.za=
+tor.com/Cpp/images/Ico_hoja.gif" border=3D"0" width=3D"16" height=3D"16">
+ <a href=3D"https://www.zator.com/Cpp/E4_1_9.htm#volatile">4.1.9</a>) en la=
+ definici=C3=B3n del puntero <big>muestra</big>. Observe tambi=C3=A9n que s=
+i la condici=C3=B3n hubiese
+ sido la activaci=C3=B3n indistinta de los sensores 2 <span style=3D"backgr=
+ound-color: rgb(255, 255, 0); --darkreader-inline-bgcolor:#999900;" data-da=
+rkreader-inline-bgcolor=3D"">=C3=B3</span> 5, el bucle podr=C3=ADa ser:</p>
+
+ <p class=3D"code">volatile unsigned short* muestra =3D valor;</p>
+ <p class=3D"code">*muestra =3D 0;</p>
+ <p class=3D"code">const unsigned short bit2y5 =3D 18;</p>
+ <p class=3D"code"><br>
+ while( 1 ) {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp; // bucle continuo</p>
+ <p class=3D"code">&nbsp; if ( *muestra &amp; bit2y5 ) { proceso() }</p>
+ <p class=3D"code">}</p>
+
+ <p><b><br><br>=C2=A76&nbsp; </b><span style=3D"background-color: rgb(255, =
+255, 0); --darkreader-inline-bgcolor:#999900;" data-darkreader-inline-bgcol=
+or=3D""><strong>^</strong></span> &nbsp; <b><a name=3D"XOR">XOR</a></b>&nbs=
+p;
+ OR exclusivo&nbsp; (palabra clave <strong>xor</strong>)</p>
+
+ <p>El funcionamiento de este operador binario es parecido al AND l=C3=B3gi=
+co <a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#AND">
+ <img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hojaFup.gif"=
+ width=3D"16" height=3D"16"></a>, salvo que en este caso el resultado es 1 =
+si ambos bits
+ son complementarios (uno es 0 y el otro 1). En caso contrario devuelve 0.<=
+/p>
+
+ <h6>Sintaxis</h6>
+
+ <p class=3D"code">expr-OR-exclusiva ^ AND-expresion</p>
+
+ <p>Ejemplo:</p>
+
+ <p class=3D"code">int x =3D 10, y =3D 20;</p>
+ <p class=3D"code">int z =3D x ^ y;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; // equivale a: int z =3D x xor y;</p>
+
+ <p><br>Seg=C3=BAn el enunciado, el operador <span style=3D"background-colo=
+r: rgb(255, 255, 0); --darkreader-inline-bgcolor:#999900;" data-darkreader-=
+inline-bgcolor=3D""><strong>^</strong></span> aplicado entre los valores 7 =
+y -2
+ resultar=C3=ADa:</p>
+
+<blockquote>
+ <p class=3D"n2">&nbsp;7&nbsp;&nbsp; =3D=3D&nbsp; 0000 0111</p>
+ <p class=3D"n2">-2&nbsp;&nbsp; =3D=3D&nbsp; 1111 1110</p>
+ <p class=3D"n2"><img border=3D"0" src=3D"https://www.zator.com/Cpp/images/=
+FlechaAbajo-.gif" width=3D"16" height=3D"16">&nbsp;&nbsp;&nbsp;&nbsp; -----=
+-------------</p>
+ <p class=3D"n2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp; 1111 1001&nbsp;&nbsp; =3D=3D -7</p>
+</blockquote>
+
+ <p>Comprobaci=C3=B3n:</p>
+
+ <p class=3D"code">#include &lt;iostream.h&gt;<br>
+ int main (void) {<br>
+ &nbsp;&nbsp; cout &lt;&lt; "7 ^ -2 =3D=3D " &lt;&lt; (7 ^ -2) &lt;&lt; end=
+l;<br>
+ }</p>
+
+ <p>Salida:</p>
+
+ <p class=3D"code">7 ^ -2 =3D=3D -7</p>
+
+ <p><br>Como <b>ejemplo</b>, supongamos una continuaci=C3=B3n del anterior,=
+ a=C3=B1adiendo la condici=C3=B3n de que cuando se produce la condici=C3=B3=
+n
+ de disparo, debemos depositar un valor 1 en el bit 10 de la direcci=C3=B3n=
+ de la tarjeta, para que esta (que suponemos bidireccional)
+ conecte un servomotor.</p>
+
+ <p>Sabemos que el valor <b>0XXXX XXXX XXXX XXXX</b> de la tarjeta debe ser=
+ cambiado entonces a <b>0XXXX XX1X XXXX XXXX</b>, que
+ es el valor que escribiremos en la posici=C3=B3n de memoria correspondient=
+e. Esto puede conseguirse sumando 512 al valor mostrado por
+ la tarjeta siempre que el bit 10 sea cero. Es decir, si su forma binaria e=
+s <b> 0XXX XX0X XXXX XXXX</b>. En caso contrario no es
+ necesario hacer nada, ya que entonces hay un 1 en la posici=C3=B3n deseada=
+ ( <b>0XXX XX1X XXXX XXXX</b> ).</p>
+
+ <p>La condici=C3=B3n para la acci=C3=B3n es por tanto que se cumpla: [<a h=
+ref=3D"https://www.zator.com/Cpp/E4_9_3.htm#[1]">1</a>] <big>( *muestra&nbs=
+p; &amp;&nbsp; 0000 0010 0000
+ 0000 )&nbsp; =3D=3D&nbsp; 0</big>. Para responder a la nueva condici=C3=B3=
+n, modificamos adecuadamente el c=C3=B3digo del ejemplo anterior
+ a=C3=B1adi=C3=A9ndole una sentencia:</p>
+
+ <p class=3D"code">volatile unsigned short* muestra =3D valor;</p>
+ <p class=3D"code">*muestra =3D 0;</p>
+ <p class=3D"code">const unsigned short bit2 =3D 2, bit5 =3D 16, bit10 =3D =
+512;</p>
+ <p class=3D"code"><br>
+ while( 1 ) {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // bucle continuo</p>
+ <p class=3D"code">&nbsp; if ( (*muestra &amp; bit2) &amp;&amp; (*muestra &=
+amp; bit5) ) {</p>
+ <p class=3D"code">&nbsp;&nbsp;&nbsp; if (*muestra ^ bit10) *muestra =3D *m=
+uestra + bit10;</p>
+ <p class=3D"code">&nbsp; }</p>
+ <p class=3D"code">}</p>
+
+<p>Este operador se utiliza frecuentemente para cambiar el estado de un val=
+or
+l=C3=B3gico, con independencia de cual sea su estado previo.&nbsp; Por ejem=
+plo,
+suponiendo que <big>state</big> sea un <strong>bool</strong>, la sentencia<=
+/p>
+
+ <p class=3D"code">state ^=3D 1;</p>
+
+ <p>cambia su valor de cierto a falso o viceversa.</p>
+
+ <p><b><br>=C2=A77&nbsp; &nbsp;</b><span style=3D"background-color: rgb(255=
+, 255, 0); --darkreader-inline-bgcolor:#999900;" data-darkreader-inline-bgc=
+olor=3D"">|</span> &nbsp; <b><a name=3D"OR">OR</a></b>
+ inclusivo (palabra clave <strong>bitor</strong>)</p>
+
+ <p>Este operador binario tiene un funcionamiento parecido a los anteriores=
+ (AND y XOR), salvo que en este caso el resultado es 1
+ si alguno de ellos est=C3=A1 a 1. En caso contrario devuelve 0 (ver ejempl=
+o).</p>
+
+ <h6>Sintaxis</h6>
+
+ <p class=3D"code">expr-OR-inclusiva | expr-OR-exclusiva</p>
+
+ <p>Ejemplo:</p>
+
+ <p class=3D"code">int x =3D 10, y =3D 20;</p>
+ <p class=3D"code">int z =3D x | y;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; // equivale a:</p>
+ <p class=3D"code">int z =3D x bitor y;</p>
+
+ <p>Seg=C3=BAn el enunciado, el operador <span style=3D"background-color: r=
+gb(255, 255, 0); --darkreader-inline-bgcolor:#999900;" data-darkreader-inli=
+ne-bgcolor=3D""><strong>|</strong></span> aplicado entre los valores 6 y 13
+ resultar=C3=ADa:</p>
+
+<blockquote>
+ <p class=3D"n2">&nbsp;6&nbsp;&nbsp;&nbsp; =3D=3D&nbsp; 0000 0110</p>
+ <p class=3D"n2">13&nbsp;&nbsp; =3D=3D&nbsp; 0000 1101</p>
+ <p class=3D"n2"><img border=3D"0" src=3D"https://www.zator.com/Cpp/images/=
+FlechaAbajo-.gif" width=3D"16" height=3D"16">&nbsp;&nbsp;&nbsp;&nbsp; -----=
+-------------</p>
+ <p class=3D"n2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp; 0000 1111&nbsp;&nbsp; =3D=3D&nbsp; 15</p>
+</blockquote>
+
+ <p>Comprobaci=C3=B3n:</p>
+
+ <p class=3D"code">#include &lt;iostream.h&gt;<br>
+ <br>
+ int main (void) {<br>
+ &nbsp;&nbsp; cout &lt;&lt; "6 | 13 =3D=3D " &lt;&lt; (6 | 13) &lt;&lt; end=
+l;<br>
+ }</p>
+
+ <p>Salida:</p>
+
+ <p class=3D"code">6 | 13 =3D=3D 15</p>
+
+ <h5>Ejemplo</h5>
+
+ <p class=3D"code">#include &lt;iostream&gt;<br>
+ using namespace std;<br>
+ #define CS_VREDRAW 0x0001<br>
+ #define CS_HREDRAW 0x0002<br>
+ typedef unsigned short WORD;<br>
+ <br>
+ void main() {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // =3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>
+ &nbsp; WORD style =3D CS_HREDRAW | CS_VREDRAW;<br>
+ &nbsp; cout &lt;&lt; "Estilo: " &lt;&lt; style &lt;&lt; endl;<br>
+ }</p>
+
+ <p>Salida:</p>
+
+ <p class=3D"code">Estilo: 3</p>
+
+ <h5><b><br></b>=C2=A78&nbsp; <a name=3D"Asignacion-compuesta">Asignaciones=
+ compuestas con operadores de bits</a></h5>
+
+ <p>Salvo el complemento a uno (<span style=3D"background-color: rgb(255, 2=
+55, 0); --darkreader-inline-bgcolor:#999900;" data-darkreader-inline-bgcolo=
+r=3D""><strong>~</strong></span>) que es unitario, los dem=C3=A1s operadore=
+s de
+ menejo de bits pueden combinarse con la asignaci=C3=B3n simple (<span styl=
+e=3D"background-color: rgb(255, 255, 0); --darkreader-inline-bgcolor:#99990=
+0;" data-darkreader-inline-bgcolor=3D"">=3D</span>) para dar lugar a una
+ <b>asignaci=C3=B3n compuesta</b> (<img border=3D"0" src=3D"https://www.zat=
+or.com/Cpp/images/Ico_hoja.gif" width=3D"16" height=3D"16"> <a href=3D"http=
+s://www.zator.com/Cpp/E4_9_2.htm">4.9.2</a>).
+ Recuerde que:</p>
+
+ <p class=3D"code">x &amp;=3D y;&nbsp;&nbsp; // equivale a:&nbsp; x =3D (x =
+&amp; y);</p>
+ <p class=3D"code">x ^=3D y;&nbsp;&nbsp; // equivale a:&nbsp; x =3D (x ^ y)=
+;</p>
+ <p class=3D"code">x |=3D y;&nbsp;&nbsp; // equivale a:&nbsp; x =3D (x | y)=
+;</p>
+ <p class=3D"code">x &lt;&lt;=3D y;&nbsp; // equivale a:&nbsp; x =3D (x &lt=
+;&lt; y);</p>
+ <p class=3D"code">x &gt;&gt;=3D y;&nbsp; // equivale a:&nbsp; x =3D (x &gt=
+;&gt; y);</p>
+
+ <h5>Ejemplo</h5>
+
+ <p class=3D"code">#include &lt;iostream.h&gt;<br><br>
+ int main() {<br>
+ &nbsp; signed int x =3D 2, y =3D 7, z =3D 6, a =3D 2, b=3D -2;<br>
+ &nbsp; x &amp;=3D -2;<br>
+ &nbsp; y ^=3D -2;<br>
+ &nbsp; z |=3D 13;<br>
+ &nbsp; a &lt;&lt;=3D 1;<br>
+ &nbsp; b &gt;&gt;=3D 1;<br>
+ &nbsp; cout &lt;&lt; "Valor x =3D " &lt;&lt; x &lt;&lt; endl;<br>
+ &nbsp; cout &lt;&lt; "Valor y =3D " &lt;&lt; y &lt;&lt; endl;<br>
+ &nbsp; cout &lt;&lt; "Valor z =3D " &lt;&lt; z &lt;&lt; endl;<br>
+ &nbsp; cout &lt;&lt; "Valor a =3D " &lt;&lt; a &lt;&lt; endl;<br>
+ &nbsp; cout &lt;&lt; "Valor b =3D " &lt;&lt; b &lt;&lt; endl;<br>
+ }</p>
+
+ <p>Salida:</p>
+
+ <p class=3D"code">Valor x =3D 2<br>
+ Valor y =3D -7<br>
+ Valor z =3D 15<br>
+ Valor a =3D 4<br>
+ Valor b =3D -1</p>
+
+ <p><br><b>=C2=A78.1</b>&nbsp; El Est=C3=A1ndar C++ permite una representac=
+i=C3=B3n expl=C3=ADcita (mediante palabra clave) para alguna de estas
+ asignaciones compuesta (<img border=3D"0" src=3D"https://www.zator.com/Cpp=
+/images/Ico_hoja.gif" width=3D"16" height=3D"16">
+ <a href=3D"https://www.zator.com/Cpp/E4_9_8.htm#Representaci%C3%B3n%20expl=
+%C3%ADcita">4.9.8</a>). Son las siguientes:</p>
+
+<blockquote>
+ <p class=3D"n2"><strong><span style=3D"background-color: rgb(255, 255, 0);=
+ --darkreader-inline-bgcolor:#999900;" data-darkreader-inline-bgcolor=3D"">=
+&amp;=3D</span></strong>&nbsp;&nbsp;<b> </b><strong>and_eq</strong></p>
+ <p class=3D"n2"><span style=3D"background-color: rgb(255, 255, 0); --darkr=
+eader-inline-bgcolor:#999900;" data-darkreader-inline-bgcolor=3D""><strong>=
+|=3D</strong></span>&nbsp;&nbsp;&nbsp; <strong>or_eq</strong></p>
+ <p class=3D"n2"><span style=3D"background-color: rgb(255, 255, 0); --darkr=
+eader-inline-bgcolor:#999900;" data-darkreader-inline-bgcolor=3D""><strong>=
+^=3D</strong></span>&nbsp;&nbsp; <strong>xor_eq</strong></p>
+</blockquote>
+
+ <p>Ejemplo:</p>
+
+ <p class=3D"code">&nbsp; x and_eq -2;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // equ=
+ivale a: x &amp;=3D -2;<br>
+ &nbsp; y xor_eq -2;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // equivale a: y ^=3D -2=
+;<br>
+ &nbsp; z or_eq 13;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // equivale a: z |=
+=3D 13;</p>
+
+<p>Comentario:&nbsp; en el cuadro se muestra un cuadro sin=C3=B3ptico con l=
+os resultados de aplicar los operadores AND, XOR y OR entre dos enteros
+ caracter=C3=ADsticos (los valores 0 y 1):</p>
+
+<div align=3D"center"><center><table border=3D"0" cellpadding=3D"2"><tbody>=
+<tr>
+ <td align=3D"center" class=3D"bg0"><p class=3D"n1"><b>E1</b></p>
+  <p class=3D"n1"><b>0</b></p>
+  <p class=3D"n1"><b>1</b></p>
+  <p class=3D"n1"><b>0</b></p>
+  <p class=3D"n1"><b>1</b></p></td>
+ <td align=3D"center" class=3D"bg0"><p class=3D"n1"><b> E2</b></p>
+  <p class=3D"n1"><b>0</b></p>
+  <p class=3D"n1"><b>0</b></p>
+  <p class=3D"n1"><b>1</b></p>
+  <p class=3D"n1"><b>1</b></p></td>
+ <td align=3D"center" class=3D"bg0"><p class=3D"n1"><b> E1</b><strong>&amp;=
+</strong><b>E2</b></p>
+  <p class=3D"n1"><strong>0</strong></p>
+  <p class=3D"n1"><strong>0</strong></p>
+  <p class=3D"n1"><strong>0</strong></p>
+  <p class=3D"n1"><strong>1</strong></p></td>
+ <td align=3D"center" class=3D"bg0"><p class=3D"n1"><b>
+ E1</b><strong>^</strong><b>E2</b></p>
+  <p class=3D"n1"><strong>0</strong></p>
+  <p class=3D"n1"><strong>1</strong></p>
+  <p class=3D"n1"><strong>1</strong></p>
+  <p class=3D"n1"><strong>0</strong></p></td>
+ <td align=3D"center" class=3D"bg0"><p class=3D"n1"><b>E1 </b><strong>|</st=
+rong><b> E2</b></p>
+  <p class=3D"n1"><strong>0</strong></p>
+  <p class=3D"n1"><strong>1</strong></p>
+  <p class=3D"n1"><strong>1</strong></p>
+  <p class=3D"n1"><strong>1</strong></p></td></tr></tbody></table></center>
+</div>
+
+ <p><b><br>=C2=A79</b>&nbsp; <a name=3D"Ref-1">En ocasiones</a> los operado=
+res de bits se utilizan para compactar la informaci=C3=B3n,
+ logrando que un tipo b=C3=A1sico (por ejemplo un <strong>long</strong>) al=
+macene magnitudes m=C3=A1s peque=C3=B1as mediante aprovechamientos parciale=
+s de
+ los bits disponibles (<img border=3D"0" src=3D"https://www.zator.com/Cpp/i=
+mages/Ico_hoja.gif" width=3D"16" height=3D"16"> <a href=3D"https://www.zato=
+r.com/Cpp/E2_2_4.htm">2.2.4</a>).</p>
+
+ <p>Considere el significado de las siguientes macros (<img border=3D"0" sr=
+c=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" width=3D"16" height=3D"=
+16">
+ <a href=3D"https://www.zator.com/Cpp/E4_9_10b.htm">4.9.10b</a>) utilizadas=
+ por el compilador MS Visual C++ que expresan valores de color en programas=
+ MS
+ Windows:</p>
+
+ <p class=3D"code">#define RGB(r,g,b) ((COLORREF)(((BYTE)(r)|((WORD)((BYTE)=
+(g))&lt;&lt;8))|(((DWORD)(BYTE)(b))&lt;&lt;16)))</p>
+<p class=3D"code">#define CMYK(c,m,y,k)
+ ((COLORREF)((((BYTE)(k)|((WORD)((BYTE)(y))&lt;&lt;8))|<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(((DWORD)(BYTE)(m))&lt;&lt;16))|(((DWORD)(BYTE)(c))&lt;&lt;24)))</p>
+
+ <p>Los valores compactados pueden ser restituidos de nuevo mediante las ma=
+nipulaciones adecuadas:</p>
+
+ <p class=3D"code">#define GetRValue(rgb) ((BYTE)(rgb))</p>
+ <p class=3D"code">#define GetGValue(rgb) ((BYTE)(((WORD)(rgb)) &gt;&gt; 8)=
+)</p>
+ <p class=3D"code">#define GetBValue(rgb) ((BYTE)((rgb)&gt;&gt;16))</p>
+ <p class=3D"code">&nbsp;</p>
+ <p class=3D"code">#define GetKValue(cmyk) ((BYTE)(cmyk))</p>
+ <p class=3D"code">#define GetYValue(cmyk) ((BYTE)((cmyk)&gt;&gt; 8))</p>
+ <p class=3D"code">#define GetMValue(cmyk) ((BYTE)((cmyk)&gt;&gt;16))</p>
+ <p class=3D"code">#define GetCValue(cmyk) ((BYTE)((cmyk)&gt;&gt;24))</p>
+
+ <h6>Comentario</h6>
+
+ <p>Algunas de las etiquetas utilizadas (como <big>COLORREF</big>,&nbsp; <b=
+ig>DWORD</big> o <big>BYTE</big>) son a su vez <b>typedef</b>s
+ (<b><img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif=
+" width=3D"16" height=3D"16"> </b><a href=3D"https://www.zator.com/Cpp/E3_2=
+_1a.htm">3.2.1a</a>), muy comunes en la
+ programaci=C3=B3n para los entornos Windows (<img border=3D"0" src=3D"http=
+s://www.zator.com/Cpp/images/Ico_hoja.gif" width=3D"16" height=3D"16">
+ <a href=3D"https://www.zator.com/Cpp/E3_2_1a1.htm">Ejemplo</a>).</p>
+
+ <p>Las expresiones del tipo <big>(WORD)(w)</big> son expresiones de modela=
+do de tipos
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/E4_9_9.htm#=
+Estilo%20cl%C3%A1sico">4.9.9</a>).</p>
+
+ <p>Observe la codificaci=C3=B3n <b>RGB</b> en la que el color est=C3=A1 re=
+presentado por sus tres componentes [<a href=3D"https://www.zator.com/Cpp/E=
+4_9_3.htm#[2]">2</a>] Rojo
+ (Red),&nbsp; verde (Green) y azul (Blue). Est=C3=A1 claro que los valores =
+de cada componente pueden ocupar un m=C3=A1ximo de 8 bits en la
+ expresi=C3=B3n resultante, de forma que pueden estar comprendidos entre 0 =
+y 256
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/E0_1.htm#Si=
+stema%20binario">0.1</a>).</p>
+
+ <p>En la codificaci=C3=B3n <b>CMYK</b> el color est=C3=A1 representado por=
+ cuatro componentes: Cian (Cyan), magenta (Magenta), amarillo
+ (Yellow) y negro (black). Los valores de cada componente pueden estar igua=
+lmente comprendidos entre 0 y 256, aunque el valor
+ "resultante" es sensiblemente mayor que en la codificaci=C3=B3n RGB. En am=
+bos casos el resultado es modelado de forma que
+ produzca un <big>COLORREF</big>, que en dicho compilador corresponde a un =
+<strong>unsigned long</strong>, cuyo tama=C3=B1o es de 4 bytes
+ (<img border=3D"0" src=3D"https://www.zator.com/Cpp/images/Ico_hoja.gif" w=
+idth=3D"16" height=3D"16"> <a href=3D"https://www.zator.com/Cpp/E4_9_13.htm=
+#Salidas">4.9.13</a>).
+ Cuando una constante de este tipo est=C3=A1 representada en hexadecimal, a=
+dopta la
+ siguiente forma:</p>
+
+ <p class=3D"code">COLORREF ulColor =3D 0x00bbggrr;</p>
+
+ <p>donde <big>bb</big>, <big>gg</big> y <big>rr</big> son respectivamente =
+las componentes
+ azul, verde y roja del color representado. Naturalmente estos valores est=
+=C3=A1n en
+ el rango 00 - FF.</p>
+
+ <h5>=C2=A78.1&nbsp; <a name=3D"Ejemplo-1">Ejemplo</a></h5>
+
+<p class=3D"code">#include &lt;iostream&gt;<br>
+ using namespace std;<br>
+ typedef unsigned char BYTE;<br>
+ typedef unsigned short WORD;<br>
+ typedef unsigned long DWORD;<br>
+ typedef DWORD COLORREF;<br>
+ <br>
+ #define RGB(r,g,b) ((COLORREF)(((BYTE)(r)|((WORD)((BYTE)(g))&lt;&lt;8))|((=
+(DWORD)(BYTE)(b))&lt;&lt;16)))<br>
+ #define GetRValue(rgb) ((BYTE)(rgb))<br>
+ #define GetGValue(rgb) ((BYTE)(((WORD)(rgb)) &gt;&gt; 8))<br>
+ #define GetBValue(rgb) ((BYTE)((rgb)&gt;&gt;16))<br>
+ <br>
+ int main() {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // =3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>
+ &nbsp; int r =3D 10, g =3D 20, b =3D 30;<br>
+ &nbsp; unsigned long rgbColor =3D RGB(r, g, b);<br>
+ &nbsp; cout &lt;&lt; "Color compuesto: " &lt;&lt; rgbColor &lt;&lt; endl;<=
+br>
+ <br>
+ &nbsp; unsigned int rColor, gColor, bColor;<br>
+ &nbsp; rColor =3D GetRValue(rgbColor);<br>
+ &nbsp; gColor =3D GetGValue(rgbColor);<br>
+ &nbsp; bColor =3D GetBValue(rgbColor);<br>
+ &nbsp; cout &lt;&lt; "Rojo: " &lt;&lt; rColor &lt;&lt; endl;<br>
+ &nbsp; cout &lt;&lt; "Verde: " &lt;&lt; gColor &lt;&lt; endl;<br>
+ &nbsp; cout &lt;&lt; "Azul: " &lt;&lt; bColor &lt;&lt; endl;<br>
+ }</p>
+
+ <p>Salida:</p>
+
+ <p class=3D"code">Color compuesto: 1971210<br>
+ Rojo: 10<br>
+ Verde: 20<br>
+ Azul: 30</p>
+
+<p class=3D"n1" style=3D"margin-top:15px"><a href=3D"https://www.zator.com/=
+Cpp/E4_9_3.htm#TOP"><img alt=3D"" border=3D"0" src=3D"https://www.zator.com=
+/Cpp/images/arrow_btt.gif" width=3D"9" height=3D"5">&nbsp; Inicio.</a></p><=
+hr size=3D"1" color=3D"gray" data-darkreader-inline-color=3D"" style=3D"--d=
+arkreader-inline-color:#988f81;"><p></p>
+
+
+ <p><a name=3D"[1]">[1]</a>&nbsp; Nos hemos tomado una peque=C3=B1a licenci=
+a en la notaci=C3=B3n para hacer m=C3=A1s evidente la
+ condici=C3=B3n exigida; evidentemente la expresi=C3=B3n correcta ser=C3=AD=
+a:</p>
+
+ <p class=3D"code">&nbsp; ( *muestra&nbsp; <b>&amp;</b>&nbsp; 512 )&nbsp; =
+=3D=3D&nbsp; 0</p>
+
+ <p><a name=3D"[2]">[2]</a>&nbsp; Una representaci=C3=B3n de este tipo, en =
+la que el color se consigue como "suma" de tres
+ colores b=C3=A1sicos se denomina tricom=C3=ADa. Mientras que una represent=
+aci=C3=B3n CMYK, en la que el color se considera compuesto de cuatro
+ colores se denomina cuatricom=C3=ADa. Esta =C3=BAltima es la t=C3=A9cnica =
+utilizada generalmente en las artes de impresi=C3=B3n gr=C3=A1fica.</p>
+<div class=3D"foot"><a href=3D"https://www.zator.com/Cpp/E4_9_3.htm#TOP"><i=
+mg alt=3D"" border=3D"0" src=3D"https://www.zator.com/Cpp/images/arrow_btt.=
+gif" width=3D"9" height=3D"5">&nbsp; Inicio</a></div>
+</div>
+<div class=3D"top2">
+
+
+</div>
+</td></tr></tbody></table>
+<div id=3D"footer"><table border=3D"0" width=3D"100%" cellpadding=3D"2"><tb=
+ody><tr><td>|<a href=3D"https://www.zator.com/Cpp/E_Ce.htm">=C3=8Dndice</a>=
+|</td>
+<td>Copyright =C2=A9 1990-2016 Zator Systems.</td>
+
+</tr></tbody></table></div></div></body></html>
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-10b12c98-5b47-4d0d-a5f6-66fea7383780@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-dc512ee8-470a-459a-8788-79a6bb539b23@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-5010b7ec-e432-49d1-864f-96ce3932b6ce@mhtml.blink
+
+@charset "utf-8";
+
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_=
+text > img[src^=3D"https://www.gstatic.com/images/branding/googlelogo"], sp=
+an[data-href^=3D"https://www.hcaptcha.com/"] > #icon, #bit-notification-bar=
+-iframe, ::-webkit-calendar-picker-indicator { filter: invert(100%) hue-rot=
+ate(180deg) contrast(90%) !important; }
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d6270a55-a2fb-4d6e-8a69-420ab9fef8c4@mhtml.blink
+
+@charset "utf-8";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+
+[data-darkreader-inline-stopcolor] { stop-color: var(--darkreader-inline-st=
+opcolor)  !important; }
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-52c07b7c-0e57-4663-8f83-405785df7789@mhtml.blink
+
+@charset "utf-8";
+
+:root { --darkreader-neutral-background: #131516; --darkreader-neutral-text=
+: #d8d4cf; --darkreader-selection-background: #004daa; --darkreader-selecti=
+on-text: #e8e6e3; }
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-8c8b949b-59cb-4fb1-8c9f-9a61af65451d@mhtml.blink
+
+@charset "utf-8";
+
+:root { }
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-96766677-412d-4540-ba24-7f56984b101e@mhtml.blink
+
+@charset "utf-8";
+
+html { background-color: rgb(24, 26, 27) !important; }
+
+html { color-scheme: dark !important; }
+
+html, body { background-color: rgb(24, 26, 27); }
+
+html, body { border-color: rgb(115, 107, 94); color: rgb(232, 230, 227); }
+
+a { color: rgb(51, 145, 255); }
+
+table { border-color: rgb(84, 91, 94); }
+
+::placeholder { color: rgb(178, 171, 161); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(64, 68, 0) !important; color: rgb(232, 230, 227) !i=
+mportant; }
+
+::-webkit-scrollbar { background-color: rgb(32, 35, 36); color: rgb(171, 16=
+4, 153); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(69, 74, 77); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(87, 94, 98); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(72, 78, 81); }
+
+::-webkit-scrollbar-corner { background-color: rgb(24, 26, 27); }
+
+::selection { background-color: rgb(0, 77, 170) !important; color: rgb(232,=
+ 230, 227) !important; }
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-0f0435ae-b114-4ef2-a60a-7eaa1a9c4f3d@mhtml.blink
+
+@charset "utf-8";
+
+body { background-image: initial; background-color: rgb(24, 26, 27); color:=
+ rgb(122, 189, 255); }
+
+@media only screen and (min-width: 960px) {
+  .ext { border-color: rgb(84, 91, 94); }
+}
+
+.top2 { background-color: rgb(29, 31, 32); }
+
+.main { border-left-color: rgb(84, 91, 94); }
+
+.lmenu { background-color: rgb(34, 36, 38); }
+
+.foot { background-color: rgb(29, 31, 32); }
+
+a:link { color: rgb(51, 125, 255); }
+
+strong { color: rgb(232, 230, 227); }
+
+big { color: rgb(232, 230, 227); }
+
+h1, h2, h3, h4, h5, h6, b { color: rgb(51, 125, 255); }
+
+.n1 { color: rgb(122, 189, 255); }
+
+.kb { background-color: rgb(75, 82, 85); color: rgb(232, 230, 227); }
+
+.mn { background-color: rgb(0, 0, 150); color: rgb(232, 230, 227); }
+
+.nH { border-color: rgb(84, 91, 94); background-color: rgb(29, 31, 32); }
+
+.bg0 { background-color: rgb(29, 31, 32); }
+
+.ibm { color: rgb(111, 145, 176); }
+
+.resY { background-color: rgb(84, 84, 0); border-color: rgb(140, 130, 115);=
+ }
+
+.resB { color: rgb(51, 125, 255); }
+
+.resR { color: rgb(255, 37, 37); }
+
+.resC { border-color: rgb(140, 130, 115); color: rgb(232, 230, 227); }
+
+#footer { background-color: rgb(34, 36, 38); }
+
+.flo2 { color: rgb(255, 109, 109); border-color: rgb(214, 0, 0); background=
+-color: rgb(29, 31, 32); }
+
+.goog3 { border-color: rgb(48, 52, 54); background-color: rgb(24, 26, 27); =
+}
+
+.notN { background-color: rgb(29, 31, 32); }
+
+code { background-color: rgb(29, 31, 32); color: rgb(232, 230, 227); }
+
+.code { background-color: rgb(29, 31, 32); color: rgb(232, 230, 227); }
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-25392711-d888-47fc-9efc-c91d7bccaed4@mhtml.blink
+
+@charset "utf-8";
+
+.vimvixen-hint { background-color: rgb(123, 83, 0) !important; border-color=
+: rgb(216, 176, 19) !important; color: rgb(243, 232, 200) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+
+#edge-translate-panel-body, .MuiTypography-body1 { color: var(--darkreader-=
+neutral-text)  !important; }
+
+gr-main-header { background-color: rgb(15, 58, 72) !important; }
+
+.tou-z65h9k, .tou-mignzq, .tou-1b6i2ox, .tou-lnqlqk { background-color: var=
+(--darkreader-neutral-background)  !important; }
+
+.tou-75mvi { background-color: rgb(3, 32, 41) !important; }
+
+.tou-ta9e87, .tou-1w3fhi0, .tou-1b8t2us, .tou-py7lfi, .tou-1lpmd9d, .tou-1f=
+rrtv8, .tou-17ezmgn { background-color: rgb(10, 10, 10) !important; }
+
+.tou-uknfeu { background-color: rgb(35, 22, 3) !important; }
+
+.tou-6i3zyv { background-color: rgb(25, 87, 108) !important; }
+
+embed[type=3D"application/pdf"][src=3D"about:blank"] { filter: invert(100%)=
+ contrast(90%); }
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-17593be9-dfa5-4469-b775-b6f77db16f41@mhtml.blink
+
+@charset "utf-8";
+
+li { margin-top: 0pt; margin-bottom: 0pt; }
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-91455356-f764-4c93-b93e-5047c1ba0e1d@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.zator.com/Cpp/eztilosH.css
+
+@charset "utf-8";
+
+body { font-family: "MS Arial Unicode", Arial, sans-serif; background: whit=
+e; font-size: 10pt; color: rgb(0, 51, 136); margin-top: 12pt; margin-bottom=
+: 6pt; }
+
+img { max-width: 750px; }
+
+@media only screen and (min-width: 960px) {
+  .top1, .ext, #foot { width: 960px !important; margin: 0px auto !important=
+; }
+  .ext { border: 1px solid gray; line-height: 150%; }
+}
+
+.top1 { padding: 1px 5px; text-align: center; }
+
+.top2 { height: 90px; padding: 4px; background-color: rgb(238, 238, 255); }
+
+.left { float: left; width: 160px; padding: 5px; }
+
+.main { margin-left: 0px; border-left: 1px solid gray; padding: 15px 10px 5=
+px 20px; line-height: 115%; }
+
+.lmenu { line-height: 115%; background-color: rgb(221, 221, 255); margin: 0=
+px; padding: 5px; }
+
+.foot { padding: 5px 5px 1px 15px; background-color: rgb(238, 238, 255); cl=
+ear: left; }
+
+a:link { color: blue; }
+
+ul { list-style-position: outside; }
+
+li { margin-bottom: 6pt; }
+
+strong { color: rgb(0, 0, 0); }
+
+big { font-size: 10pt; color: rgb(0, 0, 0); font-family: "courier new"; }
+
+h1, h2, h3, h4, h5, h6, b { color: rgb(0, 0, 255); font-weight: bold; }
+
+h1 { font-size: 24pt; }
+
+h2 { font-size: 18pt; line-height: 115%; }
+
+h3 { font-size: 14pt; line-height: 115%; }
+
+h4 { font-size: 12pt; }
+
+h5 { font-size: 10pt; margin-top: 25pt; margin-bottom: 6pt; }
+
+h6 { font-size: 10pt; margin-top: 20pt; margin-bottom: 6pt; }
+
+.nL { text-align: left; margin-top: 12pt; margin-bottom: 6pt; }
+
+.nC { text-align: center; margin-top: 12pt; margin-bottom: 6pt; }
+
+.nR { text-align: right; margin-top: 12pt; margin-bottom: 6pt; }
+
+.nS { margin-left: 90px; }
+
+.n1 { color: rgb(0, 51, 136); margin-top: 0px; margin-bottom: 0px; }
+
+.n2 { margin-top: 4pt; margin-bottom: 0px; }
+
+.kb { background-color: rgb(100, 100, 100); color: rgb(255, 255, 255); padd=
+ing: 0px 3px; }
+
+.mn { background-color: rgb(0, 0, 187); color: rgb(255, 255, 255); padding:=
+ 0px 3px; }
+
+.nH { padding: 1em; width: 85%; text-align: left; position: relative; left:=
+ 60px; border: 1px solid gray; background-color: rgb(238, 238, 255); }
+
+.bg0 { background-color: rgb(238, 238, 255); }
+
+.ibm { color: rgb(96, 128, 168); margin-top: 2pt; margin-bottom: 0px; }
+
+.nmm { text-align: center; margin-top: 0px; margin-bottom: 0px; }
+
+.resY { background-color: rgb(255, 255, 153); border: 0px inset rgb(0, 0, 0=
+); }
+
+.resB { font-weight: bold; color: rgb(0, 0, 255); }
+
+.resR { color: rgb(238, 0, 0); }
+
+.resC { font-style: italic; border: 0px inset rgb(0, 0, 0); color: rgb(0, 0=
+, 0); }
+
+#footer { background-color: rgb(221, 221, 255); text-align: center; padding=
+: 3px 35px; }
+
+.flo2 { color: rgb(136, 0, 0); padding: 0px 10px; text-align: center; float=
+: right; border: 1px solid rgb(136, 0, 0); background-color: rgb(238, 238, =
+255); }
+
+.goog3 { width: 300px; float: right; border: 1px solid rgb(255, 255, 255); =
+background-color: rgb(255, 255, 255); }
+
+.notN { margin-left: 20pt; text-align: left; margin-top: 12pt; margin-botto=
+m: 17pt; background-color: rgb(238, 238, 255); padding: 0px 10px; }
+
+.notC { margin-left: 90pt; text-align: left; margin-top: 17pt; margin-botto=
+m: 6pt; }
+
+code { font-family: "courier new", monospace; background-color: rgb(238, 23=
+8, 255); color: rgb(0, 0, 0); padding: 0px 3px; }
+
+.code { margin-top: 0px; margin-bottom: 0px; text-align: left; padding-left=
+: 15px; font-family: "courier new", monospace; background-color: rgb(238, 2=
+38, 255); color: rgb(0, 0, 0); }
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.zator.com/Cpp/images/aUp.gif
+
+R0lGODlhEAAQAIABAFyBp////yH5BAEAAAEALAAAAAAQABAAAAIXjI+py+2fADSgwood3i9f+0nT
+SJbmUwAAOw==
+
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.zator.com/Cpp/images/Ico_hojaFdwn.gif
+
+R0lGODlhEAAQAPcAAP///8DAwL+/vwAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAEALAAAAAAQABAA
+AAheAAMIHEiw4EACCBMiNCiQAICHEBcadAjxIQEBBCZWHABAYUGKDzlGFEAQJACRFkke3FjxYkmW
+I19CRNlRZcOQJ3PWlHlyAEqXK2e2tBnAZMWdBxUqBTpQgNOnUFUGBAA7
+
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.zator.com/Cpp/images/Ico_hoja.gif
+
+R0lGODlhEAAQAKL/AP///8DAwL+/vwAA/wAAAAAAAAAAAAAAACH5BAEAAAEALAAAAAAQABAAAAM6
+GLrcSzBCpwi4eDqLLxHE1nlRww1o9zHc6Anshc5v7NaPPA94dfeB0w7Ycq1yv2NFwlQqBNCoFBZI
+AAA7
+
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.zator.com/Cpp/images/Bombilla_.gif
+
+R0lGODlhEAAQAPcAAAQCBKSmPIyKjPz+hNTWBMTGxPz+xFRWBLSytPz+RPz+BNTW1ExOTKSmdJye
+nOTm5Ly+vBQWFNzeJMzOzGRiZPz+/NTSHJSWlNzeBMzKzFRWLLy6vPz+ZOzuJNze3FRWVNTSXKSm
+pOzu7MTCxBweHBUABQAAIAAAAAB8nAD3BQByAAAAAJSAAbgBAAkAAFIAAgAAAAEAAAAAAAAAAP/C
+AkmIAADnEwAYxAiIAOr0AHLHBgAFACdCjJYALUkerwAWFmYE2QAAFADS9wABvyCvX+oqAXIPAAAo
+APT3mOm/6XK2cgBRADrwZ3a4AUsoAAAAANqXR/8BFf8A9/8AvwD/pAAY9QAAcgABAEgAIJUAAEn/
+AABJALwAnO0ABXK/AABJACYAVgAABQCf/AAQACA3Auqtf3L5RAC/APREzOk6uXIAiAAADzcAAAQA
+APoAAr8AfwAAAAAAAAAAnwAAF0sA/JwAAAAGbwACDIwAZy0AAQiOQwABcEFLcIAAXPeljr8BFl9Y
+nwEAFwECZgAAFBAb4ACtuXL5OwC/C2cAQAEwgAByAAAAAACOAAEBAFZLAAAAAKXVBwEBAABYAAAA
+AACOjgABFgBLdQAAAbTVAAMBAGBYAAAAAAAAAAAAAHIAAAAAAPkAAEUAAAAAAAAAAACwAACFAI5L
+AAEAAEscZgDpFKVyZwEAAVgtJgCrAI74AAG/AEvg/wBY/6UA/wGA/1iYJgBQAI4AAAGAAEu4vACJ
+7aUAcgGAAFj4AACJAI4AAAGAAEsAQAAB6tUAcgEAAFj4rgBYbAEASQCAAAA3IAAE6gT6cgC/AMoA
+O1sAdvUAS78AAE5LVACc6gAAcgAAAGA8AIPqAERyAAAAAICTrgWy6gD5cgC/AE6I2AC1/wBL/wAA
+f8+MiAe16gBLcgAAAPTUN/ebBHL8+gC/vzc8AP3pAP9yAP8AAE4ANwABBAAA+gAAv0SwvPeFW3JL
+UAAAAIAAgwEAvgDhQwBdAK8ciCra6gACcgAAAABaiECJ6gDbcgADACH5BAAAAAAALAAAAAAQABAA
+Bwh+ACsIHEiw4MALBgkiJEiiwgYAEAFsqNDQYIEPCwYoIKChQMIKABYYUECSAICPJxOQJHlSYQSQ
+FUCQtKDgZISFAwF4ECFBQgcMLQ1OONkgQM0JH0E+QLAxaMIPFEYoOPChAs6BDkLA5NDSgQOFX2E+
+PIgygwCnHyFAHJG07cCAADs=
+
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.zator.com/Cpp/images/FlechaDrcha_.gif
+
+R0lGODlhEAAQAPcAAAQCBKyqrNTW1DQyNLy+vExKTLS2tPz+/MzKzBweHOTm5Dw+PLSytMTGxFRW
+VBQSFKyurNze3DQ2NMTCxExOTLy6vMzOzCQiJOzq7ERCRAAAAQAAAG4sAAH4AgBy5AAACK83IFn9
+AGf/4BP/DP9O4BUADAAAIAAAAAB85AD3CAByAAAAAJSAAbgBAAniAFITAgD3AAG/AABfAAABAF8A
+AhEAAADtEwBBxAj3AOq/AHJkBgCxACcBjJYALUkgrwAAFmYA2QAAFABk9wCxvyABX+oAAXIPAAAo
+APT3mOm/6XK2cgBRADrwZ3a4AUsoAAAAANfiR/8TFf/39/+/vwBfpAAB9QAAcgAAAEh2IJVCAEn3
+AAC/ALxk5O2xCHIBAAAAAClkVgCxBQAB/AAAACA3Auqtf3L5RAC/APREzOk6uXIAiAAADzcAAAQA
+APoAAr8AfwAAAAAAAAAAnwAAF0sA/JwAAAAGZwACE4wAZy0AAQiO4gABE0FL94AAv/erjr8BFl9Y
+nwEAFwECZgAAFBAb4ACtuXL5OwC/C2cAQAEwgAByAAAAAACOAAEBAFZLAAAAAKvVBwEBAABYAAAA
+AACO4gABEwBLdQAAAbTVAAMBAGBYAAAAAAAAAAAAAHIAAAAAAPkAAEUAAAAAAAAAAACwAACFAI5L
+AAEAAEsc4gDpE6ty9wEAv1gtKQCrAI74AAG/AEuA/wCA/6sA/wGA/1jwKQBsAI4AAAGAAEuIvACA
+7asAcgGAAFhYAABRAI4AAAGAAEsAQAAB6tUAcgEAAFiwrgBPbAEASQCAAAA3IAAE6gT6cgC/AMoA
+O1sAdvUAS78AAE5LVACc6gAAcgAAAGA8AIPqAERyAAAAAOCTsQyy6gD5cgC/AE6I1QC1/wBL/wAA
+f8+MiAe16gBLcgAAAPTUN/ebBHL8+gC/vzc8AP3pAP9yAP8AAE4ANwABBAAA+gAAv0SwOPeFXXJL
+UAAAAIAAgwEAvgDhQwBdAKcUiDuk6gACcgAAAABaiECJ6gDbcgADACH5BAAAAAAALAAAAAAQABAA
+Bwh6AA8IHHiAwASCCBFmcFAhocMMBx4cdEiQwgEGCSYSHCChYwEABxpUyLgxoQICFkZqlHAggIGX
+BioYtECA5AGWBiYY3DlhQoQAIG8eMMDT4ASaFyZCVICBaQQLR1UOhACgqlUBCKRSPOBgqM2tECVu
+HbiQwNipDM6qDQgAOw==
+
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.zator.com/Cpp/images/marca_.gif
+
+R0lGODlhEgAQAPcAAAAAADMzM2ZmZpmZmczMzP///5lmZmYzM8yZmZkzM8xmZswzMzMAAGYAAJkA
+AMwAAP8AAP8zM/9mZv+Zmf/MzP8zAMwzAP9mM8xmM5kzAP+ZZv9mAJlmM8yZZmYzAMxmAP+ZM//M
+mf+ZAMyZM5lmAP/MZsyZAP/MM//MAJmZZmZmM8zMmZmZM8zMZszMMzMzAGZmAJmZAMzMAP//AP//
+M///Zv//mf//zMz/AJnMAMz/M5nMM2aZAMz/Zpn/AGaZM5nMZjNmAGbMAJn/M8z/mWb/AGbMMzOZ
+AJn/ZjPMAGb/MzP/AGaZZjNmM5nMmTOZM2bMZjPMMwAzAABmAACZAADMAAD/ADP/M2b/Zpn/mcz/
+zAD/MwDMMzP/ZjPMZgCZM2b/mQD/ZjOZZmbMmQBmMwDMZjP/mZn/zAD/mTPMmQCZZmb/zADMmTP/
+zAD/zGaZmTNmZpnMzDOZmWbMzDPMzAAzMwBmZgCZmQDMzAD//zP//2b//5n//8z//wDM/wCZzDPM
+/zOZzABmmWbM/wCZ/zNmmWaZzAAzZgBmzDOZ/5nM/wBm/zNmzAAzmWaZ/wAzzDNm/wAz/2ZmmTMz
+ZpmZzDMzmWZmzDMzzAAAMwAAZgAAmQAAzAAA/zMz/2Zm/5mZ/8zM/zMA/zMAzGYz/2YzzDMAmZlm
+/2YA/2YzmZlmzDMAZmYAzJkz/8yZ/5kA/5kzzGYAmcxm/5kAzMwz/8wA/5lmmWYzZsyZzJkzmcxm
+zMwzzDMAM2YAZpkAmcwAzP8A//8z//9m//+Z///M//8AzMwAmf8zzMwzmZkAZv9mzP8AmZkzZsxm
+mWYAM8wAZv8zmf+ZzP8AZswzZpkAM/9mmcwAM/8zZv8AM////wAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAASABAA
+AAhDAAsIHEiwIAQIBRMSPHhQYUKGDR0uhChxIESEFQVezFhgo0aMBj1SDMnQ4siPJU2OvAgSZUmP
+JFm2jAlToUyOLBUGBAA7
+
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.zator.com/Cpp/images/FlechaAbajo-.gif
+
+R0lGODlhEAAQAPcAAAQCBJyanNTO1LS2tDQ2NOzq7MTCxFRSVKyqrOTi5MS+xERGRBwaHNTW1Ly+
+vMzKzKSmpLy2vDw+PPz+/MzGzLSytCQiJKSepNTS1Dw6PPTu9MTGxFxeXLSutOzm7ExKTNzW3Ly6
+vCwmLA8AAP8AIBUA7AAMcgAAAAAh5AAAogBFUAAAABQIALsCAAniUFITAAD38AG/uQBfAQABAP8A
+DkkAswDt9wBBv+f3AEC/AABkUACxAFcBFzwAswAg9wAAvx8AAA8AAP9kUBWxAGcBAQEAAGcPAAEo
+AEP3Hzq/bly291dRv0lw/U67bUQo908Av1fi8FMTuVz3AUm/AF9f5FYBokkAUEUAAFd2aDNC7DL3
+ci6/AElkU06xuUkB9wAAv7JkAC2xAFIBUIoAAJo3aCituQD59wC/vwDs9ABCAwD5agC/gQC4HwAZ
+bg/39wC/v4Bw/QCLbfw896MAvwLk8AD4udByAYoAAAZtTAAYAHL3UAC/ANDPAIpJAFdQUAGLAGwA
+AIoAAF4AAB0AAPwbAKOtAAL5AAC/P4AANAAw7GRycooAAN9GAAwCAAAAAAAAAACu5ACL+AACcgAA
+AACqFAA8/g9y+wAAv3yPMA4Wkh8A9w8Av4AA/4oA/9AA/xAA/4fQgBcD7AAAcgAAAACwXACFGABL
++AAAvwCcoADrGA9y+AAAv3wt9A6rAwb4agC/gXIYHwBPbtAA94qAvwBQ/QB8bY8A9xaAv5zg6IqA
+oisAUASAAIf4RheJ0wEAQQCAAAAAvAABnwAAUAAAAAC4EACAAAAAAACAAA90EAAOAPwAAKMAAALQ
+MgADAMYAAAwAAE/VABecADAAAAQAANC86IrsopdyUDYAAK+TMBayAAH5AAC/AACMvACjnwBLUAAA
+AABo5AClnwBLUAAAAA/U/wCb/3z8/w6//8a8vQzrRU9yRBcAAHwAvA4Bnw8AUAAAAACwCACFAABL
+AAAAAAA/AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAJ/EAAXADJvAMBAACH5BAAAAAAALAAAAAAQABAA
+BwiQACcIHEiwoMEBCzIozGCQIICBHiYwbDgBQIEAISpIpFixAAUDISZI4GjxAYQQGiY2BPCAAgUF
+Ew4UrLDgAwcACQycrHjgwwKNEThEbICBwgYFBQZyMCDQAIMBFYwamIpgAAMHBClYMBAVAoUGBixQ
+MKjVQYMHDQKIpbhh61QLDzhOoCACgYixcidsALAhb96AADs=
+
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.zator.com/Cpp/images/Ico_hojaFup.gif
+
+R0lGODlhEAAQAPcAAP///8DAwL+/vwAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAEALAAAAAAQABAA
+AAheAAMIHEiw4EACCBMiNCiQAICHEBcadAhxAAACAghMhAjAosKCFDsOsPgQI0GKFlOWFHCSI8mV
+LStyNHnQ5UyWNWVGxNnQ5s6YD19e5BkgJEeYBxUqpTlQgNOnUHEGBAA7
+
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.zator.com/Cpp/images/arrow_btt.gif
+
+R0lGODlhCQAFAKL/AMDAwN6EhM4xMc45MdalnN5ja9ZSWgAAACH5BAEAAAAALAAAAAAJAAUAQAMU
+CAq1EEKMEQVRpQYHjGiLR0UGkAAAOw==
+
+------MultipartBoundary--1tr0ueiTHO8R3nXghyuLcIrqQiZIdZO6mk9o3MlcOB------
