@@ -1,0 +1,14 @@
+// Obtener la conexión
+      Connection con = DriverManager.getConnection(connectionUrl);
+
+// Preparamos la consulta
+      Statement s = con.createStatement();
+      ResultSet rs = s.executeQuery ("SELECT NIF, NOMBRE,"
+                    + "APELLIDOS, TELÉFONO FROM CLIENTE");
+
+// Iteramos sobre los registros del resultado
+      while (rs.next())
+             System.out.println (rs.getString("NIF") + " " +
+                        rs.getString (2) + " " +
+                        rs.getString (3) + " " +
+                        rs.getString (4)) ;
