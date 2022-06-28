@@ -1,0 +1,1356 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://dis.um.es/~bmoros/Tutorial/parte9/cap9-3.html
+Subject: Tutorial de Java - Captura de Excepciones
+Date: Sun, 26 Jun 2022 15:47:48 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----"
+
+
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/html
+Content-ID: <frame-48F11E3BE28DFDC6EB1D995730A3FC08@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://dis.um.es/~bmoros/Tutorial/parte9/cap9-3.html
+
+<html data-darkreader-mode=3D"dynamic" data-darkreader-scheme=3D"dark"><hea=
+d><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dwindows=
+-1252"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-caae4a0c-=
+683e-4f82-89e6-6816e49e5a2c@mhtml.blink" /><link rel=3D"stylesheet" type=3D=
+"text/css" href=3D"cid:css-72579690-83c2-44b4-818d-752e97211485@mhtml.blink=
+" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-f309f704-585=
+2-4da1-84be-602e2c0a5074@mhtml.blink" /><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-e17830f5-d77a-41b3-8d01-3dbfcaa21914@mhtml.blink" /=
+><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-36f33892-10cc-4=
+ab4-a238-7e2936332aef@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-05a163fd-1658-4be4-8614-daa079841064@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-c37044fa-bd4e-4b28=
+-85e7-30b4ad59aa3d@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
+" href=3D"cid:css-cf51d97a-afa4-4668-8d40-4a0af7c6d54a@mhtml.blink" /><link=
+ rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-080e9888-9567-4069-a9=
+e4-a8afa9930dc9@mhtml.blink" />
+<meta http-equiv=3D"copyright" content=3D"1996-98, Agustin Froufe">
+<meta http-equiv=3D"reply-to" content=3D"froufe@arrakis.es">
+<meta http-equiv=3D"Content-Style-Type" content=3D"text/css">
+<meta name=3D"autor" content=3D"Agustin Froufe">
+<meta name=3D"description" content=3D"Tutorial de Java para Principiantes b=
+asado en el JDK de Sun">
+<meta name=3D"keywords" content=3D"java, tutorial, manual, jdk">
+<title>Tutorial de Java - Captura de Excepciones</title>
+<link rel=3D"stylesheet" href=3D"http://dis.um.es/~bmoros/Tutorial/imagenes=
+/tutorial.css" type=3D"text/css">
+<meta name=3D"darkreader" content=3D"fb5450e91a691a76d5c2fa4c50def18d"></he=
+ad>
+
+<body background=3D"http://dis.um.es/~bmoros/Tutorial/imagenes/fondo.gif" b=
+gcolor=3D"#FFFFCE" text=3D"#000000" link=3D"#187ADE" vlink=3D"#B04040" data=
+-darkreader-inline-bgcolor=3D"" style=3D"--darkreader-inline-bgcolor:#3c3c0=
+0;">
+<!-- Spidersoft WebZIP Ad Banner Insert -->
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr>
+<td>
+<ilayer id=3D"ad1" visibility=3D"hidden" height=3D"60"></ilayer>
+<nolayer>
+<iframe src=3D"cid:frame-0F0B7FD33E04868422917286D89903CD@mhtml.blink" widt=
+h=3D"100%" height=3D"60" marginwidth=3D"0" marginheight=3D"0" hspace=3D"0" =
+vspace=3D"0" frameborder=3D"0" scrolling=3D"no"></iframe>
+</nolayer>
+</td>
+</tr>
+</tbody></table>
+<!-- End of Spidersoft WebZIP Ad Banner Insert-->
+
+<!-- Men=FA de la parte superior de la p=E1gina ---------------------------=
+---------------------->
+
+<table align=3D"center" border=3D"0" width=3D"690">
+  <tbody><tr>
+    <td width=3D"684"><map name=3D"mapa">
+        <area shape=3D"RECT" coords=3D"8, 16, 588, 40" href=3D"http://dis.u=
+m.es/~bmoros/Tutorial/index.html"><area shape=3D"RECT" coords=3D"594, 5, 63=
+1, 50" href=3D"http://java.sun.com/">
+      </map><img ismap=3D"" usemap=3D"#mapa" border=3D"0" height=3D"60" alt=
+=3D"Tutorial de Java" src=3D"http://dis.um.es/~bmoros/Tutorial/imagenes/Bar=
+raSuperior.gif" width=3D"681"></td>
+  </tr>
+  <tr>
+    <td width=3D"684"><p align=3D"center"><font class=3D"titulo">
+	Captura de Excepciones</font></p></td>
+  </tr>
+  <tr>
+    <td width=3D"684"><font class=3D"indice"><a href=3D"http://dis.um.es/~b=
+moros/Tutorial/parte9/cap9-2.html">Anterior</a> | </font><a href=3D"http://=
+dis.um.es/~bmoros/Tutorial/parte9/cap9-4.html"><font class=3D"indice">Sigui=
+ente</font></a></td>
+  </tr>
+</tbody></table>
+<!-- Texto de cuerpo de la p=E1gina ---------------------------------------=
+-------------------->
+
+<table align=3D"center" border=3D"0" width=3D"690">
+  <tbody><tr>
+    <td><font class=3D"normal">Las excepciones lanzadas por un m=E9todo que
+    pueda hacerlo deben recoger en bloque </font><font face=3D"Courier" siz=
+e=3D"2">try/catch</font><font class=3D"normal"> o </font><font face=3D"Cour=
+ier" size=3D"2">try/finally</font>.<pre>int valor;
+try {
+    for( x=3D0,valor =3D 100; x &lt; 100; x ++ )
+        valor /=3D x;
+    }
+catch( ArithmeticException e ) {
+    System.out.println( "Matem=E1ticas locas!" );
+    }
+catch( Exception e ) {
+    System.out.println( "Se ha producido un error" );
+    }</pre>
+    <p><font class=3D"titulo1"><a name=3D"Cap9_3_1"></a> <i>try</i></font><=
+/p>
+    <p><font class=3D"normal">Es el bloque de c=F3digo donde se prev=E9 que=
+ se
+    genere una excepci=F3n. Es como si dij=E9semos "intenta estas sentencia=
+s y mira a ver
+    si se produce una excepci=F3n". El bloque <i>try</i> tiene que ir segui=
+do, al menos,
+    por una cl=E1usula </font><font face=3D"Courier" size=3D"2">catch</font=
+> <font class=3D"normal">o una cl=E1usula </font><font face=3D"Courier" siz=
+e=3D"2">finally</font>.</p>
+    <p><font class=3D"normal">La sintaxis general del bloque <i>try</i>
+    consiste en la palabra clave </font><font face=3D"Courier" size=3D"2"><=
+b>try</b></font><font class=3D"normal"> y una o m=E1s sentencias entre llav=
+es.</font></p>
+    <pre>try {
+    // Sentencias Java
+    }</pre>
+    <p><font class=3D"normal">Puede haber m=E1s de una sentencia que genere
+    excepciones, en cuyo caso habr=EDa que proporcionar un bloque <i>try</i=
+> para cada una de
+    ellas. Algunas sentencias, en especial aquellas que invocan a otros m=
+=E9todos, pueden
+    lanzar, potencialmente, muchos tipos diferentes de excepciones, por lo =
+que un bloque <i>try</i>
+    consistente en una sola sentencia requerir=EDa varios controladores de =
+excepciones.</font></p>
+    <p><font class=3D"normal">Tambi=E9n se puede dar el caso contrario, en =
+que
+    todas las sentencias, o varias de ellas, que puedan lanzar excepciones =
+se encuentren en un
+    =FAnico bloque <i>try</i>, con lo que habr=EDa que asociar m=FAltiples =
+controladores a ese
+    bloque. Aqu=ED la experiencia del programador es la que cuenta y es el =
+propio programador
+    el que debe decidir qu=E9 opci=F3n tomar en cada caso.</font></p>
+    <p><font class=3D"normal">Los controladores de excepciones deben
+    colocarse inmediatamente despu=E9s del bloque <i>try</i>. Si se produce=
+ una excepci=F3n
+    dentro del bloque <i>try</i>, esa excepci=F3n ser=E1 manejada por el co=
+ntrolador que est=E9
+    asociado con el bloque <i>try</i>.</font></p>
+    <p><font class=3D"titulo1"><a name=3D"Cap9_3_2"></a> <i>catch</i></font=
+></p>
+    <p><font class=3D"normal">Es el c=F3digo que se ejecuta cuando se produ=
+ce
+    la excepci=F3n. Es como si dij=E9semos "<i>controlo cualquier excepci=
+=F3n que coincida
+    con mi argumento</i>". No hay c=F3digo alguno entre un bloque <i>try</i=
+> y un bloque <i>catch</i>,
+    ni entre bloques <i>catch</i>. La sintaxis general de la sentencia </fo=
+nt><font face=3D"Courier" size=3D"2"><b>catch</b></font><font class=3D"norm=
+al"> en
+    Java es la siguiente:</font></p>
+    <pre>catch( UnTipoTrhowable nombreVariable ) {
+    // sentencias Java
+    }</pre>
+    <p><font class=3D"normal">El argumento de la sentencia declara el tipo =
+de
+    excepci=F3n que el controlador, el bloque <i>catch</i>, va a manejar.</=
+font></p>
+    <p><font class=3D"normal">En este bloque tendremos que asegurarnos de
+    colocar c=F3digo que no genere excepciones. Se pueden colocar sentencia=
+s </font><font face=3D"Courier" size=3D"2">catch</font><font class=3D"norma=
+l"> sucesivas,
+    cada una controlando una excepci=F3n diferente. No deber=EDa intentarse=
+ capturar todas las
+    excepciones con una sola cl=E1usula, como esta:</font></p>
+    <pre>    catch( Excepcion e ) { ...</pre>
+    <p><font class=3D"normal">Esto representar=EDa un uso demasiado general=
+,
+    podr=EDan llegar muchas m=E1s excepciones de las esperadas. En este cas=
+o es mejor dejar que
+    la excepci=F3n se propague hacia arriba y dar un mensaje de error al us=
+uario.</font></p>
+    <p><font class=3D"normal">Se pueden controlar grupos de excepciones, es
+    decir, que se pueden controlar, a trav=E9s del argumento, excepciones s=
+emejantes. Por
+    ejemplo:</font></p>
+    <pre>class Limites extends Exception {}
+class demasiadoCalor extends Limites {}
+class demasiadoFrio extends Limites {}
+class demasiadoRapido extends Limites {}
+class demasiadoCansado extends Limites {}
+    .
+    .
+    .
+    try {
+        if( temp &gt; 40 )
+            throw( new demasiadoCalor() );
+        if( dormir &lt; 8 )
+            throw( new demasiado Cansado() );
+    } catch( Limites lim ) {
+        if( lim instanceof demasiadoCalor ) {
+            System.out.println( "Capturada excesivo calor!" );
+            return;
+            }
+        if( lim instanceof demasiadoCansado ) {
+            System.out.println( "Capturada excesivo cansancio!" );
+            return;
+            }
+    } finally
+        System.out.println( "En la clausula finally" );</pre>
+    <p><font class=3D"normal">La cl=E1usula </font><font face=3D"Courier" s=
+ize=3D"2">catch</font><font class=3D"normal"> comprueba los argumentos en
+    el mismo orden en que aparezcan en el programa. Si hay alguno que coinc=
+ida, se ejecuta el
+    bloque. El operador </font><font face=3D"Courier" size=3D"2">instanceof=
+</font><font class=3D"normal"> se utiliza para identificar exactamente cual=
+ ha sido la
+    identidad de la excepci=F3n.</font></p>
+    <p><font class=3D"normal">Cuando se colocan varios controladores de
+    excepci=F3n, es decir, varias sentencias </font><font face=3D"Courier" =
+size=3D"2">catch</font><font class=3D"normal">, el orden en que aparecen en=
+ el programa es importante,
+    especialmente si alguno de los controladores engloba a otros en el =E1r=
+bol de jerarqu=EDa.
+    Se deben colocar primero los controladores que manejen las excepciones =
+m=E1s alejadas en el
+    =E1rbol de jerarqu=EDa, porque de otro modo, estas excepciones podr=EDa=
+n no llegar a tratarse
+    si son recogidas por un controlador m=E1s general colocado anteriorment=
+e.</font></p>
+    <p><font class=3D"normal">Por lo tanto, los controladores de excepcione=
+s
+    que se pueden escribir en Java son m=E1s o menos especializados, depend=
+iendo del tipo de
+    excepciones que traten. Es decir, se puede escribir un controlador que =
+maneje cualquier
+    clase que herede de <b>Throwable</b>; si se escribe para una clase que =
+no tiene subclases,
+    se estar=E1 implementando un controlador especializado, ya que solament=
+e podr=E1 manejar
+    excepciones de ese tipo; pero, si se escribe un controlador para una cl=
+ase <i>nodo</i>,
+    que tiene m=E1s subclases, se estar=E1 implementando un controlador m=
+=E1s general, ya que
+    podr=E1 manejar excepciones del tipo de la clase nodo y de sus subclase=
+s.</font></p>
+    <p><font class=3D"titulo1"><a name=3D"Cap9_3_3"></a> <i>finally</i></fo=
+nt></p>
+    <p><font class=3D"normal">Es el bloque de c=F3digo que se ejecuta siemp=
+re,
+    haya o no excepci=F3n. Hay una cierta controversia entre su utilidad, p=
+ero, por ejemplo,
+    podr=EDa servir para hacer un <i>log</i> o un seguimiento de lo que est=
+=E1 pasando, porque
+    como se ejecuta siempre puede dejar grabado si se producen excepciones =
+y si el programa se
+    ha recuperado de ellas o no.</font></p>
+    <p><font class=3D"normal">Este bloque <i>finally</i> puede ser =FAtil
+    cuando no hay ninguna excepci=F3n. Es un trozo de c=F3digo que se ejecu=
+ta independientemente
+    de lo que se haga en el bloque <i>try</i>.</font></p>
+    <p><font class=3D"normal">A la hora de tratar una excepci=F3n, se plant=
+ea
+    el problema de qu=E9 acciones se van a tomar. En la mayor=EDa de los ca=
+sos, bastar=E1 con
+    presentar una indicaci=F3n de error al usuario y un mensaje avis=E1ndol=
+o de que se ha
+    producido un error y que decida si quiere o no continuar con la ejecuci=
+=F3n del programa.</font></p>
+    <p><font class=3D"normal">Por ejemplo, se podr=EDa disponer de un di=E1=
+logo
+    como el que se presenta en el c=F3digo siguiente:</font></p>
+    <pre>public class DialogoError extends Dialog {
+    DialogoError( Frame padre ) {
+        super( padre,true );
+        setLayout( new BorderLayout() );
+
+        // Presentamos un panel con continuar o salir
+        Panel p =3D new Panel();
+        p.add( new Button( "=BFContinuar?" ) );
+        p.add( new Button( "Salir" ) );
+
+        add( "Center",new Label(=20
+            "Se ha producido un error. =BFContinuar?" ) )
+        add( "South",p );
+        }
+
+    public boolean action( Event evt,Object obj ) {
+        if( "Salir".equals( obj ) ) {
+            dispose();
+            System.exit( 1 );
+            }
+        return( false );
+        }
+    }</pre>
+    <p><font class=3D"normal">Y la invocaci=F3n, desde alg=FAn lugar en que=
+ se
+    suponga que se generar=E1n errores, podr=EDa ser como sigue:</font></p>
+    <pre>try {
+    // C=F3digo peligroso
+    }
+catch( AlgunaExcepcion e ) {
+    VentanaError =3D new DialogoError( this );
+    VentanaError.show();
+    }</pre>
+    <p><font class=3D"normal">Lo cierto es que hay autores que indican la
+    inutilidad del bloque <i>finally</i>, mientras que desde el Java Tutori=
+al de Sun se
+    justifica plenamente su existencia. El lector deber=E1 revisar todo el =
+material que est=E9 a
+    su alcance y crearse su propia opini=F3n al respecto.</font></p>
+    <p><font class=3D"normal">En el programa <a href=3D"http://dis.um.es/~b=
+moros/Tutorial/fuentes/java904.java">java904.java</a>, se intenta demostrar=
+ el poder del bloque <i>finally</i>.
+    En =E9l, un controlador de excepciones intenta terminar la ejecuci=F3n =
+del programa
+    ejecutando una sentencia </font><font face=3D"Courier" size=3D"2">retur=
+n</font><font class=3D"normal">. Antes de que la sentencia se ejecute, el c=
+ontrol se pasa al
+    bloque <i>finally</i> y se ejecutan todas las sentencias de este bloque=
+. Luego el programa
+    termina. Es decir, quedar=EDa demostrado que el bloque <i>finally</i> n=
+o tiene la =FAltima
+    palabra palabra.</font></p>
+    <p><font class=3D"normal">El programa redefine el m=E9todo <i>getMessag=
+e()</i>
+    de la clase <b>Throwable</b>, porque este m=E9todo devuelve </font><fon=
+t face=3D"Courier" size=3D"2">null</font><font class=3D"normal"> si no es a=
+decuadamente
+    redefinido por la nueva clase excepci=F3n.</font></p>
+    <p><font class=3D"titulo1"><a name=3D"Cap9_3_4"></a> <i>throw</i></font=
+></p>
+    <p><font class=3D"normal">La sentencia </font><font face=3D"Courier" si=
+ze=3D"2">throw</font><font class=3D"normal"> se utiliza para lanzar
+    expl=EDcitamente una excepci=F3n. En primer lugar se debe obtener un de=
+scriptor de un objeto
+    <i>Throwable</i>, bien mediante un par=E1metro en una cl=E1usula </font=
+><font face=3D"Courier" size=3D"2">catch</font><font class=3D"normal"> o, s=
+e puede crear utilizando
+    el operador </font><font face=3D"Courier" size=3D"2">new</font><font cl=
+ass=3D"normal">. La forma general de la sentencia </font><font face=3D"Cour=
+ier" size=3D"2"><b>throw</b></font><font class=3D"normal"> es:</font></p>
+    <pre>throw ObjetoThrowable;</pre>
+    <p><font class=3D"normal">El flujo de la ejecuci=F3n se detiene
+    inmediatamente despu=E9s de la sentencia </font><font face=3D"Courier" =
+size=3D"2">throw</font><font class=3D"normal">, y nunca se llega a la sente=
+ncia siguiente. Se
+    inspecciona el bloque <i>try</i> que la engloba m=E1s cercano, para ver=
+ si tiene la
+    cl=E1usula </font><font face=3D"Courier" size=3D"2">catch</font><font c=
+lass=3D"normal"> cuyo tipo coincide con el del objeto o instancia <i>Thorwa=
+ble</i>.
+    Si se encuentra, el control se transfiere a ese sentencia. Si no, se in=
+specciona el
+    siguiente bloque <i>try</i> que la engloba, y as=ED sucesivamente, hast=
+a que el gestor de
+    excepciones m=E1s externo detiene el programa y saca por pantalla el tr=
+azado de lo que hay
+    en la pila hasta que se alcanz=F3 la sentencia </font><font face=3D"Cou=
+rier" size=3D"2">throw</font><font class=3D"normal">. En el programa siguie=
+nte, <a href=3D"http://dis.um.es/~bmoros/Tutorial/fuentes/java905.java">jav=
+a905.java</a>, se demuestra como se hace el lanzamiento
+    de una nueva instancia de una excepci=F3n, y tambi=E9n c=F3mo dentro de=
+l gestor se vuelve a
+    lanzar la misma excepci=F3n al gestor m=E1s externo.</font></p>
+    <pre>class java905 {
+    static void demoproc() {
+        try {
+            throw new NullPointerException( "demo" );
+        } catch( NullPointerException e ) {
+            System.out.println( "Capturada la excepcion en demoproc" );
+            throw e;
+            }
+        }
+
+    public static void main( String args[] ) {
+        try {
+            demoproc();
+        } catch( NullPointerException e ) {
+            System.out.println( "Capturada de nuevo: " + e );
+            }
+        }
+    }</pre>
+    <p><font class=3D"normal">Este ejemplo dispone de dos oportunidades par=
+a
+    tratar el mismo error. Primero, <i>main()</i> establece un contexto de =
+excepci=F3n y
+    despu=E9s se llama al m=E9todo <i>demoproc()</i>, que establece otro co=
+ntexto de gesti=F3n de
+    excepciones y lanza inmediatamente una nueva instancia de la excepci=F3=
+n. Esta excepci=F3n
+    se captura en la l=EDnea siguiente. La salida que se obtiene tras la ej=
+ecuci=F3n de esta
+    aplicaci=F3n es la que se reproduce:</font></p>
+    <pre><font color=3D"#0000ff" data-darkreader-inline-color=3D"" style=3D=
+"--darkreader-inline-color:#337dff;">% java java905
+Capturada la excepcion en demoproc
+Capturada de nuevo: java.lang.NullPointerException: demo</font></pre>
+    <p><font class=3D"titulo1"><a name=3D"Cap9_3_5"></a> <i>throws</i></fon=
+t></p>
+    <p><font class=3D"normal">Si un m=E9todo es capaz de provocar una
+    excepci=F3n que no maneja =E9l mismo, deber=EDa especificar este compor=
+tamiento, para que
+    todos los m=E9todos que lo llamen puedan colocar protecciones frente a =
+esa excepci=F3n. La
+    palabra clave </font><font face=3D"Courier" size=3D"2"><b>throws</b></f=
+ont><font class=3D"normal"> se utiliza para identificar la lista posible de=
+ excepciones que
+    un m=E9todo puede lanzar. Para la mayor=EDa de las subclase de la clase=
+ <b>Exception</b>, el
+    compilador Java obliga a declarar qu=E9 tipos podr=E1 lanzar un m=E9tod=
+o. Si el tipo de
+    excepci=F3n es </font><font face=3D"Courier" size=3D"2">Error</font><fo=
+nt class=3D"normal"> o </font><font face=3D"Courier" size=3D"2">RuntimeExce=
+ption</font><font class=3D"normal">, o cualquiera de sus subclases, no se a=
+plica esta
+    regla, dado que no se espera que se produzcan como resultado del funcio=
+namiento normal del
+    programa. Si un m=E9todo lanza expl=EDcitamente una instancia de <b>Exc=
+eption</b> o de sus
+    subclases, a excepci=F3n de la excepci=F3n de <i>runtime</i>, se debe d=
+eclarar su tipo con
+    la sentencia </font><font face=3D"Courier" size=3D"2">throws</font><fon=
+t class=3D"normal">. La declaraci=F3n del m=E9todo sigue ahora la sintaxis =
+siguiente:</font></p>
+    <pre>type NombreMetodo( argumentos ) throws excepciones { }</pre>
+    <p><font class=3D"normal">En el ejemplo siguiente, <a href=3D"http://di=
+s.um.es/~bmoros/Tutorial/fuentes/java906.java">java906.java</a>, el program=
+a intenta lanzar una excepci=F3n
+    sin tener c=F3digo para capturarla, y tampoco utiliza </font><font face=
+=3D"Courier" size=3D"2">throws</font><font class=3D"normal"> para declarar =
+que se lanza esta excepci=F3n. Por tanto,
+    el c=F3digo no ser=E1 posible compilarlo.</font></p>
+    <pre>class java906 {
+    static void demoproc() {
+        System.out.println( "Capturada la excepcion en demoproc" );
+        throw new IllegalAccessException( "demo" );
+        }
+    }
+
+    public static void main( String args[] ) {
+        demoproc();
+    }</pre>
+    <p><font class=3D"normal">El error de compilaci=F3n que se produce es l=
+o
+    suficientemente expl=EDcito:</font></p>
+    <pre><font color=3D"#0000ff" data-darkreader-inline-color=3D"" style=3D=
+"--darkreader-inline-color:#337dff;">% javac java906.java
+java906.java:30: Exception java.lang.IllegalAccessException must be caught,=
+ or=20
+        it must be declared in the throws clause of this method.
+        throw new IllegalAccessException( "demo" );
+        ^</font></pre>
+    <p><font class=3D"normal">Para hacer que este c=F3digo compile, se
+    convierte en el ejemplo siguiente, <a href=3D"http://dis.um.es/~bmoros/=
+Tutorial/fuentes/java907.java">java907.java</a>, en
+    donde se declara que el m=E9todo puede lanzar una excepci=F3n de <i>acc=
+eso ilegal</i>, con
+    lo que el problema asciende un nivel m=E1s en la jerarqu=EDa de llamada=
+s. Ahora <i>main()</i>
+    llama a <i>demoproc()</i>, que se ha declarado que lanza una </font><fo=
+nt face=3D"Courier" size=3D"2">IllegalAccessException</font><font class=3D"=
+normal">, por lo
+    tanto colocamos un bloque <i>try</i> que pueda capturar esa excepci=F3n=
+.</font></p>
+    <pre>class java907 {
+    static void demoproc() throws IllegalAccessException {
+        System.out.println( "Dentro de demoproc" );
+        throw new IllegalAccessException( "demo" );
+        }
+
+    public static void main( String args[] ) {
+        try {
+            demoproc();
+        } catch( IllegalAccessException e ) {
+            System.out.println( "Capturada de nuevo: " + e );
+            }
+        }
+    }</pre>
+    </td>
+  </tr>
+</tbody></table>
+<!-- Men=FA de la parte inferior de la p=E1gina ---------------------------=
+---------------------->
+
+<table align=3D"center" border=3D"0" width=3D"684">
+  <tbody><tr>
+    <td width=3D"685">
+      <p align=3D"center"><map name=3D"mapa1">
+          <area shape=3D"RECT" coords=3D"636, 8, 671, 28" href=3D"http://ja=
+va.sun.com/"><area shape=3D"CIRCLE" coords=3D"121, 19, 11" href=3D"mailto:f=
+roufe@arrakis.es"><area shape=3D"CIRCLE" coords=3D"98, 18, 11" href=3D"http=
+://dis.um.es/~bmoros/Tutorial/introduccion/indice.html"><area shape=3D"CIRC=
+LE" coords=3D"75, 17, 11" href=3D"http://dis.um.es/~bmoros/Tutorial/parte9/=
+cap9-4.html"><area shape=3D"CIRCLE" coords=3D"53, 18, 11" href=3D"http://di=
+s.um.es/~bmoros/Tutorial/parte9/cap9-2.html"><area shape=3D"CIRCLE" coords=
+=3D"29, 18, 9" href=3D"http://dis.um.es/~bmoros/Tutorial/index.html">
+        </map><img ismap=3D"" usemap=3D"#mapa1" border=3D"0" height=3D"37" =
+alt=3D"Navegador" src=3D"http://dis.um.es/~bmoros/Tutorial/imagenes/BarraIn=
+ferior.gif" width=3D"682">
+    </p></td>
+  </tr>
+  <tr>
+    <td width=3D"685"><p align=3D"center"><font class=3D"indice"><a href=3D=
+"http://dis.um.es/~bmoros/Tutorial/index.html">Home</a> | <a href=3D"http:/=
+/dis.um.es/~bmoros/Tutorial/parte9/cap9-2.html">Anterior</a> | <a href=3D"h=
+ttp://dis.um.es/~bmoros/Tutorial/parte9/cap9-4.html">Siguiente</a> | <a hre=
+f=3D"http://dis.um.es/~bmoros/Tutorial/introduccion/indice.html">Indice</a>=
+ | <a href=3D"mailto:froufe@arrakis.es">Correo</a> </font></p></td>
+  </tr>
+</tbody></table>
+
+<layer src=3D"http://www.spidersoft.com/ads/bwz468_60.htm" visibility=3D"hi=
+dden" id=3D"a1" width=3D"600"></layer>
+
+
+<!-- Fin de la p=E1gina ---------------------------------------------------=
+-------------------->
+</body></html>
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-caae4a0c-683e-4f82-89e6-6816e49e5a2c@mhtml.blink
+
+@charset "windows-1252";
+=0A
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-72579690-83c2-44b4-818d-752e97211485@mhtml.blink
+
+@charset "windows-1252";
+=0A
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f309f704-5852-4da1-84be-602e2c0a5074@mhtml.blink
+
+@charset "windows-1252";
+
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_=
+text > img[src^=3D"https://www.gstatic.com/images/branding/googlelogo"], sp=
+an[data-href^=3D"https://www.hcaptcha.com/"] > #icon, #bit-notification-bar=
+-iframe, ::-webkit-calendar-picker-indicator { filter: invert(100%) hue-rot=
+ate(180deg) contrast(90%) !important; }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-e17830f5-d77a-41b3-8d01-3dbfcaa21914@mhtml.blink
+
+@charset "windows-1252";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+
+[data-darkreader-inline-stopcolor] { stop-color: var(--darkreader-inline-st=
+opcolor)  !important; }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-36f33892-10cc-4ab4-a238-7e2936332aef@mhtml.blink
+
+@charset "windows-1252";
+
+:root { --darkreader-neutral-background: #131516; --darkreader-neutral-text=
+: #d8d4cf; --darkreader-selection-background: #004daa; --darkreader-selecti=
+on-text: #e8e6e3; }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-05a163fd-1658-4be4-8614-daa079841064@mhtml.blink
+
+@charset "windows-1252";
+
+:root { }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c37044fa-bd4e-4b28-85e7-30b4ad59aa3d@mhtml.blink
+
+@charset "windows-1252";
+
+html { background-color: rgb(24, 26, 27) !important; }
+
+html { color-scheme: dark !important; }
+
+html, body { background-color: rgb(24, 26, 27); }
+
+html, body { border-color: rgb(115, 107, 94); color: rgb(232, 230, 227); }
+
+a { color: rgb(51, 145, 255); }
+
+table { border-color: rgb(84, 91, 94); }
+
+::placeholder { color: rgb(178, 171, 161); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(64, 68, 0) !important; color: rgb(232, 230, 227) !i=
+mportant; }
+
+::-webkit-scrollbar { background-color: rgb(32, 35, 36); color: rgb(171, 16=
+4, 153); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(69, 74, 77); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(87, 94, 98); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(72, 78, 81); }
+
+::-webkit-scrollbar-corner { background-color: rgb(24, 26, 27); }
+
+::selection { background-color: rgb(0, 77, 170) !important; color: rgb(232,=
+ 230, 227) !important; }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-cf51d97a-afa4-4668-8d40-4a0af7c6d54a@mhtml.blink
+
+@charset "windows-1252";
+
+body { background-image: initial; background-color: rgb(60, 60, 0); color: =
+rgb(232, 230, 227); }
+
+a:link { color: rgb(76, 164, 236); }
+
+a:visited { color: rgb(197, 94, 94); }
+
+font.titulo { color: rgb(108, 162, 255); }
+
+font.titulo1 { color: rgb(255, 26, 26); }
+
+font.titulo2 { color: rgb(255, 114, 114); }
+
+font.titulo3 { color: rgb(108, 162, 255); }
+
+font.sponsor { color: rgb(255, 92, 92); }
+
+pre { color: rgb(127, 174, 255); }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-080e9888-9567-4069-a9e4-a8afa9930dc9@mhtml.blink
+
+@charset "windows-1252";
+
+.vimvixen-hint { background-color: rgb(123, 83, 0) !important; border-color=
+: rgb(216, 176, 19) !important; color: rgb(243, 232, 200) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+
+#edge-translate-panel-body, .MuiTypography-body1 { color: var(--darkreader-=
+neutral-text)  !important; }
+
+gr-main-header { background-color: rgb(15, 58, 72) !important; }
+
+.tou-z65h9k, .tou-mignzq, .tou-1b6i2ox, .tou-lnqlqk { background-color: var=
+(--darkreader-neutral-background)  !important; }
+
+.tou-75mvi { background-color: rgb(3, 32, 41) !important; }
+
+.tou-ta9e87, .tou-1w3fhi0, .tou-1b8t2us, .tou-py7lfi, .tou-1lpmd9d, .tou-1f=
+rrtv8, .tou-17ezmgn { background-color: rgb(10, 10, 10) !important; }
+
+.tou-uknfeu { background-color: rgb(35, 22, 3) !important; }
+
+.tou-6i3zyv { background-color: rgb(25, 87, 108) !important; }
+
+embed[type=3D"application/pdf"][src=3D"about:blank"] { filter: invert(100%)=
+ contrast(90%); }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://dis.um.es/~bmoros/Tutorial/imagenes/tutorial.css
+
+@charset "windows-1252";
+
+body { background: rgb(255, 255, 206); color: rgb(0, 0, 0); }
+
+a:link { color: rgb(24, 122, 222); }
+
+a:visited { color: rgb(176, 64, 64); }
+
+font.normal { font-size: 10pt; font-family: Verdana, Helvetica; }
+
+font.indice { font-size: 10pt; font-family: Arial, Helvetica; }
+
+font.titulo { font-size: 16pt; font-family: Arial, Helvetica; font-style: i=
+talic; font-weight: bold; color: rgb(0, 0, 160); }
+
+font.titulo1 { font-size: 16pt; font-family: Arial, Helvetica; font-weight:=
+ bold; color: rgb(255, 0, 0); }
+
+font.titulo2 { font-size: 12pt; font-family: Verdana, Helvetica; font-weigh=
+t: bold; font-style: italic; color: rgb(128, 0, 0); }
+
+font.titulo3 { font-size: 10pt; font-family: Verdana, Helvetica; font-weigh=
+t: bold; font-style: italic; color: rgb(0, 0, 160); }
+
+font.sponsor { font-size: 8pt; font-family: Arial, Helvetica; color: rgb(16=
+0, 0, 0); }
+
+pre { font-size: 10pt; font-family: "Lucida Sans Typewriter", Courier; colo=
+r: rgb(0, 0, 128); }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://dis.um.es/~bmoros/Tutorial/imagenes/BarraSuperior.gif
+
+R0lGODlhqQI8APcAAAAAAAcHBw0NDRUVFBsbGiAgGiQkIy8vJioqKTMzKTw8PFZWVmRkZG1tY3Nz
+Z3V1aXx8btwAD94EHd4MH94LI98QKOASKeAYLuAdMeMhNuIlO+IrPKEqa68waLg7a604cMUmTds+
+V+MtQeQzR+Q5ReQ2SuU6TeY/UqxDe95HX/RCSeZDVu5EUOZHWedMXuhMXd9PZedPYOdSYuhTZOhW
+aOdZaulba+ReceJgdOpkc+tod+tse+xwfvRzfIKCcoiId4yMepKSfi0erDMkrTcorz0qrj8xrjwt
+sT4wsj82uEY9kUQ5m2Y4n346kU4qo0I2o0AzqkgxrEM0s0Y4tUo9t0M5uEw/uEpDgkhAiU9CuVlG
+t1JFulZKvFpOvV5Sv2tNsWFVv2JXwGVawWlew25jxXFnx3Npx3VsyXlvyXxyyn570o5KmI1Rn6hP
+i6tknb9qlY1cqaVkorl0pLByqLh+r+dxgex0gu15hu9+ifB4g4B3zIZ9zod/0Ih/0IqKipeXgp2d
+hqOjiqqqj6urkKyskbW1lra2mLu7m6eDvrmLu7+/v+6Bju+Gke+Kle+MmPKMlfCOmfGTnfeYnciX
+vfGXofKbpfKfqOSdsPKiq/OnsPSstPS0u/i0uvO4v8XFosvLp8zMp87OqdXVrtfXsNzcs+HhtuPj
+uObmuurqvYmAz4eC04uD0JSM1JaQ1puT156W2J+Y2aCX16SY1ayZ0aWe2r6hzaeh3Kqk3a+p37Oj
+1rOm2q6q4LOt4bax4rq15L+65b+/6sy119690/a8w8K+577D7sLCws/Pz9DQ0N/f3/bBx/fEyvjG
+zPfJzvjKzu7E0fLL0/jN0frS1vrV2vrZ3e/vwfDwwfb2xfj4x/r6yf39y///zP/l38XB58bC6MvH
+6sfJ7s/L7NPP7dXS7tjV78fO8tPW9NrX8NzZ8e3a5uDe8+/v7/vj5fzn6fzq7Obk9enm9evp9+7t
++fTs8/3u8PDu+PHw9/3y8/Tz+vv3+vf5//75+v39+/r6/f77/P///ywAAAAAqQI8AEAI/wC3CRxI
+sKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjyBDihxJsqTJkyhTqlzJsqXLlzBjvtQG4J/N
+mzjdVcKj7J8OG9Nw/pO2w5lNP8iMKfCTbIFNAKRKoap2LZu2l9kAINnKtavXr2DDih1LtqzZs2jT
+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
+
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://dis.um.es/~bmoros/Tutorial/imagenes/BarraInferior.gif
+
+R0lGODlhqgIlAPcAAAAAADUzQzs6Rjk2SDs5SzMvUT47VC8obDEqZjYxYTcwbjozbi8ocC4meTEo
+cDIofDozc0A/RkA+S0E9XkZGRkdGTk9PT1FRU1tbXExHbldVZFxbYUdBfE1IeFNPd1VRdWBgYGZm
+ZmNibm5ubmVkc25tcGVkemhmeXNzc35+foKCcoqKeJKSfpSUfy4khDAlgTYthTEnjTwzgTUoljYq
+nDounDwylTowmjMlpzcqoTkspTUnqTcpqjstqTwuqjkrrDsurjwurj4zoT8xrjstsD0vsT0wskAz
+rUc7rkEztUU4tkw/tko9u1ZRgVtWiU5FkVtUkGhlg3Vzg359gWxmlXBrmnVxnHx4nkxCpFJJpVxS
+rk1BtE9BuFJFtlVJtFlOtVFDuFdLu1lNvF1StVxQu2FWtGVatGhes2FVvmVavW5krnVvp3Zvr3dx
+rnp0rn95rWxismxhu3BmsXRssXBmv3Nqu3Vws3pysn56sHhwuks9xl9UwF9SzWNYwG1ixHRqxHhv
+yH11xH10ym5g3XJl4XJk6IF/p4J9q45/sYR8xYB4y4Z66oODg4aGiYqKio2NjZqag4aFkY6OkoeE
+nImGn5GRkZCQl5aWlpmZmZmYnJ6enqenjayskbKylby8nIWBpoqGpY6KpYaCq4mFq42Kq5CNppGN
+q5WUpJiXpp2cppWTqZmVqJuZqYeEsIuGsYaAuo6JuZGNtJGLvJyZtJyXvp+cvKCfpaGhoaKipaWl
+pa2sraystqWiuqupu7W1tbu7vMvLp83NqdXVrt/ftebmuurqvYmBzZyYwo6F05qU1KGcxKKc16Kb
+2aqmzLq6xri2y6ag2JiO4pmL+5+T96SX+b665cG/z8G95MPDw8TDysrKys7M2dHP2tXV1djZ19XU
+3tvb2/Dwwfb2xfj4x/r6yP39y///zODh3cXB5cnG4srI4M7L6t3c49TR69jV7Nva7ebm5erq5uTj
+7ezs6/Lz7OLh8ejn8+vq8+3r+PPz8/X0+/r6+vz8+v7+/gAAAAAAACwAAAAAqgIlAEAI/wDNCRxI
+sKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjyBDihxJkmI5cRRyqVzJsqVKS5OuOOnw4cQU
+R5Uw3XLZEqZMmjZx6uTJ0ufMmjdz7iT6MubRoEqZNv2JVOhSqVizat3KtavXr2DDih1LtqzZs2jT
+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
+OQoREAA7
+
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/html
+Content-ID: <frame-0F0B7FD33E04868422917286D89903CD@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.spidersoft.com/ads/bwz468_60.htm
+
+<!DOCTYPE html><html lang=3D"en" data-darkreader-mode=3D"dynamic" data-dark=
+reader-scheme=3D"dark"><head><meta http-equiv=3D"Content-Type" content=3D"t=
+ext/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-3c63a277-3666-4532-b5c4-e49519c3fb3f@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-39fc5039-8cb4-47ba-a40c-4=
+06dc2bf65bc@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-0b9d03ec-6994-4ad9-a339-843e30e156ca@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-7d7e4016-3db0-434b-965a-4=
+8cd8b36dcca@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-716e0789-acb4-44e9-8939-8c2c047fd3f8@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-a8dbded6-a653-4767-92f2-4=
+804d0fcd79f@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-6eef8936-ba29-4d4d-90d6-52a0480f427a@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-23faae82-85be-4ef8-bb4a-5=
+9ee296d1ac1@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-67cbc1f7-0955-4547-8fda-b8e086b81cd2@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-3426a68d-c58d-40a6-9fe5-b=
+a1fcd52e0eb@mhtml.blink" /><meta name=3D"viewport" content=3D"width=3Ddevic=
+e-width,initial-scale=3D1"><link rel=3D"shortcut icon" href=3D"data:image/x=
+-icon;," type=3D"image/x-icon"><title></title><meta name=3D"darkreader" con=
+tent=3D"89d13986c23895d227d55eae6581d343"></head><body marginwidth=3D"0" ma=
+rginheight=3D"0"><div id=3D"contentMain"><div id=3D"contentLayout"><div id=
+=3D"domainBanner"><div id=3D"gdLogo"><svg width=3D"192" height=3D"40" viewB=
+ox=3D"0 0 192 40" fill=3D"none" xmlns=3D"http://www.w3.org/2000/svg"><path =
+fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M38.1514 1.79988C33.5549 -=
+1.07201 27.5037 -0.387782 22.1067 3.00337C16.7266 -0.387782 10.6716 -1.0720=
+1 6.08072 1.79988C-1.18148 6.33828 -2.06442 18.0264 4.11052 27.9074C8.66205=
+ 35.1921 15.7799 39.4606 22.1161 39.3819C28.4522 39.4606 35.5701 35.1921 40=
+.1216 27.9074C46.289 18.0264 45.4136 6.33828 38.1514 1.79988ZM7.44931 25.82=
+1C6.17606 23.8026 5.2154 21.6032 4.59992 19.2974C4.05309 17.2959 3.84402 15=
+.2172 3.9813 13.1469C4.25687 9.49515 5.74343 6.65138 8.16541 5.13858C10.587=
+4 3.62578 13.7892 3.53392 17.1991 4.88738C17.7109 5.09172 18.217 5.32792 18=
+.7194 5.58849C16.8245 7.31625 15.1769 9.29698 13.823 11.4747C10.0738 17.473=
+5 8.93025 24.1489 10.2387 29.4709C9.19539 28.3454 8.26139 27.1233 7.44931 2=
+5.821ZM36.7849 25.8193C38.0574 23.8004 39.018 21.6011 39.6343 19.2957C40.17=
+79 17.293 40.3845 15.2137 40.2454 13.1432C39.9698 9.49149 38.4852 6.6496 36=
+.0613 5.13492C33.6374 3.62025 30.43 3.53026 27.0295 4.88373C25.1118 5.6688 =
+23.3379 6.7673 21.7806 8.13428C18.1693 11.2938 15.5723 15.4501 14.3159 20.0=
+811C13.7699 22.0828 13.5609 24.1614 13.6973 26.2317C13.9729 29.8815 15.4594=
+ 32.7253 17.8833 34.24C19.1324 35.0042 20.5639 35.4186 22.028 35.4397H22.11=
+62H22.2136C23.6777 35.4181 25.1091 35.0038 26.3584 34.24C28.7804 32.7253 30=
+.2669 29.8815 30.5425 26.2317C30.6784 24.1637 30.4687 22.0876 29.922 20.088=
+6C29.7814 19.5262 29.5939 18.9639 29.4065 18.4015L23.6102 22.0232C23.446 22=
+.1262 23.2475 22.1596 23.0586 22.116C22.8697 22.0724 22.706 21.9553 22.6035=
+ 21.7907L21.2913 19.6931C21.1882 19.5286 21.1548 19.3298 21.1984 19.1406C21=
+.242 18.9514 21.3591 18.7873 21.5238 18.6845L30.4656 13.0982C30.6378 12.987=
+5 30.8488 12.9549 31.0464 13.0085C31.244 13.0621 31.4096 13.1969 31.5023 13=
+.3794C34.3704 18.8607 35.1652 24.7058 33.9955 29.4766C35.0382 28.3479 35.97=
+21 27.1234 36.7849 25.8193ZM85.7907 14.9334C81.0892 14.9334 77.2894 18.6039=
+ 77.2894 23.2735C77.2894 27.9113 81.0892 31.5218 85.7907 31.5218C90.5241 31=
+.5218 94.3239 27.9169 94.3239 23.2735C94.3239 18.6058 90.5297 14.9353 85.79=
+07 14.9353V14.9334ZM81.974 23.2416C81.974 25.4086 83.6236 27.1614 85.7907 2=
+7.1614V27.1689C87.9896 27.1689 89.6392 25.4143 89.6392 23.2472C89.6392 21.0=
+802 87.9896 19.2956 85.7907 19.2956C83.6236 19.2956 81.974 21.0746 81.974 2=
+3.2416ZM104.925 8.5278H96.2734C96.0846 8.52418 95.9024 8.59773 95.769 8.731=
+47C95.6356 8.86521 95.5626 9.04756 95.5667 9.2364V30.3275C95.5531 30.5227 9=
+5.6217 30.7148 95.7559 30.8572C95.8901 30.9996 96.0777 31.0794 96.2734 31.0=
+774H104.925C111.848 31.0774 116.658 26.4733 116.658 19.7754C116.658 13.0362=
+ 111.848 8.5278 104.925 8.5278ZM100.396 26.6235H105.129C108.961 26.6235 111=
+.602 23.6297 111.602 19.7662C111.602 15.837 108.961 12.9708 105.129 12.9708=
+H100.396V26.6235ZM133.878 15.3871H130.625C130.253 15.4166 129.962 15.7219 1=
+29.951 16.0957V17.0611C129.21 15.837 127.536 14.9353 125.452 14.9353C121.39=
+5 14.9353 117.595 18.1221 117.595 23.2117C117.595 28.2731 121.361 31.518 12=
+5.42 31.518C127.512 31.518 129.219 30.6182 129.96 29.3941V30.3914C129.962 3=
+0.7636 130.263 31.0651 130.635 31.0681H133.887C134.068 31.0723 134.243 31.0=
+023 134.37 30.8745C134.498 30.7467 134.568 30.5721 134.564 30.3914V16.0957C=
+134.57 15.91 134.5 15.73 134.371 15.5965C134.241 15.463 134.064 15.3875 133=
+.878 15.3871ZM122.54 23.2454C122.54 25.5417 124.158 27.197 126.312 27.197V2=
+7.1951C128.468 27.1951 130.084 25.5399 130.084 23.2435C130.084 20.9471 128.=
+466 19.2956 126.312 19.2956C124.158 19.2956 122.54 20.949 122.54 23.2454ZM1=
+52.135 8.52798H148.882C148.698 8.52244 148.52 8.59098 148.387 8.71822C148.2=
+54 8.84547 148.178 9.02075 148.175 9.20471V16.9974C147.426 15.837 145.727 1=
+4.9354 143.603 14.9354C139.577 14.9354 135.842 18.1222 135.842 23.2117C135.=
+842 28.2731 139.608 31.5181 143.667 31.5181C145.759 31.5181 147.337 30.6183=
+ 148.207 29.3942V30.3914C148.208 30.764 148.509 31.0661 148.882 31.0682H152=
+.135C152.315 31.0729 152.49 31.0031 152.618 30.8751C152.746 30.7472 152.816=
+ 30.5723 152.811 30.3914V9.20846C152.817 9.02694 152.748 8.85109 152.62 8.7=
+2232C152.492 8.59355 152.316 8.52325 152.135 8.52798ZM140.819 23.2434C140.8=
+19 25.5642 142.424 27.2363 144.569 27.2363C146.715 27.2363 148.318 25.5642 =
+148.318 23.2434C148.318 20.9227 146.708 19.2505 144.569 19.2505C142.43 19.2=
+505 140.819 20.9227 140.819 23.2434ZM170.387 8.52798H167.141C166.957 8.5224=
+4 166.778 8.59092 166.645 8.71811C166.512 8.8453 166.435 9.02058 166.432 9.=
+20471V16.9974C165.692 15.837 163.984 14.9354 161.86 14.9354C157.833 14.9354=
+ 154.099 18.1222 154.099 23.2117C154.099 28.2731 157.867 31.5181 161.924 31=
+.5181C164.018 31.5181 165.594 30.6183 166.464 29.3942V30.3914C166.466 30.76=
+43 166.768 31.0661 167.141 31.0682H170.387C170.568 31.0729 170.743 31.003 1=
+70.871 30.875C170.998 30.747 171.068 30.5721 171.062 30.3914V9.20846C171.06=
+9 9.02712 171 8.85124 170.872 8.72241C170.744 8.59357 170.569 8.52322 170.3=
+87 8.52798ZM159.073 23.2434C159.073 25.5642 160.675 27.2363 162.822 27.2363=
+H162.827C164.972 27.2363 166.571 25.5642 166.571 23.2434C166.571 20.9227 16=
+4.961 19.2505 162.822 19.2505C160.683 19.2505 159.073 20.9227 159.073 23.24=
+34ZM188.196 16.4836L183.343 33.1282C182.406 36.0901 180.315 37.8616 177.063=
+ 37.8616C175.584 37.8616 174.238 37.5598 173.183 36.9562C172.568 36.6056 17=
+2.058 36.285 172.058 35.7714C172.058 35.4527 172.161 35.2878 172.348 34.989=
+7L173.312 33.5463C173.584 33.1432 173.784 33.012 174.077 33.012C174.309 33.=
+0177 174.533 33.0957 174.718 33.2351C175.323 33.6269 175.886 33.9643 176.74=
+3 33.9643C177.744 33.9643 178.508 33.6437 178.921 32.4515L179.337 31.0699H1=
+77.372C176.889 31.0699 176.623 30.7812 176.503 30.3932L172.159 16.4836C171.=
+998 15.9363 172.146 15.3889 172.95 15.3889H176.371C176.789 15.3889 177.082 =
+15.5313 177.266 16.1293L180.473 27.3301L183.472 16.1293C183.568 15.7432 183=
+.827 15.3889 184.342 15.3889H187.587C188.226 15.387 188.419 15.8369 188.196=
+ 16.4836ZM76.0633 30.3257V21.4344C76.0646 21.242 75.9865 21.0575 75.8474 20=
+.9245C75.7084 20.7915 75.5206 20.7217 75.3285 20.7315H67.0333C66.8375 20.72=
+84 66.6488 20.8048 66.5103 20.9433C66.3719 21.0818 66.2954 21.2705 66.2985 =
+21.4663V23.8827C66.2954 24.0785 66.3719 24.2672 66.5103 24.4057C66.6488 24.=
+5441 66.8375 24.6206 67.0333 24.6175H69.864C68.9773 25.8529 67.0746 26.9776=
+ 64.6882 26.9776C60.1517 26.9776 57.7147 23.7514 57.7147 19.8279C57.7147 15=
+.7806 60.5772 12.6594 64.5739 12.6594C67.6557 12.6594 69.6578 14.1122 70.78=
+25 16.2512C70.8582 16.4308 70.9896 16.5813 71.1575 16.6804C71.3489 16.7528 =
+71.5608 16.7495 71.7498 16.6711L74.8842 15.4638C75.3135 15.3157 75.4465 15.=
+162 75.4465 14.9596C75.4425 14.8362 75.4152 14.7147 75.3659 14.6015C73.6076=
+ 10.3181 69.6484 8.18851 64.6957 8.18851C57.9865 8.18851 52.6758 13.0175 52=
+.6758 20.0229C52.6758 26.7639 57.5947 31.4992 63.8896 31.4992C67.2414 31.49=
+92 70.2052 30.1438 71.9092 27.9918V30.3257C71.9056 30.5216 71.9818 30.7106 =
+72.1204 30.8492C72.259 30.9878 72.4481 31.0641 72.644 31.0605H75.3285C75.52=
+43 31.0636 75.713 30.9871 75.8514 30.8487C75.9899 30.7102 76.0664 30.5215 7=
+6.0633 30.3257ZM188.284 12.0953V11.8798C188.284 11.8646 188.289 11.85 188.2=
+99 11.8385C188.31 11.8289 188.324 11.8236 188.339 11.8235H189.709C189.724 1=
+1.823 189.738 11.8284 189.748 11.8385C189.758 11.85 189.764 11.8646 189.763=
+ 11.8798V12.0953C189.763 12.1098 189.758 12.1238 189.748 12.1347C189.738 12=
+.1448 189.724 12.1502 189.709 12.1497H189.209V13.5013C189.208 13.5319 189.1=
+83 13.5566 189.152 13.5575H188.894C188.879 13.5575 188.866 13.5513 188.856 =
+13.5407C188.845 13.5304 188.839 13.5162 188.839 13.5013V12.1497H188.339C188=
+.324 12.1508 188.309 12.1455 188.299 12.135C188.289 12.1246 188.283 12.1101=
+ 188.284 12.0953ZM191.055 12.74L190.68 11.8721C190.677 11.8579 190.67 11.84=
+49 190.659 11.8346C190.644 11.8268 190.628 11.8229 190.611 11.8234H190.189C=
+190.174 11.8223 190.16 11.8274 190.15 11.8374C190.14 11.8475 190.134 11.861=
+4 190.135 11.8759V13.503C190.133 13.5177 190.139 13.5322 190.15 13.5424C190=
+.159 13.5521 190.172 13.5575 190.185 13.5574H190.434C190.448 13.5569 190.46=
+2 13.5516 190.472 13.5424C190.482 13.5315 190.487 13.5175 190.487 13.503V12=
+.2751L190.888 13.1675C190.893 13.1847 190.904 13.1998 190.918 13.2106C190.9=
+33 13.2189 190.95 13.2228 190.967 13.2218H191.166C191.183 13.223 191.201 13=
+.2191 191.216 13.2106C191.23 13.1992 191.24 13.1843 191.246 13.1675L191.649=
+ 12.2751V13.503C191.648 13.5177 191.653 13.5322 191.664 13.5424C191.675 13.=
+5525 191.689 13.5579 191.704 13.5574H191.947C191.962 13.558 191.976 13.5523=
+ 191.986 13.542C191.996 13.5316 192.001 13.5174 192 13.503V11.8759C192 11.8=
+614 191.995 11.8475 191.984 11.8374C191.974 11.8274 191.96 11.8223 191.945 =
+11.8234H191.51C191.493 11.8227 191.475 11.8265 191.46 11.8346C191.446 11.84=
+36 191.436 11.8567 191.43 11.8721L191.055 12.74Z" fill=3D"#111111" data-dar=
+kreader-inline-fill=3D"" style=3D"--darkreader-inline-fill:#0d0e0e;"></path=
+></svg></div><div><div id=3D"domain">spidersoft.com</div><div id=3D"domainI=
+nfo">is parked free, courtesy of GoDaddy.com.</div><div id=3D"getButton"><d=
+iv id=3D"getButtonBox"><a id=3D"getButtonBoxLink" href=3D"https://www.godad=
+dy.com/domainfind/v1/redirect?key=3Dparkweb&amp;utm_source=3Dgodaddy&amp;ut=
+m_medium=3Dparkedpages&amp;utm_campaign=3Dx_dom-broker_parkedpages_x_x_inve=
+st_001&amp;tmskey=3Ddpp_dbs&amp;domainToCheck=3Dspidersoft.com&amp;isc=3DGP=
+PTCOM">Get This Domain</a></div></div></div></div><div class=3D"center"><di=
+v id=3D"verizon-feed">Ads are blocked</div></div><div id=3D"copyright">Copy=
+right =C2=A9 1999-2022 GoDaddy, LLC. All rights reserved.<span id=3D"privac=
+y"><a href=3D"http://www.spidersoft.com/ads/bwz468_60.htm#!" rel=3D"nofollo=
+w">Privacy Policy</a></span></div></div></div></body></html>
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3c63a277-3666-4532-b5c4-e49519c3fb3f@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-39fc5039-8cb4-47ba-a40c-406dc2bf65bc@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-0b9d03ec-6994-4ad9-a339-843e30e156ca@mhtml.blink
+
+@charset "utf-8";
+
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_=
+text > img[src^=3D"https://www.gstatic.com/images/branding/googlelogo"], sp=
+an[data-href^=3D"https://www.hcaptcha.com/"] > #icon, #bit-notification-bar=
+-iframe, ::-webkit-calendar-picker-indicator { filter: invert(100%) hue-rot=
+ate(180deg) contrast(90%) !important; }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7d7e4016-3db0-434b-965a-48cd8b36dcca@mhtml.blink
+
+@charset "utf-8";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+
+[data-darkreader-inline-stopcolor] { stop-color: var(--darkreader-inline-st=
+opcolor)  !important; }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-716e0789-acb4-44e9-8939-8c2c047fd3f8@mhtml.blink
+
+@charset "utf-8";
+
+:root { --darkreader-neutral-background: #131516; --darkreader-neutral-text=
+: #d8d4cf; --darkreader-selection-background: #004daa; --darkreader-selecti=
+on-text: #e8e6e3; }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a8dbded6-a653-4767-92f2-4804d0fcd79f@mhtml.blink
+
+@charset "utf-8";
+
+:root { }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-6eef8936-ba29-4d4d-90d6-52a0480f427a@mhtml.blink
+
+@charset "utf-8";
+
+html { color-scheme: dark !important; }
+
+html, body { border-color: rgb(115, 107, 94); color: rgb(232, 230, 227); }
+
+a { color: rgb(51, 145, 255); }
+
+table { border-color: rgb(84, 91, 94); }
+
+::placeholder { color: rgb(178, 171, 161); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(64, 68, 0) !important; color: rgb(232, 230, 227) !i=
+mportant; }
+
+::-webkit-scrollbar { background-color: rgb(32, 35, 36); color: rgb(171, 16=
+4, 153); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(69, 74, 77); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(87, 94, 98); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(72, 78, 81); }
+
+::-webkit-scrollbar-corner { background-color: rgb(24, 26, 27); }
+
+::selection { background-color: rgb(0, 77, 170) !important; color: rgb(232,=
+ 230, 227) !important; }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-23faae82-85be-4ef8-bb4a-59ee296d1ac1@mhtml.blink
+
+@charset "utf-8";
+
+.vimvixen-hint { background-color: rgb(123, 83, 0) !important; border-color=
+: rgb(216, 176, 19) !important; color: rgb(243, 232, 200) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+
+#edge-translate-panel-body, .MuiTypography-body1 { color: var(--darkreader-=
+neutral-text)  !important; }
+
+gr-main-header { background-color: rgb(15, 58, 72) !important; }
+
+.tou-z65h9k, .tou-mignzq, .tou-1b6i2ox, .tou-lnqlqk { background-color: var=
+(--darkreader-neutral-background)  !important; }
+
+.tou-75mvi { background-color: rgb(3, 32, 41) !important; }
+
+.tou-ta9e87, .tou-1w3fhi0, .tou-1b8t2us, .tou-py7lfi, .tou-1lpmd9d, .tou-1f=
+rrtv8, .tou-17ezmgn { background-color: rgb(10, 10, 10) !important; }
+
+.tou-uknfeu { background-color: rgb(35, 22, 3) !important; }
+
+.tou-6i3zyv { background-color: rgb(25, 87, 108) !important; }
+
+embed[type=3D"application/pdf"][src=3D"about:blank"] { filter: invert(100%)=
+ contrast(90%); }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-67cbc1f7-0955-4547-8fda-b8e086b81cd2@mhtml.blink
+
+@charset "utf-8";
+
+body { margin: 0px; padding: 0px; }
+
+#contentLayout { color: rgb(17, 17, 17); font-family: "GD Sherpa", arial; }
+
+#domainBanner { background-color: rgb(216, 238, 239); margin-bottom: 20px; =
+}
+
+#gdLogo { padding-left: 10%; padding-top: 20px; }
+
+#domain { font-size: 48px; font-weight: 600; line-height: 60px; text-align:=
+ center; padding-bottom: 5px; }
+
+#domainInfo { font-size: 20px; font-weight: 600; line-height: 28px; text-al=
+ign: center; padding-bottom: 5px; }
+
+#getButton { padding-top: 10px; padding-bottom: 20px; }
+
+#getButtonBox { background-color: rgb(17, 17, 17); color: white; font-size:=
+ 16px; width: 248px; margin: auto; text-align: center; }
+
+#getButtonBoxLink { display: block; line-height: 50px; text-decoration: non=
+e; font-weight: bold; color: white; }
+
+#relatedLinks, #ads { border: 1px solid rgb(214, 214, 214); background-colo=
+r: rgb(255, 255, 255); }
+
+#copyright { width: 100%; padding-top: 50px; max-width: 1200px; text-align:=
+ center; font-size: 16px; margin: auto auto 20px; }
+
+#privacy a { color: rgb(17, 17, 17); text-decoration: none; }
+
+#privacy a:hover { color: rgb(17, 17, 17); text-decoration: underline; }
+
+.center { width: 100%; display: flex; justify-content: center; align-items:=
+ center; }
+
+#verizon-feed { width: 100%; max-width: 800px; }
+
+#verizon-feed span { color: rgb(146, 146, 146); }
+
+#verizon-feed a { text-decoration: none; color: rgb(17, 17, 17); }
+
+#verizon-feed .verizon-rs ul { border: 1px solid black; }
+
+#verizon-feed .verizon-ads { border: 1px solid black; padding: 8px; }
+
+#verizon-feed .verizon-ads .adLink { text-decoration: underline; color: rgb=
+(0, 0, 238); }
+
+#adTile { border: 1px solid rgb(214, 214, 214); padding: 16px 14px; max-wid=
+th: 512px; }
+
+#adTile h1 { font-size: 36px; text-align: center; font-weight: 600; }
+
+#adTile p { font-size: 20px; text-align: center; color: rgb(118, 118, 118);=
+ }
+
+.verticalTable { display: flex; flex-direction: column; }
+
+.adTileRow { display: flex; flex-direction: row; border-left: 1px solid rgb=
+(214, 214, 214); border-right: 1px solid rgb(214, 214, 214); border-top: 1p=
+x solid rgb(214, 214, 214); padding: 12px; justify-content: space-between; =
+align-items: center; font-size: 18px; color: rgb(118, 118, 118); }
+
+.adTileRow:last-of-type { border-bottom: 1px solid rgb(214, 214, 214); }
+
+.adTileDomainLabel { flex-shrink: 2; display: flex; flex-direction: column;=
+ justify-content: center; margin-right: 4px; min-width: 0px; max-width: 50%=
+; height: 40px; }
+
+.adTileDomain { max-width: 100%; overflow-x: hidden; text-overflow: ellipsi=
+s; white-space: nowrap; }
+
+.adTilePromoted { font-size: 12px; }
+
+.adTilePrices { display: flex; flex-direction: row; align-items: baseline; =
+}
+
+.crossedPrice { text-decoration: line-through; font-size: 14px; margin-righ=
+t: 8px; }
+
+.salePrice { color: rgb(0, 164, 166); font-weight: bold; font-size: 16px; m=
+argin-right: 12px; }
+
+#relatedLinks, #ads { margin: 0px; width: 788px; min-width: 0px; max-width:=
+ 788px; border: 1px solid rgb(214, 214, 214); padding: 16px 32px 32px; }
+
+.adRow > * { margin: 0px 20px; }
+
+.adRow { width: 100%; display: flex; flex-direction: row; justify-content: =
+center; align-items: start; }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3426a68d-c58d-40a6-9fe5-ba1fcd52e0eb@mhtml.blink
+
+@charset "utf-8";
+
+#contentLayout { color: rgb(221, 218, 214); }
+
+#domainBanner { background-color: rgb(24, 58, 60); }
+
+#getButtonBox { background-color: rgb(13, 14, 14); color: rgb(232, 230, 227=
+); }
+
+#getButtonBoxLink { text-decoration-color: initial; color: rgb(232, 230, 22=
+7); }
+
+#relatedLinks, #ads { border-color: rgb(60, 65, 67); background-color: rgb(=
+24, 26, 27); }
+
+#privacy a { color: rgb(221, 218, 214); text-decoration-color: initial; }
+
+#privacy a:hover { color: rgb(221, 218, 214); text-decoration-color: initia=
+l; }
+
+#verizon-feed span { color: rgb(163, 155, 143); }
+
+#verizon-feed a { text-decoration-color: initial; color: rgb(221, 218, 214)=
+; }
+
+#verizon-feed .verizon-rs ul { border-color: rgb(140, 130, 115); }
+
+#verizon-feed .verizon-ads { border-color: rgb(140, 130, 115); }
+
+#verizon-feed .verizon-ads .adLink { text-decoration-color: initial; color:=
+ rgb(61, 132, 255); }
+
+#adTile { border-color: rgb(60, 65, 67); }
+
+#adTile p { color: rgb(157, 149, 136); }
+
+.adTileRow { border-left-color: rgb(60, 65, 67); border-right-color: rgb(60=
+, 65, 67); border-top-color: rgb(60, 65, 67); color: rgb(157, 149, 136); }
+
+.adTileRow:last-of-type { border-bottom-color: rgb(60, 65, 67); }
+
+.crossedPrice { text-decoration-color: initial; }
+
+.salePrice { color: rgb(88, 253, 255); }
+
+#relatedLinks, #ads { border-color: rgb(60, 65, 67); }
+------MultipartBoundary--BVPkV0YWOC3Og5mNO4YO3Cn9dXorbqsOR0hZv9Prfb------
