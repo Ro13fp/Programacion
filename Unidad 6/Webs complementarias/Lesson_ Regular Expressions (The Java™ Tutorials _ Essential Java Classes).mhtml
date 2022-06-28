@@ -1,0 +1,1185 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://docs.oracle.com/javase/tutorial/essential/regex/
+Subject: =?utf-8?Q?Lesson:=20Regular=20Expressions=20(The=20Java=E2=84=A2=20Tutori?=
+ =?utf-8?Q?als=20>=20Essential=20Java=20Classes)?=
+Date: Sun, 26 Jun 2022 16:00:25 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----"
+
+
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/html
+Content-ID: <frame-698A5E2F9EAACD0586C16232E5F8D295@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.oracle.com/javase/tutorial/essential/regex/
+
+<!--?xml version=3D"1.0" encoding=3D"utf-8"?--><!DOCTYPE html PUBLIC "-//W3=
+C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-=
+transitional.dtd"><html lang=3D"en-US" xmlns=3D"http://www.w3.org/1999/xhtm=
+l" data-darkreader-mode=3D"dynamic" data-darkreader-scheme=3D"dark"><head><=
+meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><li=
+nk rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-2961879c-50de-443d-=
+a78a-61b99a611bd3@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css"=
+ href=3D"cid:css-cdbe60dd-cfb5-4a27-a742-77bc5dbb72c1@mhtml.blink" /><link =
+rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-b2ada7d8-430d-4b22-9f1=
+1-b36061d903dd@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" hr=
+ef=3D"cid:css-d39be2f5-7221-4adb-a360-3edf884b4e03@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-f5e22d0e-5df6-4d8c-ab26-d=
+88581180ec3@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-2f16837f-d87f-467c-8311-bfa190e247d4@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-a2cb87d7-c635-4174-9574-7=
+22d130ceef0@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-235458d1-a514-4d32-b3aa-260b59a35af0@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-7c2f414c-7f3b-4757-aa5a-b=
+aedba908a3e@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-19839676-b718-4b63-bc55-858b4a8d4491@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-b6ed47ba-c6c8-4104-96d3-b=
+1b734d27712@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-ee1db106-83e1-4c79-ba82-c44b8aee476b@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-4ee14845-250c-40db-8434-5=
+5e073c87aa7@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-b264d3b5-9c18-42b1-917d-943eda910b96@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-cb0bd805-c22f-4e5c-b751-9=
+d0ad9c800c0@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-3f1f3def-bcec-42d3-8348-6156c1975d46@mhtml.blink" />
+        <title>Lesson: Regular Expressions (The Java=E2=84=A2 Tutorials &gt=
+; Essential Java Classes)</title>
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+     <meta name=3D"description" content=3D"This Java tutorial describes exc=
+eptions, basic input/output, concurrency, regular expressions, and the plat=
+form environment">
+     <meta name=3D"keywords" content=3D"java programming, learn java, java =
+sample code, java exception, java input output, java threads, java regex, r=
+egular expressions, path, classpath, environment variable, try catch, strea=
+m, path, file, directory, concurrency, pattern, regular expression">
+       =20
+
+
+
+
+    <meta name=3D"darkreader" content=3D"ddd5fb5974004d6ba91e691a83fe5e2d">=
+</head>
+<body>
+   =20
+    <!-- ixheader -->
+    <div class=3D"header-container">
+        <div class=3D"bookwrapper  clearfix">      =20
+            <div id=3D"brandProdName">
+                <div id=3D"logocover"></div>
+                <div id=3D"productName">Documentation</div>
+            </div>=20
+            <br class=3D"clearfloat">
+        </div>
+    </div>
+   =20
+    <div id=3D"TopBar">
+        <div id=3D"TopBar_tr"> <div id=3D"TopBar_tl"> <div id=3D"TopBar_br"=
+> <div id=3D"TopBar_bl">=20
+                    <div id=3D"TopBar_left">
+                        The Java=E2=84=A2 Tutorials
+                    </div>
+                    <div id=3D"TopBar_right">
+<form id=3D"searchForm"><label for=3D"searchField"><input type=3D"text" id=
+=3D"searchField" size=3D"30"></label><input type=3D"submit" value=3D"Search=
+"></form>                   =20
+                        <a id=3D"ToggleLeft" style=3D"display: inline;">Hid=
+e TOC</a>
+                    </div>=20
+      </div> </div> </div> </div> </div>
+
+    <div id=3D"LeftBar" class=3D"LeftBar_shown">
+        <div id=3D"Contents">
+            <div class=3D"nolinkLESSON">Regular Expressions</div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/essential/regex/intro.html">Introduction</a></div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/essential/regex/test_harness.html">Test Harness</a></div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/essential/regex/literals.html">String Literals</a></div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/essential/regex/char_classes.html">Character Classes</a></div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/essential/regex/pre_char_classes.html">Predefined Character Classes</a></d=
+iv>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/essential/regex/quant.html">Quantifiers</a></div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/essential/regex/groups.html">Capturing Groups</a></div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/essential/regex/bounds.html">Boundary Matchers</a></div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/essential/regex/pattern.html">Methods of the Pattern Class</a></div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/essential/regex/matcher.html">Methods of the Matcher Class</a></div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/essential/regex/pse.html">Methods of the PatternSyntaxException Class</a><=
+/div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/essential/regex/unicode.html">Unicode Support</a></div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/essential/regex/resources.html">Additional Resources</a></div>
+<div class=3D"linkQUESTIONS"><a href=3D"https://docs.oracle.com/javase/tuto=
+rial/essential/regex/QandE/questions.html">Questions and Exercises</a></div=
+>
+</div>
+    </div>
+    <div id=3D"MainFlow" class=3D"MainFlow_indented">
+        <div class=3D"PrintHeaders">
+            <b>Trail:</b> Essential Java Classes
+        </div>
+        <div id=3D"BreadCrumbs">
+            <a href=3D"https://docs.oracle.com/javase/tutorial/index.html" =
+target=3D"_top">Home Page</a>
+        &gt;
+            <a href=3D"https://docs.oracle.com/javase/tutorial/essential/in=
+dex.html" target=3D"_top">Essential Java Classes</a>
+        </div>
+        <div class=3D"NavBit">
+                <a target=3D"_top" href=3D"https://docs.oracle.com/javase/t=
+utorial/essential/environment/index.html">=C2=AB&nbsp;Previous</a>&nbsp;=E2=
+=80=A2&nbsp;<a target=3D"_top" href=3D"https://docs.oracle.com/javase/tutor=
+ial/essential/TOC.html">Trail</a>&nbsp;=E2=80=A2&nbsp;<a target=3D"_top" hr=
+ef=3D"https://docs.oracle.com/javase/tutorial/essential/regex/intro.html">N=
+ext&nbsp;=C2=BB</a>
+        </div>
+        <div class=3D"Banner"><p style=3D"background-color: rgb(247, 248, 2=
+49); border-width: 1px; padding: 10px; font-style: italic; border-style: so=
+lid; border-color: rgb(64, 74, 91); --darkreader-inline-bgcolor:#1c1e1f; --=
+darkreader-inline-border-top:#726a5e; --darkreader-inline-border-right:#726=
+a5e; --darkreader-inline-border-bottom:#726a5e; --darkreader-inline-border-=
+left:#726a5e;" data-darkreader-inline-bgcolor=3D"" data-darkreader-inline-b=
+order-top=3D"" data-darkreader-inline-border-right=3D"" data-darkreader-inl=
+ine-border-bottom=3D"" data-darkreader-inline-border-left=3D"">The Java Tut=
+orials have been written for JDK 8. Examples and practices described in thi=
+s page don't take advantage of improvements introduced in later releases an=
+d might use technology no longer available.<br>See <a href=3D"https://docs.=
+oracle.com/pls/topic/lookup?ctx=3Den/java/javase&amp;id=3Djava_language_cha=
+nges">Java Language Changes</a> for a summary of updated language features =
+in Java SE 9 and subsequent releases.<br>See <a href=3D"https://www.oracle.=
+com/technetwork/java/javase/jdk-relnotes-index-2162236.html">JDK Release No=
+tes</a> for information about new features, enhancements, and removed or de=
+precated options for all JDK releases.</p></div>
+        <div id=3D"PageTitle"><h1>Lesson: Regular Expressions</h1></div>
+        <div id=3D"PageContent">
+
+<p>This lesson explains how to use the <code>
+<a class=3D"APILink" target=3D"_blank" href=3D"https://docs.oracle.com/java=
+se/8/docs/api/java/util/regex/package-summary.html"><code>java.util.regex</=
+code></a></code> API for pattern matching with regular expressions. Althoug=
+h the syntax accepted by this package is similar to the=20
+<a class=3D"OutsideLink" target=3D"_blank" href=3D"http://www.perl.com/">Pe=
+rl</a> programming language, knowledge of Perl is not a prerequisite. This =
+lesson starts with the basics, and gradually builds to cover more advanced =
+techniques.</p>
+<dl>
+<dt style=3D"font-weight: bold">
+<a class=3D"TutorialLink" target=3D"_top" href=3D"https://docs.oracle.com/j=
+avase/tutorial/essential/regex/intro.html">Introduction</a></dt>
+<dd>Provides a general overview of regular expressions. It also introduces =
+the core classes that comprise this API.</dd>
+<dt style=3D"font-weight: bold">
+<a class=3D"TutorialLink" target=3D"_top" href=3D"https://docs.oracle.com/j=
+avase/tutorial/essential/regex/test_harness.html">Test Harness</a></dt>
+<dd>Defines a simple application for testing pattern matching with regular =
+expressions.</dd>
+<dt style=3D"font-weight: bold">
+<a class=3D"TutorialLink" target=3D"_top" href=3D"https://docs.oracle.com/j=
+avase/tutorial/essential/regex/literals.html">String Literals</a></dt>
+<dd>Introduces basic pattern matching, metacharacters, and quoting.</dd>
+<dt style=3D"font-weight: bold">
+<a class=3D"TutorialLink" target=3D"_top" href=3D"https://docs.oracle.com/j=
+avase/tutorial/essential/regex/char_classes.html">Character Classes</a></dt=
+>
+<dd>Describes simple character classes, negation, ranges, unions, intersect=
+ions, and subtraction.</dd>
+<dt style=3D"font-weight: bold">
+<a class=3D"TutorialLink" target=3D"_top" href=3D"https://docs.oracle.com/j=
+avase/tutorial/essential/regex/pre_char_classes.html">Predefined Character =
+Classes</a></dt>
+<dd>Describes the basic predefined character classes for whitespace, word, =
+and digit characters.</dd>
+<dt style=3D"font-weight: bold">
+<a class=3D"TutorialLink" target=3D"_top" href=3D"https://docs.oracle.com/j=
+avase/tutorial/essential/regex/quant.html">Quantifiers</a></dt>
+<dd>Explains greedy, reluctant, and possessive quantifiers for matching a s=
+pecified expression <i>x</i> number of times.</dd>
+<dt style=3D"font-weight: bold">
+<a class=3D"TutorialLink" target=3D"_top" href=3D"https://docs.oracle.com/j=
+avase/tutorial/essential/regex/groups.html">Capturing Groups</a></dt>
+<dd>Explains how to treat multiple characters as a single unit.</dd>
+<dt style=3D"font-weight: bold">
+<a class=3D"TutorialLink" target=3D"_top" href=3D"https://docs.oracle.com/j=
+avase/tutorial/essential/regex/bounds.html">Boundary Matchers</a></dt>
+<dd>Describes line, word, and input boundaries.</dd>
+<dt style=3D"font-weight: bold">
+<a class=3D"TutorialLink" target=3D"_top" href=3D"https://docs.oracle.com/j=
+avase/tutorial/essential/regex/pattern.html">Methods of the Pattern Class</=
+a></dt>
+<dd>Examines other useful methods of the <code>Pattern</code> class, and ex=
+plores advanced features such as compiling with flags and using embedded fl=
+ag expressions.</dd>
+<dt style=3D"font-weight: bold">
+<a class=3D"TutorialLink" target=3D"_top" href=3D"https://docs.oracle.com/j=
+avase/tutorial/essential/regex/matcher.html">Methods of the Matcher Class</=
+a></dt>
+<dd>Describes the commonly-used methods of the <code>Matcher</code> class.<=
+/dd>
+<dt style=3D"font-weight: bold">
+<a class=3D"TutorialLink" target=3D"_top" href=3D"https://docs.oracle.com/j=
+avase/tutorial/essential/regex/pse.html">Methods of the PatternSyntaxExcept=
+ion Class</a></dt>
+<dd>Describes how to examine a <code>PatternSyntaxException</code>.</dd>
+<dt style=3D"font-weight: bold">
+<a class=3D"TutorialLink" target=3D"_top" href=3D"https://docs.oracle.com/j=
+avase/tutorial/essential/regex/resources.html">Additional Resources</a></dt=
+>
+<dd>To read more about regular expressions, consult this section for additi=
+onal resources.</dd>
+</dl>
+
+
+        </div>
+    <div class=3D"NavBit">
+        <a href=3D"https://docs.oracle.com/javase/tutorial/essential/enviro=
+nment/index.html">=C2=AB Previous</a>
+        =E2=80=A2
+        <a href=3D"https://docs.oracle.com/javase/tutorial/essential/TOC.ht=
+ml">Trail</a>
+        =E2=80=A2
+        <a href=3D"https://docs.oracle.com/javase/tutorial/essential/regex/=
+intro.html">Next =C2=BB</a>
+    </div>
+    </div>
+  =20
+<hr class=3D"clearfloat">
+
+<div id=3D"Footer">
+
+<p class=3D"footertext">
+<a href=3D"https://www.oracle.com/corporate/">About Oracle</a> |=20
+<a href=3D"https://www.oracle.com/corporate/contact/">Contact Us</a> |
+<a href=3D"https://www.oracle.com/legal/">Legal Notices</a> |=20
+<a href=3D"https://www.oracle.com/legal/terms.html">Terms of Use</a> |
+<a href=3D"https://www.oracle.com/legal/privacy/">Your Privacy Rights</a></=
+p>
+
+<p class=3D"footertext"><a href=3D"http://www.oracle.com/pls/topic/lookup?c=
+tx=3Dcpyr&amp;id=3Den-US">
+Copyright =C2=A9 1995, 2022 Oracle and/or its affiliates. All rights reserv=
+ed.</a></p>
+      =20
+</div>  =20
+    <div class=3D"PrintHeaders">
+        <b>Previous page:</b> Previous Lesson
+        <br><b>Next page:</b> Introduction
+    </div>
+<!-- Start SiteCatalyst code -->
+
+<!-- End SiteCatalyst code -->=20
+
+=20
+<div id=3D"footer-banner" style=3D"display: inline-block;"><ul><li><div id=
+=3D"teconsent" consent=3D"0,1,2" aria-label=3D"Open Cookie Preferences Moda=
+l" class=3D"truste_caIcon_display" role=3D"complementary"><a role=3D"link" =
+id=3D"icon-id07604894051201965" tabindex=3D"0" lang=3D"es" aria-haspopup=3D=
+"true" aria-label=3D"Preferencias sobre cookies" class=3D"truste_cursor_poi=
+nter">Preferencias sobre cookies</a></div></li><li><a id=3D"adchoices" clas=
+s=3D"new-window" target=3D"_blank" href=3D"https://www.oracle.com/legal/pri=
+vacy/marketing-cloud-data-cloud-privacy-policy.html#12">Ad Choices</a></li>=
+</ul></div><iframe name=3D"trustarc_notice" id=3D"trustarcNoticeFrame" titl=
+e=3D"Trustarc Cross-Domain Consent Frame" src=3D"cid:frame-0CB67A531288602A=
+D7B0307B38D642F0@mhtml.blink" style=3D"display: none;"></iframe></body></ht=
+ml>
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2961879c-50de-443d-a78a-61b99a611bd3@mhtml.blink
+
+@charset "utf-8";
+
+.truste_caIcon_display { display: inline-block !important; }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-cdbe60dd-cfb5-4a27-a742-77bc5dbb72c1@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b2ada7d8-430d-4b22-9f11-b36061d903dd@mhtml.blink
+
+@charset "utf-8";
+
+.truste_cursor_pointer { cursor: pointer; }
+
+.truste_border_none { border: none; }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d39be2f5-7221-4adb-a360-3edf884b4e03@mhtml.blink
+
+@charset "utf-8";
+
+.truste_border_none { border-color: initial; }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f5e22d0e-5df6-4d8c-ab26-d88581180ec3@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2f16837f-d87f-467c-8311-bfa190e247d4@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a2cb87d7-c635-4174-9574-722d130ceef0@mhtml.blink
+
+@charset "utf-8";
+
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_=
+text > img[src^=3D"https://www.gstatic.com/images/branding/googlelogo"], sp=
+an[data-href^=3D"https://www.hcaptcha.com/"] > #icon, #bit-notification-bar=
+-iframe, ::-webkit-calendar-picker-indicator { filter: invert(100%) hue-rot=
+ate(180deg) contrast(90%) !important; }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-235458d1-a514-4d32-b3aa-260b59a35af0@mhtml.blink
+
+@charset "utf-8";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+
+[data-darkreader-inline-stopcolor] { stop-color: var(--darkreader-inline-st=
+opcolor)  !important; }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7c2f414c-7f3b-4757-aa5a-baedba908a3e@mhtml.blink
+
+@charset "utf-8";
+
+:root { --darkreader-neutral-background: #131516; --darkreader-neutral-text=
+: #d8d4cf; --darkreader-selection-background: #004daa; --darkreader-selecti=
+on-text: #e8e6e3; }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-19839676-b718-4b63-bc55-858b4a8d4491@mhtml.blink
+
+@charset "utf-8";
+
+:root { }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b6ed47ba-c6c8-4104-96d3-b1b734d27712@mhtml.blink
+
+@charset "utf-8";
+
+html { background-color: rgb(24, 26, 27) !important; }
+
+html { color-scheme: dark !important; }
+
+html, body { background-color: rgb(24, 26, 27); }
+
+html, body { border-color: rgb(115, 107, 94); color: rgb(232, 230, 227); }
+
+a { color: rgb(51, 145, 255); }
+
+table { border-color: rgb(84, 91, 94); }
+
+::placeholder { color: rgb(178, 171, 161); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(64, 68, 0) !important; color: rgb(232, 230, 227) !i=
+mportant; }
+
+::-webkit-scrollbar { background-color: rgb(32, 35, 36); color: rgb(171, 16=
+4, 153); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(69, 74, 77); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(87, 94, 98); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(72, 78, 81); }
+
+::-webkit-scrollbar-corner { background-color: rgb(24, 26, 27); }
+
+::selection { background-color: rgb(0, 77, 170) !important; color: rgb(232,=
+ 230, 227) !important; }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ee1db106-83e1-4c79-ba82-c44b8aee476b@mhtml.blink
+
+@charset "utf-8";
+
+body { margin-left: 10px; margin-right: 10px; line-height: 1.5; font-family=
+: Arial, Helvetica, sans-serif; font-size: 0.8em; }
+
+a:link { text-decoration: none; color: rgb(9, 86, 157); }
+
+a:visited { text-decoration: none; color: rgb(58, 135, 207); }
+
+a:hover { text-decoration: underline; }
+
+code { font-family: Monaco, Courier, "Courier New"; }
+
+.header-container { background-color: rgb(255, 255, 255); border-bottom: 1p=
+x solid rgb(193, 207, 218); box-shadow: rgba(117, 163, 231, 0.1) 0px 2px 2p=
+x; }
+
+.bookwrapper { width: auto; margin: auto; }
+
+.clearfix { }
+
+.clearfloat { clear: both; overflow: auto; height: 0px; font-size: 1px; lin=
+e-height: 0px; }
+
+#brandProdName { width: auto; height: auto; }
+
+#logocover { display: block; background: url("../../images/oracle-java-logo=
+.png") 0px 0px no-repeat transparent; height: 50px; width: 229px; float: le=
+ft; }
+
+#productName { font-size: 16px; position: relative; top: 19px; padding-left=
+: 3px; color: rgb(69, 119, 152); white-space: nowrap; width: 340px; }
+
+.FigureCaption { font-family: sans-serif; text-align: center; }
+
+#TopBar_bl { width: 100%; height: 60px; }
+
+#TopBar_br { width: 100%; height: 60px; }
+
+#TopBar_tl { margin-left: -110px; margin-right: -100px; height: 60px; }
+
+#TopBar_tr { width: 100%; height: 60px; }
+
+#TopBar { min-width: 700px; padding: 25px 100px 10px; margin-bottom: 25px; =
+clear: both; border-bottom: 1px solid rgb(210, 221, 229); border-radius: 3p=
+x; background: linear-gradient(rgb(255, 255, 255) 0%, rgb(226, 239, 249) 10=
+0%); }
+
+#TopBar_left { position: absolute; padding-top: 30px; padding-right: 30px; =
+padding-left: 30px; text-align: left; font: bold 20px / 20px Arial, Helveti=
+ca, sans-serif; color: rgb(51, 51, 51); }
+
+#TopBar_right { line-height: 12px; float: right; padding-top: 10px; padding=
+-right: 30px; text-align: left; }
+
+@media print {
+  #BreadCrumbs, #Download { display: none; }
+}
+
+@media print {
+  #TopBar_right { display: none; }
+}
+
+#TopBar_right a { font-size: 10px; margin: 3px; padding: 0px; }
+
+#BreadCrumbs { padding: 15px 5px 0.5em 0px; font-family: sans-serif; float:=
+ right; }
+
+#BreadCrumbs a { color: rgb(9, 86, 157); }
+
+#BreadCrumbs a:visited, #BreadCrumbs a:link { text-decoration: none; }
+
+#BreadCrumbs a:hover, #BreadCrumbs a:active { text-decoration: underline; }
+
+#PageTitle { margin: 0px 5px 0.5em 0px; color: rgb(249, 0, 0); }
+
+#PageContent { margin: 0px 5px 0px 20px; }
+
+.LeftBar_shown { width: 13em; float: left; }
+
+@media print {
+  .LeftBar_shown { display: none; }
+}
+
+.LeftBar_hidden { display: none; }
+
+#Footer { padding-top: 10px; padding-left: 10px; margin-right: 10px; }
+
+.footertext { font-size: 10px; font-family: sans-serif; margin-top: 1px; }
+
+.NavBit { padding: 15px 5px 0.5em 0px; font-family: sans-serif; }
+
+@media print {
+  .NavBit { display: none; }
+}
+
+#TagNotes { text-align: right; }
+
+@media print {
+  #TagNotes a:visited, #TagNotes a:link { color: rgb(53, 85, 107); text-dec=
+oration: none; }
+}
+
+#Contents a, .NavBit a, #TagNotes a { color: rgb(9, 86, 157); }
+
+#TagNotes a:visited, #TagNotes a:link, #Contents a:visited, #Contents a:lin=
+k, .NavBit a:visited, .NavBit a:link { text-decoration: none; }
+
+#TagNotes a:hover, #TagNotes a:active, #Contents a:hover, #Contents a:activ=
+e, .NavBit a:hover, .NavBit a:active { text-decoration: underline; }
+
+#Contents { float: left; font-family: sans-serif; }
+
+@media print {
+  #Contents { display: none; }
+}
+
+@media screen {
+  div.PrintHeaders { display: none; }
+}
+
+.linkLESSON, .nolinkLESSON { margin-left: 0.5em; text-indent: -0.5em; }
+
+.linkAHEAD, .nolinkAHEAD, .linkQUESTIONS, .nolinkQUESTIONS { margin-left: 1=
+.5em; text-indent: -0.5em; }
+
+.linkBHEAD, .nolinkBHEAD { margin-left: 2.5em; text-indent: -0.5em; }
+
+.linkCHEAD, .nolinkCHEAD { margin-left: 3.5em; text-indent: -0.5em; }
+
+.nolinkLESSON, .nolinkAHEAD, .nolinkBHEAD, .nolinkCHEAD, .nolinkQUESTIONS {=
+ font-weight: bold; color: rgb(51, 51, 51); }
+
+.MainFlow_indented { margin-right: 10px; margin-left: 15em; margin-bottom: =
+2em; }
+
+.MainFlow_wide { margin-right: 10px; margin-left: 10px; margin-bottom: 2em;=
+ }
+
+@media print {
+  .MainFlow_indented, .MainFlow_wide { padding-top: 0px; margin-top: 10px; =
+margin-right: 10px; margin-left: 0px; }
+}
+
+h1, h2, h3, h4, h5 { color: rgb(51, 51, 51); }
+
+h1 { font-weight: bold; font-size: 20px; }
+
+h2 { font-weight: bold; font-size: 17px; }
+
+h3 { font-weight: bold; font-size: 14px; }
+
+h4 { font-size: 15px; }
+
+h5 { font-size: 12px; }
+
+#ToggleLeft { display: none; }
+
+.note { margin: 0px 30px; }
+
+.codeblock { margin: 0px 30px; font-size: 12px; font-family: Monaco, Courie=
+r, "Courier New"; }
+
+.tocli { list-style-type: none; }
+
+.betadraft { color: red; }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://docs.oracle.com/javase/tutorial/images/oracle-java-logo.png
+
+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
+gwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAMAUExURf///+0gJPNmafBCRe4sMP3j5O3y
+9e4pLe4xNPaLje0lKUx8nbPI1lmGpLnN2f7t7fH1912Jpu85Pdbi6fiUFUZ4mUd5mkR3mP7esf3l
+5fBGSe0iJvJhZEh6m4Gjuv/6+vNqbPeJAI2swOju8uHp7/ijpfR5fPaSlPFRVN3m7f/+/vvOz/vC
+efzRmpWyxT5zlTZtkfrHyPmlO9Hd5vL1+PRydfX4+vr8/O81OP7z85q2yUF0l/WChFOCoEJ1l/iM
+BfJbXvmtTf3q6vvR0e8+QYqqv1aEos3a5PBARPBJTHmdtfmaI/z8/fzg4e4uMrHG1aG7zEp7nL3Q
+3KzC0sDS3XSZs+Xs8fmxs/7u2vj6+//68/7y4oamvMLU3vq0XPiur//8/HuetsXV4Nvk6/JdYH+i
+uaa+z8rY4uvw9EV4mZ65y/egovrFxvedn/R8fsPV3/vFgOfu8vebnf709FSCoXGYsfmeK5GvwviW
+GqnA0fn7/GGNqf739+0hJfzPlG6Vr+0jJ523yvFWWZizxs7b5PNucOPr8PzZ2v737fzMjXCXsEp8
+nMza49jj6vvJyvu8bfzb3G2UrvT2+P716Zq1yPq2YPq+v/eeoPV/gvFOUunv8/zf3/7+//39/vV+
+gf7+/q3E009+nvm4uf7qz/WEhvFMT//8+FqHpGWPq/rCw/WGif719virrZm0yPR3ed/n7fzV1vin
+qOju8/u+cf3+/oOku/q/wKe+z6O8zbbL2PNnajpwk/iPDGiRrMjX4f7w8PeWmFGAn7vO2u87P1B/
+n9Tg5/rDxP/9/fvP0Orw8/iZHu/09+Tr8P7///7v8PBDRvvIhWeQrP3q0e4tMfm7vP3kwq/F1Obt
+8ebt8nqete84PPzVof3bsJOww1eFozxxlPmvsPDw7fm2t//47/iRD/iOCP3n5/3ft/7w3tvl69zl
+6/JjZurv9F+Lp/NlaHectHyftz9zlnabs019nU1+nfvS0/mhMf3Yp2CLqPeYmv///pOxxOny+ujv
+8+nv8vmxVScVjXsAAAgXSURBVHja7JhpWBRXFoa/T5FGVhXpig2otCCkSTCCIGBARFBBQJpNUTAO
+QWVHCAmCIouIiqAOonFjRKNBBUWNGy6ooDGRxJiYaFwGZzJ5kmCGBGWcyehsP2i6m27c/mk/8/26
+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
+
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-4ee14845-250c-40db-8434-55e073c87aa7@mhtml.blink
+
+@charset "utf-8";
+
+a:link { text-decoration-color: initial; color: rgb(113, 188, 247); }
+
+a:visited { text-decoration-color: initial; color: rgb(76, 152, 211); }
+
+a:hover { text-decoration-color: initial; }
+
+.header-container { background-color: rgb(24, 26, 27); border-bottom-color:=
+ rgb(49, 68, 82); box-shadow: rgba(22, 64, 126, 0.1) 0px 2px 2px; }
+
+#logocover { background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxuc=
+z0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3Lncz=
+Lm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjI2IiBoZWlnaHQ9IjQxIj48ZGVmcz48ZmlsdGVyIGl=
+kPSJkYXJrcmVhZGVyLWltYWdlLWZpbHRlciI+PGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4Ii=
+B2YWx1ZXM9IjAuMzMzIC0wLjY2NyAtMC42NjcgMC4wMDAgMS4wMDAgLTAuNjY3IDAuMzMzIC0wL=
+jY2NyAwLjAwMCAxLjAwMCAtMC42NjcgLTAuNjY3IDAuMzMzIDAuMDAwIDEuMDAwIDAuMDAwIDAu=
+MDAwIDAuMDAwIDEuMDAwIDAuMDAwIiAvPjwvZmlsdGVyPjwvZGVmcz48aW1hZ2Ugd2lkdGg9IjI=
+yNiIgaGVpZ2h0PSI0MSIgZmlsdGVyPSJ1cmwoI2RhcmtyZWFkZXItaW1hZ2UtZmlsdGVyKSIgeG=
+xpbms6aHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQ=
+UFPSUFBQUFwQ0FNQUFBQWY0UVdTQUFBQUNYQklXWE1BQUFzVEFBQUxFd0VBbXB3WUFBQUtUMmxE=
+UTFCUWFHOTBiM05vYjNBZ1NVTkRJSEJ5YjJacGJHVUFBSGphblZOblZGUHBGajMzM3ZSQ1M0aUF=
+sRXR2VWhVSUlGSkNpNEFVa1NZcUlRa1FTb2dob2RrVlVjRVJSVVVFRzhpZ2lBT09qb0NNRlZFc0=
+RJb0syQWZrSWFLT2c2T0lpc3I3NFh1amE5YTg5K2JOL3JYWFB1ZXM4NTJ6endmQUNBeVdTRE5ST=
+llBTXFVSWVFZUNEeDhURzRlUXVRSUVLSkhBQUVBaXpaQ0Z6L1NNQkFQaCtQRHdySXNBSHZnQUJl=
+Tk1MQ0FEQVRadkFNQnlIL3cvcVFwbGNBWUNFQWNCMGtUaExDSUFVQUVCNmprS21BRUJHQVlDZG1=
+DWlRBS0FFQUdETFkyTGpBRkF0QUdBbmYrYlRBSUNkK0psN0FRQmJsQ0VWQWFDUkFDQVRaWWhFQU=
+dnN0FLelBWb3BGQUZnd0FCUm1TOFE1QU5ndEFEQkpWMlpJQUxDM0FNRE9FQXV5QUFnTUFEQlJpS=
+VVwQUFSN0FHRElJeU40QUlTWkFCUkc4bGM4OFN1dUVPY3FBQUI0bWJJOHVTUTVSWUZiQ0MxeEIx=
+ZFhMaDRvemtrWEt4UTJZUUpobWtBdXdubVpHVEtCTkEvZzg4d0FBS0NSRlJIZ2cvUDllTTRPcnM=
+3T05vNjJEbDh0NnI4Ry95SmlZdVArNWMrcmNFQUFBT0YwZnRIK0xDK3pHb0E3Qm9CdC9xSWw3Z1=
+JvWGd1Z2RmZUxacklQUUxVQW9PbmFWL053K0g0OFBFV2hrTG5aMmVYazVOaEt4RUpiWWNwWGZmN=
+W53bC9BVi8xcytYNDgvUGYxNEw3aUpJRXlYWUZIQlBqZ3dzejBUS1VjejVJSmhHTGM1bzlIL0xj=
+TC8vd2QweUxFU1dLNVdDb1U0MUVTY1k1RW1venpNcVVpaVVLU0tjVWwwdjlrNHQ4cyt3TSszelV=
+Bc0dvK0FYdVJMYWhkWXdQMlN5Y1FXSFRBNHZjQUFQSzdiOEhVS0FnRGdHaUQ0YzkzLys4Ly9VZW=
+dKUUNBWmttU2NRQUFYa1FrTGxUS3N6L0hDQUFBUktDQktyQkJHL1RCR0N6QUJoekJCZHpCQy94Z=
+05vUkNKTVRDUWhCQ0NtU0FISEpnS2F5Q1FpaUd6YkFkS21BdjFFQWROTUJSYUlhVGNBNHV3bFc0=
+RGoxd0QvcGhDSjdCS0x5QkNRUkJ5QWdUWVNIYWlBRmlpbGdqamdnWG1ZWDRJY0ZJQkJLTEpDREp=
+pQlJSSWt1Uk5VZ3hVb3BVSUZWSUhmSTljZ0k1aDF4R3VwRTd5QUF5Z3Z5R3ZFY3hsSUd5VVQzVU=
+RMVkR1YWczR29SR29ndlFaSFF4bW84V29KdlFjclFhUFl3Mm9lZlFxMmdQMm84K1E4Y3d3T2dZQ=
+npQRWJEQXV4c05Dc1Rnc0NaTmp5N0VpckF5cnhocXdWcXdEdTRuMVk4K3hkd1FTZ1VYQUNUWUVk=
+MElnWVI1QlNGaE1XRTdZU0tnZ0hDUTBFZG9KTndrRGhGSENKeUtUcUV1MEpyb1IrY1FZWWpJeGg=
+xaElMQ1BXRW84VEx4QjdpRVBFTnlRU2lVTXlKN21RQWtteHBGVFNFdEpHMG01U0kra3NxWnMwU0=
+Jvams4bmFaR3V5QnptVUxDQXJ5SVhrbmVURDVEUGtHK1FoOGxzS25XSkFjYVQ0VStJb1VzcHFTa=
+G5sRU9VMDVRWmxtREpCVmFPYVV0Mm9vVlFSTlk5YVFxMmh0bEt2VVllb0V6UjFtam5OZ3haSlM2=
+V3RvcFhUR21nWGFQZHByK2gwdWhIZGxSNU9sOUJYMHN2cFIraVg2QVAwZHd3TmhoV0R4NGhuS0J=
+tYkdBY1laeGwzR0srWVRLWVowNHNaeDFRd056SHJtT2VaRDVsdlZWZ3F0aXA4RlpIS0NwVktsU2=
+FWR3lvdlZLbXFwcXJlcWd0VjgxWExWSStwWGxOOXJrWlZNMVBqcVFuVWxxdFZxcDFRNjFNYlUyZ=
+XBPNmlIcW1lb2IxUS9wSDVaL1lrR1djTk13MDlEcEZHZ3NWL2p2TVlnQzJNWnMzZ3NJV3NOcTRa=
+MWdUWEVKckhOMlh4MktydVkvUjI3aXoycXFhRTVRek5LTTFlelV2T1VaajhINDVoeCtKeDBUZ25=
+uS0tlWDgzNkszaFR2S2VJcEc2WTBUTGt4WlZ4cnFwYVhsbGlyU0t0UnEwZnJ2VGF1N2FlZHByMU=
+Z1MW43Z1E1Qngwb25YQ2RIWjQvT0JaM25VOWxUM2FjS3B4Wk5QVHIxcmk2cWE2VWJvYnRFZDc5d=
+XArNllucjVlZ0o1TWI2ZmVlYjNuK2h4OUwvMVUvVzM2cC9WSERGZ0dzd3drQnRzTXpoZzh4VFZ4=
+Ynp3ZEw4ZmI4VkZEWGNOQVE2VmhsV0dYNFlTUnVkRThvOVZHalVZUGpHbkdYT01rNDIzR2JjYWp=
+KZ1ltSVNaTFRlcE43cHBTVGJtbUthWTdURHRNeDgzTXphTE4xcGsxbXoweDF6TG5tK2ViMTV2Zn=
+QyQmFlRm9zdHFpMnVHVkpzdVJhcGxudXRyeHVoVm81V2FWWVZWcGRzMGF0bmEwbDFydXR1NmNSc=
+DdsT2swNnJudFpudzdEeHRzbTJxYmNac09YWUJ0dXV0bTIyZldGblloZG50OFd1dys2VHZaTjl1=
+bjJOL1QwSERZZlpEcXNkV2gxK2M3UnlGRHBXT3Q2YXpwenVQMzNGOUpicEwyZFl6eERQMkRQanR=
+oUExLY1JwblZPYjAwZG5GMmU1YzRQemlJdUpTNExMTHBjK0xwc2J4dDNJdmVSS2RQVnhYZUY2MH=
+ZXZG03T2J3dTJvMjYvdU51NXA3b2Zjbjh3MG55bWVXVE56ME1QSVErQlI1ZEUvQzUrVk1HdmZyS=
+DVQUTArQlo3WG5JeTlqTDVGWHJkZXd0NlYzcXZkaDd4Yys5ajV5bitNKzR6dzMzakxlV1YvTU44=
+QzN5TGZMVDhOdm5sK0YzME4vSS85ay8zci8wUUNuZ0NVQlp3T0pnVUdCV3dMNytIcDhJYitPUHp=
+yYlpmYXkyZTFCaktDNVFSVkJqNEt0Z3VYQnJTRm95T3lRclNIMzU1ak9rYzVwRG9WUWZ1alcwQW=
+RoNW1HTHczNE1KNFdIaFZlR1A0NXdpRmdhMFRHWE5YZlIzRU56MzBUNlJKWkUzcHRuTVU4NXJ5M=
+UtOU28rcWk1cVBObzN1alM2UDhZdVpsbk0xVmlkV0Vsc1N4dzVMaXF1Tm01c3Z0Lzg3Zk9INHAz=
+aUMrTjdGNWd2eUYxd2VhSE93dlNGcHhhcExoSXNPcFpBVEloT09KVHdRUkFxcUJhTUpmSVRkeVd=
+PQ25uQ0hjSm5JaS9STnRHSTJFTmNLaDVPOGtncVRYcVM3Skc4Tlhra3hUT2xMT1c1aENlcGtMeE=
+1EVXpkbXpxZUZwcDJJRzB5UFRxOU1ZT1NrWkJ4UXFvaFRaTzJaK3BuNW1aMnk2eGxoYkwreFc2T=
+HR5OGVsUWZKYTdPUXJBVlpMUXEyUXFib1ZGb28xeW9Ic21kbFYyYS96WW5LT1phcm5pdk43Y3l6=
+eXR1UU41enZuLy90RXNJUzRaSzJwWVpMVnkwZFdPYTlyR281c2p4eGVkc0s0eFVGSzRaV0Jxdzh=
+1SXEyS20zVlQ2dnRWNWV1ZnIwbWVrMXJnVjdCeW9MQnRRRnI2d3RWQ3VXRmZldmMxKzFkVDFndl=
+dkKzFZZnFHblJzK0ZZbUtyaFRiRjVjVmY5Z28zSGpsRzRkdnlyK1ozSlMwcWF2RXVXVFBadEptN=
+mViZUxaNWJEcGFxbCthWERtNE4yZHEwRGQ5V3RPMzE5a1hiTDVmTktOdTdnN1pEdWFPL1BMaTha=
+YWZKenMwN1AxU2tWUFJVK2xRMjd0TGR0V0hYK0c3UjdodDd2UFkwN05YYlc3ejMvVDdKdnR0VkF=
+WVk4xV2JWWmZ0Sis3UDNQNjZKcXVuNGx2dHRYYTFPYlhIdHh3UFNBLzBISXc2MjE3blUxUjNTUF=
+ZSU2o5WXI2MGNPeHgrKy9wM3ZkeTBOTmcxVmpaekc0aU53UkhuazZmY0ozL2NlRFRyYWRveDdyT=
+0VIMHg5MkhXY2RMMnBDbXZLYVJwdFRtdnRiWWx1NlQ4dyswZGJxM25yOFI5c2ZENXcwUEZsNVN2=
+TlV5V25hNllMVGsyZnl6NHlkbFoxOWZpNzUzR0Rib3JaNzUyUE8zMm9QYisrNkVIVGgwa1gvaSt=
+jN3ZEdk9YUEs0ZFBLeTIrVVRWN2hYbXE4NlgyM3FkT284L3BQVFQ4ZTduTHVhcnJsY2E3bnVlcj=
+IxZTJiMzZSdWVOODdkOUwxNThSYi8xdFdlT1QzZHZmTjZiL2ZGOS9YZkZ0MStjaWY5enN1NzJYY=
+243cTI4VDd4ZjlFRHRRZGxEM1lmVlAxdiszTmp2M0g5cXdIZWc4OUhjUi9jR2hZUFAvcEgxanc5=
+REJZK1pqOHVHRFlicm5qZytPVG5pUDNMOTZmeW5RODlrenlhZUYvNmkvc3V1RnhZdmZ2alY2OWZ=
+PMFpqUm9aZnlsNU8vYlh5bC9lckE2eG12MjhiQ3hoNit5WGd6TVY3MFZ2dnR3WGZjZHgzdm85OF=
+BUK1I4SUg4by8yajVzZlZUMEtmN2t4bVRrLzhFQTVqei9HTXpMZHNBQUFBRVowRk5RUUFBc1k1O=
+CsxR1RBQUFBSUdOSVVrMEFBSG9sQUFDQWd3QUErZjhBQUlEcEFBQjFNQUFBNm1BQUFEcVlBQUFY=
+YjVKZnhVWUFBQU1BVUV4VVJmLy8vKzBnSlBObWFmQkNSZTRzTVAzajVPM3k5ZTRwTGU0eE5QYUx=
+qZTBsS1V4OG5iUEkxbG1HcExuTjJmN3Q3ZkgxOTEySnB1ODVQZGJpNmZpVUZVWjRtVWQ1bWtSM2=
+1QN2VzZjNsNWZCR1NlMGlKdkpoWkVoNm00R2p1di82K3ZOcWJQZUpBSTJzd09qdTh1SHA3L2lqc=
+GZSNWZQYVNsUEZSVk4zbTdmLysvdnZPei92Q2VmelJtcFd5eFQ1emxUWnRrZnJIeVBtbE85SGQ1=
+dkwxK1BSeWRmWDQrdnI4L084MU9QN3o4NXEyeVVGMGwvV0NoRk9Db0VKMWwvaU1CZkpiWHZtdFR=
+mM3E2dnZSMGU4K1FZcXF2MWFFb3MzYTVQQkFSUEJKVEhtZHRmbWFJL3o4L2Z6ZzRlNHVNckhHMW=
+FHN3pFcDduTDNRM0t6QzBzRFMzWFNacytYczhmbXhzLzd1MnZqNisvLzY4Lzd5NG9hbXZNTFUzd=
+nEwWFBpdXIvLzgvSHVldHNYVjROdms2L0pkWUgraXVhYSt6OHJZNHV2dzlFVjRtWjY1eS9lZ292=
+ckZ4dmVkbi9SOGZzUFYzL3ZGZ09mdTh2ZWJuZjcwOUZTQ29YR1lzZm1lSzVHdnd2aVdHcW5BMGZ=
+uNy9HR05xZjczOSswaEpmelBsRzZWciswako1MjN5dkZXV1ppenhzN2I1UE51Y09QcjhQeloydj=
+czN2Z6TWpYQ1hzRXA4bk16YTQ5amo2dnZKeXZ1OGJmemIzRzJVcnZUMitQNzE2WnExeVBxMllQc=
+St2L2Vlb1BWL2d2Rk9VdW52OC96ZjMvNysvLzM5L3ZWK2dmNysvcTNFMDA5K252bTR1Zjdxei9X=
+RWh2Rk1ULy84K0ZxSHBHV1BxL3JDdy9XR2lmNzE5dmlyclptMHlQUjNlZC9uN2Z6VjF2aW5xT2p=
+1OC91K2NmMysvb09rdS9xL3dLZSt6Nk84emJiTDJQTm5hanB3ay9pUERHaVJyTWpYNGY3dzhQZV=
+dtRkdBbjd2TzJ1ODdQMUIvbjlUZzUvckR4UC85L2Z2UDBPcnc4L2laSHUvMDkrVHI4UDcvLy83d=
+jhQQkRSdnZJaFdlUXJQM3EwZTR0TWZtN3ZQM2t3cS9GMU9idDhlYnQ4bnFldGU4NFBQelZvZjNi=
+c0pPd3cxZUZvenh4bFBtdnNQRHc3Zm0ydC8vNDcvaVJEL2lPQ1AzbjUvM2Z0Lzd3M3R2bDY5emw=
+2L0pqWnVydjlGK0xwL05sYUhlY3RIeWZ0ejl6bG5hYnMwMTluVTErbmZ2UzAvbWhNZjNZcDJDTH=
+FQZVltdi8vL3BPeHhPbnkrdWp2OCtudjh2bXhWU2NWalhzQUFBZ1hTVVJCVkhqYTdKaHBXQlJYR=
+m9hL1Q1RkdWaFhwaWcyb3RDQ2tTVENDSUdCQVJGQkJRSnBOVVRBT1FXVkhDQW1DSW91SWlxQU9v=
+bkZqUktOQkJVV05HeTZvb0RHUnhKaVlhRndHWnpKNWttQ0dCR1djeWVoc1AyaTZtMjdjL21rLzg=
+vMjZkZTZ0ZSs1YjU5eFRkUXQ0NGZYTkRPaTZmbHlwODRpMzErczg0bXM2ai9pWHFhL3JPdUpIQz=
+lmcE9PRVNteVc2RFNpN1lyUCtJWUFQUDlSVndoWHJiU2JNQk5iZCtzY0tIU1g4eXRsbTlreXNXR=
+ERobHE0RzhjZEw0eGZJY0h2cWhGa1BkWlZ3OEtrbHdKWHhyOGwwZFIvKzlONzRCY0FTbXpVNlcw=
+c2ZYaG52UEJPekxsMmFwYnZ2aS9VMlY0QlhUcjIzNHFIT1JuR2x6ZXZBN1ZPRGIrdHVGR2NNWGd=
+QTW1QcTk4d3JkWlZ5NWNCYXc1dFFwN1hxVGNiZCtyRzR3enA0TnJIUCtmcUhXcWYrSXVHYkVjOD=
+dsbXp4OFU5OXVTWHpTOXNnQW9OWmhTbCtWdnZDeDkxVzc1Zkt5cXdHcjFlZHczT2tqVVE3MjZ5O=
+Dc2K2ZYWDh1UjJjSGhtMVNUQnZUejNiai8vY2N2YStaL2J3SGZMQno4bFdiSFhLRTE0L2tJazky=
+cG9mamxBRHhFR3RhYkthcDdScEpzTmxNOXBHVjU2aVAxZ3ZFSGNyK21vN3FiUGViYmk3cU44Vzg=
+rNlJQMW94bTQrSGRubVdaTkhXcnhuRkhjU0pLR2V0MFNrYVM3SStCaFFJcXVxcHNOZ3J2dlNja2=
+p5YlR1eTJBSlNZcVVjeHdFM2lSSGFqaXlKOGtDNVNDSFd0U2w3WGZ0ZFUxQlVlVlIyNEIxSCtBb=
+jV3OEFvS3A0WG5hNk5tSlZWZTlNUVlmVnJ6SkorcVUrNk5ldDRLT3VKQWY1d3NPQWxqdUdLS3hE=
+dGlTTFZJdXVsWkI2Wk1Gb3hlVW1rbFk3dGlnSG96ZkVPcEx1OWhPN0IvWHpBTTZjM1R1OWx3VWV=
+DcGZPYzJucGFyL1NSUmo5N1YrdldTL3RnVGdnM2VsMythVkRqYU1CWSttajZ3QlFMSldXSTZOQm=
+VqOC8wbjgrNEpJVDRXS2FnR0FSV1dUVzA4V2ZETW1SOERDZzVRUDFmQ2I5YXJ1YS9VbkRsQ0pTM=
+G5XZFNqSlRZNWxhaUdidTVLNStXZ2ZDWGdqM3JSS2F1cUt6TGFqaXovOTZPeTU4bnZubkFEeTky=
+OVFSQTkrNEorOFVCT0ZJRUk3ZkdSVU9BRTRuaFFzRHNrNTZHNjN5RnNUaHNBMDFqb3kwaFQxNTB=
+3emFLUlZpdHRpQWxvNXF4dVVGRkYwR0FFd1VrVHRsamdWa2Z3QlkzRmM3S2JVUmswbURINTVwNT=
+F5TFhOUitPdkxHalJ1QmtlL201NWNHK3VlWWZ3NEF4cVBLMUJHUE84Mi9hOXQ0MmlneEhXM25yR=
+HNBWUc1aWUwdTAvekdYK3ZwcmsrU3QrdEVYYkNQaVdsQkUybXM1OFhBbnY1WnBJSDZYUjNjUEFK=
+amprTWNwWjRBMDB2QUFnQWVrYU10VEVVK1E4WTZqMVpReTVMR1FGU1htNlJGaFlSR3haZVlsWTd=
+aMlcrKzN0bWlYbS9tZEZxR29LclZ1elFBcWRndUIzWFpQc1pHTG90bE15OUhhUHZxUWRqSURXbj=
+R5ckhhWVFoUDdrci9JdXZQeWF3Qm1nOGlpT2NCME1nQlBRNVJKTk11MmFPM2pBNW5iV0tGbEN4W=
+Eg5VkpSbzdLRVNpQkpiTjBBMUhzSmhkMzJDTEhSWkVYVG5aWVR0VjBzSTVObEJyUjg0T3ZqSjVG=
+SUpCTEpGd1ZrM21vQUNBNGhsd0VBM2lMNVBsQkhPandWOGFLZkpxTGRFM0pWS2hqZi9iYWxvbUx=
+BNXJiR2FuL1RLc0ROYVhleFprWFZuMjljdmM4cjBSTW83clNPQVV6Rjhza0F0cFpFWEt1TzZUVH=
+FIaThoMzlMeWNIRVhXUWNEV2pyaVFGL2xtaXhUQVVCbVJicS9vM3dTSVZ2d01SVVovTVJFTFNLb=
+i9HeWwwc1lublhRYjh6dmwyNzFhVzdPMnk4WGJGMGxId0x5dzJrM2p2VGhtbjhtNGU0TFl5OElU=
+Y050dFBWQWZVcUZkSDZnZmVuNlV0eUQzVWlLNmtqNWFIbElzYWJsOFdOZGVOSXNuU2IwUUE2czl=
+5dERaMjJWbVptWm1wcWJsa1ZZdzB5UHJub3E0bHl4Njl2TjdWVlJzOWZIS3l0RHFKcGYvakFYR2=
+xyaHB2dnFqTzhhZFg1cHUzdVNWNkFrZ1d5eFByOXJ0SFFQWTFvejdMV2QrZVpKY2liaW5LOWw2N=
+lBJdTBrSDJqcUxjTEhZbEdmQ0pJbkMrTjBtZldoKzFoSnVPWmVUTnRVOURuRWhGQVg0MjZRYzl2=
+bStvUmMwSWhBbHlVd0JSWG9JbmdIUzV1TEJ0bFRnTWtIclgxQU1JRXlzUlpWYWs1VjcxejA5Wnl=
+pNlNSK0docktoNzg4aE5DZ2JYUElvT1lFaUlDdEhkYksySUhMUmptQ1ppbXRiK1pscS9aeVEwel=
+pyV0Z0VXlvQ1dqUERiODFWNFFEOEZUbVBSdkFKOTFJYmEwaXpzOGhZSDZ5QzBWSXJmMVJNU1Fac=
+Ex1OFNmNktIUWlnRjNQVzRVSU8wUFNmUU1BYkZERVluV3luWjJkbloxZGFnanBpb01rS2VtajFD=
+LzdMKzRrbTRlckxIMSs3dThiUURMRVIrbW9UL3pSeHlQR2VvMUtQR2RTVTVObFBlcWtTVVJ2VVN=
+4TS9GczZFSlRVYWVFSkFESGlWaE1oR3dncUZiZHZCaEk2NUoxS1JLeDEwS3gxTkxTWEFSNGhaUG=
+Q3Y2NkVnNpQVpPRE5GK1VtajBEOUpic0JCdlo0VG5NV2Jtbk4raHg5OGVsb0crZmFlb25FTlpib=
+ElNUFl2WGRUKzI1ZUJqMHh0bzd1MnB6SjFoNHBOTWhDWDJEbXdzdkJMSVV1b0JJQW1pL09kblJj=
+QU9IbDNsb2IrTWN2YVN6NVpOV2R0Nmk1RGRkY0d3MWNEUFJIaDJFeHlZKzFPMG5CUGp3VXREaUN=
+iTDJQNVNIZTFzNGJQUld3dzdNbXpIOENjZ3c1cVZzT1Bld05NY0FvMExSbFRCUUNIM1NvcW9sVT=
+l4UTJLeHRaQThVQjliSDIwU3Joenh5Uk1lcklTQUtKYU84VWRBS0FmS1I1Mzh0NjdaYWVGNGhme=
+kdLeGY4OGF2OWRHYTFtMEQ2bU5EOTExSExnQWdPbC80ZlJCUVZXNWNIZGVDVHk5c0JnRFVsNWNu=
+QUFEY3lxNU5jOG1GcmJuYmk0a1lYVmc2eVdoZ2FjeWowT3FHcHJDd0p1UHc0L3VrUnpvNi9ITmV=
+oWDdPWjEwZk5LM2VTMS9xM3hsVittMk4wNUt5WStiZWlJeU1ET3lJa1NaTks3T3R5RTJJbFFZcX=
+lrNlNjTzd1Uy8vWFJ0L2x3dHNsR1NNMkozeWFjTWpXdk5FNDFQL1grLzVoWTdvNjNSYmR5M241Z=
+jB3RlhYZUpNRDRXNmxucDVKU2Q3ZVI1cktITU5sZlZhejd0TVA0dmRmMXZBSERuVUgxbkM2a2VB=
+QUFBQUVsRlRrU3VRbUNDIiAvPjwvc3ZnPg=3D=3D"); background-color: transparent; =
+}
+
+#productName { color: rgb(114, 160, 191); }
+
+#TopBar { border-bottom-color: rgb(45, 64, 78); background-image: linear-gr=
+adient(rgb(24, 26, 27) 0%, rgb(34, 37, 38) 100%); background-color: initial=
+; }
+
+#TopBar_left { color: rgb(200, 195, 188); }
+
+#BreadCrumbs a { color: rgb(113, 188, 247); }
+
+#BreadCrumbs a:visited, #BreadCrumbs a:link { text-decoration-color: initia=
+l; }
+
+#BreadCrumbs a:hover, #BreadCrumbs a:active { text-decoration-color: initia=
+l; }
+
+#PageTitle { color: rgb(255, 30, 30); }
+
+#Contents a, .NavBit a, #TagNotes a { color: rgb(113, 188, 247); }
+
+#TagNotes a:visited, #TagNotes a:link, #Contents a:visited, #Contents a:lin=
+k, .NavBit a:visited, .NavBit a:link { text-decoration-color: initial; }
+
+#TagNotes a:hover, #TagNotes a:active, #Contents a:hover, #Contents a:activ=
+e, .NavBit a:hover, .NavBit a:active { text-decoration-color: initial; }
+
+.nolinkLESSON, .nolinkAHEAD, .nolinkBHEAD, .nolinkCHEAD, .nolinkQUESTIONS {=
+ color: rgb(200, 195, 188); }
+
+h1, h2, h3, h4, h5 { color: rgb(200, 195, 188); }
+
+.betadraft { color: rgb(255, 26, 26); }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b264d3b5-9c18-42b1-917d-943eda910b96@mhtml.blink
+
+@charset "utf-8";
+
+.vimvixen-hint { background-color: rgb(123, 83, 0) !important; border-color=
+: rgb(216, 176, 19) !important; color: rgb(243, 232, 200) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+
+#edge-translate-panel-body, .MuiTypography-body1 { color: var(--darkreader-=
+neutral-text)  !important; }
+
+gr-main-header { background-color: rgb(15, 58, 72) !important; }
+
+.tou-z65h9k, .tou-mignzq, .tou-1b6i2ox, .tou-lnqlqk { background-color: var=
+(--darkreader-neutral-background)  !important; }
+
+.tou-75mvi { background-color: rgb(3, 32, 41) !important; }
+
+.tou-ta9e87, .tou-1w3fhi0, .tou-1b8t2us, .tou-py7lfi, .tou-1lpmd9d, .tou-1f=
+rrtv8, .tou-17ezmgn { background-color: rgb(10, 10, 10) !important; }
+
+.tou-uknfeu { background-color: rgb(35, 22, 3) !important; }
+
+.tou-6i3zyv { background-color: rgb(25, 87, 108) !important; }
+
+embed[type=3D"application/pdf"][src=3D"about:blank"] { filter: invert(100%)=
+ contrast(90%); }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-cb0bd805-c22f-4e5c-b751-9d0ad9c800c0@mhtml.blink
+
+@charset "utf-8";
+
+#footer-banner ul li:nth-child(2) { margin-left: 0px; }
+
+#footer-banner { z-index: 9999; position: fixed; margin: 0px auto; bottom: =
+0px; left: 0px; right: 0px; border-top: 1px solid rgb(172, 183, 191); color=
+: rgb(25, 88, 170); padding: 0em 1em; text-align: center; line-height: 15px=
+; font-weight: normal; font-family: Arial; clear: both; background-color: r=
+gb(235, 235, 235) !important; font-size: 12px !important; }
+
+#teconsent { display: inline-block; }
+
+#footer-banner ul { list-style: none; padding: 0px; margin: 0px 20px 0px 0p=
+x; font-size: 12px !important; }
+
+#footer-banner li { display: inline-block; }
+
+#footer-banner li + li::before { content: "|"; margin-right: 4px; margin-le=
+ft: 4px; color: rgb(170, 170, 170); }
+
+#footer-banner a { color: rgb(25, 88, 170); text-decoration: none; font-siz=
+e: 12px !important; }
+
+#footer-banner a:focus, #footer-banner a:hover { color: rgb(25, 88, 170); t=
+ext-decoration: underline; }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3f1f3def-bcec-42d3-8348-6156c1975d46@mhtml.blink
+
+@charset "utf-8";
+
+#footer-banner { border-top-color: rgb(69, 74, 77); color: rgb(109, 174, 23=
+3); background-color: rgb(35, 38, 40) !important; }
+
+#footer-banner ul { list-style-image: initial; }
+
+#footer-banner li + li::before { color: rgb(178, 172, 162); }
+
+#footer-banner a { color: rgb(109, 174, 233); text-decoration-color: initia=
+l; }
+
+#footer-banner a:focus, #footer-banner a:hover { color: rgb(109, 174, 233);=
+ text-decoration-color: initial; }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/html
+Content-ID: <frame-0CB67A531288602AD7B0307B38D642F0@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://consent.trustarc.com/get?name=crossdomain.html&domain=oracle.com
+
+<html data-darkreader-mode=3D"dynamic" data-darkreader-scheme=3D"dark"><hea=
+d><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-e52be60d-158e-4e=
+01-8ba7-024a930b680c@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/c=
+ss" href=3D"cid:css-5682245c-d421-45d4-b60a-5d17f37333fe@mhtml.blink" /><li=
+nk rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-5499ad07-1fa3-4c90-=
+985a-c7e40d163df7@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css"=
+ href=3D"cid:css-33476ff9-8063-4dfd-b526-aab88a208db9@mhtml.blink" /><link =
+rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-340c0165-8775-458f-9c4=
+f-6faeb04dfff8@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" hr=
+ef=3D"cid:css-d0aafe11-7af4-47ab-b022-9b6f83c76b23@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-927b5300-6ac1-4998-a92e-2=
+3cfed083903@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-35245b22-d3fd-44f3-b9e0-e86ce1405366@mhtml.blink" />
+   =20
+<meta name=3D"darkreader" content=3D"f25881f523fa40148821f9a4de69d086"></he=
+ad>
+<body>
+
+
+</body></html>
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-e52be60d-158e-4e01-8ba7-024a930b680c@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-5682245c-d421-45d4-b60a-5d17f37333fe@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-5499ad07-1fa3-4c90-985a-c7e40d163df7@mhtml.blink
+
+@charset "utf-8";
+
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_=
+text > img[src^=3D"https://www.gstatic.com/images/branding/googlelogo"], sp=
+an[data-href^=3D"https://www.hcaptcha.com/"] > #icon, #bit-notification-bar=
+-iframe, ::-webkit-calendar-picker-indicator { filter: invert(100%) hue-rot=
+ate(180deg) contrast(90%) !important; }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-33476ff9-8063-4dfd-b526-aab88a208db9@mhtml.blink
+
+@charset "utf-8";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+
+[data-darkreader-inline-stopcolor] { stop-color: var(--darkreader-inline-st=
+opcolor)  !important; }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-340c0165-8775-458f-9c4f-6faeb04dfff8@mhtml.blink
+
+@charset "utf-8";
+
+:root { --darkreader-neutral-background: #131516; --darkreader-neutral-text=
+: #d8d4cf; --darkreader-selection-background: #004daa; --darkreader-selecti=
+on-text: #e8e6e3; }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d0aafe11-7af4-47ab-b022-9b6f83c76b23@mhtml.blink
+
+@charset "utf-8";
+
+:root { }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-927b5300-6ac1-4998-a92e-23cfed083903@mhtml.blink
+
+@charset "utf-8";
+
+html { color-scheme: dark !important; }
+
+html, body { border-color: rgb(115, 107, 94); color: rgb(232, 230, 227); }
+
+a { color: rgb(51, 145, 255); }
+
+table { border-color: rgb(84, 91, 94); }
+
+::placeholder { color: rgb(178, 171, 161); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(64, 68, 0) !important; color: rgb(232, 230, 227) !i=
+mportant; }
+
+::-webkit-scrollbar { background-color: rgb(32, 35, 36); color: rgb(171, 16=
+4, 153); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(69, 74, 77); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(87, 94, 98); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(72, 78, 81); }
+
+::-webkit-scrollbar-corner { background-color: rgb(24, 26, 27); }
+
+::selection { background-color: rgb(0, 77, 170) !important; color: rgb(232,=
+ 230, 227) !important; }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-35245b22-d3fd-44f3-b9e0-e86ce1405366@mhtml.blink
+
+@charset "utf-8";
+
+.vimvixen-hint { background-color: rgb(123, 83, 0) !important; border-color=
+: rgb(216, 176, 19) !important; color: rgb(243, 232, 200) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+
+#edge-translate-panel-body, .MuiTypography-body1 { color: var(--darkreader-=
+neutral-text)  !important; }
+
+gr-main-header { background-color: rgb(15, 58, 72) !important; }
+
+.tou-z65h9k, .tou-mignzq, .tou-1b6i2ox, .tou-lnqlqk { background-color: var=
+(--darkreader-neutral-background)  !important; }
+
+.tou-75mvi { background-color: rgb(3, 32, 41) !important; }
+
+.tou-ta9e87, .tou-1w3fhi0, .tou-1b8t2us, .tou-py7lfi, .tou-1lpmd9d, .tou-1f=
+rrtv8, .tou-17ezmgn { background-color: rgb(10, 10, 10) !important; }
+
+.tou-uknfeu { background-color: rgb(35, 22, 3) !important; }
+
+.tou-6i3zyv { background-color: rgb(25, 87, 108) !important; }
+
+embed[type=3D"application/pdf"][src=3D"about:blank"] { filter: invert(100%)=
+ contrast(90%); }
+------MultipartBoundary--rMK3G1QAQoDGLKSCyuVmipwuvvWP4BrkNzXsw0X3Sz------

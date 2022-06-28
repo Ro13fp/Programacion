@@ -1,0 +1,1129 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrices/matriz/matriz.htm
+Subject: La clase Matriz y la clase Vector
+Date: Sun, 26 Jun 2022 16:02:30 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----"
+
+
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: text/html
+Content-ID: <frame-BC99E612458A42594BFBF87EDD442115@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrices/matriz/matriz.htm
+
+<html data-darkreader-mode=3D"dynamic" data-darkreader-scheme=3D"dark"><hea=
+d><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dwindows=
+-1252"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-7b765783-=
+121d-4f24-9a5e-e67d4d578be7@mhtml.blink" /><link rel=3D"stylesheet" type=3D=
+"text/css" href=3D"cid:css-7333b944-9efd-4996-9d6b-bf4da59e3606@mhtml.blink=
+" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-e722a2f6-759=
+b-4894-8c25-ff856b47365d@mhtml.blink" /><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-339413ec-b7c2-4ee8-9105-bcb26ebd0ca8@mhtml.blink" /=
+><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-d1722aa6-ffe8-4=
+388-b0fa-016032b7a9e4@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-49dde31f-3864-4d46-9ee1-d470751be91f@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-173452cc-7925-41cb=
+-b47c-f1e8499cd244@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
+" href=3D"cid:css-85086222-8080-45ce-940f-1cf784b27a8e@mhtml.blink" />
+<meta name=3D"GENERATOR" content=3D"Microsoft FrontPage 3.0">
+<title>La clase Matriz y la clase Vector</title>
+<meta name=3D"darkreader" content=3D"ac8d8a34912536f244bee97ce6e06b5b"></he=
+ad>
+
+<body>
+
+<h1 align=3D"center">La clase <em>Matriz</em> y la clase <em>Vector</em></h=
+1>
+
+<table width=3D"100%">
+  <tbody><tr>
+    <td width=3D"35%"><p align=3D"left"><a href=3D"http://www.sc.ehu.es/sbw=
+eb/fisica/cursoJava/numerico/matrices/intro_matriz.htm"><img src=3D"http://=
+www.sc.ehu.es/sbweb/fisica/images/prev.gif" alt=3D"prev.gif (997 bytes)" wi=
+dth=3D"49" height=3D"40"></a><a href=3D"http://www.sc.ehu.es/sbweb/fisica/c=
+ursoJava/numerico/ejemplos.htm"><img src=3D"http://www.sc.ehu.es/sbweb/fisi=
+ca/images/chapter.gif" alt=3D"chapter.gif (1105 bytes)" width=3D"49" height=
+=3D"40"></a><b><a href=3D"http://www.sc.ehu.es/sbweb/fisica/curso.htm"><img=
+ src=3D"http://www.sc.ehu.es/sbweb/fisica/images/home.gif" alt=3D"home.gif =
+(1232 bytes)" width=3D"49" height=3D"40"></a><a href=3D"http://www.sc.ehu.e=
+s/sbweb/fisica/cursoJava/numerico/matrices/matriz1/matriz1.htm"><img src=3D=
+"http://www.sc.ehu.es/sbweb/fisica/images/next.gif" alt=3D"next.gif (1211 b=
+ytes)" width=3D"49" height=3D"40"></a></b></p></td>
+    <td width=3D"65%"><h3 align=3D"right"><a href=3D"http://www.sc.ehu.es/s=
+bweb/fisica/cursoJava/numerico/matrices/intro_matriz.htm">Las matrices cuad=
+radas</a></h3>
+    </td>
+  </tr>
+</tbody></table>
+
+<p><a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrices=
+/matriz/matriz.htm#Vectores%20y%20matrices">Vectores y matrices</a></p>
+
+<p><a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrices=
+/matriz/matriz.htm#Los%20constructores">Los constructores</a></p>
+
+<p><a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrices=
+/matriz/matriz.htm#Mostrar%20un%20vector%20y%20una%20matriz">Mostrar un vec=
+tor y una matriz</a></p>
+
+<p><a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrices=
+/matriz/matriz.htm#Copia%20de%20una%20matriz%20dada">Copia de una matriz</a=
+></p>
+
+<p><a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrices=
+/matriz/matriz.htm#Traza%20de%20una%20matriz">Traza de una matriz</a></p>
+
+<p><a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrices=
+/matriz/matriz.htm#Operaciones%20con%20matrices%20y%20vectores">Operaciones=
+ con matrices y
+vectores</a></p>
+
+<p><a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrices=
+/matriz/matriz.htm#Matriz%20traspuesta">Matriz traspuesta</a></p>
+
+<hr>
+
+<p>En esta p=E1gina, definiremos la clase <em>Vector</em> y la clase <em>Ma=
+triz</em>
+cuadrada, las operaciones entre matrices, suma y producto de dos matrices, =
+el producto de
+una matriz por un vector, el producto de una matriz por un escalar, la traz=
+a de una matriz
+y la matriz traspuesta de una matriz dada. </p>
+
+<p>&nbsp;</p>
+
+<h2><a name=3D"Vectores y matrices">Vectores y matrices</a></h2>
+
+<p>Un vector es un array unidimensional de n=FAmeros. Se define la clase <e=
+m>Vector</em>
+con dos miembros dato, el n=FAmero de datos que guarda y el array unidimens=
+ional que guarda
+dichos datos.</p>
+
+<pre>public class Vector {
+    public int n;    =20
+    double[] x;</pre>
+
+<p>La clase <em>Vector</em> y la clase <em>Matriz</em> est=E1n en el mismo =
+paquete. El
+miembro dato <em>x</em> de la clase <em>Vector</em> tiene el <a href=3D"htt=
+p://www.sc.ehu.es/sbweb/fisica/cursoJava/fundamentos/estatico/fraccion.htm#=
+Controles%20de%20acceso">control de acceso
+por defecto</a>, es decir,&nbsp; p=FAblico dentro del mismo paquete pero pr=
+ivados fuera del
+paquete. M=E1s abajo, en esta p=E1gina al definir las funciones miembro de =
+la clase <em>Matriz</em>
+que realizan <a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/numeric=
+o/matrices/matriz/matriz.htm#vector%20por%20matriz">operaciones entre matri=
+ces y vectores</a>
+veremos que, los objetos de la clase <em>Vector</em> necesitan acceder a su=
+ miembro dato <em>x</em>.</p>
+
+<p>Una matriz es un array bidimensional de n=FAmeros. En general, decimos q=
+ue una matriz
+tiene una dimensi=F3n <i>m x n</i>, cuando los n=FAmeros est=E1n dispuestos=
+ en <i>m</i> filas
+y <i>n</i> columnas. </p>
+
+<p>Se denominan matrices cuadradas a aquellas que tienen el mismo n=FAmero =
+de filas que de
+columnas. Estas matrices tienen especial importancia y ser=E1n las que trat=
+emos en estas
+p=E1ginas. </p>
+
+<pre>public class Matriz{
+    public int n;    =20
+    private double[][] x;</pre>
+
+<p>La clase <em>Matriz</em> tiene dos miembros dato, la dimensi=F3n de la m=
+atriz <em>n</em>,
+y un array bidimensional <em>x</em>, que crearemos e inicializaremos en los=
+ constructores.</p>
+
+<p>&nbsp;</p>
+
+<h2><a name=3D"Los constructores">Los constructores</a></h2>
+
+<p>Vamos a definir dos constructores en la clase <em>Vector</em>, al primer=
+o se le pasa el
+n=FAmero de elementos que va a guardar e inicializan a cero todos sus eleme=
+ntos.</p>
+
+<pre>    public Vector(int n) {
+        this.n=3Dn;
+        x=3Dnew double[n];
+        for(int i=3D0; i&lt;n; i++){
+            x[i]=3D0.0;
+        }
+    }</pre>
+
+<p>Para crear un vector <em>v</em> de dimensi=F3n tres se escribe</p>
+
+<pre>	Vector v=3Dnew Vector(3);</pre>
+
+<p>Al segundo constructor, se le pasa el array unidiemensional, e inicializ=
+a el miembro
+dato <em>x</em> con los valores que guardan los elementos de dicho array en=
+ una =FAnica y
+simple operaci=F3n de asignaci=F3n</p>
+
+<pre>    public Vector(double[] x) {
+        this.x=3Dx;
+        n=3Dx.length;
+    }</pre>
+
+<p>Para crear un vector <em>v</em> que guarde los datos del array <em>v1</e=
+m> se escribe</p>
+
+<pre>       	double[] v1=3D{1, 2, 3};
+	Vector v=3Dnew Vector(v1);</pre>
+
+<p>Para la clase <em>Matriz</em> necesitamos definir dos constructores, al =
+primero se le
+pasa la dimensi=F3n <em>n</em> de la matriz cuadrada, creando un array bidi=
+mensional de <em>n</em>
+filas y <em>n</em> columnas, e inicializa todos sus elementos a cero. </p>
+
+<pre>    public Matriz(int n) {
+        this.n=3Dn;
+        x=3Dnew double[n][n];
+        for(int i=3D0; i&lt;n; i++){
+            for(int j=3D0; j&lt;n; j++){
+                x[i][j]=3D0.0;
+            }
+        }
+    }</pre>
+
+<p>Para crear una matriz <em>a</em> de dimensi=F3n tres cuyos elementos son=
+ todos ceros, se
+escribe.</p>
+
+<pre>	Matriz a=3Dnew Matriz(3); </pre>
+
+<p>Al segundo constructor, se le pasa un array bidimensional, e inicializa =
+el miembro dato
+<em>x</em> con los valores que guardan los elementos de dicho array en una =
+=FAnica y simple
+operaci=F3n de asignaci=F3n.</p>
+
+<pre>    public Matriz(double[][] x) {
+        this.x=3Dx;
+        n=3Dx.length;
+   }</pre>
+
+<p>Para crear la matriz <em>a</em></p>
+
+<p><img src=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrice=
+s/matriz/Image97.gif" alt=3D"Image97.gif (1272 bytes)" width=3D"110" height=
+=3D"75"></p>
+
+<p>se crea un array bidimensional <em>a1</em>, y se le pasa al constructor =
+de la clase <em>Matriz</em></p>
+
+<pre>       	double[][] a1=3D{{1, 2, 3},{-2, -4, -5},{3, 5, 6}};
+	Matriz a=3Dnew Matriz(a1);</pre>
+
+<table border=3D"1" width=3D"100%" cellspacing=3D"">
+  <tbody><tr>
+    <td width=3D"100%" bgcolor=3D"#F7F7F7" data-darkreader-inline-bgcolor=
+=3D"" style=3D"--darkreader-inline-bgcolor:#1d1f20;"><pre>public class Vect=
+or {
+    public int n;      //dimensi=F3n
+    double[] x;
+    public Vector(int n) {
+        this.n=3Dn;
+        x=3Dnew double[n];
+        for(int i=3D0; i&lt;n; i++){
+            x[i]=3D0.0;
+        }
+    }
+    public Vector(double[] x) {
+        this.x=3Dx;
+        n=3Dx.length;
+    }
+//otras funciones miembro
+}</pre>
+    <div align=3D"center"><center><pre>************************************=
+****</pre>
+    </center></div><pre>public class Matriz{
+    public int n;      //dimensi=F3n
+    private double[][] x;
+    public Matriz(int n) {
+        this.n=3Dn;
+        x=3Dnew double[n][n];
+        for(int i=3D0; i&lt;n; i++){
+            for(int j=3D0; j&lt;n; j++){
+                x[i][j]=3D0.0;
+            }
+        }
+    }
+    public Matriz(double[][] x) {
+        this.x=3Dx;
+        n=3Dx.length;
+   }
+//otras funciones miembro
+}
+</pre>
+    </td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<h2><a name=3D"Mostrar un vector y una matriz">Mostrar un vector y una matr=
+iz</a></h2>
+
+<p>Para mostrar un vector redefinimos la funci=F3n <em>toString</em> de la =
+clase base <em>Object</em>,
+de la cual deriva impl=EDcitamente <em>Vector. </em>Separamos sus elementos=
+ mediante el
+car=E1cter tabulador <em>'\t'</em>.</p>
+
+<pre>    public String toString(){
+        String texto=3D" ";
+        for(int i=3D0; i&lt;n; i++){
+            texto+=3D"\t "+(double)Math.round(1000*x[i])/1000;
+        }
+        texto+=3D"\n";
+        return texto;
+    }</pre>
+
+<p>Vamos a=F1adiendo al string <em>texto</em>, los elementos del vector y e=
+l car=E1cter
+separador entre elementos, limitamos el n=FAmero de decimales a tres median=
+te la funci=F3n <a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/fund=
+amentos/estatico/math.htm#aproximacion"><em>Math.round</em></a>. Para
+concluir la fila y pasar a la siguiente en la pantalla de texto, a=F1adimos=
+ un car=E1cter
+retorno de carro <em>'\n</em>'. Mediante la operaci=F3n + definida en la cl=
+ase <em>String</em>
+podemos concatenar f=E1cilmente los distintos elementos y crear la represen=
+taci=F3n textual
+del vector que devuelve la funci=F3n <em>toString</em></p>
+
+<p>Para mostrar <em>el </em>vector<em> v</em> en la pantalla de texto, bast=
+a escribir la
+sentencia</p>
+
+<pre>	Vector v=3Dnew Vector(v1);
+	System.out.println(v);</pre>
+
+<p>Mostrar una matriz en la pantalla de texto es dif=EDcil, ya que Java no =
+dispone de una
+funci=F3n que sit=FAe el cursor de texto en una posici=F3n de la pantalla, =
+como lo hace la
+funci=F3n <em>gotoxy</em> disponible en los lenguajes C/C++. La =FAnica alt=
+ernativa que nos
+queda es mostrar los elementos de una fila unos a continuaci=F3n de los otr=
+os separados por
+un tabulador, despu=E9s otra fila y as=ED hasta mostrar todos los elementos=
+ de la matriz.</p>
+
+<p>Para mostrar los elementos de la matriz, redefinimos la funci=F3n <em>to=
+String</em> de
+la clase base <em>Object</em>, de la cual deriva impl=EDcitamente <em>Matri=
+z. </em>Separamos
+los elementos de una fila mediante el car=E1cter tabulador <em>'\t'</em>, y=
+ limitamos el
+n=FAmero de decimales a tres mediante la funci=F3n <a href=3D"http://www.sc=
+.ehu.es/sbweb/fisica/cursoJava/fundamentos/estatico/math.htm#aproximacion">=
+<em>Math.round</em></a>. Cuando
+se acaba una fila se inserta un retorno de carro '<em>\n'</em> y se continu=
+a con la
+siguiente fila, y as=ED sucesivamente.</p>
+
+<pre>            for(int j=3D0; j&lt;n; j++){
+                texto+=3D"\t "+(double)Math.round(1000*x[i][j])/1000;
+            }
+            texto+=3D"\n";</pre>
+
+<p>Vamos a=F1adiendo al string <em>texto</em>, los elementos de la matriz y=
+ los caracteres
+separadores entre elementos y entre filas de elementos.</p>
+
+<pre>    public String toString(){
+        String texto=3D"\n";
+        for(int i=3D0; i&lt;n; i++){
+            for(int j=3D0; j&lt;n; j++){
+                texto+=3D"\t "+(double)Math.round(1000*x[i][j])/1000;
+            }
+            texto+=3D"\n";
+        }
+        texto+=3D"\n";
+        return texto;
+  }</pre>
+
+<p>Para mostrar una matriz <em>a</em> en la pantalla de texto basta escribi=
+r la sentencia</p>
+
+<pre>	Matriz a=3Dnew Matriz(a1);
+	System.out.println(a);</pre>
+
+<p>&nbsp;</p>
+
+<table border=3D"1" width=3D"100%" cellspacing=3D"">
+  <tbody><tr>
+    <td width=3D"100%" bgcolor=3D"#F7F7F7" data-darkreader-inline-bgcolor=
+=3D"" style=3D"--darkreader-inline-bgcolor:#1d1f20;"><pre>public class Vect=
+or {
+    public int n;      //dimensi=F3n
+    double[] x;
+//...
+    public String toString(){
+        String texto=3D" ";
+        for(int i=3D0; i&lt;n; i++){
+            texto+=3D"\t "+(double)Math.round(1000*x[i])/1000;
+        }
+        texto+=3D"\n";
+        return texto;
+  }
+}</pre>
+    <div align=3D"center"><center><pre>****************************</pre>
+    </center></div><pre>public class Matriz{
+    public int n;      //dimensi=F3n
+    private double[][] x;
+//...
+    public String toString(){
+        String texto=3D"\n";
+        for(int i=3D0; i&lt;n; i++){
+            for(int j=3D0; j&lt;n; j++){
+                texto+=3D"\t "+(double)Math.round(1000*x[i][j])/1000;
+            }
+            texto+=3D"\n";
+        }
+        texto+=3D"\n";
+        return texto;
+  }
+}</pre>
+    </td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<h2><a name=3D"Copia de una matriz dada">Copia de una matriz dada</a></h2>
+
+<p>Cuando calculamos la matriz inversa de una dada, pasamos una matriz en e=
+l =FAnico
+par=E1metro de la funci=F3n est=E1tica denominada <em>inversa</em>. En el c=
+uerpo de dicha
+funci=F3n se realizan operaciones con los elementos de dicha matriz. Dado q=
+ue en Java se <a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/fundam=
+entos/clonico/clonico.htm#Modificando%20el%20objeto%20en%20el%20curso%20de%=
+20la%20llamada%20a%20la%20funci%C3%B3n.">pasan
+por valor las referencias a objetos</a>, la matriz original resulta modific=
+ada en el curso
+de la llamada a la <a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/n=
+umerico/matrices/matriz1/matriz1.htm#La%20matriz%20inversa">funci=F3n<em> i=
+nversa</em></a>.</p>
+
+<p>Si queremos mantener la matriz original, hacemos una copia de dicha matr=
+iz en el cuerpo
+de la funci=F3n y realizamos las operaciones con la matriz copia dejando la=
+ original sin
+modificar.</p>
+
+<p>Para <a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/fundamentos/=
+clonico/clonico2.htm#Duplicaci%C3%B3n%20de%20arrays%20bididimensionales">re=
+alizar
+una copia</a> hemos de implementar el interface <em>Cloneable</em>, y redef=
+inir la
+funci=F3n miembro <em>clone</em> de la clase base <em>Object</em>, de la cu=
+al derivan todas
+las clases en Java. El primer paso es la llamada a la funci=F3n <em>clone</=
+em> de la clase
+base <em>Object</em>.</p>
+
+<table border=3D"1" width=3D"100%" cellspacing=3D"">
+  <tbody><tr>
+    <td width=3D"100%" bgcolor=3D"#F7F7F7" data-darkreader-inline-bgcolor=
+=3D"" style=3D"--darkreader-inline-bgcolor:#1d1f20;"><pre>public class Matr=
+iz implements Cloneable{
+    public int n;      //dimensi=F3n
+    private double[][] x;
+//..........   </pre>
+    <pre>public Object clone(){
+        Matriz obj=3Dnull;
+        try{
+//llama a clone de la clase base Object
+            obj=3D(Matriz)super.clone();
+        }catch(CloneNotSupportedException ex){
+            System.out.println(" no se puede duplicar");
+        }
+//copia la matriz bidimensional
+        obj.x=3D(double[][])obj.x.clone();
+        for(int i=3D0; i&lt;obj.x.length; i++){
+            obj.x[i]=3D(double[])obj.x[i].clone();
+        }
+        return obj;
+    }
+}</pre>
+    </td>
+  </tr>
+</tbody></table>
+
+<p>Para obtener una copia <em>a</em> de una matriz <em>d</em> se escribe.</=
+p>
+
+<pre>    Matriz a=3D(Matriz)d.clone();</pre>
+
+<p>La promoci=F3n (casting) es necesaria ya que <em>clone</em> devuelve una=
+ referencia a un
+objeto de la clase base <em>Object</em>.</p>
+
+<p>&nbsp;</p>
+
+<h2><a name=3D"Traza de una matriz">Traza de una matriz </a></h2>
+
+<p>Se denomina traza de una matriz cuadrada a la suma de los elementos de s=
+u diagonal
+principal.</p>
+
+<table border=3D"1" width=3D"100%" cellspacing=3D"">
+  <tbody><tr>
+    <td width=3D"100%" bgcolor=3D"#F7F7F7" data-darkreader-inline-bgcolor=
+=3D"" style=3D"--darkreader-inline-bgcolor:#1d1f20;"><pre>    public double=
+ traza(){
+        double tr=3D0.0;
+        for(int i=3D0; i&lt;n; i++){
+            tr+=3Dx[i][i];
+        }
+        return tr;
+    }</pre>
+    </td>
+  </tr>
+</tbody></table>
+
+<p>Para obtener la traza de la matriz <em>a</em> de la secci=F3n anterior s=
+e escribe</p>
+
+<pre>	double traza=3Da.traza(); </pre>
+
+<p><br>
+</p>
+
+<h2><a name=3D"Operaciones con matrices y vectores">Operaciones con matrice=
+s y vectores</a></h2>
+
+<h3>Suma de dos matrices cuadradas</h3>
+
+<p>Cuando se suman dos matrices de las mismas dimensiones</p>
+
+<p>&nbsp;<img src=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/m=
+atrices/matriz/Image5.gif" width=3D"345" height=3D"74"></p>
+
+<p>Se obtiene otra matriz <i>c</i> en la que sus elementos <i>c<sub>ij</sub=
+></i> son las
+suma de los correspondientes elementos de las matrices <i>a</i> y <i>b</i>,=
+ es decir</p>
+<i>
+
+</i><p><i>c<sub>ij</sub>=3Da<sub>ij</sub>+b<sub>ij</sub></i></p>
+
+<p>Para sumar dos matrices, se define una funci=F3n miembro est=E1tica deno=
+minada <em>suma</em>.
+Dentro de la funci=F3n, se crea una matriz temporal <em>resultado</em>, con=
+ la misma
+dimensi=F3n de las matrices que intervienen en la operaci=F3n, y se guardan=
+ en sus elementos
+el resultado de la suma de las matrices<em> a</em> y <em>b</em>. Finalmente=
+, la funci=F3n <em>suma</em>
+devuelve la matriz <em>resultado</em>.</p>
+
+<table border=3D"1" width=3D"100%" cellspacing=3D"">
+  <tbody><tr>
+    <td width=3D"100%" bgcolor=3D"#F7F7F7" data-darkreader-inline-bgcolor=
+=3D"" style=3D"--darkreader-inline-bgcolor:#1d1f20;"><pre>    public static=
+ Matriz suma(Matriz a, Matriz b){
+        Matriz resultado=3Dnew Matriz(a.n);
+        for(int i=3D0; i&lt;a.n; i++){
+            for(int j=3D0; j&lt;a.n; j++){
+                resultado.x[i][j]=3Da.x[i][j]+b.x[i][j];
+            }
+        }
+        return resultado;
+    }</pre>
+    </td>
+  </tr>
+</tbody></table>
+
+<p>Veamos ahora como se llama a la funci=F3n que suma dos matrices.</p>
+
+<pre>        double[][] a1=3D{{1, 2, 3},{4,5,6},{7,8,9}};
+        Matriz a=3Dnew Matriz(a1);
+        double[][] b1=3D{{1, 0, -1},{2,1,3},{-1, 0, 2}};
+        Matriz b=3Dnew Matriz(b1);
+        Matriz re=3DMatriz.suma(a, b);
+        System.out.println("matriz "+re);
+
+</pre>
+
+<h3>Producto de dos matrices</h3>
+
+<p>La regla para multiplicar dos matrices es bastante m=E1s complicada que =
+para sumar dos
+matrices de las mismas dimensiones. En general, se pueden multiplicar dos m=
+atrices de
+dimensiones <i>m x n</i> y <i>n x q</i>, dando como resultado una matriz de=
+ dimensiones <i>m
+x q.</i> En este apartado nos circunscribiremos exclusivamente a matrices c=
+uadradas de
+dimensi=F3n <i>n</i>.</p>
+
+<p>&nbsp;<img src=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/m=
+atrices/matriz/Image6.gif" width=3D"338" height=3D"74"></p>
+
+<p>Los elementos <i>c<sub>ij</sub></i> se obtienen multiplicando los elemen=
+tos <i>a<sub>ik</sub></i>
+de la fila<i> i</i> por los elementos <i>a<sub>kj</sub></i> de la columna <=
+i>j</i>, y
+sumando los resultados.</p>
+
+<p><img src=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrice=
+s/matriz/Image7.gif" width=3D"405" height=3D"25"></p>
+
+<p>La codificaci=F3n se realiza empleando un tripe bucle <strong>for</stron=
+g>, guardando en
+los elementos de la la matriz local <em>resultado</em> la suma de los produ=
+ctos de la
+f=F3rmula anterior.</p>
+
+<table border=3D"1" width=3D"100%" cellspacing=3D"">
+  <tbody><tr>
+    <td width=3D"100%" bgcolor=3D"#F7F7F7" data-darkreader-inline-bgcolor=
+=3D"" style=3D"--darkreader-inline-bgcolor:#1d1f20;"><pre>     public stati=
+c Matriz producto(Matriz a, Matriz b){
+        Matriz resultado=3Dnew Matriz(a.n);
+        for(int i=3D0; i&lt;a.n; i++){
+            for(int j=3D0; j&lt;a.n; j++){
+                for(int k=3D0; k&lt;a.n; k++){
+                    resultado.x[i][j]+=3Da.x[i][k]*b.x[k][j];
+                }
+            }
+        }
+        return resultado;
+    }</pre>
+    </td>
+  </tr>
+</tbody></table>
+
+<p>Otras variantes de la operaci=F3n producto son:</p>
+
+<p>El producto de un escalar (n=FAmero real) por una matriz que da como res=
+ultado otra
+matriz cuyos elementos est=E1n todos multiplicados por dicho escalar. Se de=
+fine tambi=E9n la
+operaci=F3n conmutativa</p>
+
+<pre>    public static Matriz producto(double d, Matriz a){
+        Matriz resultado=3Dnew Matriz(a.n);
+        for(int i=3D0; i&lt;a.n; i++){
+            for(int j=3D0; j&lt;a.n; j++){
+                resultado.x[i][j]=3Da.x[i][j]*d;
+            }
+        }
+        return resultado;
+    }</pre>
+
+<p><a name=3D"vector por matriz"></a>Al multiplicar una matriz cuadrada de =
+dimensi=F3n <i>n</i>,
+por un vector columna de la misma dimensi=F3n obtenemos otro vector columna=
+. Cada elemento
+del vector resultante se obtiene multiplicando los elementos de una fila de=
+ la matriz por
+los correspondientes elementos del vector columna y se suman los resultados=
+. La
+codificaci=F3n de esta funci=F3n producto es la siguiente:</p>
+
+<table border=3D"1" width=3D"100%" cellspacing=3D"">
+  <tbody><tr>
+    <td width=3D"100%" bgcolor=3D"#F7F7F7" data-darkreader-inline-bgcolor=
+=3D"" style=3D"--darkreader-inline-bgcolor:#1d1f20;"><pre>    public static=
+ Vector producto(Matriz a, Vector v){
+        int n=3Dv.n; =20
+        Vector b=3Dnew Vector(n);
+        for(int i=3D0; i&lt;n; i++){
+            for(int k=3D0; k&lt;n; k++){
+                b.x[i]+=3Da.x[i][k]*v.x[k];
+            }
+        }
+        return b;
+    }</pre>
+    </td>
+  </tr>
+</tbody></table>
+
+<p>Al multiplicar un vector fila por una matriz cuadrada de la misma dimens=
+i=F3n obtenemos
+otro vector fila. El c=F3digo es semejante al de la funci=F3n <em>producto<=
+/em> definida
+previamente.</p>
+
+<pre>    public static Vector producto(Vector v, Matriz a){
+        int n=3Dv.n;=20
+        Vector b=3Dnew Vector(n);
+        for(int j=3D0; j&lt;n; j++){
+            for(int k=3D0; k&lt;n; k++){
+                b.x[j]+=3Dv.x[k]*a.x[k][j];
+            }
+        }
+        return b;
+    }</pre>
+
+<p>&nbsp;</p>
+
+<h2><a name=3D"Matriz traspuesta">Matriz traspuesta</a></h2>
+
+<p>Una matriz traspuesta de otra matriz es aquella que tiene los mismos ele=
+mentos pero
+dispuestos en forma distinta. Las columnas de la matriz original se transfo=
+rman en filas
+de la matriz traspuesta. La definici=F3n de la funci=F3n est=E1tica <em>tra=
+spuesta</em> no
+reviste dificultad alguna</p>
+
+<table border=3D"1" width=3D"100%" cellspacing=3D"">
+  <tbody><tr>
+    <td width=3D"100%" bgcolor=3D"#F7F7F7" data-darkreader-inline-bgcolor=
+=3D"" style=3D"--darkreader-inline-bgcolor:#1d1f20;"><pre>    public static=
+ Matriz traspuesta(Matriz a){
+        int n=3Da.n;
+        Matriz resultado=3Dnew Matriz(a.n);
+        for(int i=3D0; i&lt;n; i++){
+            for(int j=3D0; j&lt;n; j++){
+                resultado.x[i][j]=3Da.x[j][i];
+            }
+        }
+        return resultado;
+    }</pre>
+    </td>
+  </tr>
+</tbody></table>
+
+<p>Para hallar la matriz traspuesta de la matriz <em>a</em> se escribe</p>
+
+<pre>        double[][] a1=3D{{1, 2, 3},{4,5,6},{7,8,9}};
+        Matriz a=3Dnew Matriz(a1);
+        Matriz tras=3DMatriz.traspuesta(a);
+        System.out.println("matriz traspuesta"+tras);</pre>
+
+
+</body></html>
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7b765783-121d-4f24-9a5e-e67d4d578be7@mhtml.blink
+
+@charset "windows-1252";
+=0A
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7333b944-9efd-4996-9d6b-bf4da59e3606@mhtml.blink
+
+@charset "windows-1252";
+=0A
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-e722a2f6-759b-4894-8c25-ff856b47365d@mhtml.blink
+
+@charset "windows-1252";
+
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_=
+text > img[src^=3D"https://www.gstatic.com/images/branding/googlelogo"], sp=
+an[data-href^=3D"https://www.hcaptcha.com/"] > #icon, #bit-notification-bar=
+-iframe, ::-webkit-calendar-picker-indicator { filter: invert(100%) hue-rot=
+ate(180deg) contrast(90%) !important; }
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-339413ec-b7c2-4ee8-9105-bcb26ebd0ca8@mhtml.blink
+
+@charset "windows-1252";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+
+[data-darkreader-inline-stopcolor] { stop-color: var(--darkreader-inline-st=
+opcolor)  !important; }
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d1722aa6-ffe8-4388-b0fa-016032b7a9e4@mhtml.blink
+
+@charset "windows-1252";
+
+:root { --darkreader-neutral-background: #131516; --darkreader-neutral-text=
+: #d8d4cf; --darkreader-selection-background: #004daa; --darkreader-selecti=
+on-text: #e8e6e3; }
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-49dde31f-3864-4d46-9ee1-d470751be91f@mhtml.blink
+
+@charset "windows-1252";
+
+:root { }
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-173452cc-7925-41cb-b47c-f1e8499cd244@mhtml.blink
+
+@charset "windows-1252";
+
+html { background-color: rgb(24, 26, 27) !important; }
+
+html { color-scheme: dark !important; }
+
+html, body { background-color: rgb(24, 26, 27); }
+
+html, body { border-color: rgb(115, 107, 94); color: rgb(232, 230, 227); }
+
+a { color: rgb(51, 145, 255); }
+
+table { border-color: rgb(84, 91, 94); }
+
+::placeholder { color: rgb(178, 171, 161); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(64, 68, 0) !important; color: rgb(232, 230, 227) !i=
+mportant; }
+
+::-webkit-scrollbar { background-color: rgb(32, 35, 36); color: rgb(171, 16=
+4, 153); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(69, 74, 77); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(87, 94, 98); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(72, 78, 81); }
+
+::-webkit-scrollbar-corner { background-color: rgb(24, 26, 27); }
+
+::selection { background-color: rgb(0, 77, 170) !important; color: rgb(232,=
+ 230, 227) !important; }
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-85086222-8080-45ce-940f-1cf784b27a8e@mhtml.blink
+
+@charset "windows-1252";
+
+.vimvixen-hint { background-color: rgb(123, 83, 0) !important; border-color=
+: rgb(216, 176, 19) !important; color: rgb(243, 232, 200) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+
+#edge-translate-panel-body, .MuiTypography-body1 { color: var(--darkreader-=
+neutral-text)  !important; }
+
+gr-main-header { background-color: rgb(15, 58, 72) !important; }
+
+.tou-z65h9k, .tou-mignzq, .tou-1b6i2ox, .tou-lnqlqk { background-color: var=
+(--darkreader-neutral-background)  !important; }
+
+.tou-75mvi { background-color: rgb(3, 32, 41) !important; }
+
+.tou-ta9e87, .tou-1w3fhi0, .tou-1b8t2us, .tou-py7lfi, .tou-1lpmd9d, .tou-1f=
+rrtv8, .tou-17ezmgn { background-color: rgb(10, 10, 10) !important; }
+
+.tou-uknfeu { background-color: rgb(35, 22, 3) !important; }
+
+.tou-6i3zyv { background-color: rgb(25, 87, 108) !important; }
+
+embed[type=3D"application/pdf"][src=3D"about:blank"] { filter: invert(100%)=
+ contrast(90%); }
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/images/prev.gif
+
+R0lGODlhMQAoAPcAAAAAAICAgIAAAICAAACAAACAgAAAgIAAgICAQABAQACA/wBAgEAA/4BAAP//
+/8DAwP8AAP//AAD/AAD//wAA//8A////gAD/gID//4CA//8AgP+AQMDcwKbK8Dc3N3M3N6U3N803
+N+s3N/83NzdzN3NzN6VzN81zN+tzN/9zNzelN3OlN6WlN82lN+ulN/+lNzfNN3PNN6XNN83NN+vN
+N//NNzfrN3PrN6XrN83rN+vrN//rNzf/N3P/N6X/N83/N+v/N///Nzc3c3M3c6U3c803c+s3c/83
+czdzc3Nzc6Vzc81zc+tzc/9zczelc3Olc6Wlc82lc+ulc/+lczfNc3PNc6XNc83Nc+vNc//Nczfr
+c3Prc6Xrc83rc+vrc//rczf/c3P/c6X/c83/c+v/c///czc3pXM3paU3pc03pes3pf83pTdzpXNz
+paVzpc1zpetzpf9zpTelpXOlpaWlpc2lpeulpf+lpTfNpXPNpaXNpc3NpevNpf/NpTfrpXPrpaXr
+pc3rpevrpf/rpTf/pXP/paX/pc3/pev/pf//pTc3zXM3zaU3zc03zes3zf83zTdzzXNzzaVzzc1z
+zetzzf9zzTelzXOlzaWlzc2lzeulzf+lzTfNzXPNzaXNzc3NzevNzf/NzTfrzXPrzaXrzc3rzevr
+zf/rzTf/zXP/zaX/zc3/zev/zf//zTc363M366U368036+s36/836zdz63Nz66Vz681z6+tz6/9z
+6zel63Ol66Wl682l6+ul6/+l6zfN63PN66XN683N6+vN6//N6zfr63Pr66Xr683r6+vr6//r6zf/
+63P/66X/683/6+v/6///6zc3/3M3/6U3/803/+s3//83/zdz/3Nz/6Vz/81z/+tz//9z/zel/3Ol
+/6Wl/82l/+ul//+l/zfN/3PN/6XN/83N/+vN///N/zfr/3Pr/6Xr/83r/+vr///r/zf//3P//6X/
+/83//+v//4eHh4yMjJGRkZaWlpubm6CgoKqqqq+vr7S0tLm5ub6+viwAAAAAMQAoAAAIygAdCBxI
+sKDBgwgTFgTAsKHDhxAjSpzIUCCABxgzatzIsaPHjwAsfhxJsmTGkA4umlzJEiNKlS1jjnwps6ZH
+mjZznhSpUyfOnjZ/ApUpdGjLokZXIk1acqnSnk6bwgzKMyaACVNrRgU5ASvUqkq7YpXIcivHq2LT
+ps06EyxJtGrjsgXp9m1cuWXr2u06MW9Kony//gU896hekwwFF0asmKnVw45vQo58djJljWYvu7Ss
++UFmzZ8vh6Y8OnJpxy8pql7NWqHr17AJBgQAOw==
+
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/images/chapter.gif
+
+R0lGODlhMQAoAPcAAAAAAICAgIAAAICAAACAAACAgAAAgIAAgICAQABAQACA/wBAgEAA/4BAAP//
+/8DAwP8AAP//AAD/AAD//wAA//8A////gAD/gID//4CA//8AgP+AQMDcwKbK8Dc3N3M3N6U3N803
+N+s3N/83NzdzN3NzN6VzN81zN+tzN/9zNzelN3OlN6WlN82lN+ulN/+lNzfNN3PNN6XNN83NN+vN
+N//NNzfrN3PrN6XrN83rN+vrN//rNzf/N3P/N6X/N83/N+v/N///Nzc3c3M3c6U3c803c+s3c/83
+czdzc3Nzc6Vzc81zc+tzc/9zczelc3Olc6Wlc82lc+ulc/+lczfNc3PNc6XNc83Nc+vNc//Nczfr
+c3Prc6Xrc83rc+vrc//rczf/c3P/c6X/c83/c+v/c///czc3pXM3paU3pc03pes3pf83pTdzpXNz
+paVzpc1zpetzpf9zpTelpXOlpaWlpc2lpeulpf+lpTfNpXPNpaXNpc3NpevNpf/NpTfrpXPrpaXr
+pc3rpevrpf/rpTf/pXP/paX/pc3/pev/pf//pTc3zXM3zaU3zc03zes3zf83zTdzzXNzzaVzzc1z
+zetzzf9zzTelzXOlzaWlzc2lzeulzf+lzTfNzXPNzaXNzc3NzevNzf/NzTfrzXPrzaXrzc3rzevr
+zf/rzTf/zXP/zaX/zc3/zev/zf//zTc363M366U368036+s36/836zdz63Nz66Vz681z6+tz6/9z
+6zel63Ol66Wl682l6+ul6/+l6zfN63PN66XN683N6+vN6//N6zfr63Pr66Xr683r6+vr6//r6zf/
+63P/66X/683/6+v/6///6zc3/3M3/6U3/803/+s3//83/zdz/3Nz/6Vz/81z/+tz//9z/zel/3Ol
+/6Wl/82l/+ul//+l/zfN/3PN/6XN/83N/+vN///N/zfr/3Pr/6Xr/83r/+vr///r/zf//3P//6X/
+/83//+v//4eHh4yMjJGRkZaWlpubm6CgoKqqqq+vr7S0tLm5ub6+viwAAAAAMQAoAAAI/gAdCBxI
+sKDBgwgTFgTAsKHDhxAjSpzIUCCABxgzatzIsaPHjwAsfhxJsmTGkA4umlzJEiNKlSthtgQpkiXD
+mSNftryJ06NOmzJ7avwJkmfIoEIfEOXY0GJFpEKXDj1KUGrUmkypBrCINanSrlNTDgyAMqVSilCH
+gj1JdWDZigrTnlzrUivXu3HlfjXb8WZZsm7HOthK2GlOumf34i2bkKdPxH4HLxZceGtKvVbrKgaM
+tzFmyBcZv6Us2bLjvqCVQjAdWOHlw3yzQvg7WmBlya9pxt4YuWrng7M/756q+O7f0rhPM03dNDBj
+hMp5p2ZL9fnB6GqHU2+4/TJa2HqpN1MPQL68efLCw/P2e/a7bvV9se9E7NUm/fomM+OPeX8/eP89
+6QfgfwPO5x1aCCYokWsMNuhgQAAAOw==
+
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/images/home.gif
+
+R0lGODlhMQAoAPcAAAAAAICAgIAAAICAAACAAACAgAAAgIAAgICAQABAQACA/wBAgEAA/4BAAP//
+/8DAwP8AAP//AAD/AAD//wAA//8A////gAD/gID//4CA//8AgP+AQMDcwKbK8Dc3N3M3N6U3N803
+N+s3N/83NzdzN3NzN6VzN81zN+tzN/9zNzelN3OlN6WlN82lN+ulN/+lNzfNN3PNN6XNN83NN+vN
+N//NNzfrN3PrN6XrN83rN+vrN//rNzf/N3P/N6X/N83/N+v/N///Nzc3c3M3c6U3c803c+s3c/83
+czdzc3Nzc6Vzc81zc+tzc/9zczelc3Olc6Wlc82lc+ulc/+lczfNc3PNc6XNc83Nc+vNc//Nczfr
+c3Prc6Xrc83rc+vrc//rczf/c3P/c6X/c83/c+v/c///czc3pXM3paU3pc03pes3pf83pTdzpXNz
+paVzpc1zpetzpf9zpTelpXOlpaWlpc2lpeulpf+lpTfNpXPNpaXNpc3NpevNpf/NpTfrpXPrpaXr
+pc3rpevrpf/rpTf/pXP/paX/pc3/pev/pf//pTc3zXM3zaU3zc03zes3zf83zTdzzXNzzaVzzc1z
+zetzzf9zzTelzXOlzaWlzc2lzeulzf+lzTfNzXPNzaXNzc3NzevNzf/NzTfrzXPrzaXrzc3rzevr
+zf/rzTf/zXP/zaX/zc3/zev/zf//zTc363M366U368036+s36/836zdz63Nz66Vz681z6+tz6/9z
+6zel63Ol66Wl682l6+ul6/+l6zfN63PN66XN683N6+vN6//N6zfr63Pr66Xr683r6+vr6//r6zf/
+63P/66X/683/6+v/6///6zc3/3M3/6U3/803/+s3//83/zdz/3Nz/6Vz/81z/+tz//9z/zel/3Ol
+/6Wl/82l/+ul//+l/zfN/3PN/6XN/83N/+vN///N/zfr/3Pr/6Xr/83r/+vr///r/zf//3P//6X/
+/83//+v//4eHh4yMjJGRkZaWlpubm6CgoKqqqq+vr7S0tLm5ub6+viwAAAAAMQAoAAAI/gAdCBxI
+sKDBgwgTFgTAsKHDhxAjSpzIUCCABxgzatzIsaPHjwAsfhxJsmTGkA4umlzJEiNKlS1jjnwps6ZH
+mjZznhSpUyfOnjZ/ApUplGTDkz2LziygEsAEmDWVgmT6wOmEpzml3mRqtWtQniYBML0a0itRsCUZ
+kh1otqXWjl0Xko35dmNcg23DogW5FmFeo3vh9k34F2Rgjg0VsmW4su5OxWxZOnYJOXLjw4gXOlwo
+GbNduYM9Z06pl6DVp5wvk04r1ylKy6WhGjZ9FbXpzqsB0w6dm3VvkBQh4pY9dDjJAMiTK1/OPHbx
+qKKf34wufTTx6jOpY38cvLv34JXDBItHGBAAOw==
+
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/images/next.gif
+
+R0lGODlhMQAoAPcAAAAAAICAgIAAAICAAACAAACAgAAAgIAAgICAQABAQACA/wBAgEAA/4BAAP//
+/8DAwP8AAP//AAD/AAD//wAA//8A////gAD/gID//4CA//8AgP+AQMDcwKbK8Dc3N3M3N6U3N803
+N+s3N/83NzdzN3NzN6VzN81zN+tzN/9zNzelN3OlN6WlN82lN+ulN/+lNzfNN3PNN6XNN83NN+vN
+N//NNzfrN3PrN6XrN83rN+vrN//rNzf/N3P/N6X/N83/N+v/N///Nzc3c3M3c6U3c803c+s3c/83
+czdzc3Nzc6Vzc81zc+tzc/9zczelc3Olc6Wlc82lc+ulc/+lczfNc3PNc6XNc83Nc+vNc//Nczfr
+c3Prc6Xrc83rc+vrc//rczf/c3P/c6X/c83/c+v/c///czc3pXM3paU3pc03pes3pf83pTdzpXNz
+paVzpc1zpetzpf9zpTelpXOlpaWlpc2lpeulpf+lpTfNpXPNpaXNpc3NpevNpf/NpTfrpXPrpaXr
+pc3rpevrpf/rpTf/pXP/paX/pc3/pev/pf//pTc3zXM3zaU3zc03zes3zf83zTdzzXNzzaVzzc1z
+zetzzf9zzTelzXOlzaWlzc2lzeulzf+lzTfNzXPNzaXNzc3NzevNzf/NzTfrzXPrzaXrzc3rzevr
+zf/rzTf/zXP/zaX/zc3/zev/zf//zTc363M366U368036+s36/836zdz63Nz66Vz681z6+tz6/9z
+6zel63Ol66Wl682l6+ul6/+l6zfN63PN66XN683N6+vN6//N6zfr63Pr66Xr683r6+vr6//r6zf/
+63P/66X/683/6+v/6///6zc3/3M3/6U3/803/+s3//83/zdz/3Nz/6Vz/81z/+tz//9z/zel/3Ol
+/6Wl/82l/+ul//+l/zfN/3PN/6XN/83N/+vN///N/zfr/3Pr/6Xr/83r/+vr///r/zf//3P//6X/
+/83//+v//4eHh4yMjJGRkZaWlpubm6CgoKqqqq+vr7S0tLm5ub6+viwAAAAAMQAoAAAIywAdCBxI
+sKDBgwgTFgTAsKHDhxAjSpzIUCCABxgzatzIsaPHjwAsfhxJsmTGkA4umlzJEiNKlS1jjnwps6ZH
+mjZznhSpUyfOnjZ/ApUpdGjLokZXIk1acunRnE5ZMgzKE+oEmEerBp1wlahWkhO5ds2aUqrYs2ix
+Nv06E61brmpnsgX5Ni3ZuCAlisUrt6xPuF79WuULdu5RwoUFB4VqmCnIxo47Ro3McTJljZYvu4Ss
+ebPizpI5d86smfRl05RfUlzNurXC17BjEwwIADs=
+
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrices/matriz/Image97.gif
+
+R0lGODlhbgBLAPcAAAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABuAEsA
+QAj+AAMIHEiwoMGDCBMqXMiwocOEAAA8nEixosWFESFKdLjxIkaPFDsazHiQJMiTKFMKNFmQ5cOI
+IlWOlNkS5kCXN2NypKlQJ8+OOFf65Em0aICgR4fWRJoSplKQNjUiZDrV6E2aIp9Stcq169SnXsNi
+1AqWYFmUZz2S/Sq2rdqhW93KHQk3LcSiG+1azFp3rt+GSOP+nRvYrt6LhxlKjMtU8GCxjh9LBpx4
+MtHGZ6P+vHrZrNSShrtW5ki18Eu8nq2uBW3ZsunWkl/DHiz7NOfOoz/SZYsY9W2jQPuGdJob8GXN
+QnnP/lt7udzmzttC170ZOGnlO7kWn/l7N3bQkYfWh5+4tfz26OTPo1/PHrL69t/jw8cKdvz8ipht
+H38PfrV34511FyBrBAKonWpjyVcVgl4pNd2CAzb42X9j8ZeTU/vVJ9x92m3IIXAefnicgiI2FWKJ
+Mj2I4kkq3rVSh77VRGJ2uGUoY4EXYgjhS8TpBBR+PfaU04xC4hUkg0kRWVJq1iGZJI4rqtRilHud
+SCVUVl6JWJZaAqlkl5R9CWaCUC4pYFMHKsalmT8hl+J1ZX5l4Y5o5UUmhQY2KSWTcT5Jo55vHnUn
+nmOmN2ihcB6KaE9zLrpQQAA7
+
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrices/matriz/Image5.gif
+
+R0lGODdhWQFKAPcAAAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABZAUoA
+QAj/AAMIHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNiBABAo8ePEDlOFGmwI8iBJk+mDLmS5cmX
+MAOQLNmSY0eSJm8KbNnQpsyUOVFK9IlzJ0GePyPORLk0aFClTY1KZbny6dSjSBcu3RlVptevVI9O
+zap1plWwWA9ujcnW49qybeNmfAtXrl2Kb+ne3cuQbla/McleFKxQb0LDfBMzVVtTZNezD4kCFTvU
+cdWCSBHTpFlTKmGEPilfjby1M+PKjC9//Qy662jSpoVunq24dmHWaW3rzu1yt++8uH3L1Yz5b2CY
+wYujFq4bePGbPHWi7Wm5pOywpUXzdrg2NObVlTNf/4etVvtiqJzLQ6Yu/nXfvOa53maumPh8+nbt
+38cfV7N+/m4lpxyAwwk4IIFt6dXdeBpNBpKDvZFmHYODxVeRahKi9x1yx+GVGW5mGVjXTyKeRuKH
+Gr533lxA/XdYTt5txx2ILQbIVIkD2oQibQju5aKLPVoEJJBBemiiaDgWRmGF7o24IY9XJTlhkyNZ
+uN+NOh5o5VwcGgnlizB+FFqMg1nmXIS3hdkgTkSml+WRGZalJoswSnnjiXCuWGSBKe4ZmIFt+hmn
+jGDZOaWhTwIq4IJLXrjlUI/mSd2UKnXp5ZepzbnRmIFiZWZ0IvrH6Zps2pnlm4TO+B6bpNa56aeY
+Cv8q66y01mqjrQ+GCipyiGo5KJq4CvnXsNOtWSyLx145qXWdgpaUmM8Cu2x6KjXb2qI7XheinpHp
+ua1SK34b64uHhhuqtjWCO1a645JrpbjdHjmkvMS2K5t0vVqFqL6t9XmYUetVWSiXA0uqYl8AUxnS
+WARD6Kt8webqb8QXKkoxsvZeLK2TGo9kcccVGwzyxBxDXO1LbQ7Za7BnbrZyWi8nha2zBkNXqbXf
+qcwZqiZTm2vMZB7sK7vwLgxx0dyZy+3STTK6GrvqPs00wp5B/bDQFCKd9IFEZutXtlQH7GijYzc9
+c0+euRWp0VTqjDZ4Da7NdrItj3ypqnYvt3HeJUdQyzfJyv7d9+CC1xwzy2dfjbHEHutdeN9fJ1um
+5MJSLrK7OQPtN5du7x00ndV+PLS3Vr/tt9ZaKd1zqoFDiHrq606tZOyry4652bbTTNuP/db/7vt/
+T62MIcG4710e3MRbPne9xk8otsAKR003WThHHGj1tXaKPa3bP+7993Z3P2uz4u9pbflFigr+7YB7
+r/3hfhqGPve6Ho+ypc0Hvv7mue//Y3v3C2Dj2re+ut1Lc/zbiO/0p7+iiOl5A0zcr571MgfeSoLc
+Gl7yKig3xbEPLcLroOmU50H2wY+EeKkclMKEL+TFyzFpi97xYOgU9/wvUcFzoekc6LAd5jBgnWNY
+2iBoPwf1cIdDtCHY/uUVIhrtiCkE4eV6B7sWKrBgTNLgAhm4IStmkWxPtJABaebFK0JRYDXMWAnv
+pcMonlFdaVzjFNnoxLe9MYxNNNz+CEfF/z2yjosFXKIf/9jHQSaQj+AboyEP+UE/BtGQioQkBgf5
+SEoKcpE3XOQWG7nHSFoScCeEX4kq6chLSlJ3Vwsl/ghYyE9iSlNqY6QbMagjMp2pgnXM0CSxdh5c
+yrA3u8wOGKP4y3gVk3XMG08Ih7k8VkpKlQIc4OhkxkYUdrGM56JmDE1pwnDFkG1mESG6qplMvCGJ
+nNBzWDal2MYE6ieHsTzm1paUybDJE3b3nF2jSDnDfDLRn/9U4hwpk8t5WnOe0pGjQuGWL3HiM6EL
+JSRBAWq/g1Itj688YfZ22UnRYZKbpXSm+zx6SjUmkqP+I6krIzpSkT6OnykdaCBdWjiYzoPUpN+r
+55MqFc38yfSlIO0oyaDJU2lOMKSv3OQsearTaeXGlxatC0o/aEFjRfU+Kt2cFplEUVRmtXUOxedV
+vUrTDHaoqHczqzbTuCj5wDOqLAQPEGnZy4RZNF38AucPBeov19m1rUK8YxHpyFeWYpSDXa1oUHF6
+WGgldqeLZWwZrzhWsjnGyj46KSjCBLuwOPZPppl9rF0rm7PRfha0jeUcM5Pm2S3Ob3z1+2hahcrJ
+mxo1piFbqSZ3y1tZBQQAOw==
+
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrices/matriz/Image6.gif
+
+R0lGODdhUgFKAPcAAAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABSAUoA
+QAj/AAMIHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNGBABAo8ePEDk2FFmwI8iBJk8GSPmQ5ESX
+KmN+hImS5UqRLk121LkRZ0qeAm2O9Bm0KMqDNA3S5MiSJ9CQMJ8KHfrTqFWCSYcqzVn0KdSqK49K
+ZIr16tSkWWWqzZi25tq3GNsqlAu37kK0U+3q1To3b162Mf/2fSl4r2G3JW2SjWq0MMLFYK+2JCq2
+MtafOjNvVdyYMGfLkz+DDuoYqVCyZcOq7il6NevUo0lvPUybIV26te3iNp27N+LLvoPLHqxUZmmK
+xxMTFp4bb+Kdp1UnJw29uGSqN0vCBk685lnpY7NG//6KdPvwnpvLe3WIWvt12+LNn5/NfO9u7vXX
+3r87PX/F2/35F1dy+wn4X4DKGaifX9G9d9F4GkHIV0JLyWdRUzNZSCGCaBkX2IWnEYjZTJghyNtN
+4hW2W04mnogiW5mluBx8vw3oXYQxnhWigoYByCNcBdb4o3E7uueaRxI+GBt/1s1nVoZLvqThYzoy
+tVSDKrVo24H0wacZkiS1NyB0MnbX15cwxpgmijrOyB+aY1K3ppVUdjnkWz7eSaSbemZZJGxaPhbl
+f4PWaaZrgRp5pJKFJoieoiAlKiiXdm4YpqTUqTkmmX8euhmcIF4qKZ104heel6AeKOqmbFba56uw
+xv8qK1SzRlralYFh6iqNyOkqa5mz+eqWsLL1l2dZQY6UXaTLTsbnZcS+aGuAzgHa1Igb1cjiWL9t
+66KhlWHbbEjhiktuY+aa6qyF3mbbZbIMCinvfU45yO1qmEoF7r6T7mTvuUneG3Cy4/YLXlxW5Zsw
+vwXXCiOTDtt4asQSq0sxiBBf3OuzGj9qcccTb/gtiX5yPCHIHstbbK6L2mjstdXFR/BdDSsZZIpW
+KsZgtGKC+XKl4rbr7rJCt9RtukL66yS+580MVtHsiQX10ie3PPWW73KYtciOYr0eo/9KueSxNB8M
+WKNGj83hcUDpimGEU1aL8saezp0xrXbj/XHevHJnzXffev99N9WC+83wzICTHHLghR8eL89K29py
+3RZXxyziFNZM+eA3ntTzmik7ae7Vc2mLNNbNXk02001rnfDpqAfd5uKTk565izeDm5bcypp9dthD
+164i253BjXba7xG8X9tITnmvg/+7R/vq8tL/iLnmhV/f+Pbcz6p9rTdXb+D338O6eveEj7z99eXH
+2lb7Dq+Ipecehs44+sCir37XwBP6ocmJ01/D4oM9/8EPXfbjH9EkNzlKTUd5RRJWmBRHrU4hilnH
+Q14DDTeytxmvfxp84NogBSX6YYx/mmHe18qGk+JtsF/+qpfVhmetzqywdMPR19BaGJYVQtBIKgQh
+oFxIrXB1JXkWvJ3SFMY6hF1wV3tLzRLPFjB3eTCKm5Oa7wyYQRayK4kGu6HAuohDGSrwjO6ZohOr
+CLAjQpFz1lEjo9jYxh6q74Dxo6EAVRZA/fFuj3wM5PpGCMil4RF8egTkDws5QPH/mS+Re1xkIf84
+SUgKUJKKBGMkLUnGc5kwgX3EnyYvyckXXuh/tGOPI+9ESenwLH3IgeUdTzdBCtpyXfarJZiEqEpe
+NlJRxLqiE305wMo573mmDOH9qla9Zp5QXSnUYjLjKMdppjFyzLOTVETDlS32LnXHLE/TXIhFDo4n
+m568outYd8NWGsya34RnPGcIR3GKEZluI2EBOahEYt7On5NS2xvjCNCAyjN29MyiFAvapIP+M3Ll
+ZNg789nJhwpvoKKsJ/cwuUmMdu98GU2lH0c5Uo0OEoAfJWlI+bnSZbZUlik1aeM4SkqPbrSUzkSl
+S2U6U5XG1FM5zRLdQPnTj6VqnI3BhCka53XPGUmwqUsFKlQf5Std4jJp4QyeBLMa1YIJE2wO/Sc8
+ORpUDFIKmisDz1SlqEY62jOGbpyd4bAlQ2MhRofpDOKiyGpEO8ozMniN2sL8KldBqoeh4gyrWAu7
+P0GtVbCKNahPG+tYxAKxhAnt6lGqabOKVtavEd2nHR9LM7cazYxKlWhxOEso0yoLtYQ7pPtutUoF
+IU62ehF6X215RL2aPvOljAyucIUTEAA7
+
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/cursoJava/numerico/matrices/matriz/Image7.gif
+
+R0lGODdhlQEZAPcAAAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAACVARkA
+QAj/AAMIHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3MixI0YAHzOCtDjSY8OSJlMORFkRJUuV
+Lzm6VFlw5sORMUkGwKmQ50qZAnP+HEpzKMijAJIeXbhUadKgBIUWhTq1akypVS9izcq1q9evYMOK
+HUu2rNmzaNOqXRvyYMmtbqMatUn1ac2EV+X+tLtTLl+qCOHqBdy359vBeFkK9qiYIl2mPiPCXXyX
+qGHCEBs7/FuW81fPbCWCDk26tOnTqFOrXs06NGWar9PGRvs4M+aUSjc7vm0yN++gkTXi3Gr3tVPf
+ekevDM7wuPK4O2cD/+3a4OzaPfsqdm5dt2jE2ZfW/+Re2TLgt0h3R9cuPnLx87GHF35feD38jvLz
+i6+MfnrO/mHNJB1zeO31HVM61ZcdVNeVB5mCIsn3oHlaISWUb9JN9FR6411oX4fUdZUhW8i1BqGJ
+KKao4oostujiizDGKOOMNNZo44zPcZUjaTuWNuJyIk7V40YEVpdgW+oFiOKPhDHpHW7gwRRlVENG
+d1xg+xVYZXeJnXjXllOelKVkH6bmEmjOaRYildOR2dxLaXK5ZptgYpaXaOQNRlyYzQVGoYMNuunl
+k4Ma+aeVTgF6U5EI9mldnpYJRp+gtzkJXZnzEeXTYndiep6mtoXqaaP1SXqWmpSaOuelCx646mEa
+OmK4nGYDbniYe38FF5+tyc2qqKu38jpXpyVa6eehWQHoGF2wKruohLLiqaeBbUrGF6erhspoXcjG
+uiasVjF4rJ8eZgsbizZZqqRt6obU7nfvmjXmjfTWa++9+Oar77789htWQAA7
+
+------MultipartBoundary--8ldsb8yXFqgBwPblEUaEXBMlOswVR2qp8JbqjhCK0T------

@@ -1,0 +1,1532 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://docs.oracle.com/javase/tutorial/java/data/buffers.html
+Subject: =?utf-8?Q?The=20StringBuilder=20Class=20(The=20Java=E2=84=A2=20Tutorials?=
+ =?utf-8?Q?=20>=20Learning=20the=20Java=20Language=20>=20Numbers=20and=20S?=
+ =?utf-8?Q?trings)?=
+Date: Sun, 26 Jun 2022 15:59:41 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----"
+
+
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/html
+Content-ID: <frame-C20AF3A2FAD1A8C3227CAC30C9A12A43@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.oracle.com/javase/tutorial/java/data/buffers.html
+
+<!--?xml version=3D"1.0" encoding=3D"utf-8"?--><!DOCTYPE html PUBLIC "-//W3=
+C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-=
+transitional.dtd"><html lang=3D"en-US" xmlns=3D"http://www.w3.org/1999/xhtm=
+l" data-darkreader-mode=3D"dynamic" data-darkreader-scheme=3D"dark"><head><=
+meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><li=
+nk rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-f583abc0-e26c-4702-=
+91ce-3dfddef91c4c@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css"=
+ href=3D"cid:css-e6dc2c15-5f16-4989-a828-d0e783dc10e5@mhtml.blink" /><link =
+rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-2e8ce940-aca8-4ff0-94f=
+e-4c169532890d@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" hr=
+ef=3D"cid:css-8ab8c375-b0d6-4a33-899f-31f6bfc633a3@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-afe4b5d9-7a38-4879-a466-2=
+a3878678832@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-31612ee1-35a5-4a4f-a998-daf9cd99ec31@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-86d4cc94-c0c2-451c-be18-9=
+507eedef0d9@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-201e2d8f-d1f4-4463-acd4-5cf096c0c288@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-d74cfdf0-c95f-49b6-b647-5=
+30c50ac05c7@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-3834cb97-9b26-4c93-a4d3-60e1e6759501@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-40cd32e4-44ed-49a1-a114-3=
+565e4795366@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-cc602ed7-01f4-4675-948f-676723d46a17@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-5f1099ee-3722-439d-9abd-d=
+5e87b549bdf@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-399f7621-b9e2-4d09-a32f-1a58ddebd2b0@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-e367fa41-4b93-4ce3-9e43-e=
+29da86ef79a@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-8bc8d073-b926-451d-b076-6f8271d9a4e3@mhtml.blink" />
+        <title>The StringBuilder Class (The Java=E2=84=A2 Tutorials &gt;   =
+    =20
+            Learning the Java Language &gt; Numbers and Strings)
+</title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+     <meta name=3D"description" content=3D"This beginner Java tutorial desc=
+ribes fundamentals of programming in the Java programming language">
+     <meta name=3D"keywords" content=3D"java programming, learn java, java =
+sample code, java objects, java classes, java inheritance, interfaces, vari=
+ables, arrays, data types, operators, control flow, number, string, package=
+, expression, statement, block, enum, annotation, character, generics">
+       =20
+
+
+
+
+    <meta name=3D"darkreader" content=3D"3f9fd3f46aee4ffab0d32c9369b5cdf6">=
+</head>
+<body>
+   =20
+        <!-- header -->
+    <div class=3D"header-container">
+        <div class=3D"bookwrapper  clearfix">      =20
+            <div id=3D"brandProdName">
+                <div id=3D"logocover"></div>
+                <div id=3D"productName">Documentation</div>
+            </div>=20
+            <br class=3D"clearfloat">
+        </div>
+    </div>
+   =20
+    <div id=3D"TopBar">
+        <div id=3D"TopBar_tr">
+            <div id=3D"TopBar_tl">
+                <div id=3D"TopBar_br"> <div id=3D"TopBar_bl">=20
+                    <div id=3D"TopBar_left">The Java=E2=84=A2 Tutorials</di=
+v>
+                        <div id=3D"TopBar_right">=20
+                            <!--
+                            <a href=3D"URL" target=3D"_blank">External Link=
+</a><br/>
+                            -->
+
+<form id=3D"searchForm"><label for=3D"searchField"><input type=3D"text" id=
+=3D"searchField" size=3D"30"></label><input type=3D"submit" value=3D"Search=
+"></form>
+             =20
+                            <a id=3D"ToggleLeft" style=3D"display: inline;"=
+>Hide TOC</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id=3D"LeftBar" class=3D"LeftBar_shown">
+        <div id=3D"Contents">
+            <div class=3D"linkLESSON"><a href=3D"https://docs.oracle.com/ja=
+vase/tutorial/java/data/index.html">Numbers and Strings</a></div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/java/data/numbers.html">Numbers</a></div>
+<div class=3D"linkBHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/java/data/numberclasses.html">The Numbers Classes</a></div>
+<div class=3D"linkBHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/java/data/numberformat.html">Formatting Numeric Print Output</a></div>
+<div class=3D"linkBHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/java/data/beyondmath.html">Beyond Basic Arithmetic</a></div>
+<div class=3D"linkBHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/java/data/numbersummary.html">Summary of Numbers</a></div>
+<div class=3D"linkQUESTIONS"><a href=3D"https://docs.oracle.com/javase/tuto=
+rial/java/data/QandE/numbers-questions.html">Questions and Exercises</a></d=
+iv>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/java/data/characters.html">Characters</a></div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/java/data/strings.html">Strings</a></div>
+<div class=3D"linkBHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/java/data/converting.html">Converting Between Numbers and Strings</a></div=
+>
+<div class=3D"linkBHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/java/data/manipstrings.html">Manipulating Characters in a String</a></div>
+<div class=3D"linkBHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/java/data/comparestrings.html">Comparing Strings and Portions of Strings</=
+a></div>
+<div class=3D"nolinkBHEAD">The StringBuilder Class</div>
+<div class=3D"linkBHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/java/data/stringsummary.html">Summary of Characters and Strings</a></div>
+<div class=3D"linkAHEAD"><a href=3D"https://docs.oracle.com/javase/tutorial=
+/java/data/autoboxing.html">Autoboxing and Unboxing</a></div>
+<div class=3D"linkQUESTIONS"><a href=3D"https://docs.oracle.com/javase/tuto=
+rial/java/data/QandE/characters-questions.html">Questions and Exercises</a>=
+</div>
+</div>
+    </div>
+    <div id=3D"MainFlow" class=3D"MainFlow_indented">
+    <div class=3D"PrintHeaders">
+        <b>Trail:</b> Learning the Java Language
+        <br><b>Lesson:</b> Numbers and Strings
+        <br><b>Section:</b> Strings
+    </div>
+            <div id=3D"BreadCrumbs">
+                <a href=3D"https://docs.oracle.com/javase/tutorial/index.ht=
+ml" target=3D"_top">Home Page</a>
+                &gt;
+                <a href=3D"https://docs.oracle.com/javase/tutorial/java/ind=
+ex.html" target=3D"_top">Learning the Java Language</a>
+                &gt;
+                <a href=3D"https://docs.oracle.com/javase/tutorial/java/dat=
+a/index.html" target=3D"_top">Numbers and Strings</a>
+            </div>
+            <div class=3D"NavBit">
+                <a target=3D"_top" href=3D"https://docs.oracle.com/javase/t=
+utorial/java/data/comparestrings.html">=C2=AB&nbsp;Previous</a>&nbsp;=E2=80=
+=A2&nbsp;<a target=3D"_top" href=3D"https://docs.oracle.com/javase/tutorial=
+/java/TOC.html">Trail</a>&nbsp;=E2=80=A2&nbsp;<a target=3D"_top" href=3D"ht=
+tps://docs.oracle.com/javase/tutorial/java/data/stringsummary.html">Next&nb=
+sp;=C2=BB</a>
+            </div>
+            <div class=3D"Banner"><p style=3D"background-color: rgb(247, 24=
+8, 249); border-width: 1px; padding: 10px; font-style: italic; border-style=
+: solid; border-color: rgb(64, 74, 91); --darkreader-inline-bgcolor:#1c1e1f=
+; --darkreader-inline-border-top:#726a5e; --darkreader-inline-border-right:=
+#726a5e; --darkreader-inline-border-bottom:#726a5e; --darkreader-inline-bor=
+der-left:#726a5e;" data-darkreader-inline-bgcolor=3D"" data-darkreader-inli=
+ne-border-top=3D"" data-darkreader-inline-border-right=3D"" data-darkreader=
+-inline-border-bottom=3D"" data-darkreader-inline-border-left=3D"">The Java=
+ Tutorials have been written for JDK 8. Examples and practices described in=
+ this page don't take advantage of improvements introduced in later release=
+s and might use technology no longer available.<br>See <a href=3D"https://d=
+ocs.oracle.com/pls/topic/lookup?ctx=3Den/java/javase&amp;id=3Djava_language=
+_changes">Java Language Changes</a> for a summary of updated language featu=
+res in Java SE 9 and subsequent releases.<br>See <a href=3D"https://www.ora=
+cle.com/technetwork/java/javase/jdk-relnotes-index-2162236.html">JDK Releas=
+e Notes</a> for information about new features, enhancements, and removed o=
+r deprecated options for all JDK releases.</p></div>
+            <div id=3D"PageTitle"><h1>The StringBuilder Class</h1></div>
+            <div id=3D"PageContent">
+
+<!-- String Builder -->
+<p>
+<a class=3D"APILink" target=3D"_blank" href=3D"https://docs.oracle.com/java=
+se/8/docs/api/java/lang/StringBuilder.html"><code>StringBuilder</code> </a>=
+ objects are like=20
+<a class=3D"APILink" target=3D"_blank" href=3D"https://docs.oracle.com/java=
+se/8/docs/api/java/lang/String.html"><code>String</code> </a> objects, exce=
+pt that they can be modified. Internally, these objects are treated like va=
+riable-length arrays that contain a sequence of characters. At any point, t=
+he length and content of the sequence can be changed through method invocat=
+ions.</p>
+<p>Strings should always be used unless string builders offer an advantage =
+in terms of simpler code (see the sample program at the end of this section=
+) or better performance. For example, if you need to concatenate a large nu=
+mber of strings, appending to a <code>StringBuilder</code> object is more e=
+fficient.</p>
+<h2>Length and Capacity</h2>
+<p>The <code>StringBuilder</code> class, like the <code>String</code> class=
+, has a <code>length()</code> method that returns the length of the charact=
+er sequence in the builder.</p>
+<p>Unlike strings, every string builder also has a <i>capacity</i>, the num=
+ber of character spaces that have been allocated. The capacity, which is re=
+turned by the <code>capacity()</code> method, is always greater than or equ=
+al to the length (usually greater than) and will automatically expand as ne=
+cessary to accommodate additions to the string builder.</p>
+<table width=3D"100%" border=3D"1" cellpadding=3D"4" cellspacing=3D"3" summ=
+ary=3D"This table lists the constructors for the StringBuilder class">
+<caption style=3D"font-weight: bold"><code>StringBuilder</code> Constructor=
+s</caption>
+<tbody><tr>
+<th id=3D"h1">Constructor</th>
+<th id=3D"h2" width=3D"50%">Description</th>
+</tr>
+<tr>
+<td headers=3D"h1"><code>StringBuilder()</code></td>
+<td headers=3D"h2">Creates an empty string builder with a capacity of 16 (1=
+6 empty elements).</td>
+</tr>
+<tr>
+<td headers=3D"h1"><code>StringBuilder(CharSequence cs)</code></td>
+<td headers=3D"h2">Constructs a string builder containing the same characte=
+rs as the specified <code>CharSequence</code>, plus an extra 16 empty eleme=
+nts trailing the <code>CharSequence</code>.</td>
+</tr>
+<tr>
+<td headers=3D"h1"><code>StringBuilder(int initCapacity)</code></td>
+<td headers=3D"h2">Creates an empty string builder with the specified initi=
+al capacity.</td>
+</tr>
+<tr>
+<td headers=3D"h1"><code>StringBuilder(String s)</code></td>
+<td headers=3D"h2">Creates a string builder whose value is initialized by t=
+he specified string, plus an extra 16 empty elements trailing the string.</=
+td>
+</tr>
+</tbody></table>
+<p>For example, the following code</p>
+<div class=3D"codeblock"><pre>// creates empty builder, capacity 16
+StringBuilder sb =3D new StringBuilder();
+// adds 9 character string at beginning
+sb.append("Greetings");
+</pre></div>
+<p>will produce a string builder with a length of 9 and a capacity of 16: <=
+/p>
+<center><img src=3D"https://docs.oracle.com/javase/tutorial/figures/java/ob=
+jects-stringBuffer.gif" width=3D"461" height=3D"90" align=3D"bottom" alt=3D=
+"A string builder's length is the number of characters it contains; a strin=
+g builder's capacity is the number of character spaces that have been alloc=
+ated."></center><p>The <code>StringBuilder</code> class has some methods re=
+lated to length and capacity that the <code>String</code> class does not ha=
+ve:</p>
+<table width=3D"100%" border=3D"1" cellpadding=3D"4" cellspacing=3D"3" summ=
+ary=3D"This table lists length and capacity methods">
+<caption style=3D"font-weight: bold">Length and Capacity Methods</caption>
+<tbody><tr>
+<th id=3D"h101">Method</th>
+<th id=3D"h102" width=3D"50%">Description</th>
+</tr>
+<tr>
+<td headers=3D"h101"><code>void setLength(int newLength)</code></td>
+<td headers=3D"h102">Sets the length of the character sequence. If <code>ne=
+wLength</code> is less than <code>length()</code>, the last characters in t=
+he character sequence are truncated. If <code>newLength</code> is greater t=
+han <code>length()</code>, null characters are added at the end of the char=
+acter sequence.</td>
+</tr>
+<tr>
+<td headers=3D"h101"><code>void ensureCapacity(int minCapacity)</code></td>
+<td headers=3D"h102">Ensures that the capacity is at least equal to the spe=
+cified minimum.</td>
+</tr>
+</tbody></table>
+<p>A number of operations (for example, <code>append()</code>, <code>insert=
+()</code>, or <code>setLength()</code>) can increase the length of the char=
+acter sequence in the string builder so that the resultant <code>length()</=
+code> would be greater than the current <code>capacity()</code>. When this =
+happens, the capacity is automatically increased.</p>
+<h2>StringBuilder Operations</h2>
+<p>The principal operations on a <code>StringBuilder</code> that are not av=
+ailable in <code>String</code> are the <code>append()</code> and <code>inse=
+rt()</code> methods, which are overloaded so as to accept data of any type.=
+ Each converts its argument to a string and then appends or inserts the cha=
+racters of that string to the character sequence in the string builder. The=
+ append method always adds these characters at the end of the existing char=
+acter sequence, while the insert method adds the characters at a specified =
+point.</p>
+<p>Here are a number of the methods of the <code>StringBuilder</code> class=
+.</p>
+<table width=3D"100%" border=3D"1" cellpadding=3D"4" cellspacing=3D"3" summ=
+ary=3D"This table lists miscellaneous StringBuilder methods">
+<caption style=3D"font-weight: bold">Various <code>StringBuilder</code> Met=
+hods</caption>
+<tbody><tr>
+<th id=3D"h201">Method</th>
+<th id=3D"h202" width=3D"50%">Description</th>
+</tr>
+<tr>
+<td headers=3D"h201"><code>StringBuilder append(boolean b)<br>
+StringBuilder append(char c)<br>
+StringBuilder append(char[] str)<br>
+StringBuilder append(char[] str, int offset, int len)<br>
+StringBuilder append(double d)<br>
+StringBuilder append(float f)<br>
+StringBuilder append(int i)<br>
+StringBuilder append(long lng)<br>
+StringBuilder append(Object obj)<br>
+StringBuilder append(String s)</code></td>
+<td headers=3D"h202">Appends the argument to this string builder. The data =
+is converted to a string before the append operation takes place.</td>
+</tr>
+<tr>
+<td headers=3D"h201"><code>StringBuilder delete(int start, int end)<br>
+StringBuilder deleteCharAt(int index)</code></td>
+<td headers=3D"h202">The first method deletes the subsequence from start to=
+ end-1 (inclusive) in the <code>StringBuilder</code>'s char sequence. The s=
+econd method deletes the character located at <code>index</code>.</td>
+</tr>
+<tr>
+<td headers=3D"h201"><code>StringBuilder insert(int offset, boolean b)<br>
+StringBuilder insert(int offset, char c)<br>
+StringBuilder insert(int offset, char[] str)<br>
+StringBuilder insert(int index, char[] str, int offset, int len)<br>
+StringBuilder insert(int offset, double d)<br>
+StringBuilder insert(int offset, float f)<br>
+StringBuilder insert(int offset, int i)<br>
+StringBuilder insert(int offset, long lng)<br>
+StringBuilder insert(int offset, Object obj)<br>
+StringBuilder insert(int offset, String s)</code></td>
+<td headers=3D"h202">Inserts the second argument into the string builder. T=
+he first integer argument indicates the index before which the data is to b=
+e inserted. The data is converted to a string before the insert operation t=
+akes place.</td>
+</tr>
+<tr>
+<td headers=3D"h201"><code>StringBuilder replace(int start, int end, String=
+ s)<br>
+void setCharAt(int index, char c)</code></td>
+<td headers=3D"h202">Replaces the specified character(s) in this string bui=
+lder.</td>
+</tr>
+<tr>
+<td headers=3D"h201"><code>StringBuilder reverse()</code></td>
+<td headers=3D"h202">Reverses the sequence of characters in this string bui=
+lder.</td>
+</tr>
+<tr>
+<td headers=3D"h201"><code>String toString()</code></td>
+<td headers=3D"h202">Returns a string that contains the character sequence =
+in the builder.</td>
+</tr>
+</tbody></table>
+<div class=3D"note"><hr><strong>Note:</strong>&nbsp;You can use any <code>S=
+tring</code> method on a <code>StringBuilder</code> object by first convert=
+ing the string builder to a string with the <code>toString()</code> method =
+of the <code>StringBuilder</code> class. Then convert the string back into =
+a string builder using the <code>StringBuilder(String str)</code> construct=
+or.
+<hr></div>
+<h2>An Example</h2>
+<p>The <code>StringDemo</code> program that was listed in the section title=
+d "Strings" is an example of a program that would be more efficient if a <c=
+ode>StringBuilder</code> were used instead of a <code>String</code>.</p>
+<p><code>StringDemo</code> reversed a palindrome. Here, once again, is its =
+listing:</p>
+<div class=3D"codeblock"><pre>
+public class StringDemo {
+    public static void main(String[] args) {
+        String palindrome =3D "Dot saw I was Tod";
+        int len =3D palindrome.length();
+        char[] tempCharArray =3D new char[len];
+        char[] charArray =3D new char[len];
+       =20
+        // put original string in an=20
+        // array of chars
+        for (int i =3D 0; i &lt; len; i++) {
+            tempCharArray[i] =3D=20
+                palindrome.charAt(i);
+        }=20
+       =20
+        // reverse array of chars
+        for (int j =3D 0; j &lt; len; j++) {
+            charArray[j] =3D
+                tempCharArray[len - 1 - j];
+        }
+       =20
+        String reversePalindrome =3D
+            new String(charArray);
+        System.out.println(reversePalindrome);
+    }
+}
+</pre></div>
+<p>Running the program produces this output:</p>
+<div class=3D"codeblock"><pre>doT saw I was toD
+</pre></div>
+<p>To accomplish the string reversal, the program converts the string to an=
+ array of characters (first <code>for</code> loop), reverses the array into=
+ a second array (second <code>for</code> loop), and then converts back to a=
+ string.</p>
+<p>If you convert the <code>palindrome</code> string to a string builder, y=
+ou can use the <code>reverse()</code> method in the <code>StringBuilder</co=
+de> class. It makes the code simpler and easier to read:</p>
+<div class=3D"codeblock"><pre>
+public class StringBuilderDemo {
+    public static void main(String[] args) {
+        String palindrome =3D "Dot saw I was Tod";
+        =20
+        StringBuilder sb =3D new StringBuilder(palindrome);
+       =20
+        sb.reverse();  // reverse it
+       =20
+        System.out.println(sb);
+    }
+}
+</pre></div>
+<p>Running this program produces the same output:</p>
+<div class=3D"codeblock"><pre>doT saw I was toD
+</pre></div>
+<p>Note that <code>println()</code> prints a string builder, as in:</p>
+<div class=3D"codeblock"><pre>System.out.println(sb);
+</pre></div>
+<p>because <code>sb.toString()</code> is called implicitly, as it is with a=
+ny other object in a <code>println()</code> invocation.</p>
+<div class=3D"note"><hr><strong>Note:</strong>&nbsp;There is also a <code>S=
+tringBuffer</code> class that is <i>exactly</i> the same as the <code>Strin=
+gBuilder</code> class, except that it is thread-safe by virtue of having it=
+s methods synchronized. Threads will be discussed in the
+lesson=20
+on concurrency.
+<hr></div>
+
+        </div>
+        <div class=3D"NavBit">
+            <a target=3D"_top" href=3D"https://docs.oracle.com/javase/tutor=
+ial/java/data/comparestrings.html">=C2=AB Previous</a>
+            =E2=80=A2
+            <a target=3D"_top" href=3D"https://docs.oracle.com/javase/tutor=
+ial/java/TOC.html">Trail</a>
+            =E2=80=A2
+            <a target=3D"_top" href=3D"https://docs.oracle.com/javase/tutor=
+ial/java/data/stringsummary.html">Next =C2=BB</a>
+        </div>
+    </div>
+   =20
+<hr class=3D"clearfloat">
+
+<div id=3D"Footer">
+
+<p class=3D"footertext">
+<a href=3D"https://www.oracle.com/corporate/">About Oracle</a> |=20
+<a href=3D"https://www.oracle.com/corporate/contact/">Contact Us</a> |
+<a href=3D"https://www.oracle.com/legal/">Legal Notices</a> |=20
+<a href=3D"https://www.oracle.com/legal/terms.html">Terms of Use</a> |
+<a href=3D"https://www.oracle.com/legal/privacy/">Your Privacy Rights</a></=
+p>
+
+<p class=3D"footertext"><a href=3D"http://www.oracle.com/pls/topic/lookup?c=
+tx=3Dcpyr&amp;id=3Den-US">
+Copyright =C2=A9 1995, 2022 Oracle and/or its affiliates. All rights reserv=
+ed.</a></p>
+      =20
+</div>   =20
+    <div class=3D"PrintHeaders">
+        <b>Previous page:</b> Comparing Strings and Portions of Strings
+        <br><b>Next page:</b> Summary of Characters and Strings
+    </div>
+<!-- Start SiteCatalyst code -->
+
+<!-- End SiteCatalyst code -->=20
+
+=20
+<div id=3D"footer-banner" style=3D"display: inline-block;"><ul><li><div id=
+=3D"teconsent" consent=3D"0,1,2" aria-label=3D"Open Cookie Preferences Moda=
+l" class=3D"truste_caIcon_display" role=3D"complementary"><a role=3D"link" =
+id=3D"icon-id05617568409329976" tabindex=3D"0" lang=3D"es" aria-haspopup=3D=
+"true" aria-label=3D"Preferencias sobre cookies" class=3D"truste_cursor_poi=
+nter">Preferencias sobre cookies</a></div></li><li><a id=3D"adchoices" clas=
+s=3D"new-window" target=3D"_blank" href=3D"https://www.oracle.com/legal/pri=
+vacy/marketing-cloud-data-cloud-privacy-policy.html#12">Ad Choices</a></li>=
+</ul></div><iframe name=3D"trustarc_notice" id=3D"trustarcNoticeFrame" titl=
+e=3D"Trustarc Cross-Domain Consent Frame" src=3D"cid:frame-CD7787884DFAADD2=
+3C1C13F104804972@mhtml.blink" style=3D"display: none;"></iframe></body></ht=
+ml>
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f583abc0-e26c-4702-91ce-3dfddef91c4c@mhtml.blink
+
+@charset "utf-8";
+
+.truste_caIcon_display { display: inline-block !important; }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-e6dc2c15-5f16-4989-a828-d0e783dc10e5@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2e8ce940-aca8-4ff0-94fe-4c169532890d@mhtml.blink
+
+@charset "utf-8";
+
+.truste_cursor_pointer { cursor: pointer; }
+
+.truste_border_none { border: none; }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-8ab8c375-b0d6-4a33-899f-31f6bfc633a3@mhtml.blink
+
+@charset "utf-8";
+
+.truste_border_none { border-color: initial; }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-afe4b5d9-7a38-4879-a466-2a3878678832@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-31612ee1-35a5-4a4f-a998-daf9cd99ec31@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-86d4cc94-c0c2-451c-be18-9507eedef0d9@mhtml.blink
+
+@charset "utf-8";
+
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_=
+text > img[src^=3D"https://www.gstatic.com/images/branding/googlelogo"], sp=
+an[data-href^=3D"https://www.hcaptcha.com/"] > #icon, #bit-notification-bar=
+-iframe, ::-webkit-calendar-picker-indicator { filter: invert(100%) hue-rot=
+ate(180deg) contrast(90%) !important; }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-201e2d8f-d1f4-4463-acd4-5cf096c0c288@mhtml.blink
+
+@charset "utf-8";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+
+[data-darkreader-inline-stopcolor] { stop-color: var(--darkreader-inline-st=
+opcolor)  !important; }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d74cfdf0-c95f-49b6-b647-530c50ac05c7@mhtml.blink
+
+@charset "utf-8";
+
+:root { --darkreader-neutral-background: #131516; --darkreader-neutral-text=
+: #d8d4cf; --darkreader-selection-background: #004daa; --darkreader-selecti=
+on-text: #e8e6e3; }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3834cb97-9b26-4c93-a4d3-60e1e6759501@mhtml.blink
+
+@charset "utf-8";
+
+:root { }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-40cd32e4-44ed-49a1-a114-3565e4795366@mhtml.blink
+
+@charset "utf-8";
+
+html { background-color: rgb(24, 26, 27) !important; }
+
+html { color-scheme: dark !important; }
+
+html, body { background-color: rgb(24, 26, 27); }
+
+html, body { border-color: rgb(115, 107, 94); color: rgb(232, 230, 227); }
+
+a { color: rgb(51, 145, 255); }
+
+table { border-color: rgb(84, 91, 94); }
+
+::placeholder { color: rgb(178, 171, 161); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(64, 68, 0) !important; color: rgb(232, 230, 227) !i=
+mportant; }
+
+::-webkit-scrollbar { background-color: rgb(32, 35, 36); color: rgb(171, 16=
+4, 153); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(69, 74, 77); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(87, 94, 98); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(72, 78, 81); }
+
+::-webkit-scrollbar-corner { background-color: rgb(24, 26, 27); }
+
+::selection { background-color: rgb(0, 77, 170) !important; color: rgb(232,=
+ 230, 227) !important; }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-cc602ed7-01f4-4675-948f-676723d46a17@mhtml.blink
+
+@charset "utf-8";
+
+body { margin-left: 10px; margin-right: 10px; line-height: 1.5; font-family=
+: Arial, Helvetica, sans-serif; font-size: 0.8em; }
+
+a:link { text-decoration: none; color: rgb(9, 86, 157); }
+
+a:visited { text-decoration: none; color: rgb(58, 135, 207); }
+
+a:hover { text-decoration: underline; }
+
+code { font-family: Monaco, Courier, "Courier New"; }
+
+.header-container { background-color: rgb(255, 255, 255); border-bottom: 1p=
+x solid rgb(193, 207, 218); box-shadow: rgba(117, 163, 231, 0.1) 0px 2px 2p=
+x; }
+
+.bookwrapper { width: auto; margin: auto; }
+
+.clearfix { }
+
+.clearfloat { clear: both; overflow: auto; height: 0px; font-size: 1px; lin=
+e-height: 0px; }
+
+#brandProdName { width: auto; height: auto; }
+
+#logocover { display: block; background: url("../../images/oracle-java-logo=
+.png") 0px 0px no-repeat transparent; height: 50px; width: 229px; float: le=
+ft; }
+
+#productName { font-size: 16px; position: relative; top: 19px; padding-left=
+: 3px; color: rgb(69, 119, 152); white-space: nowrap; width: 340px; }
+
+.FigureCaption { font-family: sans-serif; text-align: center; }
+
+#TopBar_bl { width: 100%; height: 60px; }
+
+#TopBar_br { width: 100%; height: 60px; }
+
+#TopBar_tl { margin-left: -110px; margin-right: -100px; height: 60px; }
+
+#TopBar_tr { width: 100%; height: 60px; }
+
+#TopBar { min-width: 700px; padding: 25px 100px 10px; margin-bottom: 25px; =
+clear: both; border-bottom: 1px solid rgb(210, 221, 229); border-radius: 3p=
+x; background: linear-gradient(rgb(255, 255, 255) 0%, rgb(226, 239, 249) 10=
+0%); }
+
+#TopBar_left { position: absolute; padding-top: 30px; padding-right: 30px; =
+padding-left: 30px; text-align: left; font: bold 20px / 20px Arial, Helveti=
+ca, sans-serif; color: rgb(51, 51, 51); }
+
+#TopBar_right { line-height: 12px; float: right; padding-top: 10px; padding=
+-right: 30px; text-align: left; }
+
+@media print {
+  #BreadCrumbs, #Download { display: none; }
+}
+
+@media print {
+  #TopBar_right { display: none; }
+}
+
+#TopBar_right a { font-size: 10px; margin: 3px; padding: 0px; }
+
+#BreadCrumbs { padding: 15px 5px 0.5em 0px; font-family: sans-serif; float:=
+ right; }
+
+#BreadCrumbs a { color: rgb(9, 86, 157); }
+
+#BreadCrumbs a:visited, #BreadCrumbs a:link { text-decoration: none; }
+
+#BreadCrumbs a:hover, #BreadCrumbs a:active { text-decoration: underline; }
+
+#PageTitle { margin: 0px 5px 0.5em 0px; color: rgb(249, 0, 0); }
+
+#PageContent { margin: 0px 5px 0px 20px; }
+
+.LeftBar_shown { width: 13em; float: left; }
+
+@media print {
+  .LeftBar_shown { display: none; }
+}
+
+.LeftBar_hidden { display: none; }
+
+#Footer { padding-top: 10px; padding-left: 10px; margin-right: 10px; }
+
+.footertext { font-size: 10px; font-family: sans-serif; margin-top: 1px; }
+
+.NavBit { padding: 15px 5px 0.5em 0px; font-family: sans-serif; }
+
+@media print {
+  .NavBit { display: none; }
+}
+
+#TagNotes { text-align: right; }
+
+@media print {
+  #TagNotes a:visited, #TagNotes a:link { color: rgb(53, 85, 107); text-dec=
+oration: none; }
+}
+
+#Contents a, .NavBit a, #TagNotes a { color: rgb(9, 86, 157); }
+
+#TagNotes a:visited, #TagNotes a:link, #Contents a:visited, #Contents a:lin=
+k, .NavBit a:visited, .NavBit a:link { text-decoration: none; }
+
+#TagNotes a:hover, #TagNotes a:active, #Contents a:hover, #Contents a:activ=
+e, .NavBit a:hover, .NavBit a:active { text-decoration: underline; }
+
+#Contents { float: left; font-family: sans-serif; }
+
+@media print {
+  #Contents { display: none; }
+}
+
+@media screen {
+  div.PrintHeaders { display: none; }
+}
+
+.linkLESSON, .nolinkLESSON { margin-left: 0.5em; text-indent: -0.5em; }
+
+.linkAHEAD, .nolinkAHEAD, .linkQUESTIONS, .nolinkQUESTIONS { margin-left: 1=
+.5em; text-indent: -0.5em; }
+
+.linkBHEAD, .nolinkBHEAD { margin-left: 2.5em; text-indent: -0.5em; }
+
+.linkCHEAD, .nolinkCHEAD { margin-left: 3.5em; text-indent: -0.5em; }
+
+.nolinkLESSON, .nolinkAHEAD, .nolinkBHEAD, .nolinkCHEAD, .nolinkQUESTIONS {=
+ font-weight: bold; color: rgb(51, 51, 51); }
+
+.MainFlow_indented { margin-right: 10px; margin-left: 15em; margin-bottom: =
+2em; }
+
+.MainFlow_wide { margin-right: 10px; margin-left: 10px; margin-bottom: 2em;=
+ }
+
+@media print {
+  .MainFlow_indented, .MainFlow_wide { padding-top: 0px; margin-top: 10px; =
+margin-right: 10px; margin-left: 0px; }
+}
+
+h1, h2, h3, h4, h5 { color: rgb(51, 51, 51); }
+
+h1 { font-weight: bold; font-size: 20px; }
+
+h2 { font-weight: bold; font-size: 17px; }
+
+h3 { font-weight: bold; font-size: 14px; }
+
+h4 { font-size: 15px; }
+
+h5 { font-size: 12px; }
+
+#ToggleLeft { display: none; }
+
+.note { margin: 0px 30px; }
+
+.codeblock { margin: 0px 30px; font-size: 12px; font-family: Monaco, Courie=
+r, "Courier New"; }
+
+.tocli { list-style-type: none; }
+
+.betadraft { color: red; }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://docs.oracle.com/javase/tutorial/images/oracle-java-logo.png
+
+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
+gwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAMAUExURf///+0gJPNmafBCRe4sMP3j5O3y
+9e4pLe4xNPaLje0lKUx8nbPI1lmGpLnN2f7t7fH1912Jpu85Pdbi6fiUFUZ4mUd5mkR3mP7esf3l
+5fBGSe0iJvJhZEh6m4Gjuv/6+vNqbPeJAI2swOju8uHp7/ijpfR5fPaSlPFRVN3m7f/+/vvOz/vC
+efzRmpWyxT5zlTZtkfrHyPmlO9Hd5vL1+PRydfX4+vr8/O81OP7z85q2yUF0l/WChFOCoEJ1l/iM
+BfJbXvmtTf3q6vvR0e8+QYqqv1aEos3a5PBARPBJTHmdtfmaI/z8/fzg4e4uMrHG1aG7zEp7nL3Q
+3KzC0sDS3XSZs+Xs8fmxs/7u2vj6+//68/7y4oamvMLU3vq0XPiur//8/HuetsXV4Nvk6/JdYH+i
+uaa+z8rY4uvw9EV4mZ65y/egovrFxvedn/R8fsPV3/vFgOfu8vebnf709FSCoXGYsfmeK5GvwviW
+GqnA0fn7/GGNqf739+0hJfzPlG6Vr+0jJ523yvFWWZizxs7b5PNucOPr8PzZ2v737fzMjXCXsEp8
+nMza49jj6vvJyvu8bfzb3G2UrvT2+P716Zq1yPq2YPq+v/eeoPV/gvFOUunv8/zf3/7+//39/vV+
+gf7+/q3E009+nvm4uf7qz/WEhvFMT//8+FqHpGWPq/rCw/WGif719virrZm0yPR3ed/n7fzV1vin
+qOju8/u+cf3+/oOku/q/wKe+z6O8zbbL2PNnajpwk/iPDGiRrMjX4f7w8PeWmFGAn7vO2u87P1B/
+n9Tg5/rDxP/9/fvP0Orw8/iZHu/09+Tr8P7///7v8PBDRvvIhWeQrP3q0e4tMfm7vP3kwq/F1Obt
+8ebt8nqete84PPzVof3bsJOww1eFozxxlPmvsPDw7fm2t//47/iRD/iOCP3n5/3ft/7w3tvl69zl
+6/JjZurv9F+Lp/NlaHectHyftz9zlnabs019nU1+nfvS0/mhMf3Yp2CLqPeYmv///pOxxOny+ujv
+8+nv8vmxVScVjXsAAAgXSURBVHja7JhpWBRXFoa/T5FGVhXpig2otCCkSTCCIGBARFBBQJpNUTAO
+QWVHCAmCIouIiqAOonFjRKNBBUWNGy6ooDGRxJiYaFwGZzJ5kmCGBGWcyehsP2i6m27c/mk/8/26
+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
+
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-5f1099ee-3722-439d-9abd-d5e87b549bdf@mhtml.blink
+
+@charset "utf-8";
+
+a:link { text-decoration-color: initial; color: rgb(113, 188, 247); }
+
+a:visited { text-decoration-color: initial; color: rgb(76, 152, 211); }
+
+a:hover { text-decoration-color: initial; }
+
+.header-container { background-color: rgb(24, 26, 27); border-bottom-color:=
+ rgb(49, 68, 82); box-shadow: rgba(22, 64, 126, 0.1) 0px 2px 2px; }
+
+#logocover { background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxuc=
+z0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3Lncz=
+Lm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjI2IiBoZWlnaHQ9IjQxIj48ZGVmcz48ZmlsdGVyIGl=
+kPSJkYXJrcmVhZGVyLWltYWdlLWZpbHRlciI+PGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4Ii=
+B2YWx1ZXM9IjAuMzMzIC0wLjY2NyAtMC42NjcgMC4wMDAgMS4wMDAgLTAuNjY3IDAuMzMzIC0wL=
+jY2NyAwLjAwMCAxLjAwMCAtMC42NjcgLTAuNjY3IDAuMzMzIDAuMDAwIDEuMDAwIDAuMDAwIDAu=
+MDAwIDAuMDAwIDEuMDAwIDAuMDAwIiAvPjwvZmlsdGVyPjwvZGVmcz48aW1hZ2Ugd2lkdGg9IjI=
+yNiIgaGVpZ2h0PSI0MSIgZmlsdGVyPSJ1cmwoI2RhcmtyZWFkZXItaW1hZ2UtZmlsdGVyKSIgeG=
+xpbms6aHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQ=
+UFPSUFBQUFwQ0FNQUFBQWY0UVdTQUFBQUNYQklXWE1BQUFzVEFBQUxFd0VBbXB3WUFBQUtUMmxE=
+UTFCUWFHOTBiM05vYjNBZ1NVTkRJSEJ5YjJacGJHVUFBSGphblZOblZGUHBGajMzM3ZSQ1M0aUF=
+sRXR2VWhVSUlGSkNpNEFVa1NZcUlRa1FTb2dob2RrVlVjRVJSVVVFRzhpZ2lBT09qb0NNRlZFc0=
+RJb0syQWZrSWFLT2c2T0lpc3I3NFh1amE5YTg5K2JOL3JYWFB1ZXM4NTJ6endmQUNBeVdTRE5ST=
+llBTXFVSWVFZUNEeDhURzRlUXVRSUVLSkhBQUVBaXpaQ0Z6L1NNQkFQaCtQRHdySXNBSHZnQUJl=
+Tk1MQ0FEQVRadkFNQnlIL3cvcVFwbGNBWUNFQWNCMGtUaExDSUFVQUVCNmprS21BRUJHQVlDZG1=
+DWlRBS0FFQUdETFkyTGpBRkF0QUdBbmYrYlRBSUNkK0psN0FRQmJsQ0VWQWFDUkFDQVRaWWhFQU=
+dnN0FLelBWb3BGQUZnd0FCUm1TOFE1QU5ndEFEQkpWMlpJQUxDM0FNRE9FQXV5QUFnTUFEQlJpS=
+VVwQUFSN0FHRElJeU40QUlTWkFCUkc4bGM4OFN1dUVPY3FBQUI0bWJJOHVTUTVSWUZiQ0MxeEIx=
+ZFhMaDRvemtrWEt4UTJZUUpobWtBdXdubVpHVEtCTkEvZzg4d0FBS0NSRlJIZ2cvUDllTTRPcnM=
+3T05vNjJEbDh0NnI4Ry95SmlZdVArNWMrcmNFQUFBT0YwZnRIK0xDK3pHb0E3Qm9CdC9xSWw3Z1=
+JvWGd1Z2RmZUxacklQUUxVQW9PbmFWL053K0g0OFBFV2hrTG5aMmVYazVOaEt4RUpiWWNwWGZmN=
+W53bC9BVi8xcytYNDgvUGYxNEw3aUpJRXlYWUZIQlBqZ3dzejBUS1VjejVJSmhHTGM1bzlIL0xj=
+TC8vd2QweUxFU1dLNVdDb1U0MUVTY1k1RW1venpNcVVpaVVLU0tjVWwwdjlrNHQ4cyt3TSszelV=
+Bc0dvK0FYdVJMYWhkWXdQMlN5Y1FXSFRBNHZjQUFQSzdiOEhVS0FnRGdHaUQ0YzkzLys4Ly9VZW=
+dKUUNBWmttU2NRQUFYa1FrTGxUS3N6L0hDQUFBUktDQktyQkJHL1RCR0N6QUJoekJCZHpCQy94Z=
+05vUkNKTVRDUWhCQ0NtU0FISEpnS2F5Q1FpaUd6YkFkS21BdjFFQWROTUJSYUlhVGNBNHV3bFc0=
+RGoxd0QvcGhDSjdCS0x5QkNRUkJ5QWdUWVNIYWlBRmlpbGdqamdnWG1ZWDRJY0ZJQkJLTEpDREp=
+pQlJSSWt1Uk5VZ3hVb3BVSUZWSUhmSTljZ0k1aDF4R3VwRTd5QUF5Z3Z5R3ZFY3hsSUd5VVQzVU=
+RMVkR1YWczR29SR29ndlFaSFF4bW84V29KdlFjclFhUFl3Mm9lZlFxMmdQMm84K1E4Y3d3T2dZQ=
+npQRWJEQXV4c05Dc1Rnc0NaTmp5N0VpckF5cnhocXdWcXdEdTRuMVk4K3hkd1FTZ1VYQUNUWUVk=
+MElnWVI1QlNGaE1XRTdZU0tnZ0hDUTBFZG9KTndrRGhGSENKeUtUcUV1MEpyb1IrY1FZWWpJeGg=
+xaElMQ1BXRW84VEx4QjdpRVBFTnlRU2lVTXlKN21RQWtteHBGVFNFdEpHMG01U0kra3NxWnMwU0=
+Jvams4bmFaR3V5QnptVUxDQXJ5SVhrbmVURDVEUGtHK1FoOGxzS25XSkFjYVQ0VStJb1VzcHFTa=
+G5sRU9VMDVRWmxtREpCVmFPYVV0Mm9vVlFSTlk5YVFxMmh0bEt2VVllb0V6UjFtam5OZ3haSlM2=
+V3RvcFhUR21nWGFQZHByK2gwdWhIZGxSNU9sOUJYMHN2cFIraVg2QVAwZHd3TmhoV0R4NGhuS0J=
+tYkdBY1laeGwzR0srWVRLWVowNHNaeDFRd056SHJtT2VaRDVsdlZWZ3F0aXA4RlpIS0NwVktsU2=
+FWR3lvdlZLbXFwcXJlcWd0VjgxWExWSStwWGxOOXJrWlZNMVBqcVFuVWxxdFZxcDFRNjFNYlUyZ=
+XBPNmlIcW1lb2IxUS9wSDVaL1lrR1djTk13MDlEcEZHZ3NWL2p2TVlnQzJNWnMzZ3NJV3NOcTRa=
+MWdUWEVKckhOMlh4MktydVkvUjI3aXoycXFhRTVRek5LTTFlelV2T1VaajhINDVoeCtKeDBUZ25=
+uS0tlWDgzNkszaFR2S2VJcEc2WTBUTGt4WlZ4cnFwYVhsbGlyU0t0UnEwZnJ2VGF1N2FlZHByMU=
+Z1MW43Z1E1Qngwb25YQ2RIWjQvT0JaM25VOWxUM2FjS3B4Wk5QVHIxcmk2cWE2VWJvYnRFZDc5d=
+XArNllucjVlZ0o1TWI2ZmVlYjNuK2h4OUwvMVUvVzM2cC9WSERGZ0dzd3drQnRzTXpoZzh4VFZ4=
+Ynp3ZEw4ZmI4VkZEWGNOQVE2VmhsV0dYNFlTUnVkRThvOVZHalVZUGpHbkdYT01rNDIzR2JjYWp=
+KZ1ltSVNaTFRlcE43cHBTVGJtbUthWTdURHRNeDgzTXphTE4xcGsxbXoweDF6TG5tK2ViMTV2Zn=
+QyQmFlRm9zdHFpMnVHVkpzdVJhcGxudXRyeHVoVm81V2FWWVZWcGRzMGF0bmEwbDFydXR1NmNSc=
+DdsT2swNnJudFpudzdEeHRzbTJxYmNac09YWUJ0dXV0bTIyZldGblloZG50OFd1dys2VHZaTjl1=
+bjJOL1QwSERZZlpEcXNkV2gxK2M3UnlGRHBXT3Q2YXpwenVQMzNGOUpicEwyZFl6eERQMkRQanR=
+oUExLY1JwblZPYjAwZG5GMmU1YzRQemlJdUpTNExMTHBjK0xwc2J4dDNJdmVSS2RQVnhYZUY2MH=
+ZXZG03T2J3dTJvMjYvdU51NXA3b2Zjbjh3MG55bWVXVE56ME1QSVErQlI1ZEUvQzUrVk1HdmZyS=
+DVQUTArQlo3WG5JeTlqTDVGWHJkZXd0NlYzcXZkaDd4Yys5ajV5bitNKzR6dzMzakxlV1YvTU44=
+QzN5TGZMVDhOdm5sK0YzME4vSS85ay8zci8wUUNuZ0NVQlp3T0pnVUdCV3dMNytIcDhJYitPUHp=
+yYlpmYXkyZTFCaktDNVFSVkJqNEt0Z3VYQnJTRm95T3lRclNIMzU1ak9rYzVwRG9WUWZ1alcwQW=
+RoNW1HTHczNE1KNFdIaFZlR1A0NXdpRmdhMFRHWE5YZlIzRU56MzBUNlJKWkUzcHRuTVU4NXJ5M=
+UtOU28rcWk1cVBObzN1alM2UDhZdVpsbk0xVmlkV0Vsc1N4dzVMaXF1Tm01c3Z0Lzg3Zk9INHAz=
+aUMrTjdGNWd2eUYxd2VhSE93dlNGcHhhcExoSXNPcFpBVEloT09KVHdRUkFxcUJhTUpmSVRkeVd=
+PQ25uQ0hjSm5JaS9STnRHSTJFTmNLaDVPOGtncVRYcVM3Skc4Tlhra3hUT2xMT1c1aENlcGtMeE=
+1EVXpkbXpxZUZwcDJJRzB5UFRxOU1ZT1NrWkJ4UXFvaFRaTzJaK3BuNW1aMnk2eGxoYkwreFc2T=
+HR5OGVsUWZKYTdPUXJBVlpMUXEyUXFib1ZGb28xeW9Ic21kbFYyYS96WW5LT1phcm5pdk43Y3l6=
+eXR1UU41enZuLy90RXNJUzRaSzJwWVpMVnkwZFdPYTlyR281c2p4eGVkc0s0eFVGSzRaV0Jxdzh=
+1SXEyS20zVlQ2dnRWNWV1ZnIwbWVrMXJnVjdCeW9MQnRRRnI2d3RWQ3VXRmZldmMxKzFkVDFndl=
+dkKzFZZnFHblJzK0ZZbUtyaFRiRjVjVmY5Z28zSGpsRzRkdnlyK1ozSlMwcWF2RXVXVFBadEptN=
+mViZUxaNWJEcGFxbCthWERtNE4yZHEwRGQ5V3RPMzE5a1hiTDVmTktOdTdnN1pEdWFPL1BMaTha=
+YWZKenMwN1AxU2tWUFJVK2xRMjd0TGR0V0hYK0c3UjdodDd2UFkwN05YYlc3ejMvVDdKdnR0VkF=
+WVk4xV2JWWmZ0Sis3UDNQNjZKcXVuNGx2dHRYYTFPYlhIdHh3UFNBLzBISXc2MjE3blUxUjNTUF=
+ZSU2o5WXI2MGNPeHgrKy9wM3ZkeTBOTmcxVmpaekc0aU53UkhuazZmY0ozL2NlRFRyYWRveDdyT=
+0VIMHg5MkhXY2RMMnBDbXZLYVJwdFRtdnRiWWx1NlQ4dyswZGJxM25yOFI5c2ZENXcwUEZsNVN2=
+TlV5V25hNllMVGsyZnl6NHlkbFoxOWZpNzUzR0Rib3JaNzUyUE8zMm9QYisrNkVIVGgwa1gvaSt=
+jN3ZEdk9YUEs0ZFBLeTIrVVRWN2hYbXE4NlgyM3FkT284L3BQVFQ4ZTduTHVhcnJsY2E3bnVlcj=
+IxZTJiMzZSdWVOODdkOUwxNThSYi8xdFdlT1QzZHZmTjZiL2ZGOS9YZkZ0MStjaWY5enN1NzJYY=
+243cTI4VDd4ZjlFRHRRZGxEM1lmVlAxdiszTmp2M0g5cXdIZWc4OUhjUi9jR2hZUFAvcEgxanc5=
+REJZK1pqOHVHRFlicm5qZytPVG5pUDNMOTZmeW5RODlrenlhZUYvNmkvc3V1RnhZdmZ2alY2OWZ=
+PMFpqUm9aZnlsNU8vYlh5bC9lckE2eG12MjhiQ3hoNit5WGd6TVY3MFZ2dnR3WGZjZHgzdm85OF=
+BUK1I4SUg4by8yajVzZlZUMEtmN2t4bVRrLzhFQTVqei9HTXpMZHNBQUFBRVowRk5RUUFBc1k1O=
+CsxR1RBQUFBSUdOSVVrMEFBSG9sQUFDQWd3QUErZjhBQUlEcEFBQjFNQUFBNm1BQUFEcVlBQUFY=
+YjVKZnhVWUFBQU1BVUV4VVJmLy8vKzBnSlBObWFmQkNSZTRzTVAzajVPM3k5ZTRwTGU0eE5QYUx=
+qZTBsS1V4OG5iUEkxbG1HcExuTjJmN3Q3ZkgxOTEySnB1ODVQZGJpNmZpVUZVWjRtVWQ1bWtSM2=
+1QN2VzZjNsNWZCR1NlMGlKdkpoWkVoNm00R2p1di82K3ZOcWJQZUpBSTJzd09qdTh1SHA3L2lqc=
+GZSNWZQYVNsUEZSVk4zbTdmLysvdnZPei92Q2VmelJtcFd5eFQ1emxUWnRrZnJIeVBtbE85SGQ1=
+dkwxK1BSeWRmWDQrdnI4L084MU9QN3o4NXEyeVVGMGwvV0NoRk9Db0VKMWwvaU1CZkpiWHZtdFR=
+mM3E2dnZSMGU4K1FZcXF2MWFFb3MzYTVQQkFSUEJKVEhtZHRmbWFJL3o4L2Z6ZzRlNHVNckhHMW=
+FHN3pFcDduTDNRM0t6QzBzRFMzWFNacytYczhmbXhzLzd1MnZqNisvLzY4Lzd5NG9hbXZNTFUzd=
+nEwWFBpdXIvLzgvSHVldHNYVjROdms2L0pkWUgraXVhYSt6OHJZNHV2dzlFVjRtWjY1eS9lZ292=
+ckZ4dmVkbi9SOGZzUFYzL3ZGZ09mdTh2ZWJuZjcwOUZTQ29YR1lzZm1lSzVHdnd2aVdHcW5BMGZ=
+uNy9HR05xZjczOSswaEpmelBsRzZWciswako1MjN5dkZXV1ppenhzN2I1UE51Y09QcjhQeloydj=
+czN2Z6TWpYQ1hzRXA4bk16YTQ5amo2dnZKeXZ1OGJmemIzRzJVcnZUMitQNzE2WnExeVBxMllQc=
+St2L2Vlb1BWL2d2Rk9VdW52OC96ZjMvNysvLzM5L3ZWK2dmNysvcTNFMDA5K252bTR1Zjdxei9X=
+RWh2Rk1ULy84K0ZxSHBHV1BxL3JDdy9XR2lmNzE5dmlyclptMHlQUjNlZC9uN2Z6VjF2aW5xT2p=
+1OC91K2NmMysvb09rdS9xL3dLZSt6Nk84emJiTDJQTm5hanB3ay9pUERHaVJyTWpYNGY3dzhQZV=
+dtRkdBbjd2TzJ1ODdQMUIvbjlUZzUvckR4UC85L2Z2UDBPcnc4L2laSHUvMDkrVHI4UDcvLy83d=
+jhQQkRSdnZJaFdlUXJQM3EwZTR0TWZtN3ZQM2t3cS9GMU9idDhlYnQ4bnFldGU4NFBQelZvZjNi=
+c0pPd3cxZUZvenh4bFBtdnNQRHc3Zm0ydC8vNDcvaVJEL2lPQ1AzbjUvM2Z0Lzd3M3R2bDY5emw=
+2L0pqWnVydjlGK0xwL05sYUhlY3RIeWZ0ejl6bG5hYnMwMTluVTErbmZ2UzAvbWhNZjNZcDJDTH=
+FQZVltdi8vL3BPeHhPbnkrdWp2OCtudjh2bXhWU2NWalhzQUFBZ1hTVVJCVkhqYTdKaHBXQlJYR=
+m9hL1Q1RkdWaFhwaWcyb3RDQ2tTVENDSUdCQVJGQkJRSnBOVVRBT1FXVkhDQW1DSW91SWlxQU9v=
+bkZqUktOQkJVV05HeTZvb0RHUnhKaVlhRndHWnpKNWttQ0dCR1djeWVoc1AyaTZtMjdjL21rLzg=
+vMjZkZTZ0ZSs1YjU5eFRkUXQ0NGZYTkRPaTZmbHlwODRpMzErczg0bXM2ai9pWHFhL3JPdUpIQz=
+lmcE9PRVNteVc2RFNpN1lyUCtJWUFQUDlSVndoWHJiU2JNQk5iZCtzY0tIU1g4eXRsbTlreXNXR=
+ERobHE0RzhjZEw0eGZJY0h2cWhGa1BkWlZ3OEtrbHdKWHhyOGwwZFIvKzlONzRCY0FTbXpVNlcw=
+c2ZYaG52UEJPekxsMmFwYnZ2aS9VMlY0QlhUcjIzNHFIT1JuR2x6ZXZBN1ZPRGIrdHVGR2NNWGd=
+QTW1QcTk4d3JkWlZ5NWNCYXc1dFFwN1hxVGNiZCtyRzR3enA0TnJIUCtmcUhXcWYrSXVHYkVjOD=
+dsbXp4OFU5OXVTWHpTOXNnQW9OWmhTbCtWdnZDeDkxVzc1Zkt5cXdHcjFlZHczT2tqVVE3MjZ5O=
+Dc2K2ZYWDh1UjJjSGhtMVNUQnZUejNiai8vY2N2YStaL2J3SGZMQno4bFdiSFhLRTE0L2tJazky=
+cG9mamxBRHhFR3RhYkthcDdScEpzTmxNOXBHVjU2aVAxZ3ZFSGNyK21vN3FiUGViYmk3cU44Vzg=
+rNlJQMW94bTQrSGRubVdaTkhXcnhuRkhjU0pLR2V0MFNrYVM3SStCaFFJcXVxcHNOZ3J2dlNja2=
+p5YlR1eTJBSlNZcVVjeHdFM2lSSGFqaXlKOGtDNVNDSFd0U2w3WGZ0ZFUxQlVlVlIyNEIxSCtBb=
+jV3OEFvS3A0WG5hNk5tSlZWZTlNUVlmVnJ6SkorcVUrNk5ldDRLT3VKQWY1d3NPQWxqdUdLS3hE=
+dGlTTFZJdXVsWkI2Wk1Gb3hlVW1rbFk3dGlnSG96ZkVPcEx1OWhPN0IvWHpBTTZjM1R1OWx3VWV=
+DcGZPYzJucGFyL1NSUmo5N1YrdldTL3RnVGdnM2VsMythVkRqYU1CWSttajZ3QlFMSldXSTZOQm=
+VqOC8wbjgrNEpJVDRXS2FnR0FSV1dUVzA4V2ZETW1SOERDZzVRUDFmQ2I5YXJ1YS9VbkRsQ0pTM=
+G5XZFNqSlRZNWxhaUdidTVLNStXZ2ZDWGdqM3JSS2F1cUt6TGFqaXovOTZPeTU4bnZubkFEeTky=
+OVFSQTkrNEorOFVCT0ZJRUk3ZkdSVU9BRTRuaFFzRHNrNTZHNjN5RnNUaHNBMDFqb3kwaFQxNTB=
+3emFLUlZpdHRpQWxvNXF4dVVGRkYwR0FFd1VrVHRsamdWa2Z3QlkzRmM3S2JVUmswbURINTVwNT=
+F5TFhOUitPdkxHalJ1QmtlL201NWNHK3VlWWZ3NEF4cVBLMUJHUE84Mi9hOXQ0MmlneEhXM25yR=
+HNBWUc1aWUwdTAvekdYK3ZwcmsrU3QrdEVYYkNQaVdsQkUybXM1OFhBbnY1WnBJSDZYUjNjUEFK=
+amprTWNwWjRBMDB2QUFnQWVrYU10VEVVK1E4WTZqMVpReTVMR1FGU1htNlJGaFlSR3haZVlsWTd=
+aMlcrKzN0bWlYbS9tZEZxR29LclZ1elFBcWRndUIzWFpQc1pHTG90bE15OUhhUHZxUWRqSURXbj=
+R5ckhhWVFoUDdrci9JdXZQeWF3Qm1nOGlpT2NCME1nQlBRNVJKTk11MmFPM2pBNW5iV0tGbEN4W=
+Eg5VkpSbzdLRVNpQkpiTjBBMUhzSmhkMzJDTEhSWkVYVG5aWVR0VjBzSTVObEJyUjg0T3ZqSjVG=
+SUpCTEpGd1ZrM21vQUNBNGhsd0VBM2lMNVBsQkhPandWOGFLZkpxTGRFM0pWS2hqZi9iYWxvbUx=
+BNXJiR2FuL1RLc0ROYVhleFprWFZuMjljdmM4cjBSTW83clNPQVV6Rjhza0F0cFpFWEt1TzZUVH=
+FIaThoMzlMeWNIRVhXUWNEV2pyaVFGL2xtaXhUQVVCbVJicS9vM3dTSVZ2d01SVVovTVJFTFNLb=
+i9HeWwwc1lublhRYjh6dmwyNzFhVzdPMnk4WGJGMGxId0x5dzJrM2p2VGhtbjhtNGU0TFl5OElU=
+Y050dFBWQWZVcUZkSDZnZmVuNlV0eUQzVWlLNmtqNWFIbElzYWJsOFdOZGVOSXNuU2IwUUE2czl=
+5dERaMjJWbVptWm1wcWJsa1ZZdzB5UHJub3E0bHl4Njl2TjdWVlJzOWZIS3l0RHFKcGYvakFYR2=
+xyaHB2dnFqTzhhZFg1cHUzdVNWNkFrZ1d5eFByOXJ0SFFQWTFvejdMV2QrZVpKY2liaW5LOWw2N=
+lBJdTBrSDJqcUxjTEhZbEdmQ0pJbkMrTjBtZldoKzFoSnVPWmVUTnRVOURuRWhGQVg0MjZRYzl2=
+bStvUmMwSWhBbHlVd0JSWG9JbmdIUzV1TEJ0bFRnTWtIclgxQU1JRXlzUlpWYWs1VjcxejA5Wnl=
+pNlNSK0docktoNzg4aE5DZ2JYUElvT1lFaUlDdEhkYksySUhMUmptQ1ppbXRiK1pscS9aeVEwel=
+pyV0Z0VXlvQ1dqUERiODFWNFFEOEZUbVBSdkFKOTFJYmEwaXpzOGhZSDZ5QzBWSXJmMVJNU1Fac=
+Ex1OFNmNktIUWlnRjNQVzRVSU8wUFNmUU1BYkZERVluV3luWjJkbloxZGFnanBpb01rS2VtajFD=
+LzdMKzRrbTRlckxIMSs3dThiUURMRVIrbW9UL3pSeHlQR2VvMUtQR2RTVTVObFBlcWtTVVJ2VVN=
+4TS9GczZFSlRVYWVFSkFESGlWaE1oR3dncUZiZHZCaEk2NUoxS1JLeDEwS3gxTkxTWEFSNGhaUG=
+Q3Y2NkVnNpQVpPRE5GK1VtajBEOUpic0JCdlo0VG5NV2Jtbk4raHg5OGVsb0crZmFlb25FTlpib=
+ElNUFl2WGRUKzI1ZUJqMHh0bzd1MnB6SjFoNHBOTWhDWDJEbXdzdkJMSVV1b0JJQW1pL09kblJj=
+QU9IbDNsb2IrTWN2YVN6NVpOV2R0Nmk1RGRkY0d3MWNEUFJIaDJFeHlZKzFPMG5CUGp3VXREaUN=
+iTDJQNVNIZTFzNGJQUld3dzdNbXpIOENjZ3c1cVZzT1Bld05NY0FvMExSbFRCUUNIM1NvcW9sVT=
+l4UTJLeHRaQThVQjliSDIwU3Joenh5Uk1lcklTQUtKYU84VWRBS0FmS1I1Mzh0NjdaYWVGNGhme=
+kdLeGY4OGF2OWRHYTFtMEQ2bU5EOTExSExnQWdPbC80ZlJCUVZXNWNIZGVDVHk5c0JnRFVsNWNu=
+QUFEY3lxNU5jOG1GcmJuYmk0a1lYVmc2eVdoZ2FjeWowT3FHcHJDd0p1UHc0L3VrUnpvNi9ITmV=
+oWDdPWjEwZk5LM2VTMS9xM3hsVittMk4wNUt5WStiZWlJeU1ET3lJa1NaTks3T3R5RTJJbFFZcX=
+lrNlNjTzd1Uy8vWFJ0L2x3dHNsR1NNMkozeWFjTWpXdk5FNDFQL1grLzVoWTdvNjNSYmR5M241Z=
+jB3RlhYZUpNRDRXNmxucDVKU2Q3ZVI1cktITU5sZlZhejd0TVA0dmRmMXZBSERuVUgxbkM2a2VB=
+QUFBQUVsRlRrU3VRbUNDIiAvPjwvc3ZnPg=3D=3D"); background-color: transparent; =
+}
+
+#productName { color: rgb(114, 160, 191); }
+
+#TopBar { border-bottom-color: rgb(45, 64, 78); background-image: linear-gr=
+adient(rgb(24, 26, 27) 0%, rgb(34, 37, 38) 100%); background-color: initial=
+; }
+
+#TopBar_left { color: rgb(200, 195, 188); }
+
+#BreadCrumbs a { color: rgb(113, 188, 247); }
+
+#BreadCrumbs a:visited, #BreadCrumbs a:link { text-decoration-color: initia=
+l; }
+
+#BreadCrumbs a:hover, #BreadCrumbs a:active { text-decoration-color: initia=
+l; }
+
+#PageTitle { color: rgb(255, 30, 30); }
+
+#Contents a, .NavBit a, #TagNotes a { color: rgb(113, 188, 247); }
+
+#TagNotes a:visited, #TagNotes a:link, #Contents a:visited, #Contents a:lin=
+k, .NavBit a:visited, .NavBit a:link { text-decoration-color: initial; }
+
+#TagNotes a:hover, #TagNotes a:active, #Contents a:hover, #Contents a:activ=
+e, .NavBit a:hover, .NavBit a:active { text-decoration-color: initial; }
+
+.nolinkLESSON, .nolinkAHEAD, .nolinkBHEAD, .nolinkCHEAD, .nolinkQUESTIONS {=
+ color: rgb(200, 195, 188); }
+
+h1, h2, h3, h4, h5 { color: rgb(200, 195, 188); }
+
+.betadraft { color: rgb(255, 26, 26); }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-399f7621-b9e2-4d09-a32f-1a58ddebd2b0@mhtml.blink
+
+@charset "utf-8";
+
+.vimvixen-hint { background-color: rgb(123, 83, 0) !important; border-color=
+: rgb(216, 176, 19) !important; color: rgb(243, 232, 200) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+
+#edge-translate-panel-body, .MuiTypography-body1 { color: var(--darkreader-=
+neutral-text)  !important; }
+
+gr-main-header { background-color: rgb(15, 58, 72) !important; }
+
+.tou-z65h9k, .tou-mignzq, .tou-1b6i2ox, .tou-lnqlqk { background-color: var=
+(--darkreader-neutral-background)  !important; }
+
+.tou-75mvi { background-color: rgb(3, 32, 41) !important; }
+
+.tou-ta9e87, .tou-1w3fhi0, .tou-1b8t2us, .tou-py7lfi, .tou-1lpmd9d, .tou-1f=
+rrtv8, .tou-17ezmgn { background-color: rgb(10, 10, 10) !important; }
+
+.tou-uknfeu { background-color: rgb(35, 22, 3) !important; }
+
+.tou-6i3zyv { background-color: rgb(25, 87, 108) !important; }
+
+embed[type=3D"application/pdf"][src=3D"about:blank"] { filter: invert(100%)=
+ contrast(90%); }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-e367fa41-4b93-4ce3-9e43-e29da86ef79a@mhtml.blink
+
+@charset "utf-8";
+
+#footer-banner ul li:nth-child(2) { margin-left: 0px; }
+
+#footer-banner { z-index: 9999; position: fixed; margin: 0px auto; bottom: =
+0px; left: 0px; right: 0px; border-top: 1px solid rgb(172, 183, 191); color=
+: rgb(25, 88, 170); padding: 0em 1em; text-align: center; line-height: 15px=
+; font-weight: normal; font-family: Arial; clear: both; background-color: r=
+gb(235, 235, 235) !important; font-size: 12px !important; }
+
+#teconsent { display: inline-block; }
+
+#footer-banner ul { list-style: none; padding: 0px; margin: 0px 20px 0px 0p=
+x; font-size: 12px !important; }
+
+#footer-banner li { display: inline-block; }
+
+#footer-banner li + li::before { content: "|"; margin-right: 4px; margin-le=
+ft: 4px; color: rgb(170, 170, 170); }
+
+#footer-banner a { color: rgb(25, 88, 170); text-decoration: none; font-siz=
+e: 12px !important; }
+
+#footer-banner a:focus, #footer-banner a:hover { color: rgb(25, 88, 170); t=
+ext-decoration: underline; }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-8bc8d073-b926-451d-b076-6f8271d9a4e3@mhtml.blink
+
+@charset "utf-8";
+
+#footer-banner { border-top-color: rgb(69, 74, 77); color: rgb(109, 174, 23=
+3); background-color: rgb(35, 38, 40) !important; }
+
+#footer-banner ul { list-style-image: initial; }
+
+#footer-banner li + li::before { color: rgb(178, 172, 162); }
+
+#footer-banner a { color: rgb(109, 174, 233); text-decoration-color: initia=
+l; }
+
+#footer-banner a:focus, #footer-banner a:hover { color: rgb(109, 174, 233);=
+ text-decoration-color: initial; }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://docs.oracle.com/javase/tutorial/figures/java/objects-stringBuffer.gif
+
+R0lGODlhzQFaAPcAAP///6nF48nb7VNcZsvc7sja7czd7s7e79Lh8NHg8M3d7s/f79Ti8YCAgMXY
+7Mrb7cbZ7Njl8sLW68DAwNrm88fZ7Nvn89Xj8cTX60BAQN3o9Nfk8t7p9NDf7+Hr9crc7dbj8cfa
+7Nnl8tPh8MPX69zn8+Dg4NDg78HV6uDq9dPi8PDw8KCgoOTt9r/U6gAAANbk8d/p9OLs9c3e76rG
+49nm8s/e7zAwMOPs9iAgIMDV6pq73d/q9NDQ0Mna7ebu99zo88bY7HBwcL7T6b3T6efv98zc7rzS
+6afE4uLr9cPW62BgYOXu9rCwsKnF4sTY7BAQEJCQkNfk8ajF4sDU6tXi8dvm85i63aTC4dLg8HeU
+spm73VBQULvR6OXt9qbD4ejw97rR6KLB4MHW65e53KPB4HmVsqXD4anG4urx+L7U6Zq83ejv997o
+9L3S6enw+FphaHaTsWJma2BlamVobMrc7pm63WdqbL/U6anG4w0OD2pxeFlgaLnQ6LnF0qXC4abE
+4pKbpS44QUpXY4mQmKjE4qCqtE5UWp2otE1YZE5ZZODq9FtiaIKMlbvS6GlweGl7jdDg8OPs9YeP
+lxsfI4CKlWZpbCQoLDI3O19lakxSWVxiaXWTsUpWY2FmamRobGVpbHaUstzo9JKXm2NnbGFlasTT
+4cfa7ThBS2dvd4ySmUxYZDU4PF5kaunw95G12qPC4RocHqm2w1xjaTU5PF5jaVJhcF1jaZq83tTi
+8GhweNfl8nV9hrbD0igqLX6JlElVY09aZNjk8tPi8UJHS5CVmoSNlpmlsjY5PNHg72xyednm8zQ4
+PKy4w+Pt9o6ZpMja7LzI0+Dr9ebu9oWOlsvc7SgvODM5QDQ4O4iQl+3y+UtXY0NSYEBKVElWY46U
+mnOSsEtXZGlxeHaTspGWmqvG40tYZMjV4mtyeeTs9uvy+Onx+Nrm8uXu93qBiKa0wuvx+E1ZZJe6
+3cfU4cLR4E9VWhUWGSoxOM3e7sDP31RZXmhwdx8jJk1VXUtcbrC6xSH5BAAAAAAALAAAAADNAVoA
+AAj/AAEIHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuX
+MGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1as0eEzKuMHFxxQSuFydk
+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
+5CMneclNbsuAAAA7
+
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/html
+Content-ID: <frame-CD7787884DFAADD23C1C13F104804972@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://consent.trustarc.com/get?name=crossdomain.html&domain=oracle.com
+
+<html data-darkreader-mode=3D"dynamic" data-darkreader-scheme=3D"dark"><hea=
+d><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-f0b7304b-bc51-46=
+32-89a2-5e2a3bdf519b@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/c=
+ss" href=3D"cid:css-3751a18e-0888-41c5-b16a-cbc095c21675@mhtml.blink" /><li=
+nk rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-5898eefb-5178-4a88-=
+89ec-23e662413bec@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css"=
+ href=3D"cid:css-52a723ec-6621-42e6-8d3e-4a9c0539781a@mhtml.blink" /><link =
+rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-1f03702c-e8e7-463b-878=
+9-6b8022e2af30@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" hr=
+ef=3D"cid:css-b9abe61f-43ac-4557-b4ad-a7d21f898ad9@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-39f5537d-4b43-4428-8f15-e=
+563df877fba@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-27fc60e9-b57a-44de-840b-b5ba9650a575@mhtml.blink" />
+   =20
+<meta name=3D"darkreader" content=3D"9dd11bae5d7149058864cbcd04c17c18"></he=
+ad>
+<body>
+
+
+</body></html>
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f0b7304b-bc51-4632-89a2-5e2a3bdf519b@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3751a18e-0888-41c5-b16a-cbc095c21675@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-5898eefb-5178-4a88-89ec-23e662413bec@mhtml.blink
+
+@charset "utf-8";
+
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_=
+text > img[src^=3D"https://www.gstatic.com/images/branding/googlelogo"], sp=
+an[data-href^=3D"https://www.hcaptcha.com/"] > #icon, #bit-notification-bar=
+-iframe, ::-webkit-calendar-picker-indicator { filter: invert(100%) hue-rot=
+ate(180deg) contrast(90%) !important; }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-52a723ec-6621-42e6-8d3e-4a9c0539781a@mhtml.blink
+
+@charset "utf-8";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+
+[data-darkreader-inline-stopcolor] { stop-color: var(--darkreader-inline-st=
+opcolor)  !important; }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-1f03702c-e8e7-463b-8789-6b8022e2af30@mhtml.blink
+
+@charset "utf-8";
+
+:root { --darkreader-neutral-background: #131516; --darkreader-neutral-text=
+: #d8d4cf; --darkreader-selection-background: #004daa; --darkreader-selecti=
+on-text: #e8e6e3; }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b9abe61f-43ac-4557-b4ad-a7d21f898ad9@mhtml.blink
+
+@charset "utf-8";
+
+:root { }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-39f5537d-4b43-4428-8f15-e563df877fba@mhtml.blink
+
+@charset "utf-8";
+
+html { color-scheme: dark !important; }
+
+html, body { border-color: rgb(115, 107, 94); color: rgb(232, 230, 227); }
+
+a { color: rgb(51, 145, 255); }
+
+table { border-color: rgb(84, 91, 94); }
+
+::placeholder { color: rgb(178, 171, 161); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(64, 68, 0) !important; color: rgb(232, 230, 227) !i=
+mportant; }
+
+::-webkit-scrollbar { background-color: rgb(32, 35, 36); color: rgb(171, 16=
+4, 153); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(69, 74, 77); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(87, 94, 98); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(72, 78, 81); }
+
+::-webkit-scrollbar-corner { background-color: rgb(24, 26, 27); }
+
+::selection { background-color: rgb(0, 77, 170) !important; color: rgb(232,=
+ 230, 227) !important; }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-27fc60e9-b57a-44de-840b-b5ba9650a575@mhtml.blink
+
+@charset "utf-8";
+
+.vimvixen-hint { background-color: rgb(123, 83, 0) !important; border-color=
+: rgb(216, 176, 19) !important; color: rgb(243, 232, 200) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+
+#edge-translate-panel-body, .MuiTypography-body1 { color: var(--darkreader-=
+neutral-text)  !important; }
+
+gr-main-header { background-color: rgb(15, 58, 72) !important; }
+
+.tou-z65h9k, .tou-mignzq, .tou-1b6i2ox, .tou-lnqlqk { background-color: var=
+(--darkreader-neutral-background)  !important; }
+
+.tou-75mvi { background-color: rgb(3, 32, 41) !important; }
+
+.tou-ta9e87, .tou-1w3fhi0, .tou-1b8t2us, .tou-py7lfi, .tou-1lpmd9d, .tou-1f=
+rrtv8, .tou-17ezmgn { background-color: rgb(10, 10, 10) !important; }
+
+.tou-uknfeu { background-color: rgb(35, 22, 3) !important; }
+
+.tou-6i3zyv { background-color: rgb(25, 87, 108) !important; }
+
+embed[type=3D"application/pdf"][src=3D"about:blank"] { filter: invert(100%)=
+ contrast(90%); }
+------MultipartBoundary--aKGOtXnf82gX7ZqPtwzT4aXQyZuquu856yJPbdGrkr------
