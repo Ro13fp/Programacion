@@ -1,0 +1,1079 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://www.sc.ehu.es/sbweb/fisica/cursoJava/applets/events/raton.htm
+Subject: =?utf-8?Q?La=20programaci=C3=B3n=20del=20rat=C3=B3n?=
+Date: Sun, 26 Jun 2022 20:52:19 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----"
+
+
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: text/html
+Content-ID: <frame-8F8C95398455F4ECA42F52BEE4D68B7D@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/cursoJava/applets/events/raton.htm
+
+<html data-darkreader-mode=3D"dynamic" data-darkreader-scheme=3D"dark"><hea=
+d><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dwindows=
+-1252"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-88256c6d-=
+9688-4ee9-84d4-dd56b44daa09@mhtml.blink" /><link rel=3D"stylesheet" type=3D=
+"text/css" href=3D"cid:css-5c834600-05d6-4969-84d7-ada963602de9@mhtml.blink=
+" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-34f493c7-d25=
+d-47b8-b6e7-d8f2608fff19@mhtml.blink" /><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-25ee3da4-915e-4db1-aebc-586d8fb73bb3@mhtml.blink" /=
+><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-c8a571f7-aa26-4=
+1dd-a4f1-0552c83646d7@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-da85ffb3-8ae8-410d-a91a-fa9a8054d17f@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-17ab0425-01a8-4c82=
+-952e-cd125c6acdbf@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
+" href=3D"cid:css-a245c2c8-ed6d-41b8-9b06-dad2aa589005@mhtml.blink" />
+<meta name=3D"GENERATOR" content=3D"Microsoft FrontPage 3.0">
+<title>La programaci=F3n del rat=F3n</title>
+<meta name=3D"darkreader" content=3D"a4d6fd5d4a94bb17d44666397b96c8c2"></he=
+ad>
+
+<body>
+
+<h1 align=3D"center">La programaci=F3n del rat=F3n (I)</h1>
+
+<table width=3D"100%">
+  <tbody><tr>
+    <td width=3D"50%"><p align=3D"left"><a href=3D"http://www.sc.ehu.es/sbw=
+eb/fisica/cursoJava/applets/events/grupo1.htm"><img src=3D"http://www.sc.eh=
+u.es/sbweb/fisica/images/prev.gif" alt=3D"prev.gif (997 bytes)" width=3D"49=
+" height=3D"40"></a><a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/=
+applets/applets.htm"><img src=3D"http://www.sc.ehu.es/sbweb/fisica/images/c=
+hapter.gif" alt=3D"chapter.gif (1105 bytes)" width=3D"49" height=3D"40"></a=
+><b><a href=3D"http://www.sc.ehu.es/sbweb/fisica/curso.htm"><img src=3D"htt=
+p://www.sc.ehu.es/sbweb/fisica/images/home.gif" alt=3D"home.gif (1232 bytes=
+)" width=3D"49" height=3D"40"></a><a href=3D"http://www.sc.ehu.es/sbweb/fis=
+ica/cursoJava/applets/events/raton1.htm"><img src=3D"http://www.sc.ehu.es/s=
+bweb/fisica/images/next.gif" alt=3D"next.gif (1211 bytes)" width=3D"49" hei=
+ght=3D"40"></a></b></p></td>
+    <td width=3D"50%"><h3 align=3D"right"><a href=3D"http://www.sc.ehu.es/s=
+bweb/fisica/cursoJava/applets/events/events0.htm">Sucesos (events)</a></h3>
+    </td>
+  </tr>
+</tbody></table>
+
+<p align=3D"left"><a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/ap=
+plets/events/raton.htm#Introducci%C3%B3n">Introducci=F3n</a></p>
+
+<p align=3D"left"><a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/ap=
+plets/events/raton.htm#Listeners%20y%20adapters"><em>Listeners</em> y <em>a=
+dapters</em></a></p>
+
+<p align=3D"left"><a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/ap=
+plets/events/raton.htm#Haciendo%20clic%20sobre%20un%20canvas">Pulsando el b=
+ot=F3n
+izquierdo del rat=F3n</a><br>
+<br>
+<a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/applets/events/raton=
+.htm#Dibujar%20los%20puntos%20y%20guardarlos%20en%20memoria">Dibujar los pu=
+ntos y guardarlos en
+memoria</a></p>
+
+<hr>
+
+<h2 align=3D"left"><a name=3D"Introducci=F3n">Introducci=F3n</a></h2>
+
+<p align=3D"left">El rat=F3n es uno de los dispositivos est=E1ndares en un =
+interfaz gr=E1fico,
+que facilita la interacci=F3n del usuario con el programa. Las acciones de =
+pulsar sobre un
+bot=F3n, seleccionar un elemento del men=FA, o una herramienta en una caja =
+de herramientas,
+activar o desactivar una casilla de verificaci=F3n, dibujar una figura en e=
+l canvas del
+programa Paint de Windows, seleccionar una palabra en el procesador de text=
+os, etc, se
+realizan frecuentemente cuando se trabaja con alg=FAn programa.</p>
+
+<p align=3D"left">No hace demasiado tiempo, la programaci=F3n del rat=F3n e=
+ra complicada y se
+realizaba a bajo nivel, con instrucciones cercanas al lenguaje de la m=E1qu=
+ina. La
+creaci=F3n de un interfaz gr=E1fico que hiciese uso del rat=F3n era una tar=
+ea muy complicada
+hasta la aparici=F3n de las librer=EDas espec=EDficas, primero de funciones=
+ y luego de
+clases, como TurboVision, ObjectVision, etc. Dichas librer=EDas definen ele=
+mentos
+est=E1ndares, como ventanas, marcos,&nbsp; controles y men=FAs, dejando al =
+usuario la tarea
+de crear el interfaz con dichos elementos, y de definir su comportamiento, =
+liber=E1ndole de
+los detalles de la programaci=F3n a bajo nivel.</p>
+
+<p align=3D"left">&nbsp;</p>
+
+<h2 align=3D"left"><a name=3D"Listeners y adapters"><em>Listeners</em> y <e=
+m>adapters</em></a></h2>
+
+<p>Un <a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/fundamentos/he=
+rencia/interfaces.htm">interface</a> declara un
+conjunto de funciones, las clases implementan, (<strong>implements</strong>=
+), los
+interfaces definiendo cada una de dichas funciones. Por ejemplo, si una cla=
+se <em>BotonRaton</em>
+implementa el interface <em>MouseListener</em>, ha de redefinir todas las f=
+unciones aunque
+solamente estemos interesados en algunas de ellas.</p>
+
+<pre>class BotonRaton <strong>implements MouseListener</strong>{
+	public void mouseEntered(MouseEvent ev){
+		System.out.println("El puntero est=E1 sobre el bot=F3n");
+	}
+	public void mouseExited(MouseEvent ev){
+		System.out.println("El puntero ha salido del bot=F3n");
+	}
+	public void mousePressed(MouseEvent ev){}
+	public void mouseReleased(MouseEvent ev){}
+	public void mouseClicked(MouseEvent ev){}
+	//otras funciones miembro...
+}</pre>
+
+<p>Para evitar el c=F3digo in=FAtil, se han creado clases que terminan con =
+la palabra <em>Adapter</em>,
+que implementan el correspondiente interface <em>Listener</em> redefiniendo=
+ todas las
+funciones declaradas en el interface sin que hagan nada en particular. </p>
+
+<pre>public abstract class MouseAdapter implements MouseListener {
+    public void mouseClicked(MouseEvent e) {}
+    public void mousePressed(MouseEvent e) {}
+    public void mouseReleased(MouseEvent e) {}
+    public void mouseEntered(MouseEvent e) {}
+    public void mouseExited(MouseEvent e) {}
+}</pre>
+
+<p>La clase <em>BotonRaton</em> ya no implementa (<em>implements</em>) el i=
+nterface <em>MouseListener</em>,
+sino que deriva (<em>extends</em>) de la clase <em>MouseAdapter</em>. El c=
+=F3digo que
+define la clase <em>BotonRaton</em> se escribe en t=E9rminos de la clase <e=
+m>MouseAdapter</em>
+de la siguiente forma</p>
+
+<pre>class BotonRaton <strong>extends MouseAdapter</strong>{
+	public void mouseEntered(MouseEvent ev){
+		System.out.println("El puntero est=E1 sobre el bot=F3n");
+	}
+	public void mouseExited(MouseEvent ev){
+		System.out.println("El puntero ha salido del bot=F3n");
+	}
+	//otras funciones miembro...
+}</pre>
+
+<p>El programador puede elegir entre implementar (<strong>implements</stron=
+g>) un
+interface o derivar (<strong>extends</strong>) de un adaptador seg=FAn sea =
+el caso, tal
+como veremos en esta p=E1gina y la siguiente.</p>
+
+<p>&nbsp;</p>
+
+<h2><a name=3D"Haciendo clic sobre un canvas">Pulsando el bot=F3n izquierdo=
+ del rat=F3n</a></h2>
+
+<table border=3D"1" width=3D"300" height=3D"200">
+  <tbody><tr>
+    <td width=3D"100%">
+    <applet code=3D"raton1.RatonApplet1.class" archive=3D"jars/raton1.jar" =
+width=3D"300" height=3D"200" hspace=3D"0" vspace=3D"0" align=3D"middle">
+    </applet>
+    </td>
+  </tr>
+</tbody></table>
+
+<h3>Prop=F3sito</h3>
+
+<p>Vamos a dibujar peque=F1os c=EDrculos de color rojo sobre el =E1rea de t=
+rabajo del applet
+cada vez que se pulsa el bot=F3n izquierdo del rat=F3n. Los puntos son c=ED=
+rculos centrados
+en la posici=F3n que se=F1ala el puntero del rat=F3n cuando se pulsa el bot=
+=F3n izquierdo.</p>
+
+<h3>Dise=F1o</h3>
+
+<p>Crear un applet m=EDnimo, solamente con el m=E9todo <em>init</em> o <em>=
+jbInit</em> si se
+emplea JBuilder.</p>
+
+<p>En la funci=F3n respuesta a la acci=F3n de pulsar el bot=F3n izquierdo d=
+el rat=F3n, dibujar
+un c=EDrculo centrado en el la posici=F3n en el que se ha pulsado el bot=F3=
+n izquerdo del
+rat=F3n. Las coordenadas <em>x</em> e <em>y</em> de dicho punto se obtienen=
+ a partir del
+objeto <em>ev</em> de la clase <em>MouseEvent</em> mediante <em>getX</em> y=
+ <em>getY</em>.
+A continuaci=F3n, dibujar el c=EDrculo en el <a href=3D"http://www.sc.ehu.e=
+s/sbweb/fisica/cursoJava/applets/grafico/funciones.htm#El%20contexto%20gr%C=
+3%A1fico">contexto gr=E1fico</a> del applet.</p>
+
+<pre>    void funcionRespuesta(MouseEvent ev) {
+        int x=3Dev.getX();
+	int y=3Dev.getY();
+    }</pre>
+
+<h3>Respuesta a las acciones del usuario</h3>
+
+<p>Vamos a estudiar de nuevo, tres aproximaciones para resolver el problema=
+.</p>
+
+<h3>1.-<a name=3D"La clase derivada de Applet implementa el interface Mouse=
+Listener.">La
+clase derivada de <em>Applet</em> implementa el interface <em>MouseListener=
+</em>.</a></h3>
+
+<p><img src=3D"http://www.sc.ehu.es/sbweb/fisica/images/disco.gif" alt=3D"d=
+isco.gif (1035 bytes)" align=3D"middle" width=3D"32" height=3D"32"><strong>=
+raton1</strong>:
+<a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/applets/events/codig=
+o/RatonApplet1.java">RatonApplet1.java</a></p>
+
+<p>Ya vimos como pod=EDamos manejar los sucesos provenientes de un bot=F3n =
+haciendo que la
+clase que describe el <a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJav=
+a/applets/events/events1.htm#La%20clase%20que%20describe%20el%20applet%20im=
+plementa%20el%20interface%20Listener">applet
+implemente el interface <em>ActionListener</em></a>. En este ejemplo vamos =
+a emplear el
+mismo modelo.</p>
+
+<p>La clase <em>RatonApplet1</em> solamente puede derivar de <em>Applet</em=
+>, no puede
+derivar de m=E1s de una clase, pero puede implementar m=E1s de un interface=
+. La clase <em>RatonApplet1</em>
+al implementar el interface <em>MouseListener</em> debe definir todas las f=
+unciones
+declaradas en dicho interface, aunque solamente estemos interesados en una =
+de ellas.</p>
+
+<pre>public class RatonApplet1 extends Applet <strong>implements MouseListe=
+ner</strong> {
+  //....
+  public void <strong>mousePressed</strong>(MouseEvent event) {
+  	//c=F3digo ...
+  }
+  public void <strong>mouseExited</strong>(MouseEvent event) {}
+  public void <strong>mouseReleased</strong>(MouseEvent event) {}
+  public void <strong>mouseClicked</strong>(MouseEvent event) {}
+  public void <strong>mouseEntered</strong>(MouseEvent event) {}
+}</pre>
+
+<p>Asociamos el componente que genera los sucesos, el applet (<strong>this<=
+/strong>), y el
+ojeto de la clase que implementa el interfaz <em>MouseListener</em>, es dec=
+ir, que maneja
+dichos sucesos, que es tambi=E9n el applet (<strong>this</strong>). </p>
+
+<pre>this.addMouseListener(this);</pre>
+
+<p>o abreviadamente,</p>
+
+<pre>addMouseListener(this);</pre>
+
+<p>Cuando se pulsa el bot=F3n izquierdo del rat=F3n se llama a <em>mousePre=
+ssed</em>, aqu=ED
+tenemos que situar el c=F3digo correspondiente a la tarea a realizar, que n=
+o es otra que
+dibujar peque=F1os c=EDrculos de color rojo.</p>
+
+<p>En primer lugar, se obtiene el <a href=3D"http://www.sc.ehu.es/sbweb/fis=
+ica/cursoJava/applets/grafico/funciones.htm#El%20contexto%20gr%C3%A1fico">c=
+ontexto
+gr=E1fico</a> <em>g</em>, (un objeto de la clase <em>Graphics</em>) mediant=
+e <em>getGraphics</em>.
+Una vez obtenido el contexto gr=E1fico, se pueden pintar en ella llamando a=
+ distintas
+funciones definidas en la clase <em>Graphics</em>. Finalmente, no debemos d=
+e olvidarnos de
+liberar los recursos asociados al contexto gr=E1fico <em>g</em>, mediante l=
+a llamada a <em>dispose</em>.</p>
+
+<p>La funci=F3n respuesta <em>mousePressed</em> nos suministra un objeto <e=
+m>ev</em> de la
+clase <em>MouseEvent</em> que nos proporciona informaci=F3n acerca del suce=
+so (event). Las
+funciones miembro <em>getX</em>, <em>getY</em> de la clase <em>MouseEvent</=
+em>, nos
+suministra las coordenadas del punto donde estaba situado el puntero del ra=
+t=F3n en el
+momento de pulsar su bot=F3n izquierdo. Alternativamente, <em>getPoint</em>=
+ nos suministra
+estas dos coordenadas encapsuladas en un objeto de la clase <em>Point</em>.=
+ Una vez que
+tenemos las coordendas del punto podemos dibujar mediante <em>fillOval</em>=
+ un c=EDrculo
+centrado en dicho punto de un determinado radio.</p>
+
+<pre> public void mousePressed(MouseEvent ev) {
+    Graphics g =3D getGraphics();
+    g.setColor(Color.red);
+    g.fillOval(ev.getX()-radio, ev.getY()-radio, 2*radio, 2*radio);
+    g.dispose();
+  }</pre>
+
+<p>El c=F3digo completo de este ejemplo, es el siguiente</p>
+
+<table border=3D"1" width=3D"100%" cellspacing=3D"">
+  <tbody><tr>
+    <td width=3D"100%" bgcolor=3D"#F7F7F7" data-darkreader-inline-bgcolor=
+=3D"" style=3D"--darkreader-inline-bgcolor:#1d1f20;"><pre>package raton1;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.applet.*;
+
+public class RatonApplet1 extends Applet implements MouseListener {
+    private final int radio =3D 8;
+  public void init() {
+    addMouseListener(this);
+  }
+  public void mousePressed(MouseEvent ev) {
+    Graphics g =3D getGraphics();
+    g.setColor(Color.red);
+    g.fillOval(ev.getX()-radio, ev.getY()-radio, 2*radio, 2*radio);
+    g.dispose();
+  }
+  public void mouseExited(MouseEvent event) {}
+  public void mouseReleased(MouseEvent event) {}
+  public void mouseClicked(MouseEvent event) {}
+  public void mouseEntered(MouseEvent event) {}
+}</pre>
+    </td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<h3>2.-Creamos una clase que deriva de <em>MouseAdapter</em></h3>
+
+<p><img src=3D"http://www.sc.ehu.es/sbweb/fisica/images/disco.gif" alt=3D"d=
+isco.gif (1035 bytes)" align=3D"middle" width=3D"32" height=3D"32"><strong>=
+raton2</strong>:
+<a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/applets/events/codig=
+o/RatonApplet2.java">RatonApplet2.java</a></p>
+
+<p>En la segunda aproximaci=F3n similar a la denominada <a href=3D"http://w=
+ww.sc.ehu.es/sbweb/fisica/cursoJava/applets/events/events1.htm#C%C3%B3mo%20=
+genera%20JBuilder%20el%20c%C3%B3digo%20de%20la%20funci%C3%B3n%20respuesta">=
+Standard
+adapter</a>, creamos una clase denominada <em>RatonRegistra</em> que en vez=
+&nbsp;de
+implementar el interface <em>MouseListener</em> deriva de <em>MouseAdapter<=
+/em> y redefine
+<em>mousePressed</em>, v=E9ase el apartado<a href=3D"http://www.sc.ehu.es/s=
+bweb/fisica/cursoJava/applets/events/raton.htm#Listeners%20y%20adapters"> l=
+isteners y
+adapters</a> para ahorrarnos la definici=F3n de varias funciones que no rea=
+lizan ninguna
+tarea. </p>
+
+<p>Como hemos visto, la funci=F3n respuesta <em>mousePressed</em> nos sumin=
+istra el objeto <em>ev</em>
+de la clase <em>MouseEvent</em>. De este objeto podemos extraer informaci=
+=F3n acerca de la <a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/ap=
+plets/events/grupo.htm#Informaci%C3%B3n%20acerca%20del%20suceso">fuente de =
+los sucesos</a>, el applet,
+mediante la llamada a la funci=F3n <em>getSource</em>. Despu=E9s, obtenemos=
+ el contexto
+gr=E1fico <em>g</em>, mediante <em>getGraphics</em>, y finalmente pintamos =
+en dicho
+contexto.</p>
+
+<pre>class RatonRegistra extends MouseAdapter {
+  private final int radio =3D 8;
+  public void mousePressed(MouseEvent ev) {
+    Applet app =3D (Applet)ev.getSource();
+    Graphics g =3D app.getGraphics();
+    g.setColor(Color.blue);
+    g.fillOval(ev.getX()-radio, ev.getY()-radio, 2*radio, 2*radio);
+    g.dispose();
+  }</pre>
+
+<p>Asociamos, mediante <em>addMouseListener</em>, la fuente de los sucesos =
+asociados al
+rat=F3n, el applet (<strong>this</strong>), con un objeto de la clase <em>R=
+atonRegista</em>
+que los maneja.</p>
+
+<pre>	RegistraRaton raton=3Dnew RatonRegistra();   =20
+	this.addMouseListener(raton);</pre>
+
+<p>o abreviadamente,=20
+
+</p><dl>
+  <dd><pre>   addMouseListener(new RatonRegistra()); </pre>
+  </dd>
+</dl>
+
+<p>El c=F3digo completo de este ejemplo, es el siguiente.</p>
+
+<table border=3D"1" width=3D"100%" cellspacing=3D"">
+  <tbody><tr>
+    <td width=3D"100%" bgcolor=3D"#F7F7F7" data-darkreader-inline-bgcolor=
+=3D"" style=3D"--darkreader-inline-bgcolor:#1d1f20;"><pre>package raton2;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.applet.*;
+
+public class RatonApplet2 extends Applet{
+  public void init() {
+    addMouseListener(new RatonRegistra());
+  }
+}
+
+class RatonRegistra extends MouseAdapter {
+  private final int radio =3D 8;
+  public void mousePressed(MouseEvent ev) {
+    Applet app =3D (Applet)ev.getSource();
+    Graphics g =3D app.getGraphics();
+    g.setColor(Color.blue);
+    g.fillOval(ev.getX()-radio, ev.getY()-radio, 2*radio, 2*radio);
+    g.dispose();
+  }
+}</pre>
+    </td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<h3>3.-<a name=3D"Creamos una clase an=F3nima que deriva de MouseAdapter">C=
+reamos una clase
+an=F3nima que deriva de <em>MouseAdapter</em></a></h3>
+
+<p><img src=3D"http://www.sc.ehu.es/sbweb/fisica/images/disco.gif" alt=3D"d=
+isco.gif (1035 bytes)" align=3D"middle" width=3D"32" height=3D"32"><strong>=
+raton3</strong>:
+<a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/applets/events/codig=
+o/RatonApplet3.java">RatonApplet3.java</a></p>
+
+<p>En la tercera aproximaci=F3n (<a href=3D"http://www.sc.ehu.es/sbweb/fisi=
+ca/cursoJava/applets/events/events1.htm#Separando%20el%20c%C3%B3digo%20de%2=
+0inicializaci%C3%B3n%20de%20la%20respuesta.">Anonymous
+adapter</a>), creamos una clase an=F3nima que deriva de <em>MouseAdapter</e=
+m>. Esta es la
+forma que JBuilder genera el c=F3digo cuando en el modo dise=F1o, seleccion=
+amos el applet (<strong>this</strong>)
+y en su correspondiente panel Events hacemos doble-clic sobre el editor aso=
+ciado a <em>mousePressed</em>.</p>
+
+<pre>	new java.awt.event.MouseAdapter() {
+		//define las funciones respuesta
+	}</pre>
+
+<p>El siguiente paso, consiste en asociar mediante <em>addMouseListener</em=
+> la fuente de
+los sucesos asociados al rat=F3n, el applet (<strong>this</strong>), con un=
+ objeto de la
+clase an=F3nima que los registra.</p>
+
+<pre>	<strong>this</strong>.addMouseListener(<strong>new</strong> java.awt.=
+event.MouseAdapter() {//...}</pre>
+
+<p>Ahora solamente nos queda definir el c=F3digo de la funci=F3n respuesta =
+<em>mousePressed</em>.
+Como se ha dicho en otro apartado, JBuilder <a href=3D"http://www.sc.ehu.es=
+/sbweb/fisica/cursoJava/applets/events/events1.htm#Separando%20el%20c%C3%B3=
+digo%20de%20inicializaci%C3%B3n%20de%20la%20respuesta.">separa el
+c=F3digo de inicializaci=F3n del c=F3digo de la funci=F3n respuesta</a> par=
+a que el c=F3digo
+quede lo m=E1s legible posible. Como podemos apreciar, la funci=F3n <em>mou=
+sePressed</em>
+llama a la funci=F3n <em>this_mousePressed</em>. Se define esta =FAltima de=
+ forma similar a
+los dos ejemplos previos=20
+
+</p><ul>
+  <li>Se obtiene el contexto gr=E1fico <em>g</em> del componente, en este c=
+aso el applet
+    mediante <em>getGraphics</em></li>
+  <li>Se dibuja sobre dicho contexto <em>g</em>, llamando a las funciones m=
+iembro de la clase <em>Graphics</em>.</li>
+</ul>
+
+<pre>    void this_mousePressed(MouseEvent ev) {
+        Graphics g =3D getGraphics();
+        g.setColor(Color.green);
+        g.fillOval(ev.getX()-radio, ev.getY()-radio, 2*radio, 2*radio);
+        g.dispose();
+    }</pre>
+
+<p>El c=F3digo completo de este ejemplo, es el siguiente</p>
+
+<table border=3D"1" width=3D"100%" cellspacing=3D"">
+  <tbody><tr>
+    <td width=3D"100%" bgcolor=3D"#F7F7F7" data-darkreader-inline-bgcolor=
+=3D"" style=3D"--darkreader-inline-bgcolor:#1d1f20;"><pre>package raton3;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.applet.*;
+
+public class RatonApplet3 extends Applet {
+   private final int radio =3D 8;
+
+    public void init(){
+        this.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(MouseEvent e) {
+                this_mousePressed(e);
+            }
+        });
+    }
+
+    void this_mousePressed(MouseEvent ev) {
+        Graphics g =3D getGraphics();
+        g.setColor(Color.green);
+        g.fillOval(ev.getX()-radio, ev.getY()-radio, 2*radio, 2*radio);
+        g.dispose();
+    }
+}</pre>
+    </td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<h2><a name=3D"Dibujar los puntos y guardarlos en memoria">Dibujar los punt=
+os y guardarlos
+en memoria</a></h2>
+
+<p><img src=3D"http://www.sc.ehu.es/sbweb/fisica/images/disco.gif" alt=3D"d=
+isco.gif (1035 bytes)" align=3D"middle" width=3D"32" height=3D"32"><strong>=
+raton4</strong>:
+<a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/applets/events/codig=
+o/RatonApplet4.java">RatonApplet4.java</a></p>
+
+<table border=3D"1" width=3D"300" height=3D"300">
+  <tbody><tr>
+    <td width=3D"100%">
+    <applet code=3D"raton4.RatonApplet4.class" archive=3D"jars/raton4.jar" =
+width=3D"300" height=3D"300" hspace=3D"0" vspace=3D"0" align=3D"middle">
+    </applet>
+    </td>
+  </tr>
+</tbody></table>
+
+<h3>Prop=F3sito</h3>
+
+<p>En los programas anteriores se dibujan los puntos en la ventana del appl=
+et, y se oculta
+por otra ventana, al descubrir el applet, los puntos han desaparecido. Vamo=
+s a crear un
+programa de manera que las coordendas de los puntos sean guardados en memor=
+ia y que
+vuelvan a pintarse cuando la ventana del applet se descubre despu=E9s de ha=
+ber estado
+oculta parcial o totalmente por otra ventana. Para probarlo, se dibujan alg=
+unos puntos
+rojos en la superficie del applet, luego se oculta parcialmente el applet s=
+ubiendo o
+bajando esta p=E1gina web, actuando sobre la barra de desplazamiento vertic=
+al de la ventana
+del navegador.</p>
+
+<p>Debemos de recordar, que la funci=F3n miembro <em>paint</em> se redefine=
+ en la clase
+derivada de <em>Applet</em> para pintar algo en su superficie, en las sigui=
+entes
+circustancias:=20
+
+</p><ul>
+  <li>Cuando aparece por primera vez el applet</li>
+  <li>Cuando se llama a la funci=F3n <em>repaint</em> desde otro m=E9todo, =
+v=E9ase el ejemplo <a href=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/a=
+pplets/events/events2.htm#Hacer%20doble%20clic%20sobre%20un%20elemento%20de=
+%20una%20lista">hacer doble-clic sobre
+    un elemento de la lista.</a></li>
+  <li>Cuando la ventana del applet ha sido ocultada por otra y se descubre.=
+</li>
+</ul>
+
+<h3>Dise=F1o</h3>
+
+<p>Crear un applet m=EDnimo, solamente con el m=E9todo <em>init</em> o <em>=
+jbInit</em> si
+empleamos JBuilder</p>
+
+<p>Crear un array de objetos de la clase <em>Point</em>, cuya dimensi=F3n v=
+enga dada por la
+constante <em>MAXPUNTOS</em></p>
+
+<p>Guardar los puntos que se dibujan con el rat=F3n en el array. Los objeto=
+s de la clase <em>Point</em>
+se obtienen a partir del objeto <em>ev</em> de la clase <em>MouseEvent</em>=
+, mediante la
+funci=F3n <em>getPoint</em>.</p>
+
+<pre>    void funcionRespuesta(MouseEvent ev) {
+        Point p=3Dev.getPoint();
+    }</pre>
+
+<p>Redefinir la funci=F3n <em>paint</em>, para dibujar todos los puntos gua=
+rdados en el
+array.</p>
+
+<h3>Respuesta a las acciones del usuario</h3>
+
+<p>Partimos del programa anterior guardando los puntos en una array de obje=
+tos del tipo <em>Point</em>,
+hasta un m=E1ximo de <em>MAXPUNTOS. </em>A la definici=F3n de la funci=F3n =
+respuesta <em>this_mousePressed</em>
+le a=F1adimos el c=F3digo que guarda los puntos en el array <em>puntos,</em=
+> y previene que
+no se sobrepase la dimensi=F3n de dicho array</p>
+
+<pre>    void this_mousePressed(MouseEvent ev) {
+        Graphics g=3DgetGraphics();
+        g.setColor(Color.red);
+<strong>        if(nPuntos&lt;MAXPUNTOS){
+            puntos[nPuntos]=3Dev.getPoint();
+            nPuntos++;
+        }
+</strong>        g.fillOval(ev.getX()-4, ev.getY()-4, 8, 8);
+        g.dispose();
+     }</pre>
+
+<p>Redefinimos la funci=F3n <em>paint</em> para que dibuje en forma de circ=
+unferencias de
+color azul todos los puntos guardados en memoria. De este modo, diferenciam=
+os los puntos
+que se dibujan al pulsar el bot=F3n izquierdo del rat=F3n (c=EDrculos de co=
+lor rojo), de los
+puntos cuyas coordenadas se guardan en memoria y se dibujan (circunferencia=
+s de color
+azul) cuando se llama a la funci=F3n <em>paint</em>.</p>
+
+<pre>    public void paint(Graphics g){
+        g.setColor(Color.blue);
+        for(int i=3D0; i&lt;nPuntos; i++){
+            g.drawOval(puntos[i].x-4, puntos[i].y-4, 8, 8);
+        }
+    }</pre>
+
+<p>=BFQu=E9 ocurre cuando se oculta parcialmente la ventana del applet y se=
+ vuelve a
+descubrir. Nos daremos cuenta como se muestra en la figura adjunta, que sol=
+amente se
+vuelve a dibujar aquella zona que ha estado ocultada. Como podemos ver en l=
+a figura se
+vuelven a dibujar (en color azul) los puntos e incluso (aqu=ED est=E1 la so=
+rpresa) la parte
+de un punto que ha estado parcialmente oculto, los dem=E1s permanecen inalt=
+erados</p>
+
+<p><img src=3D"http://www.sc.ehu.es/sbweb/fisica/cursoJava/applets/events/i=
+magenes/raton5.gif" alt=3D"raton5.gif (3664 bytes)" width=3D"408" height=3D=
+"235"></p>
+
+<p>El c=F3digo completo de este ejemplo, es el siguiente</p>
+
+<table border=3D"1" width=3D"100%" cellspacing=3D"">
+  <tbody><tr>
+    <td width=3D"100%" bgcolor=3D"#F7F7F7" data-darkreader-inline-bgcolor=
+=3D"" style=3D"--darkreader-inline-bgcolor:#1d1f20;"><pre>package raton4;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.applet.*;
+
+public class RatonApplet4 extends Applet {
+    final int MAXPUNTOS=3D20;
+    Point puntos[]=3Dnew Point[MAXPUNTOS];
+    int nPuntos=3D0;
+    public void init() {
+        this.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(MouseEvent e) {
+                this_mousePressed(e);
+            }
+        });
+    }
+    void this_mousePressed(MouseEvent ev) {
+        Graphics g=3DgetGraphics();
+        g.setColor(Color.red);
+        if(nPuntos&lt;MAXPUNTOS){
+            puntos[nPuntos]=3Dev.getPoint();
+            nPuntos++;
+        }
+        g.fillOval(ev.getX()-4, ev.getY()-4, 8, 8);
+        g.dispose();
+     }
+
+    public void paint(Graphics g){
+        g.setColor(Color.blue);
+        for(int i=3D0; i&lt;nPuntos; i++){
+            g.drawOval(puntos[i].x-4, puntos[i].y-4, 8, 8);
+        }
+    }
+}</pre>
+    </td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+</body></html>
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-88256c6d-9688-4ee9-84d4-dd56b44daa09@mhtml.blink
+
+@charset "windows-1252";
+=0A
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-5c834600-05d6-4969-84d7-ada963602de9@mhtml.blink
+
+@charset "windows-1252";
+=0A
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-34f493c7-d25d-47b8-b6e7-d8f2608fff19@mhtml.blink
+
+@charset "windows-1252";
+
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_=
+text > img[src^=3D"https://www.gstatic.com/images/branding/googlelogo"], sp=
+an[data-href^=3D"https://www.hcaptcha.com/"] > #icon, #bit-notification-bar=
+-iframe, ::-webkit-calendar-picker-indicator { filter: invert(100%) hue-rot=
+ate(180deg) contrast(90%) !important; }
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-25ee3da4-915e-4db1-aebc-586d8fb73bb3@mhtml.blink
+
+@charset "windows-1252";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+
+[data-darkreader-inline-stopcolor] { stop-color: var(--darkreader-inline-st=
+opcolor)  !important; }
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c8a571f7-aa26-41dd-a4f1-0552c83646d7@mhtml.blink
+
+@charset "windows-1252";
+
+:root { --darkreader-neutral-background: #131516; --darkreader-neutral-text=
+: #d8d4cf; --darkreader-selection-background: #004daa; --darkreader-selecti=
+on-text: #e8e6e3; }
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-da85ffb3-8ae8-410d-a91a-fa9a8054d17f@mhtml.blink
+
+@charset "windows-1252";
+
+:root { }
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-17ab0425-01a8-4c82-952e-cd125c6acdbf@mhtml.blink
+
+@charset "windows-1252";
+
+html { background-color: rgb(24, 26, 27) !important; }
+
+html { color-scheme: dark !important; }
+
+html, body { background-color: rgb(24, 26, 27); }
+
+html, body { border-color: rgb(115, 107, 94); color: rgb(232, 230, 227); }
+
+a { color: rgb(51, 145, 255); }
+
+table { border-color: rgb(84, 91, 94); }
+
+::placeholder { color: rgb(178, 171, 161); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(64, 68, 0) !important; color: rgb(232, 230, 227) !i=
+mportant; }
+
+::-webkit-scrollbar { background-color: rgb(32, 35, 36); color: rgb(171, 16=
+4, 153); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(69, 74, 77); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(87, 94, 98); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(72, 78, 81); }
+
+::-webkit-scrollbar-corner { background-color: rgb(24, 26, 27); }
+
+::selection { background-color: rgb(0, 77, 170) !important; color: rgb(232,=
+ 230, 227) !important; }
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a245c2c8-ed6d-41b8-9b06-dad2aa589005@mhtml.blink
+
+@charset "windows-1252";
+
+.vimvixen-hint { background-color: rgb(123, 83, 0) !important; border-color=
+: rgb(216, 176, 19) !important; color: rgb(243, 232, 200) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+
+#edge-translate-panel-body, .MuiTypography-body1 { color: var(--darkreader-=
+neutral-text)  !important; }
+
+gr-main-header { background-color: rgb(15, 58, 72) !important; }
+
+.tou-z65h9k, .tou-mignzq, .tou-1b6i2ox, .tou-lnqlqk { background-color: var=
+(--darkreader-neutral-background)  !important; }
+
+.tou-75mvi { background-color: rgb(3, 32, 41) !important; }
+
+.tou-ta9e87, .tou-1w3fhi0, .tou-1b8t2us, .tou-py7lfi, .tou-1lpmd9d, .tou-1f=
+rrtv8, .tou-17ezmgn { background-color: rgb(10, 10, 10) !important; }
+
+.tou-uknfeu { background-color: rgb(35, 22, 3) !important; }
+
+.tou-6i3zyv { background-color: rgb(25, 87, 108) !important; }
+
+embed[type=3D"application/pdf"][src=3D"about:blank"] { filter: invert(100%)=
+ contrast(90%); }
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/images/prev.gif
+
+R0lGODlhMQAoAPcAAAAAAICAgIAAAICAAACAAACAgAAAgIAAgICAQABAQACA/wBAgEAA/4BAAP//
+/8DAwP8AAP//AAD/AAD//wAA//8A////gAD/gID//4CA//8AgP+AQMDcwKbK8Dc3N3M3N6U3N803
+N+s3N/83NzdzN3NzN6VzN81zN+tzN/9zNzelN3OlN6WlN82lN+ulN/+lNzfNN3PNN6XNN83NN+vN
+N//NNzfrN3PrN6XrN83rN+vrN//rNzf/N3P/N6X/N83/N+v/N///Nzc3c3M3c6U3c803c+s3c/83
+czdzc3Nzc6Vzc81zc+tzc/9zczelc3Olc6Wlc82lc+ulc/+lczfNc3PNc6XNc83Nc+vNc//Nczfr
+c3Prc6Xrc83rc+vrc//rczf/c3P/c6X/c83/c+v/c///czc3pXM3paU3pc03pes3pf83pTdzpXNz
+paVzpc1zpetzpf9zpTelpXOlpaWlpc2lpeulpf+lpTfNpXPNpaXNpc3NpevNpf/NpTfrpXPrpaXr
+pc3rpevrpf/rpTf/pXP/paX/pc3/pev/pf//pTc3zXM3zaU3zc03zes3zf83zTdzzXNzzaVzzc1z
+zetzzf9zzTelzXOlzaWlzc2lzeulzf+lzTfNzXPNzaXNzc3NzevNzf/NzTfrzXPrzaXrzc3rzevr
+zf/rzTf/zXP/zaX/zc3/zev/zf//zTc363M366U368036+s36/836zdz63Nz66Vz681z6+tz6/9z
+6zel63Ol66Wl682l6+ul6/+l6zfN63PN66XN683N6+vN6//N6zfr63Pr66Xr683r6+vr6//r6zf/
+63P/66X/683/6+v/6///6zc3/3M3/6U3/803/+s3//83/zdz/3Nz/6Vz/81z/+tz//9z/zel/3Ol
+/6Wl/82l/+ul//+l/zfN/3PN/6XN/83N/+vN///N/zfr/3Pr/6Xr/83r/+vr///r/zf//3P//6X/
+/83//+v//4eHh4yMjJGRkZaWlpubm6CgoKqqqq+vr7S0tLm5ub6+viwAAAAAMQAoAAAIygAdCBxI
+sKDBgwgTFgTAsKHDhxAjSpzIUCCABxgzatzIsaPHjwAsfhxJsmTGkA4umlzJEiNKlS1jjnwps6ZH
+mjZznhSpUyfOnjZ/ApUpdGjLokZXIk1acqnSnk6bwgzKMyaACVNrRgU5ASvUqkq7YpXIcivHq2LT
+ps06EyxJtGrjsgXp9m1cuWXr2u06MW9Kony//gU896hekwwFF0asmKnVw45vQo58djJljWYvu7Ss
++UFmzZ8vh6Y8OnJpxy8pql7NWqHr17AJBgQAOw==
+
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/images/chapter.gif
+
+R0lGODlhMQAoAPcAAAAAAICAgIAAAICAAACAAACAgAAAgIAAgICAQABAQACA/wBAgEAA/4BAAP//
+/8DAwP8AAP//AAD/AAD//wAA//8A////gAD/gID//4CA//8AgP+AQMDcwKbK8Dc3N3M3N6U3N803
+N+s3N/83NzdzN3NzN6VzN81zN+tzN/9zNzelN3OlN6WlN82lN+ulN/+lNzfNN3PNN6XNN83NN+vN
+N//NNzfrN3PrN6XrN83rN+vrN//rNzf/N3P/N6X/N83/N+v/N///Nzc3c3M3c6U3c803c+s3c/83
+czdzc3Nzc6Vzc81zc+tzc/9zczelc3Olc6Wlc82lc+ulc/+lczfNc3PNc6XNc83Nc+vNc//Nczfr
+c3Prc6Xrc83rc+vrc//rczf/c3P/c6X/c83/c+v/c///czc3pXM3paU3pc03pes3pf83pTdzpXNz
+paVzpc1zpetzpf9zpTelpXOlpaWlpc2lpeulpf+lpTfNpXPNpaXNpc3NpevNpf/NpTfrpXPrpaXr
+pc3rpevrpf/rpTf/pXP/paX/pc3/pev/pf//pTc3zXM3zaU3zc03zes3zf83zTdzzXNzzaVzzc1z
+zetzzf9zzTelzXOlzaWlzc2lzeulzf+lzTfNzXPNzaXNzc3NzevNzf/NzTfrzXPrzaXrzc3rzevr
+zf/rzTf/zXP/zaX/zc3/zev/zf//zTc363M366U368036+s36/836zdz63Nz66Vz681z6+tz6/9z
+6zel63Ol66Wl682l6+ul6/+l6zfN63PN66XN683N6+vN6//N6zfr63Pr66Xr683r6+vr6//r6zf/
+63P/66X/683/6+v/6///6zc3/3M3/6U3/803/+s3//83/zdz/3Nz/6Vz/81z/+tz//9z/zel/3Ol
+/6Wl/82l/+ul//+l/zfN/3PN/6XN/83N/+vN///N/zfr/3Pr/6Xr/83r/+vr///r/zf//3P//6X/
+/83//+v//4eHh4yMjJGRkZaWlpubm6CgoKqqqq+vr7S0tLm5ub6+viwAAAAAMQAoAAAI/gAdCBxI
+sKDBgwgTFgTAsKHDhxAjSpzIUCCABxgzatzIsaPHjwAsfhxJsmTGkA4umlzJEiNKlSthtgQpkiXD
+mSNftryJ06NOmzJ7avwJkmfIoEIfEOXY0GJFpEKXDj1KUGrUmkypBrCINanSrlNTDgyAMqVSilCH
+gj1JdWDZigrTnlzrUivXu3HlfjXb8WZZsm7HOthK2GlOumf34i2bkKdPxH4HLxZceGtKvVbrKgaM
+tzFmyBcZv6Us2bLjvqCVQjAdWOHlw3yzQvg7WmBlya9pxt4YuWrng7M/756q+O7f0rhPM03dNDBj
+hMp5p2ZL9fnB6GqHU2+4/TJa2HqpN1MPQL68efLCw/P2e/a7bvV9se9E7NUm/fomM+OPeX8/eP89
+6QfgfwPO5x1aCCYokWsMNuhgQAAAOw==
+
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/images/home.gif
+
+R0lGODlhMQAoAPcAAAAAAICAgIAAAICAAACAAACAgAAAgIAAgICAQABAQACA/wBAgEAA/4BAAP//
+/8DAwP8AAP//AAD/AAD//wAA//8A////gAD/gID//4CA//8AgP+AQMDcwKbK8Dc3N3M3N6U3N803
+N+s3N/83NzdzN3NzN6VzN81zN+tzN/9zNzelN3OlN6WlN82lN+ulN/+lNzfNN3PNN6XNN83NN+vN
+N//NNzfrN3PrN6XrN83rN+vrN//rNzf/N3P/N6X/N83/N+v/N///Nzc3c3M3c6U3c803c+s3c/83
+czdzc3Nzc6Vzc81zc+tzc/9zczelc3Olc6Wlc82lc+ulc/+lczfNc3PNc6XNc83Nc+vNc//Nczfr
+c3Prc6Xrc83rc+vrc//rczf/c3P/c6X/c83/c+v/c///czc3pXM3paU3pc03pes3pf83pTdzpXNz
+paVzpc1zpetzpf9zpTelpXOlpaWlpc2lpeulpf+lpTfNpXPNpaXNpc3NpevNpf/NpTfrpXPrpaXr
+pc3rpevrpf/rpTf/pXP/paX/pc3/pev/pf//pTc3zXM3zaU3zc03zes3zf83zTdzzXNzzaVzzc1z
+zetzzf9zzTelzXOlzaWlzc2lzeulzf+lzTfNzXPNzaXNzc3NzevNzf/NzTfrzXPrzaXrzc3rzevr
+zf/rzTf/zXP/zaX/zc3/zev/zf//zTc363M366U368036+s36/836zdz63Nz66Vz681z6+tz6/9z
+6zel63Ol66Wl682l6+ul6/+l6zfN63PN66XN683N6+vN6//N6zfr63Pr66Xr683r6+vr6//r6zf/
+63P/66X/683/6+v/6///6zc3/3M3/6U3/803/+s3//83/zdz/3Nz/6Vz/81z/+tz//9z/zel/3Ol
+/6Wl/82l/+ul//+l/zfN/3PN/6XN/83N/+vN///N/zfr/3Pr/6Xr/83r/+vr///r/zf//3P//6X/
+/83//+v//4eHh4yMjJGRkZaWlpubm6CgoKqqqq+vr7S0tLm5ub6+viwAAAAAMQAoAAAI/gAdCBxI
+sKDBgwgTFgTAsKHDhxAjSpzIUCCABxgzatzIsaPHjwAsfhxJsmTGkA4umlzJEiNKlS1jjnwps6ZH
+mjZznhSpUyfOnjZ/ApUplGTDkz2LziygEsAEmDWVgmT6wOmEpzml3mRqtWtQniYBML0a0itRsCUZ
+kh1otqXWjl0Xko35dmNcg23DogW5FmFeo3vh9k34F2Rgjg0VsmW4su5OxWxZOnYJOXLjw4gXOlwo
+GbNduYM9Z06pl6DVp5wvk04r1ylKy6WhGjZ9FbXpzqsB0w6dm3VvkBQh4pY9dDjJAMiTK1/OPHbx
+qKKf34wufTTx6jOpY38cvLv34JXDBItHGBAAOw==
+
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/images/next.gif
+
+R0lGODlhMQAoAPcAAAAAAICAgIAAAICAAACAAACAgAAAgIAAgICAQABAQACA/wBAgEAA/4BAAP//
+/8DAwP8AAP//AAD/AAD//wAA//8A////gAD/gID//4CA//8AgP+AQMDcwKbK8Dc3N3M3N6U3N803
+N+s3N/83NzdzN3NzN6VzN81zN+tzN/9zNzelN3OlN6WlN82lN+ulN/+lNzfNN3PNN6XNN83NN+vN
+N//NNzfrN3PrN6XrN83rN+vrN//rNzf/N3P/N6X/N83/N+v/N///Nzc3c3M3c6U3c803c+s3c/83
+czdzc3Nzc6Vzc81zc+tzc/9zczelc3Olc6Wlc82lc+ulc/+lczfNc3PNc6XNc83Nc+vNc//Nczfr
+c3Prc6Xrc83rc+vrc//rczf/c3P/c6X/c83/c+v/c///czc3pXM3paU3pc03pes3pf83pTdzpXNz
+paVzpc1zpetzpf9zpTelpXOlpaWlpc2lpeulpf+lpTfNpXPNpaXNpc3NpevNpf/NpTfrpXPrpaXr
+pc3rpevrpf/rpTf/pXP/paX/pc3/pev/pf//pTc3zXM3zaU3zc03zes3zf83zTdzzXNzzaVzzc1z
+zetzzf9zzTelzXOlzaWlzc2lzeulzf+lzTfNzXPNzaXNzc3NzevNzf/NzTfrzXPrzaXrzc3rzevr
+zf/rzTf/zXP/zaX/zc3/zev/zf//zTc363M366U368036+s36/836zdz63Nz66Vz681z6+tz6/9z
+6zel63Ol66Wl682l6+ul6/+l6zfN63PN66XN683N6+vN6//N6zfr63Pr66Xr683r6+vr6//r6zf/
+63P/66X/683/6+v/6///6zc3/3M3/6U3/803/+s3//83/zdz/3Nz/6Vz/81z/+tz//9z/zel/3Ol
+/6Wl/82l/+ul//+l/zfN/3PN/6XN/83N/+vN///N/zfr/3Pr/6Xr/83r/+vr///r/zf//3P//6X/
+/83//+v//4eHh4yMjJGRkZaWlpubm6CgoKqqqq+vr7S0tLm5ub6+viwAAAAAMQAoAAAIywAdCBxI
+sKDBgwgTFgTAsKHDhxAjSpzIUCCABxgzatzIsaPHjwAsfhxJsmTGkA4umlzJEiNKlS1jjnwps6ZH
+mjZznhSpUyfOnjZ/ApUpdGjLokZXIk1acunRnE5ZMgzKE+oEmEerBp1wlahWkhO5ds2aUqrYs2ix
+Nv06E61brmpnsgX5Ni3ZuCAlisUrt6xPuF79WuULdu5RwoUFB4VqmCnIxo47Ro3McTJljZYvu4Ss
+ebPizpI5d86smfRl05RfUlzNurXC17BjEwwIADs=
+
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/images/disco.gif
+
+R0lGODlhIAAgAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKbK8P/78KCgpICAgP8AAAD/
+AP//AAAA//8A/wD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAIAAgAAAI8AAPECAA
+YKDBgwgTEoBg8IBDgwUnSJxIsSLFhRABCBwY0aLHihg5AijIkcAEhSgHnmQokiRBkx9jrszosqNM
+jyEJjoRoMiXKmS153vyYc2RNmENBstR59KTPhECZCk2qlOZUqhOL7izp9OnBqEavYgW79aVXlEvD
+DoTAtq3bt3DZWj1LV2rds2rvPs2L0Kjfv38P8hXssLDhwiTlBlWo8bBjl2nL9nXod8JhyHMTNgbA
+oLNlw5gXa6bcmcFnxAYju5x8gLPny6kzs3ZtGvZamgwYO6xoW6vG3Kwdg47NtDEDwMiTJ0esvLly
+0M6jGz0QEAA7
+
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.sc.ehu.es/sbweb/fisica/cursoJava/applets/events/imagenes/raton5.gif
+
+R0lGODlhmAHrAPcAAAAAAAAAhAAA/4SEhMbGxt7e3v8AAP//////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////ywAAAAAmAHrAAAI/gALCBxI
+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
+OZVUWZVWeZVYiZUBAQAAOw==
+
+------MultipartBoundary--w1aRJN6hV0REUMBRlbaC7eDUiyKx66ER9rpGD9PEPj------
